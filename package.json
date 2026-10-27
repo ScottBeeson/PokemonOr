@@ -1,6 +1,6 @@
 {
   "name": "pokemon-or-bigdata",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
   "description": "Five seconds to tell a Pokémon from a data company.",
