@@ -1,5 +1,6 @@
 import { createDeck, createGame } from './engine.js';
-import { keyCategory, swipeCategory } from './gestures.js';
+import { swipeCategory } from './gestures.js';
+import { installGameKeyboard } from './keyboard.js';
 
 const $ = (id) => document.getElementById(id);
 const choiceButtons = { pokemon: $('pokemon-button'), company: $('company-button') };
@@ -11,6 +12,8 @@ let game;
 let frame;
 let drag = null;
 const card = $('game-card');
+let resultAnimations = [];
+let particleLayer = null;
 let bestStreak = 0;
 try { bestStreak = Math.max(0, Number(localStorage.getItem('pob-best-streak')) || 0); } catch { /* Storage is optional. */ }
 
@@ -30,11 +33,13 @@ function updateClock(state) {
 
 function render(state) {
   clearDrag();
+  clearResultEffects();
   const playing = state.phase === 'playing';
   const answered = state.phase === 'answered';
   card.classList.toggle('is-playing', playing);
   card.classList.toggle('is-answered', answered);
   card.dataset.category = answered ? state.entry.category : '';
+  card.dataset.result = answered ? (state.result.correct ? 'correct' : 'wrong') : '';
   $('score').textContent = state.correct;
   $('answered').textContent = state.answered;
   $('accuracy').textContent = state.answered ? Math.round(state.correct / state.answered * 100) : '—';
@@ -45,8 +50,7 @@ function render(state) {
   $('name').textContent = state.entry?.name ?? 'Meet your next guess.';
   $('question-hint').textContent = answered
     ? `${state.entry.category === 'pokemon' ? 'A Pokémon.' : 'A big data company.'} ${state.result.correct ? 'Good instinct.' : 'Now you know.'}`
-    : playing ? '← Pokémon · Big Data →' : 'One name. Five seconds. Go with your gut.';
-  $('card-swipe-hint').hidden = answered;
+    : playing ? 'Go with your gut.' : 'One name. Five seconds. Go with your gut.';
   renderVisual(answered ? state.entry : null);
   for (const [category, button] of Object.entries(choiceButtons)) {
     button.disabled = !playing;
@@ -56,20 +60,21 @@ function render(state) {
   $('next-button').hidden = playing;
   $('next-button').disabled = false;
   $('next-button').textContent = answered ? 'Next name →' : 'Let’s play →';
-  $('action-hint').textContent = playing ? 'Swipe the card, tap a choice, or use ← / → (P / B).' : answered ? 'Ready for another? Press Space or tap Next name.' : 'Five seconds per name. As many rounds as you like.';
+  $('action-hint').textContent = playing ? 'Make your call before the clock runs out.' : answered ? 'Ready for another?' : 'Five seconds per name. As many rounds as you like.';
   $('reset-button').hidden = !state.round || playing;
   $('feedback').hidden = !answered;
   if (answered) {
     const feedback = $('feedback');
     feedback.classList.toggle('incorrect', !state.result.correct);
     const heading = document.createElement('strong');
-    heading.textContent = state.result.timedOut ? 'Time’s up! This one got away.' : state.result.correct ? '✓ You got it right.' : 'Not quite. A convincing name, though.';
+    heading.textContent = state.result.timedOut ? '⌛ Time’s up!' : state.result.correct ? '✓ Correct! Nice instinct.' : '✕ Not quite!';
     const description = document.createElement('span');
     description.textContent = `${state.entry.description} `;
     const link = document.createElement('a');
     link.href = state.entry.url;
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
+    link.tabIndex = -1;
     link.textContent = state.entry.category === 'pokemon' ? 'Species data ↗' : 'Company website ↗';
     feedback.replaceChildren(heading, description, link);
     if (state.bestStreak > bestStreak) {
@@ -79,13 +84,71 @@ function render(state) {
   }
   updateBest();
   updateClock(state);
+  if (answered) playResultEffects(state.result.correct);
 }
+
+function clearResultEffects() {
+  resultAnimations.forEach(animation => animation.cancel());
+  resultAnimations = [];
+  particleLayer?.remove();
+  particleLayer = null;
+}
+
+function playResultEffects(correct) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (!correct) {
+    resultAnimations.push(card.animate([
+      { transform: 'translateX(0)' }, { transform: 'translateX(-7px) rotate(-.6deg)' },
+      { transform: 'translateX(6px) rotate(.5deg)' }, { transform: 'translateX(-4px)' },
+      { transform: 'translateX(3px)' }, { transform: 'translateX(0)' },
+    ], { duration: 360, easing: 'ease-in-out' }));
+    return;
+  }
+  resultAnimations.push(card.animate([
+    { transform: 'scale(1)' }, { transform: 'scale(1.012)' }, { transform: 'scale(1)' },
+  ], { duration: 300, easing: 'ease-out' }));
+  const layer = document.createElement('div');
+  layer.className = 'result-particles';
+  layer.setAttribute('aria-hidden', 'true');
+  particleLayer = layer;
+  card.append(layer);
+  const colors = ['#80b781', '#c9ad55', '#aa92c9', '#64a793'];
+  for (let i = 0; i < 16; i++) {
+    const particle = document.createElement('i');
+    particle.style.background = colors[i % colors.length];
+    particle.style.borderRadius = i % 3 === 0 ? '50%' : '2px';
+    layer.append(particle);
+    const angle = -Math.PI + (i / 15) * Math.PI;
+    const distance = 55 + (i % 4) * 22;
+    const x = Math.cos(angle) * distance;
+    const y = Math.sin(angle) * distance;
+    const animation = particle.animate([
+      { transform: 'translate(0, 0) rotate(0)', opacity: 0 },
+      { opacity: .9, offset: .12 },
+      { transform: `translate(${x}px, ${y}px) rotate(${i * 37}deg)`, opacity: .8, offset: .65 },
+      { transform: `translate(${x * 1.15}px, ${y + 35}px) rotate(${i * 53}deg)`, opacity: 0 },
+    ], { duration: 700 + (i % 3) * 70, easing: 'ease-out', fill: 'forwards' });
+    resultAnimations.push(animation);
+    if (i === 14) animation.onfinish = () => layer.remove();
+  }
+}
+
+function blurControl() {
+  const active = document.activeElement;
+  if (active instanceof HTMLElement && !active.matches('input, textarea, select, [contenteditable="true"]')) active.blur();
+}
+
+function disableTabStops(root = document) {
+  root.querySelectorAll('a, button, input, textarea, select, [tabindex]').forEach(element => element.setAttribute('tabindex', '-1'));
+}
+disableTabStops();
+document.addEventListener('focusin', blurControl);
 
 function animate() {
   const state = game.tick();
   if (state.phase === 'answered') {
     render(state);
-    if (!dialog.open) $('next-button').focus({ preventScroll: true });
+    blurControl();
     return;
   }
   updateClock(state);
@@ -98,19 +161,15 @@ function nextRound() {
   render(game.startRound());
   // Keep the name and timer visible if the player scrolled down to Next name.
   card.scrollIntoView({ block: 'nearest', behavior: 'instant' });
-  choiceButtons.pokemon.focus({ preventScroll: true });
+  blurControl();
   frame = requestAnimationFrame(animate);
 }
 
 function answer(category) {
   if (!game || game.getState().phase !== 'playing') return;
-  const fromX = drag?.dx ?? (category === 'pokemon' ? -22 : 22);
   cancelAnimationFrame(frame);
   render(game.answer(category));
-  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    card.animate([{ transform: `translateX(${fromX}px) rotate(${fromX / 22}deg)` }, { transform: 'none' }], { duration: 260, easing: 'cubic-bezier(.2,.8,.2,1)' });
-  }
-  $('next-button').focus({ preventScroll: true });
+  blurControl();
 }
 
 function renderVisual(entry) {
@@ -191,22 +250,15 @@ function reset() {
 }
 
 $('next-button').addEventListener('click', nextRound);
-$('reset-button').addEventListener('click', () => { reset(); $('next-button').focus({ preventScroll: true }); });
+$('reset-button').addEventListener('click', () => { reset(); blurControl(); });
 for (const [category, button] of Object.entries(choiceButtons)) button.addEventListener('click', () => answer(category));
 
-document.addEventListener('keydown', (event) => {
-  if (event.repeat || event.ctrlKey || event.metaKey || event.altKey || dialog.open || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName)) return;
-  const category = keyCategory(event.key);
-  if (game?.getState().phase === 'playing' && category) {
-    event.preventDefault();
-    answer(category);
-  } else if (event.code === 'Space' && game && game.getState().phase !== 'playing' && !['A', 'BUTTON'].includes(event.target.tagName)) {
-    event.preventDefault();
-    nextRound();
-  } else if (event.code === 'Space' && event.target === $('next-button')) {
-    // Native button activation handles Space once, on keyup.
-    return;
-  }
+installGameKeyboard(document, {
+  getPhase: () => game?.getState().phase,
+  isDialogOpen: () => dialog.open,
+  onNext: nextRound,
+  onAnswer: answer,
+  onTab: blurControl,
 });
 
 document.addEventListener('visibilitychange', () => {
@@ -219,6 +271,7 @@ document.addEventListener('visibilitychange', () => {
 function openDialog(title, html) {
   $('dialog-title').textContent = title;
   $('dialog-content').innerHTML = html;
+  disableTabStops(dialog);
   dialog.showModal();
 }
 $('close-dialog').addEventListener('click', () => dialog.close());
@@ -247,6 +300,7 @@ $('collection-button').addEventListener('click', () => {
       a.href = entry.url;
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
+      a.tabIndex = -1;
       const category = document.createElement('span');
       category.textContent = entry.category === 'pokemon' ? 'Pokémon' : 'Big Data';
       li.append(a, category);

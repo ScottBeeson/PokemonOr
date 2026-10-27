@@ -11,10 +11,10 @@ A real Pokémon, or a real data company? Five seconds to trust your instinct.
 - 1,025 Pokémon species and 230 current or historical data companies.
 - Equal odds of each category; names are shuffled without replacement within their category.
 - A draggable stack of cards with Pokémon artwork and company brand icons revealed after each answer, plus descriptions, source links, and a searchable collection.
-- Swipe **left** for Pokémon or **right** for Big Data. You can also tap the buttons, use the **left/right arrow keys**, or keep using **P/B**. Press **Space** on the next-round button to continue.
+- Swipe **left** for Pokémon or **right** for Big Data. You can also tap the buttons, use the **left/right arrow keys**, or keep using **P/B**. Press **Space** to continue without focusing a button. Tab navigation is disabled; click the search field to type in it.
 - Short drags snap back; vertical gestures scroll normally. The five-second deadline still applies when you release a swipe.
 - Unlimited rounds. Each round starts when you choose; wrong answers and timeouts count as incorrect. Switching tabs does not pause the clock.
-- Responsive layout, visible keyboard focus, screen-reader answer announcements, and reduced-motion support.
+- Clear green/red result panels, a subtle particle burst for correct answers, and a brief shake for wrong answers. Reduced-motion preferences disable both effects. Screen-reader answer announcements remain available.
 
 “Big Data” covers databases, analytics, data engineering, governance, infrastructure, and AI data platforms. Historical company names are included; standalone open-source projects and product names are excluded. See [company sourcing notes](data/companies-sources.md).
 
