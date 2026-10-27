@@ -1,6 +1,6 @@
 # Company dataset
 
-Curated on 2026-10-27 for **POkemon or BigData**.
+Curated on 2026-10-27 for **Pokemon or BigData**.
 
 ## Scope
 
@@ -56,4 +56,14 @@ Historical-name references:
 Add one record per company with `name`, `category: "company"`, `description`, and `url`. Prefer official sources and accurate company names over maximizing the count. Check case-insensitive name uniqueness, valid HTTPS URLs, and that each description explains the company's connection to the data ecosystem.
 
 Company names and trademarks belong to their respective owners. This game is unaffiliated with the listed companies. The data is bundled locally so gameplay does not depend on these websites being available.
+
+## Company website icons
+
+`data/company-logos.json` maps exact company names to locally bundled website icons. Each value has `src` (a relative local asset URL) and `source` (the downloaded HTTPS image URL). The initial collection contains **199 icons for 230 companies**, totaling about **2.24 MB**: 144 PNGs, 31 ICOs, 20 SVGs, and 4 WebP images.
+
+These are official website favicons or Apple touch icons, not necessarily full company wordmarks. The collector discovers icon links in the company's official homepage HTML and downloads the actual asset, including CDN URLs linked by that page. It prefers larger square/touch icons and SVGs over tiny favicons. Where no suitable icon is available, the game can show company initials.
+
+Run `node scripts/update-company-logos.mjs` to fill missing icons. Existing downloaded icons are retained across transient network failures; add `--refresh` to attempt to refresh them too. Requests use ten workers, seven-second timeouts, and a 500 KB limit per icon. Content is checked against PNG, ICO, WebP, JPEG, GIF, or SVG signatures; HTML/error responses and SVGs with scripts, event handlers, foreign objects, or external references are rejected. All manifest files were checked for existence and size. Databricks, Snowflake, and MotherDuck icons were visually spot-checked.
+
+Historical/acquired names whose pages now show a different company's brand are deliberately omitted. Redirects to unrelated brands are rejected, with a small documented allowlist for recognizable company domain changes. Other omissions are caused by inaccessible sites, anti-bot responses, or unavailable suitable icons. Downloaded logos retain their owners' trademark and copyright rights; inclusion does not imply affiliation or endorsement.
 

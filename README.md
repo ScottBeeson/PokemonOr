@@ -1,4 +1,4 @@
-# POkemon or BigData
+# Pokemon or BigData
 
 A real Pokémon, or a real data company? Five seconds to trust your instinct.
 
@@ -10,8 +10,9 @@ A real Pokémon, or a real data company? Five seconds to trust your instinct.
 - Running correct/total score, accuracy percentage, current streak, and a personal best streak saved on your device.
 - 1,025 Pokémon species and 230 current or historical data companies.
 - Equal odds of each category; names are shuffled without replacement within their category.
-- Answer reveals, short descriptions, source links, and a searchable name collection.
-- Mouse, touch, and keyboard controls: **P** for Pokémon, **B** for Big Data, **Space** on the next-round button to continue.
+- A draggable stack of cards with Pokémon artwork and company brand icons revealed after each answer, plus descriptions, source links, and a searchable collection.
+- Swipe **left** for Pokémon or **right** for Big Data. You can also tap the buttons, use the **left/right arrow keys**, or keep using **P/B**. Press **Space** on the next-round button to continue.
+- Short drags snap back; vertical gestures scroll normally. The five-second deadline still applies when you release a swipe.
 - Unlimited rounds. Each round starts when you choose; wrong answers and timeouts count as incorrect. Switching tabs does not pause the clock.
 - Responsive layout, visible keyboard focus, screen-reader answer announcements, and reduced-motion support.
 
@@ -48,6 +49,12 @@ npm run update:pokemon
 
 Curated company records live in `data/companies.json`. Each record contains `name`, `category: "company"`, a short `description`, and an official HTTPS `url`. Add verified company names, update the sourcing notes and collection count in this README, then run `npm test` before committing. Both datasets ship with the site, so gameplay has no live API dependency.
 
+## Answer images
+
+Pokémon artwork loads after an answer from [PokéAPI's official artwork collection](https://github.com/PokeAPI/sprites). Images are never shown before the guess. Company icons from official websites are bundled locally in `assets/company-logos/`, with exact-name mappings and source URLs in `data/company-logos.json`. There are currently 199 icons for the 230 companies; unavailable or historically ambiguous logos use initials instead. Failed Pokémon artwork requests also show a text fallback. These are website brand icons, not necessarily full company wordmarks.
+
+Refresh company icons with `node scripts/update-company-logos.mjs`; pass `--refresh` to recheck already cached icons. Review identity and image quality before committing new assets.
+
 ## Project layout
 
 ```text
@@ -55,6 +62,8 @@ index.html                 Page structure and dialogs
 styles.css                 Responsive visual design
 src/app.js                 Interface, keyboard controls, timer rendering
 src/engine.js              Pure game state machine and balanced shuffled deck
+src/gestures.js            Keyboard mapping and intentional swipe thresholds
+assets/company-logos/      Locally bundled official company website icons
 data/                      Bundled datasets and provenance
 tests/                     Node built-in test suite
 scripts/                   Local server, static build, Pokémon refresh
@@ -63,6 +72,6 @@ scripts/                   Local server, static build, Pokémon refresh
 
 ## Privacy and attribution
 
-No accounts, analytics, backend, or tracking cookies. Only the best streak is saved in local browser storage. Font files are loaded from Google Fonts with system-font fallbacks. GitHub Pages serves the site.
+No accounts, analytics, backend, or tracking cookies. Only the best streak is saved in local browser storage. Font files are loaded from Google Fonts with system-font fallbacks; Pokémon artwork is requested from GitHub after each reveal. Company icons are served with the site. GitHub Pages serves the site.
 
 This is an unofficial fan project, unaffiliated with Nintendo, Creatures Inc., GAME FREAK inc., or any featured company. Pokémon and character names are their respective owners’ trademarks. Company names and trademarks belong to their respective owners. Source links are provided for reference; inclusion does not imply endorsement. Pokémon dataset provenance is linked above; company sourcing and verification limitations are documented alongside the data.
