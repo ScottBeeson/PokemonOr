@@ -1,0 +1,14 @@
+{
+  "name": "pokemon-or-bigdata",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Five seconds to tell a Pokémon from a data company.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs",
+    "update:pokemon": "node scripts/update-pokemon.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

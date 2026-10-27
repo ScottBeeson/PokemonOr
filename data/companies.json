@@ -1,0 +1,1382 @@
+[
+  {
+    "name": "Actian",
+    "category": "company",
+    "description": "Provides database, data integration, and analytics software.",
+    "url": "https://actian.com/"
+  },
+  {
+    "name": "Adverity",
+    "category": "company",
+    "description": "Provides data integration and analytics tools for marketing data.",
+    "url": "https://adverity.com/"
+  },
+  {
+    "name": "Aerospike",
+    "category": "company",
+    "description": "Builds a distributed NoSQL database for real-time applications.",
+    "url": "https://aerospike.com/"
+  },
+  {
+    "name": "Airbyte",
+    "category": "company",
+    "description": "Builds tools for moving data between applications, databases, and warehouses.",
+    "url": "https://airbyte.com/"
+  },
+  {
+    "name": "Aiven",
+    "category": "company",
+    "description": "Provides managed open-source databases and streaming infrastructure.",
+    "url": "https://aiven.io/"
+  },
+  {
+    "name": "Alation",
+    "category": "company",
+    "description": "Provides a data catalog and governance platform.",
+    "url": "https://alation.com/"
+  },
+  {
+    "name": "Altair",
+    "category": "company",
+    "description": "Develops engineering, data analytics, and AI software.",
+    "url": "https://altair.com/"
+  },
+  {
+    "name": "Alteryx",
+    "category": "company",
+    "description": "Develops software for preparing and analyzing data.",
+    "url": "https://alteryx.com/"
+  },
+  {
+    "name": "Amazon Web Services",
+    "category": "company",
+    "description": "Provides cloud databases, data warehouses, and analytics infrastructure.",
+    "url": "https://aws.amazon.com/"
+  },
+  {
+    "name": "Amplitude",
+    "category": "company",
+    "description": "Provides product analytics and digital behavior insights.",
+    "url": "https://amplitude.com/"
+  },
+  {
+    "name": "Anaconda",
+    "category": "company",
+    "description": "Provides a Python platform for data science and AI.",
+    "url": "https://anaconda.com/"
+  },
+  {
+    "name": "Anomalo",
+    "category": "company",
+    "description": "Provides automated data quality monitoring.",
+    "url": "https://anomalo.com/"
+  },
+  {
+    "name": "Anyscale",
+    "category": "company",
+    "description": "Provides infrastructure for distributed AI and data workloads using Ray.",
+    "url": "https://anyscale.com/"
+  },
+  {
+    "name": "ArangoDB",
+    "category": "company",
+    "description": "Develops a database combining graph, document, and key-value models.",
+    "url": "https://arangodb.com/"
+  },
+  {
+    "name": "Arize AI",
+    "category": "company",
+    "description": "Provides observability and evaluation tools for AI models.",
+    "url": "https://arize.com/"
+  },
+  {
+    "name": "Arthur",
+    "category": "company",
+    "description": "Provides monitoring and evaluation for AI systems.",
+    "url": "https://arthur.ai/"
+  },
+  {
+    "name": "Ascend.io",
+    "category": "company",
+    "description": "Built automation tools for data pipelines.",
+    "url": "https://ascend.io/"
+  },
+  {
+    "name": "Astronomer",
+    "category": "company",
+    "description": "Provides a data orchestration platform built around Apache Airflow.",
+    "url": "https://astronomer.io/"
+  },
+  {
+    "name": "Ataccama",
+    "category": "company",
+    "description": "Provides data quality, governance, and master data management software.",
+    "url": "https://ataccama.com/"
+  },
+  {
+    "name": "Atlan",
+    "category": "company",
+    "description": "Provides a platform for data discovery, metadata, and governance.",
+    "url": "https://atlan.com/"
+  },
+  {
+    "name": "AtScale",
+    "category": "company",
+    "description": "Builds a semantic layer for analytics and business intelligence.",
+    "url": "https://atscale.com/"
+  },
+  {
+    "name": "Baseten",
+    "category": "company",
+    "description": "Provides infrastructure for deploying machine-learning models.",
+    "url": "https://baseten.co/"
+  },
+  {
+    "name": "BentoML",
+    "category": "company",
+    "description": "Builds infrastructure for serving AI models.",
+    "url": "https://bentoml.com/"
+  },
+  {
+    "name": "Better Stack",
+    "category": "company",
+    "description": "Provides observability, log management, and incident monitoring.",
+    "url": "https://betterstack.com/"
+  },
+  {
+    "name": "Bigeye",
+    "category": "company",
+    "description": "Provides data observability and data quality monitoring.",
+    "url": "https://bigeye.com/"
+  },
+  {
+    "name": "Bodo",
+    "category": "company",
+    "description": "Builds infrastructure for parallel data processing and analytics.",
+    "url": "https://bodo.ai/"
+  },
+  {
+    "name": "CARTO",
+    "category": "company",
+    "description": "Provides location intelligence and geospatial analytics.",
+    "url": "https://carto.com/"
+  },
+  {
+    "name": "CData",
+    "category": "company",
+    "description": "Provides data connectivity and integration software.",
+    "url": "https://cdata.com/"
+  },
+  {
+    "name": "CelerData",
+    "category": "company",
+    "description": "Built real-time analytics infrastructure based on StarRocks.",
+    "url": "https://celerdata.com/"
+  },
+  {
+    "name": "Celonis",
+    "category": "company",
+    "description": "Provides process mining and business process analytics.",
+    "url": "https://celonis.com/"
+  },
+  {
+    "name": "Census",
+    "category": "company",
+    "description": "Built a platform for syncing warehouse data into business applications.",
+    "url": "https://fivetran.com/docs/activations/census-migration-faq"
+  },
+  {
+    "name": "Chroma",
+    "category": "company",
+    "description": "Builds a database for embeddings and AI applications.",
+    "url": "https://trychroma.com/"
+  },
+  {
+    "name": "CleverTap",
+    "category": "company",
+    "description": "Provides customer analytics and engagement software.",
+    "url": "https://clevertap.com/"
+  },
+  {
+    "name": "ClickHouse",
+    "category": "company",
+    "description": "Develops a column-oriented database for analytical queries.",
+    "url": "https://clickhouse.com/"
+  },
+  {
+    "name": "Cloudera",
+    "category": "company",
+    "description": "Provides enterprise data, analytics, and AI platforms.",
+    "url": "https://cloudera.com/"
+  },
+  {
+    "name": "Coalesce",
+    "category": "company",
+    "description": "Builds tools for developing and managing data transformations.",
+    "url": "https://coalesce.io/"
+  },
+  {
+    "name": "Cockroach Labs",
+    "category": "company",
+    "description": "Builds the distributed SQL database CockroachDB.",
+    "url": "https://cockroachlabs.com/"
+  },
+  {
+    "name": "Cognite",
+    "category": "company",
+    "description": "Provides software for organizing and analyzing industrial data.",
+    "url": "https://cognite.com/"
+  },
+  {
+    "name": "Collibra",
+    "category": "company",
+    "description": "Provides data governance, cataloging, and quality software.",
+    "url": "https://collibra.com/"
+  },
+  {
+    "name": "Comet",
+    "category": "company",
+    "description": "Provides experiment tracking and evaluation tools for machine learning.",
+    "url": "https://comet.com/"
+  },
+  {
+    "name": "Confluent",
+    "category": "company",
+    "description": "Provides a data streaming platform built around Apache Kafka.",
+    "url": "https://confluent.io/"
+  },
+  {
+    "name": "Coralogix",
+    "category": "company",
+    "description": "Provides observability and analytics for logs, metrics, and traces.",
+    "url": "https://coralogix.com/"
+  },
+  {
+    "name": "Couchbase",
+    "category": "company",
+    "description": "Develops a distributed document database.",
+    "url": "https://couchbase.com/"
+  },
+  {
+    "name": "CrateDB",
+    "category": "company",
+    "description": "Develops a distributed SQL database for large volumes of operational data.",
+    "url": "https://cratedb.com/"
+  },
+  {
+    "name": "Cribl",
+    "category": "company",
+    "description": "Builds software for routing and managing telemetry data.",
+    "url": "https://cribl.io/"
+  },
+  {
+    "name": "Crunchy Data",
+    "category": "company",
+    "description": "Provides enterprise PostgreSQL software and managed databases.",
+    "url": "https://crunchydata.com/"
+  },
+  {
+    "name": "Cube",
+    "category": "company",
+    "description": "Provides a semantic layer for business intelligence and analytics.",
+    "url": "https://cube.dev/"
+  },
+  {
+    "name": "Dagster Labs",
+    "category": "company",
+    "description": "Builds data orchestration software.",
+    "url": "https://dagster.io/"
+  },
+  {
+    "name": "Databricks",
+    "category": "company",
+    "description": "Provides a platform for data engineering, analytics, and AI.",
+    "url": "https://databricks.com/"
+  },
+  {
+    "name": "Datadog",
+    "category": "company",
+    "description": "Provides monitoring and analytics for cloud applications and infrastructure.",
+    "url": "https://datadoghq.com/"
+  },
+  {
+    "name": "Datafold",
+    "category": "company",
+    "description": "Provides data comparison and validation tools for data engineering.",
+    "url": "https://datafold.com/"
+  },
+  {
+    "name": "DataGrail",
+    "category": "company",
+    "description": "Provides data privacy management and discovery software.",
+    "url": "https://datagrail.io/"
+  },
+  {
+    "name": "DataHub",
+    "category": "company",
+    "description": "Provides a metadata platform and enterprise data catalog.",
+    "url": "https://datahub.com/"
+  },
+  {
+    "name": "Dataiku",
+    "category": "company",
+    "description": "Provides a platform for data science, analytics, and AI.",
+    "url": "https://dataiku.com/"
+  },
+  {
+    "name": "DataKitchen",
+    "category": "company",
+    "description": "Provides DataOps automation and data quality tools.",
+    "url": "https://datakitchen.io/"
+  },
+  {
+    "name": "Dataloop",
+    "category": "company",
+    "description": "Provides infrastructure for managing and annotating AI training data.",
+    "url": "https://dataloop.ai/"
+  },
+  {
+    "name": "Datameer",
+    "category": "company",
+    "description": "Builds data preparation and transformation software.",
+    "url": "https://datameer.com/"
+  },
+  {
+    "name": "Dataminr",
+    "category": "company",
+    "description": "Analyzes public data to identify real-time events and risks.",
+    "url": "https://dataminr.com/"
+  },
+  {
+    "name": "DataRobot",
+    "category": "company",
+    "description": "Builds enterprise machine-learning and AI software.",
+    "url": "https://datarobot.com/"
+  },
+  {
+    "name": "DataStax",
+    "category": "company",
+    "description": "Develops data infrastructure associated with Apache Cassandra.",
+    "url": "https://datastax.com/"
+  },
+  {
+    "name": "Datorios",
+    "category": "company",
+    "description": "Provides observability tools for streaming data processing.",
+    "url": "https://datorios.com/"
+  },
+  {
+    "name": "dbt Labs",
+    "category": "company",
+    "description": "Builds software for transforming and testing analytics data.",
+    "url": "https://getdbt.com/"
+  },
+  {
+    "name": "Decodable",
+    "category": "company",
+    "description": "Provides infrastructure for real-time stream processing.",
+    "url": "https://decodable.co/"
+  },
+  {
+    "name": "Deepnote",
+    "category": "company",
+    "description": "Provides collaborative notebooks for data analysis and data science.",
+    "url": "https://deepnote.com/"
+  },
+  {
+    "name": "Denodo",
+    "category": "company",
+    "description": "Provides data virtualization and unified access to distributed data.",
+    "url": "https://denodo.com/"
+  },
+  {
+    "name": "DolphinDB",
+    "category": "company",
+    "description": "Builds a database and analytics platform for time-series data.",
+    "url": "https://dolphindb.com/"
+  },
+  {
+    "name": "DoltHub",
+    "category": "company",
+    "description": "Builds version-controlled databases and database collaboration tools.",
+    "url": "https://dolthub.com/"
+  },
+  {
+    "name": "Domino Data Lab",
+    "category": "company",
+    "description": "Provides an enterprise platform for data science and AI development.",
+    "url": "https://dominodatalab.com/"
+  },
+  {
+    "name": "Domo",
+    "category": "company",
+    "description": "Provides a platform for business intelligence and analytics.",
+    "url": "https://domo.com/"
+  },
+  {
+    "name": "Dremio",
+    "category": "company",
+    "description": "Builds a data lakehouse platform for querying and analyzing data.",
+    "url": "https://dremio.com/"
+  },
+  {
+    "name": "DuckLabs",
+    "category": "company",
+    "description": "Provides development and support for the DuckDB analytical database.",
+    "url": "https://ducklabs.com/"
+  },
+  {
+    "name": "EDB",
+    "category": "company",
+    "description": "Provides enterprise software and services built around PostgreSQL.",
+    "url": "https://enterprisedb.com/"
+  },
+  {
+    "name": "Edge Delta",
+    "category": "company",
+    "description": "Provides tools for processing and analyzing observability data.",
+    "url": "https://edgedelta.com/"
+  },
+  {
+    "name": "Elastic",
+    "category": "company",
+    "description": "Builds search, observability, and security analytics software.",
+    "url": "https://elastic.co/"
+  },
+  {
+    "name": "Estuary",
+    "category": "company",
+    "description": "Provides real-time data integration and change data capture.",
+    "url": "https://estuary.dev/"
+  },
+  {
+    "name": "Exasol",
+    "category": "company",
+    "description": "Develops an analytical database for business intelligence.",
+    "url": "https://exasol.com/"
+  },
+  {
+    "name": "Fiddler",
+    "category": "company",
+    "description": "Provides AI observability and model monitoring software.",
+    "url": "https://fiddler.ai/"
+  },
+  {
+    "name": "Firebolt",
+    "category": "company",
+    "description": "Develops a cloud data warehouse for analytics.",
+    "url": "https://firebolt.io/"
+  },
+  {
+    "name": "Fireworks AI",
+    "category": "company",
+    "description": "Provides infrastructure for running and customizing AI models.",
+    "url": "https://fireworks.ai/"
+  },
+  {
+    "name": "Fivetran",
+    "category": "company",
+    "description": "Automates data movement into warehouses and other destinations.",
+    "url": "https://fivetran.com/"
+  },
+  {
+    "name": "Galileo",
+    "category": "company",
+    "description": "Provides evaluation and observability tools for AI systems.",
+    "url": "https://galileo.ai/"
+  },
+  {
+    "name": "GigaSpaces",
+    "category": "company",
+    "description": "Provides in-memory computing and data integration software.",
+    "url": "https://gigaspaces.com/"
+  },
+  {
+    "name": "Glean",
+    "category": "company",
+    "description": "Provides enterprise search across organizational information.",
+    "url": "https://glean.com/"
+  },
+  {
+    "name": "GoodData",
+    "category": "company",
+    "description": "Provides analytics and embedded business intelligence software.",
+    "url": "https://gooddata.com/"
+  },
+  {
+    "name": "Grafana Labs",
+    "category": "company",
+    "description": "Builds observability tools for metrics, logs, traces, and dashboards.",
+    "url": "https://grafana.com/"
+  },
+  {
+    "name": "Gretel",
+    "category": "company",
+    "description": "Developed tools for generating synthetic data.",
+    "url": "https://gretel.ai/"
+  },
+  {
+    "name": "H2O.ai",
+    "category": "company",
+    "description": "Develops machine-learning and enterprise AI software.",
+    "url": "https://h2o.ai/"
+  },
+  {
+    "name": "Hazelcast",
+    "category": "company",
+    "description": "Provides distributed in-memory data processing software.",
+    "url": "https://hazelcast.com/"
+  },
+  {
+    "name": "Hevo",
+    "category": "company",
+    "description": "Provides automated data integration and pipeline software.",
+    "url": "https://hevodata.com/"
+  },
+  {
+    "name": "Hex",
+    "category": "company",
+    "description": "Provides collaborative tools for data analysis and data applications.",
+    "url": "https://hex.tech/"
+  },
+  {
+    "name": "Hightouch",
+    "category": "company",
+    "description": "Activates warehouse data in marketing and business applications.",
+    "url": "https://hightouch.com/"
+  },
+  {
+    "name": "Honeycomb",
+    "category": "company",
+    "description": "Provides observability tools for exploring application telemetry.",
+    "url": "https://honeycomb.io/"
+  },
+  {
+    "name": "Hopsworks",
+    "category": "company",
+    "description": "Provides a feature store and infrastructure for machine learning.",
+    "url": "https://hopsworks.ai/"
+  },
+  {
+    "name": "Hydrolix",
+    "category": "company",
+    "description": "Provides infrastructure for storing and querying large-scale event data.",
+    "url": "https://hydrolix.io/"
+  },
+  {
+    "name": "IBM",
+    "category": "company",
+    "description": "Provides enterprise data, analytics, AI, and computing platforms.",
+    "url": "https://www.ibm.com/"
+  },
+  {
+    "name": "Iguazio",
+    "category": "company",
+    "description": "Develops infrastructure for deploying and operating AI applications.",
+    "url": "https://iguazio.com/"
+  },
+  {
+    "name": "Immuta",
+    "category": "company",
+    "description": "Provides data access control and governance software.",
+    "url": "https://immuta.com/"
+  },
+  {
+    "name": "Imply",
+    "category": "company",
+    "description": "Provides real-time analytics infrastructure associated with Apache Druid.",
+    "url": "https://imply.io/"
+  },
+  {
+    "name": "Incorta",
+    "category": "company",
+    "description": "Provides operational analytics and data integration software.",
+    "url": "https://incorta.com/"
+  },
+  {
+    "name": "InCountry",
+    "category": "company",
+    "description": "Provides data residency infrastructure for global applications.",
+    "url": "https://incountry.com/"
+  },
+  {
+    "name": "InfluxData",
+    "category": "company",
+    "description": "Builds InfluxDB, a database for time-series data.",
+    "url": "https://influxdata.com/"
+  },
+  {
+    "name": "Informatica",
+    "category": "company",
+    "description": "Provides data integration, management, quality, and governance software.",
+    "url": "https://informatica.com/"
+  },
+  {
+    "name": "Inzata",
+    "category": "company",
+    "description": "Provides data integration and analytics software.",
+    "url": "https://inzata.com/"
+  },
+  {
+    "name": "Keboola",
+    "category": "company",
+    "description": "Provides a platform for data integration and transformation.",
+    "url": "https://keboola.com/"
+  },
+  {
+    "name": "Kinetica",
+    "category": "company",
+    "description": "Develops a database for real-time, geospatial, and analytical workloads.",
+    "url": "https://kinetica.com/"
+  },
+  {
+    "name": "KX",
+    "category": "company",
+    "description": "Provides time-series databases and analytics software.",
+    "url": "https://kx.com/"
+  },
+  {
+    "name": "Kyligence",
+    "category": "company",
+    "description": "Provides analytics software associated with Apache Kylin.",
+    "url": "https://kyligence.io/"
+  },
+  {
+    "name": "Labelbox",
+    "category": "company",
+    "description": "Provides data labeling and management tools for AI development.",
+    "url": "https://labelbox.com/"
+  },
+  {
+    "name": "LanceDB",
+    "category": "company",
+    "description": "Develops a database for multimodal data and AI applications.",
+    "url": "https://lancedb.com/"
+  },
+  {
+    "name": "Lightdash",
+    "category": "company",
+    "description": "Builds business intelligence tools connected to data modeling workflows.",
+    "url": "https://lightdash.com/"
+  },
+  {
+    "name": "Logz.io",
+    "category": "company",
+    "description": "Provides observability services for logs, metrics, and traces.",
+    "url": "https://logz.io/"
+  },
+  {
+    "name": "MariaDB",
+    "category": "company",
+    "description": "Develops relational database software and managed database services.",
+    "url": "https://mariadb.com/"
+  },
+  {
+    "name": "Matillion",
+    "category": "company",
+    "description": "Builds data integration and transformation software.",
+    "url": "https://matillion.com/"
+  },
+  {
+    "name": "Meltano",
+    "category": "company",
+    "description": "Builds tools for developing and managing data integration pipelines.",
+    "url": "https://meltano.com/"
+  },
+  {
+    "name": "Memgraph",
+    "category": "company",
+    "description": "Builds graph database software for real-time analytics.",
+    "url": "https://memgraph.com/"
+  },
+  {
+    "name": "Metabase",
+    "category": "company",
+    "description": "Provides tools for querying data and creating analytics dashboards.",
+    "url": "https://metabase.com/"
+  },
+  {
+    "name": "Metaphor",
+    "category": "company",
+    "description": "Built data discovery and cataloging software.",
+    "url": "https://kpmg.com/us/en/media/news/kpmg-acquires-metaphors-technology-platform.html"
+  },
+  {
+    "name": "Microsoft",
+    "category": "company",
+    "description": "Provides cloud data platforms, databases, and business intelligence software.",
+    "url": "https://microsoft.com/"
+  },
+  {
+    "name": "MindsDB",
+    "category": "company",
+    "description": "Built software connecting enterprise data to AI and machine learning.",
+    "url": "https://mindsdb.com/"
+  },
+  {
+    "name": "MinIO",
+    "category": "company",
+    "description": "Builds object storage infrastructure for data and AI workloads.",
+    "url": "https://min.io/"
+  },
+  {
+    "name": "Mixpanel",
+    "category": "company",
+    "description": "Provides analytics for understanding product usage and user behavior.",
+    "url": "https://mixpanel.com/"
+  },
+  {
+    "name": "MongoDB",
+    "category": "company",
+    "description": "Develops a document database and cloud data platform.",
+    "url": "https://mongodb.com/"
+  },
+  {
+    "name": "Monte Carlo",
+    "category": "company",
+    "description": "Provides data observability and reliability monitoring.",
+    "url": "https://montecarlodata.com/"
+  },
+  {
+    "name": "MotherDuck",
+    "category": "company",
+    "description": "Provides cloud analytics built around DuckDB.",
+    "url": "https://motherduck.com/"
+  },
+  {
+    "name": "Mozart Data",
+    "category": "company",
+    "description": "Provides a managed platform for collecting and analyzing business data.",
+    "url": "https://mozartdata.com/"
+  },
+  {
+    "name": "Neo4j",
+    "category": "company",
+    "description": "Develops graph databases and graph analytics software.",
+    "url": "https://neo4j.com/"
+  },
+  {
+    "name": "Neon",
+    "category": "company",
+    "description": "Developed a serverless PostgreSQL platform.",
+    "url": "https://neon.com/"
+  },
+  {
+    "name": "Nexla",
+    "category": "company",
+    "description": "Provides data integration and data product infrastructure.",
+    "url": "https://nexla.com/"
+  },
+  {
+    "name": "Nimble",
+    "category": "company",
+    "description": "Provides infrastructure for collecting web data.",
+    "url": "https://nimbleway.com/"
+  },
+  {
+    "name": "NuoDB",
+    "category": "company",
+    "description": "Develops distributed SQL database software.",
+    "url": "https://nuodb.com/"
+  },
+  {
+    "name": "Ocient",
+    "category": "company",
+    "description": "Develops a data warehouse for large-scale analytical workloads.",
+    "url": "https://ocient.com/"
+  },
+  {
+    "name": "Octopai",
+    "category": "company",
+    "description": "Developed automated data lineage and metadata discovery software.",
+    "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2024-11-14-cloudera-to-acquire-octopais-platform.html"
+  },
+  {
+    "name": "Omni",
+    "category": "company",
+    "description": "Provides a business intelligence platform.",
+    "url": "https://omni.co/"
+  },
+  {
+    "name": "Onehouse",
+    "category": "company",
+    "description": "Provides a managed data lakehouse platform.",
+    "url": "https://onehouse.ai/"
+  },
+  {
+    "name": "Opendatasoft",
+    "category": "company",
+    "description": "Built software for publishing, sharing, and exploring data.",
+    "url": "https://opendatasoft.com/"
+  },
+  {
+    "name": "Optimizely",
+    "category": "company",
+    "description": "Provides digital experimentation and analytics software.",
+    "url": "https://optimizely.com/"
+  },
+  {
+    "name": "Oracle",
+    "category": "company",
+    "description": "Provides enterprise databases, analytics, and cloud infrastructure.",
+    "url": "https://oracle.com/"
+  },
+  {
+    "name": "Oxla",
+    "category": "company",
+    "description": "Developed a database for analytical workloads.",
+    "url": "https://www.redpanda.com/press"
+  },
+  {
+    "name": "Pachyderm",
+    "category": "company",
+    "description": "Developed software for versioned data and reproducible machine-learning pipelines.",
+    "url": "https://www.hpe.com/us/en/newsroom/press-release/2023/01/hewlett-packard-enterprise-acquires-pachyderm-to-expand-ai-at-scale-capabilities-with-reproducible-ai.html"
+  },
+  {
+    "name": "Palantir",
+    "category": "company",
+    "description": "Builds platforms for integrating and analyzing organizational data.",
+    "url": "https://palantir.com/"
+  },
+  {
+    "name": "Panoply",
+    "category": "company",
+    "description": "Provides a managed data warehouse and data integration platform.",
+    "url": "https://panoply.io/"
+  },
+  {
+    "name": "Pecan",
+    "category": "company",
+    "description": "Provides predictive analytics software for business teams.",
+    "url": "https://pecan.ai/"
+  },
+  {
+    "name": "Pendo",
+    "category": "company",
+    "description": "Provides product usage analytics and user experience software.",
+    "url": "https://pendo.io/"
+  },
+  {
+    "name": "Pentaho",
+    "category": "company",
+    "description": "Developed data integration and business analytics software.",
+    "url": "https://pentaho.com/"
+  },
+  {
+    "name": "Percona",
+    "category": "company",
+    "description": "Provides enterprise support and software for open-source databases.",
+    "url": "https://percona.com/"
+  },
+  {
+    "name": "Pinecone",
+    "category": "company",
+    "description": "Provides a vector database for AI applications.",
+    "url": "https://pinecone.io/"
+  },
+  {
+    "name": "PingCAP",
+    "category": "company",
+    "description": "Builds TiDB, a distributed SQL database.",
+    "url": "https://pingcap.com/"
+  },
+  {
+    "name": "PlanetScale",
+    "category": "company",
+    "description": "Provides managed relational database infrastructure.",
+    "url": "https://planetscale.com/"
+  },
+  {
+    "name": "Plotly",
+    "category": "company",
+    "description": "Builds data visualization and analytical application tools.",
+    "url": "https://plotly.com/"
+  },
+  {
+    "name": "Precisely",
+    "category": "company",
+    "description": "Provides data integration, quality, enrichment, and location intelligence.",
+    "url": "https://precisely.com/"
+  },
+  {
+    "name": "Prefect",
+    "category": "company",
+    "description": "Builds tools for orchestrating and monitoring data workflows.",
+    "url": "https://prefect.io/"
+  },
+  {
+    "name": "Prophecy",
+    "category": "company",
+    "description": "Provides visual tools for building data pipelines.",
+    "url": "https://prophecy.io/"
+  },
+  {
+    "name": "Protegrity",
+    "category": "company",
+    "description": "Provides software for protecting sensitive enterprise data.",
+    "url": "https://protegrity.com/"
+  },
+  {
+    "name": "Qdrant",
+    "category": "company",
+    "description": "Builds a vector database for similarity search.",
+    "url": "https://qdrant.tech/"
+  },
+  {
+    "name": "Qlik",
+    "category": "company",
+    "description": "Provides data integration, analytics, and business intelligence software.",
+    "url": "https://qlik.com/"
+  },
+  {
+    "name": "Qubole",
+    "category": "company",
+    "description": "Provides cloud data lake analytics infrastructure.",
+    "url": "https://qubole.com/"
+  },
+  {
+    "name": "QuestDB",
+    "category": "company",
+    "description": "Develops a time-series database for high-throughput data.",
+    "url": "https://questdb.com/"
+  },
+  {
+    "name": "RavenDB",
+    "category": "company",
+    "description": "Develops a document database for application data.",
+    "url": "https://ravendb.net/"
+  },
+  {
+    "name": "Redgate",
+    "category": "company",
+    "description": "Builds tools for database development, monitoring, and management.",
+    "url": "https://red-gate.com/"
+  },
+  {
+    "name": "Redis",
+    "category": "company",
+    "description": "Provides in-memory data infrastructure and database services.",
+    "url": "https://redis.io/"
+  },
+  {
+    "name": "Redpanda",
+    "category": "company",
+    "description": "Builds a streaming data platform compatible with the Kafka API.",
+    "url": "https://redpanda.com/"
+  },
+  {
+    "name": "Reltio",
+    "category": "company",
+    "description": "Provides cloud master data management software.",
+    "url": "https://reltio.com/"
+  },
+  {
+    "name": "RisingWave",
+    "category": "company",
+    "description": "Develops a streaming database for real-time data processing.",
+    "url": "https://risingwave.com/"
+  },
+  {
+    "name": "Rivery",
+    "category": "company",
+    "description": "Builds software for data integration and orchestration.",
+    "url": "https://rivery.io/"
+  },
+  {
+    "name": "Roboflow",
+    "category": "company",
+    "description": "Provides data and development tools for computer vision.",
+    "url": "https://roboflow.com/"
+  },
+  {
+    "name": "Rockset",
+    "category": "company",
+    "description": "Built a search and analytics database for real-time applications.",
+    "url": "https://openai.com/index/openai-acquires-rockset/"
+  },
+  {
+    "name": "RudderStack",
+    "category": "company",
+    "description": "Provides infrastructure for collecting and routing customer data.",
+    "url": "https://rudderstack.com/"
+  },
+  {
+    "name": "SAP",
+    "category": "company",
+    "description": "Provides enterprise software including databases and analytics platforms.",
+    "url": "https://sap.com/"
+  },
+  {
+    "name": "SAS",
+    "category": "company",
+    "description": "Develops analytics, statistics, and data management software.",
+    "url": "https://sas.com/"
+  },
+  {
+    "name": "Satori",
+    "category": "company",
+    "description": "Built data access controls and security software.",
+    "url": "https://satoricyber.com/"
+  },
+  {
+    "name": "Scale AI",
+    "category": "company",
+    "description": "Provides data labeling and evaluation services for AI systems.",
+    "url": "https://scale.com/"
+  },
+  {
+    "name": "ScyllaDB",
+    "category": "company",
+    "description": "Develops a distributed NoSQL database for data-intensive applications.",
+    "url": "https://scylladb.com/"
+  },
+  {
+    "name": "Securiti",
+    "category": "company",
+    "description": "Provides software for data security, privacy, and governance.",
+    "url": "https://securiti.ai/"
+  },
+  {
+    "name": "Select Star",
+    "category": "company",
+    "description": "Provides automated data discovery, cataloging, and lineage.",
+    "url": "https://selectstar.com/"
+  },
+  {
+    "name": "Sifflet",
+    "category": "company",
+    "description": "Provides data observability and reliability software.",
+    "url": "https://siffletdata.com/"
+  },
+  {
+    "name": "Sigma",
+    "category": "company",
+    "description": "Provides cloud analytics with a spreadsheet-style interface.",
+    "url": "https://sigmacomputing.com/"
+  },
+  {
+    "name": "SingleStore",
+    "category": "company",
+    "description": "Develops a database for transactional and analytical workloads.",
+    "url": "https://singlestore.com/"
+  },
+  {
+    "name": "Sisense",
+    "category": "company",
+    "description": "Provides embedded analytics and business intelligence software.",
+    "url": "https://sisense.com/"
+  },
+  {
+    "name": "Snorkel AI",
+    "category": "company",
+    "description": "Builds software for developing and labeling AI training data.",
+    "url": "https://snorkel.ai/"
+  },
+  {
+    "name": "Snowflake",
+    "category": "company",
+    "description": "Provides a cloud platform for storing, processing, and analyzing data.",
+    "url": "https://snowflake.com/"
+  },
+  {
+    "name": "Snowplow",
+    "category": "company",
+    "description": "Provides infrastructure for collecting behavioral event data.",
+    "url": "https://snowplow.io/"
+  },
+  {
+    "name": "Soda",
+    "category": "company",
+    "description": "Provides data quality testing and monitoring tools.",
+    "url": "https://soda.io/"
+  },
+  {
+    "name": "Splunk",
+    "category": "company",
+    "description": "Provides software for searching and analyzing machine-generated data.",
+    "url": "https://splunk.com/"
+  },
+  {
+    "name": "Starburst",
+    "category": "company",
+    "description": "Provides distributed SQL analytics and data access software.",
+    "url": "https://starburst.io/"
+  },
+  {
+    "name": "StarTree",
+    "category": "company",
+    "description": "Provides real-time analytics infrastructure built around Apache Pinot.",
+    "url": "https://startree.ai/"
+  },
+  {
+    "name": "Stratio",
+    "category": "company",
+    "description": "Provides a data platform for integrating, governing, and analyzing data.",
+    "url": "https://stratio.com/"
+  },
+  {
+    "name": "StreamNative",
+    "category": "company",
+    "description": "Provides data streaming infrastructure associated with Apache Pulsar.",
+    "url": "https://streamnative.io/"
+  },
+  {
+    "name": "StreamSets",
+    "category": "company",
+    "description": "Developed software for building and managing data pipelines.",
+    "url": "https://streamsets.com/"
+  },
+  {
+    "name": "Striim",
+    "category": "company",
+    "description": "Provides real-time data integration and streaming software.",
+    "url": "https://striim.com/"
+  },
+  {
+    "name": "Sumo Logic",
+    "category": "company",
+    "description": "Provides cloud log management and analytics.",
+    "url": "https://sumologic.com/"
+  },
+  {
+    "name": "Supabase",
+    "category": "company",
+    "description": "Provides a developer platform built around PostgreSQL.",
+    "url": "https://supabase.com/"
+  },
+  {
+    "name": "SurrealDB",
+    "category": "company",
+    "description": "Develops a multi-model database for applications.",
+    "url": "https://surrealdb.com/"
+  },
+  {
+    "name": "Syntasa",
+    "category": "company",
+    "description": "Provides customer data analytics and AI software.",
+    "url": "https://syntasa.com/"
+  },
+  {
+    "name": "Tableau",
+    "category": "company",
+    "description": "Developed a platform for data visualization and business intelligence.",
+    "url": "https://tableau.com/"
+  },
+  {
+    "name": "Talend",
+    "category": "company",
+    "description": "Developed software for data integration and data quality.",
+    "url": "https://talend.com/"
+  },
+  {
+    "name": "Tamr",
+    "category": "company",
+    "description": "Provides AI-assisted master data management and data unification.",
+    "url": "https://tamr.com/"
+  },
+  {
+    "name": "Tecton",
+    "category": "company",
+    "description": "Developed infrastructure for managing machine-learning features.",
+    "url": "https://www.databricks.com/blog/tecton-joining-databricks-power-real-time-data-personalized-ai-agents"
+  },
+  {
+    "name": "Tellius",
+    "category": "company",
+    "description": "Provides AI-assisted business analytics software.",
+    "url": "https://tellius.com/"
+  },
+  {
+    "name": "Teradata",
+    "category": "company",
+    "description": "Provides enterprise analytics and data platform software.",
+    "url": "https://teradata.com/"
+  },
+  {
+    "name": "ThoughtSpot",
+    "category": "company",
+    "description": "Provides search-driven business intelligence and analytics.",
+    "url": "https://thoughtspot.com/"
+  },
+  {
+    "name": "TIBCO",
+    "category": "company",
+    "description": "Provides data integration, analytics, and enterprise software.",
+    "url": "https://tibco.com/"
+  },
+  {
+    "name": "Tiger Data",
+    "category": "company",
+    "description": "Builds PostgreSQL-based infrastructure for time-series and operational data.",
+    "url": "https://tigerdata.com/"
+  },
+  {
+    "name": "TigerGraph",
+    "category": "company",
+    "description": "Develops graph database and graph analytics software.",
+    "url": "https://tigergraph.com/"
+  },
+  {
+    "name": "Tinybird",
+    "category": "company",
+    "description": "Provides infrastructure for building real-time analytics APIs.",
+    "url": "https://tinybird.co/"
+  },
+  {
+    "name": "Tonic",
+    "category": "company",
+    "description": "Provides synthetic and de-identified data for testing and AI development.",
+    "url": "https://tonic.ai/"
+  },
+  {
+    "name": "Treasure Data",
+    "category": "company",
+    "description": "Provides a customer data platform for unifying and analyzing customer information.",
+    "url": "https://treasuredata.com/"
+  },
+  {
+    "name": "Trifacta",
+    "category": "company",
+    "description": "Developed tools for preparing and transforming data.",
+    "url": "https://trifacta.com/"
+  },
+  {
+    "name": "TruEra",
+    "category": "company",
+    "description": "Developed tools for evaluating and monitoring machine-learning models.",
+    "url": "https://www.snowflake.com/en/blog/snowflake-acquires-truera-to-bring-llm-ml-observability-to-data-cloud/"
+  },
+  {
+    "name": "Unravel Data",
+    "category": "company",
+    "description": "Provides observability and optimization for data workloads.",
+    "url": "https://unraveldata.com/"
+  },
+  {
+    "name": "Upsolver",
+    "category": "company",
+    "description": "Built software for data ingestion and lakehouse pipelines.",
+    "url": "https://upsolver.com/"
+  },
+  {
+    "name": "Vanna",
+    "category": "company",
+    "description": "Builds tools for querying data using natural language.",
+    "url": "https://vanna.ai/"
+  },
+  {
+    "name": "Varada",
+    "category": "company",
+    "description": "Developed data lake query acceleration software.",
+    "url": "https://www.starburst.io/press-releases/starburst-acquires-varada-to-deliver-the-new-standard-of-data-lake-analytics/"
+  },
+  {
+    "name": "VAST Data",
+    "category": "company",
+    "description": "Builds data storage and computing infrastructure for AI and analytics.",
+    "url": "https://vastdata.com/"
+  },
+  {
+    "name": "Vectara",
+    "category": "company",
+    "description": "Provides retrieval infrastructure for AI applications.",
+    "url": "https://vectara.com/"
+  },
+  {
+    "name": "Vespa",
+    "category": "company",
+    "description": "Develops infrastructure for search, recommendations, and AI retrieval.",
+    "url": "https://vespa.ai/"
+  },
+  {
+    "name": "Volt Active Data",
+    "category": "company",
+    "description": "Provides a real-time data processing platform.",
+    "url": "https://voltactivedata.com/"
+  },
+  {
+    "name": "Voltron Data",
+    "category": "company",
+    "description": "Builds tools and infrastructure for accelerated data analytics.",
+    "url": "https://voltrondata.com/"
+  },
+  {
+    "name": "Weaviate",
+    "category": "company",
+    "description": "Develops a vector database for AI applications.",
+    "url": "https://weaviate.io/"
+  },
+  {
+    "name": "Weka",
+    "category": "company",
+    "description": "Provides data storage infrastructure for AI and analytics workloads.",
+    "url": "https://weka.io/"
+  },
+  {
+    "name": "Xata",
+    "category": "company",
+    "description": "Provides cloud database infrastructure for application developers.",
+    "url": "https://xata.io/"
+  },
+  {
+    "name": "Y42",
+    "category": "company",
+    "description": "Provides tools for building and operating data pipelines.",
+    "url": "https://y42.com/"
+  },
+  {
+    "name": "YData",
+    "category": "company",
+    "description": "Provides data profiling and synthetic data tools for AI development.",
+    "url": "https://ydata.ai/"
+  },
+  {
+    "name": "Yellowbrick",
+    "category": "company",
+    "description": "Builds a data warehouse platform for analytics.",
+    "url": "https://yellowbrick.com/"
+  },
+  {
+    "name": "Yugabyte",
+    "category": "company",
+    "description": "Builds a distributed SQL database compatible with PostgreSQL.",
+    "url": "https://yugabyte.com/"
+  },
+  {
+    "name": "Zeenea",
+    "category": "company",
+    "description": "Built data cataloging and discovery software.",
+    "url": "https://zeenea.com/"
+  },
+  {
+    "name": "Zeta Global",
+    "category": "company",
+    "description": "Provides a marketing platform using customer data and analytics.",
+    "url": "https://zetaglobal.com/"
+  },
+  {
+    "name": "Zilliz",
+    "category": "company",
+    "description": "Provides vector database infrastructure associated with Milvus.",
+    "url": "https://zilliz.com/"
+  },
+  {
+    "name": "Zing Data",
+    "category": "company",
+    "description": "Provides collaborative business intelligence and analytics software.",
+    "url": "https://docs.getzingdata.com/docs/getting-started/"
+  },
+  {
+    "name": "Zoho",
+    "category": "company",
+    "description": "Provides business software including analytics and data integration tools.",
+    "url": "https://zoho.com/"
+  },
+  {
+    "name": "Zuar",
+    "category": "company",
+    "description": "Provides data integration and embedded analytics software.",
+    "url": "https://zuar.com/"
+  }
+]

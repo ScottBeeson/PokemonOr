@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f7f2">
+    <meta name="description" content="A Pokémon or a big data company? One name, two possibilities, five seconds. Test your instincts in this free guessing game.">
+    <title>POkemon or BigData — The name game</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./src/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="POkemon or BigData home"><span class="brand-mark" aria-hidden="true"><i></i></span><span>POkemon <span class="brand-or">or</span> BigData<span class="brand-dot">.</span></span></a>
+      <button class="text-button" id="how-button">How to play <span aria-hidden="true">↗</span></button>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div class="eyebrow"><span></span> THE NAME GAME</div>
+        <h1 id="page-title">Creature or company?</h1>
+        <p>Some evolve. Some scale. You have <strong>5 seconds</strong> to tell them apart.</p>
+      </section>
+      <section class="game-wrap" aria-label="Guessing game">
+        <div class="scoreboard" aria-label="Your score">
+          <div class="stat"><span class="stat-label">SCORE</span><div><strong id="score">0</strong><span class="stat-unit"> / <span id="answered">0</span></span></div></div>
+          <div class="stat"><span class="stat-label">ACCURACY</span><div><strong id="accuracy">—</strong><span class="stat-unit" id="accuracy-unit"></span></div></div>
+          <div class="stat"><span class="stat-label">STREAK <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M11 2c1 5-3 5-1 8 2-1 3-3 3-4 5 5 4 11-3 12C3 17 2 11 6 7c0 3 2 4 2 4-1-4 1-6 3-9Z"/></svg></span><div><strong id="streak">0</strong><span class="stat-unit"> in a row</span></div></div>
+        </div>
+        <div class="game-card" id="game-card">
+          <div class="card-top"><span class="round-label" id="round-label">YOUR NEXT FIVE-SECOND OBSESSION</span><span class="timer" id="timer" aria-label="5 seconds remaining"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="11" r="6.5"/><path d="M10 7v4l2 1M8 1h4M10 1v3"/></svg><span id="time">5.0</span><span class="timer-unit">s</span></span></div>
+          <div class="timer-track" aria-hidden="true"><div id="timer-fill"></div></div>
+          <div class="question-area">
+            <span class="question-label" id="question-label">ONE NAME. TWO POSSIBILITIES.</span>
+            <h2 id="name" aria-live="polite">Trust your instinct.</h2>
+            <p id="question-hint">Is it a Pokémon or a big data company?</p>
+          </div>
+          <div class="choices">
+            <button class="choice pokemon" id="pokemon-button" disabled><span class="choice-icon pokeball" aria-hidden="true"></span><span>Pokémon</span><kbd>P</kbd></button>
+            <button class="choice company" id="company-button" disabled><svg class="choice-icon" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v7c0 4 16 4 16 0V5M4 12v7c0 4 16 4 16 0v-7"/></svg><span>Big Data</span><kbd>B</kbd></button>
+          </div>
+          <div class="feedback" id="feedback" role="status" aria-live="polite" hidden></div>
+          <div class="action-area"><button class="primary-button" id="next-button" disabled>Loading names…</button><span id="action-hint">Five seconds per name. As many rounds as you like.</span></div>
+          <noscript><p class="noscript">Please enable JavaScript to play this game.</p></noscript>
+        </div>
+        <div class="under-card"><span class="keyboard-tip"><kbd>P</kbd> or <kbd>B</kbd> to choose <span>·</span> <kbd>Space</kbd> to continue</span><button class="text-button reset-button" id="reset-button" hidden>↻ New game</button></div>
+        <div class="best" id="best-label">A little knowledge. A lot of gut feeling.</div>
+      </section>
+      <section class="collection-note"><span class="collection-symbol" aria-hidden="true">✳</span><p><strong id="collection-count">A whole world of wonderfully confusing names.</strong><br><span>Real Pokémon. Real data companies. Surprisingly hard to tell apart.</span></p><button class="text-button" id="collection-button">Explore the names <span aria-hidden="true">↗</span></button></section>
+    </main>
+    <footer><span>Made for curious minds & questionable guesses.</span><div><a href="https://github.com/ScottBeeson/PokemonOrBigData" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a><span class="footer-divider">/</span><button class="text-button" id="about-button">About & sources</button></div></footer>
+    <dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button class="close-button" id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-content"></div></dialog>
+  </body>
+</html>
