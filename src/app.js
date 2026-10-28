@@ -38,7 +38,7 @@ function isDialogOpen() { return dialog.open || cartridgeDialog.open; }
 
 function applyCartridge() {
   choiceButtons = { pokemon: $('pokemon-button'), [cartridge.category]: $('company-button') };
-  handheld.style.setProperty('--cart-accent', cartridge.accent);
+  document.querySelector('.device-stage').style.setProperty('--cart-accent', cartridge.accent);
   document.querySelectorAll('[data-cart-label]').forEach(element => { element.textContent = cartridge.label.toUpperCase(); });
   document.querySelectorAll('[data-cart-catalog]').forEach(element => { element.textContent = cartridge.catalog; });
   document.querySelectorAll('[data-cart-art]').forEach(element => { element.src = cartridge.art; });
