@@ -431,8 +431,8 @@ cartridgeDialog.addEventListener('keydown', event => {
   showCartridge(event.key === 'Home' ? 0 : event.key === 'End' ? cartridges.length - 1 : carouselIndex + (event.key === 'ArrowRight' ? 1 : -1), { focus: true });
 });
 
-function openCartridges() {
-  if ($('cartridge-slot').disabled) return;
+function openCartridges({ initial = false } = {}) {
+  if (!initial && $('cartridge-slot').disabled) return;
   secretCode.reset();
   const list = $('cartridge-list');
   list.replaceChildren();
@@ -529,3 +529,6 @@ async function insertCartridge(pack) {
 }
 
 insertCartridge(cartridge);
+// Show the collection once per page load, while the default pack boots behind it.
+// Later insertions, resets, and replays keep their existing flow.
+openCartridges({ initial: true });

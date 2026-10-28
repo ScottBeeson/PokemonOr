@@ -1,6 +1,6 @@
 {
   "name": "pokemon-or",
-  "version": "3.6.0",
+  "version": "3.6.1",
   "private": true,
   "type": "module",
   "description": "Pick a Tech, Rx, Flat, Rock, or Garden cartridge. Five seconds to spot the Pokémon.",

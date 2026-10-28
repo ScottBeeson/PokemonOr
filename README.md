@@ -8,6 +8,8 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 
 ## The game
 
+- **Choose a cartridge** opens automatically on every fresh page load, including return visits. Browse and select a pack to load it, or close the picker to use Tech, which loads in the background. The chooser does not reopen after selecting a pack, resetting, or replaying. Saved personal bests are preserved; the cartridge slot remains available for switching on the title and score screens.
+
 - **Pack 01 — Tech Pack** starts inserted. **Pack 02 — Rx Pack** adds prescription brands. **Pack 03 — Flat Pack** adds 179 playable IKEA names, **Pack 04 — Rock Pack** adds 145 minerals, and **Pack 05 — Garden Pack** adds 162 plant genera. Every pack has source-linked reveals, distinct pixel artwork, and its own personal best; existing Tech and Rx records are preserved.
 - Click the cartridge behind the top of the handheld to open the carousel on the title or score screen; reset first during a run. Swipe, use the arrow buttons, or press left/right to browse, then click a cartridge or press Enter to load it. The “Pokémon or…” boot leads to that pack’s title screen. Reinserting boots the cartridge; Reset and Replay skip boot. Reduced-motion preferences disable animation. Failed data loads offer Retry, and successful reads are reused during the session.
 
