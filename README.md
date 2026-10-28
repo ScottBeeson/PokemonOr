@@ -1,6 +1,6 @@
 # Pokémon Or
 
-A real Pokémon, a tech company, or a prescription drug brand? Pick a pack. Five seconds to make your guess.
+A real Pokémon, a tech company, a prescription brand, an IKEA product, a mineral, or a plant? Pick a pack. Five seconds to make your guess.
 
 **[Play the game](https://scottbeeson.github.io/PokemonOr/)**
 
@@ -8,7 +8,7 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 
 ## The game
 
-- **Pack 01 — Tech Pack** starts inserted. **Pack 02 — Rx Pack** adds prescription medication brand names with source-linked ingredient reveals and capsule pixel art. Each pack keeps its own personal best; existing Tech records are preserved.
+- **Pack 01 — Tech Pack** starts inserted. **Pack 02 — Rx Pack** adds prescription brands. **Pack 03 — Flat Pack** adds 179 playable IKEA names, **Pack 04 — Rock Pack** adds 145 minerals, and **Pack 05 — Garden Pack** adds 162 plant genera. Every pack has source-linked reveals, distinct pixel artwork, and its own personal best; existing Tech and Rx records are preserved.
 - Click the cartridge behind the top of the handheld to open the carousel on the title or score screen; reset first during a run. Swipe, use the arrow buttons, or press left/right to browse, then click a cartridge or press Enter to load it. The “Pokémon or…” boot leads to that pack’s title screen. Reinserting boots the cartridge; Reset and Replay skip boot. Reduced-motion preferences disable animation. Failed data loads offer Retry, and successful reads are reused during the session.
 
 - Five seconds per name, with a countdown and shrinking timer bar.
@@ -23,7 +23,7 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 - Each question starts when you choose; wrong answers and timeouts count as incorrect. Switching tabs does not pause the clock. After the tenth reveal, choose **Score** (or press Space) to see your result, accuracy, and best streak. **Replay** starts a fresh ten-question game.
 - Distinct result messages and borders, green/red choice indicators, a subtle particle burst for correct answers, and a brief shake for wrong answers. Reduced-motion preferences disable both effects. Screen-reader answer announcements remain available.
 
-Tech Pack covers software, cybersecurity, developer tools, robotics, fintech, AI, and data infrastructure. Historical company names are included; standalone open-source projects and product names are excluded. See [company sourcing notes](data/companies-sources.md). Rx Pack uses **P/left** for Pokémon and **R/right** for prescription brands. Its verified label snapshot and refresh instructions are described in [Rx sourcing notes](data/rx-sources.md).
+Tech Pack covers software, cybersecurity, developer tools, robotics, fintech, AI, and data infrastructure. Historical company names are included; standalone open-source projects and product names are excluded. See [company sourcing notes](data/companies-sources.md). Rx Pack uses **R/right** for prescription brands; see [Rx sourcing notes](data/rx-sources.md). Flat uses **I/right** for IKEA, Rock uses **M/right** for minerals, and Garden uses **G/right** for plants. **P/left** always chooses Pokémon. The new packs reveal the IKEA product type and original spelling, a mineral's crystal system and hardness, or a plant genus's botanical family. Their artwork is symbolic, not an image of the named item. See [expansion sourcing and refresh instructions](data/expansion-sources.md).
 
 ## Run locally
 

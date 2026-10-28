@@ -1,9 +1,9 @@
 {
   "name": "pokemon-or",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "private": true,
   "type": "module",
-  "description": "Pick a Tech or Rx cartridge. Five seconds to spot the Pokémon.",
+  "description": "Pick a Tech, Rx, Flat, Rock, or Garden cartridge. Five seconds to spot the Pokémon.",
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "test": "node --test",

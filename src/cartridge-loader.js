@@ -1,5 +1,5 @@
 import { createDeck } from './engine.js?v=3.3.0';
-import { pokemonUrl } from './cartridges.js?v=3.4.0';
+import { pokemonUrl } from './cartridges.js?v=3.5.0';
 
 // Cache successful reads (and share in-flight reads), but allow failures to retry.
 export function createCartridgeLoader(fetcher = fetch) {

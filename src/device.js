@@ -1,5 +1,5 @@
 // Handheld presentation: viewport fit and physical button labels.
-import './app.js?v=3.4.0';
+import './app.js?v=3.5.0';
 
 function fitDevice() {
   const scale = Math.min(1, (window.innerHeight - 116) / 752, (window.innerWidth - 28) / 440);

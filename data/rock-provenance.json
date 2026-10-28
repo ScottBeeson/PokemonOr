@@ -1,0 +1,1364 @@
+{
+  "verifiedAt": "2026-10-28",
+  "records": [
+    {
+      "name": "Aegirine",
+      "url": "https://www.handbookofmineralogy.org/pdfs/aegirine.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "6",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Prismatic crystals, showing f110g, with blunt to steep t",
+      "hardnessEvidence": "Hardness = 6 D(meas.) = 3.50{3.60 D(calc.) = 3.576 Optical Proper"
+    },
+    {
+      "name": "Akermanite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/akermanite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "5-6",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 42m: Crystals short prismatic to thin tabular, which may rese",
+      "hardnessEvidence": "Hardness = 5{6 D(meas.) = 2.944 D(calc.) = 2.922 Optical Properti"
+    },
+    {
+      "name": "Albite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/albite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Crystals commonly tabular k f010g, may be curved, to 3 cm; ",
+      "hardnessEvidence": "Hardness = 6{6.5 D(meas.) = 2.60{2.65 D(calc.) = 2.609{2.621 Opti"
+    },
+    {
+      "name": "Almandine",
+      "url": "https://www.handbookofmineralogy.org/pdfs/almandine.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "7-7.5",
+      "evidence": "Crystal Data: Cubic. Point Group: 4=m 3 2=m: Typically well-formed dodecahedra or trapezohedra, to 1",
+      "hardnessEvidence": "Hardness = 7{7.5 D(meas.) = 4.318 D(calc.) = 4.313 Optical Proper"
+    },
+    {
+      "name": "Alunite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/alunite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 32 /m or 3m. Crystals typically pseudocubic {0112} or tabular ",
+      "hardnessEvidence": "Hardness = 3.5–4 D(meas.) = 2.6–2.9 D(calc.) = 2.82 Strongly pyro"
+    },
+    {
+      "name": "Anatase",
+      "url": "https://www.handbookofmineralogy.org/pdfs/anatase.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "5.5-6",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 4/m 2/m 2/m. Crystals typically acute dipyramidal {011}, ofte",
+      "hardnessEvidence": "Hardness = 5.5–6 VHN = 616–698 (100 g load). D(meas.) = 3.79–3.97"
+    },
+    {
+      "name": "Andalusite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/andalusite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "6.5-7.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2=m 2=m 2=m: As euhedral crystals or columnar aggregates ha",
+      "hardnessEvidence": "Hardness = 6.5{7.5 D(meas.) = 3.13{3.16 D(calc.) = 3.149 Optical "
+    },
+    {
+      "name": "Andradite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/andradite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "6.5-7",
+      "evidence": "Crystal Data: Cubic. Point Group: 4=m 3 2=m: Commonly well-crystallized dodecahedra, trapezohedra, o",
+      "hardnessEvidence": "Hardness = 6.5{7 D(meas.) = 3.8{3.9 D(calc.) = 3.859 Optical Prop"
+    },
+    {
+      "name": "Anglesite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/anglesite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "2.5-3",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Crystals are typically elongated with rhomboid",
+      "hardnessEvidence": "Hardness = 2.5–3 D(meas.) = 6.38 D(calc.) = 6.36 May ﬂuoresce yel"
+    },
+    {
+      "name": "Anhydrite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/anhydrite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3-3.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Crystals tabular on {010}, {100},o r {001} or ",
+      "hardnessEvidence": "Hardness = 3–3.5 D(meas.) = 2.98(1) D(calc.) = 2.95 Optical Prope"
+    },
+    {
+      "name": "Anorthite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/anorthite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Crystals commonly short, prismatic on [001], rarely on [010",
+      "hardnessEvidence": "Hardness = 6{6.5 D(meas.) = 2.74{2.76 D(calc.) = 2.760 Optical Pr"
+    },
+    {
+      "name": "Aragonite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/aragonite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Orthorhombic, pseudohexagonal. Point Group: 2/m 2/m 2/m. Isolated crystals short to lo",
+      "hardnessEvidence": "Hardness = 3.5–4 D(meas.) = 2.95 D(calc.) = 2.930 Cathodoluminesc"
+    },
+    {
+      "name": "Arsenopyrite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/arsenopyrite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "5.5-6",
+      "evidence": "Crystal Data: Monoclinic, pseudo-orthorhombic. Point Group: 2/m. Crystals, to 30 cm, ﬂat tabular to ",
+      "hardnessEvidence": "Hardness = 5.5–6 VHN = 1081 on (001) section (100 g load). D(meas"
+    },
+    {
+      "name": "Augite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/augite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "5.5-6",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Stubby prismatic crystals, square or octagonal in sectio",
+      "hardnessEvidence": "Hardness = 5.5{6 D(meas.) = 3.19{3.56 D(calc.) = 3.31 Optical Pro"
+    },
+    {
+      "name": "Aurichalcite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/aurichalcite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "1-2",
+      "evidence": "Crystal Data: Monoclinic, pseudo-orthorhombic by twinning. Point Group: 2/m. As acicular to lathlike",
+      "hardnessEvidence": "Hardness = 1–2 D(meas.) = 3.96 D(calc.) = 3.93–3.94 Optical Prope"
+    },
+    {
+      "name": "Azurite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/azurite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. Crystals are typically complex, with over 100 forms reco",
+      "hardnessEvidence": "Hardness = 3.5–4 D(meas.) = 3.773(3) D(calc.) = 3.78 Optical Prop"
+    },
+    {
+      "name": "Benitoite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/benitoite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 62m: Flat pyramidal crystals, tabular on f0001g, triangular or",
+      "hardnessEvidence": "Hardness = 6{6.5 D(meas.) = 3.65 D(calc.) = 3.68 Blue °uorescence"
+    },
+    {
+      "name": "Beryl",
+      "url": "https://www.handbookofmineralogy.org/pdfs/beryl.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "7.5-8",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 6=m 2=m 2=m: Crystals prismatic to tabular, with f1010g, f0001",
+      "hardnessEvidence": "Hardness = 7.5{8 VHN = 1190{1450, 1300 average. D(meas.) = 2.63{2"
+    },
+    {
+      "name": "Bixbyite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/bixbyite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Cubic. Point Group: 2/m 3. As cubes, rarely modiﬁed by {112} or {111}, commonly striat",
+      "hardnessEvidence": "Hardness = 6–6.5 VHN = 946–1402 (100 g load). D(meas.) = 4.945 D("
+    },
+    {
+      "name": "Bornite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/bornite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3-3.25",
+      "evidence": "Crystal Data: Orthorhombic, pseudocubic. Point Group: 2/m 2/m 2/m. Crystals pseudocubic, dodecahedra",
+      "hardnessEvidence": "Hardness = 3–3.25 VHN = n.d. D(meas.) = 5.06–5.08 D(calc.) = 5.07"
+    },
+    {
+      "name": "Brucite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/brucite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "2.5",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 32 /m. Crystals tabular {0001}, to 19 cm, in platy or foliated",
+      "hardnessEvidence": "Hardness = 2.5 D(meas.) = 2.39 D(calc.) = 2.368 Pyroelectric. Opt"
+    },
+    {
+      "name": "Bustamite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/bustamite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "5.5-6.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Crystals prismatic, needlelike, to 2.5 cm, or tabular on f0",
+      "hardnessEvidence": "Hardness = 5.5{6.5 D(meas.) = 3.32{3.43 D(calc.) = 3.421 Pink col"
+    },
+    {
+      "name": "Bytownite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/bytownite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Crystals, °attened along [010], are rare, to 3 cm; commonly",
+      "hardnessEvidence": "Hardness = 6{6.5 D(meas.) = 2.72{2.74 D(calc.) = 2.713{2.726 Opti"
+    },
+    {
+      "name": "Calomel",
+      "url": "https://www.handbookofmineralogy.org/pdfs/calomel.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "1.5",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 4/m 2/m 2/m. Of variable and complex habit; crystals commonly",
+      "hardnessEvidence": "Hardness = 1.5 D(meas.) = 7.15 D(calc.) = 7.23 Fluoresces brick-r"
+    },
+    {
+      "name": "Cancrinite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/cancrinite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "5-6",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 6: Rarely as prismatic crystals, terminated by a low pyramid, ",
+      "hardnessEvidence": "Hardness = 5{6 D(meas.) = 2.42{2.51. D(calc.) = [2.49] Optical Pr"
+    },
+    {
+      "name": "Carminite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/carminite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Crystals, to 2 cm, typically lathlike, ﬂattene",
+      "hardnessEvidence": "Hardness = 3.5 D(meas.) = 5.03–5.18; 5.22 D(calc.) = 5.405 Optica"
+    },
+    {
+      "name": "Cassiterite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/cassiterite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "6-7",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 4/m 2/m 2/m. Crystals short to long prismatic ∥ [001], with {",
+      "hardnessEvidence": "Hardness = 6–7 VHN = 1239–1467 (200 g load). D(meas.) = 6.98–7.01"
+    },
+    {
+      "name": "Celestine",
+      "url": "https://www.handbookofmineralogy.org/pdfs/celestine.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3-3.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Well-formed crystals are common; typically thi",
+      "hardnessEvidence": "Hardness = 3–3.5 D(meas.) = 3.97(1) D(calc.) = 3.98 Optical Prope"
+    },
+    {
+      "name": "Cerussite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/cerussite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3-3.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Crystals, to 0.6 m, are tabular {010}, equant ",
+      "hardnessEvidence": "Hardness = 3–3.5 D(meas.) = 6.55(2) D(calc.) = 6.577 May ﬂuoresce"
+    },
+    {
+      "name": "Chalcanthite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/chalcanthite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "2.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1. Uncommonly as short prismatic [001] to thick tabular {111} ",
+      "hardnessEvidence": "Hardness = 2.5 D(meas.) = 2.286 (synthetic). D(calc.) = 2.282 Sol"
+    },
+    {
+      "name": "Chalcocite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/chalcocite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "2.5-3",
+      "evidence": "Crystal Data: Monoclinic, pseudo-orthorhombic. Point Group: 2/m or m. Crystals are short prismatic [",
+      "hardnessEvidence": "Hardness = 2.5–3 VHN = 84–87 (100 g load). D(meas.) = 5.5–5.8 D(c"
+    },
+    {
+      "name": "Chalcopyrite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/chalcopyrite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 42m. Equant, tetrahedral-shaped crystals, may be modiﬁed by s",
+      "hardnessEvidence": "Hardness = 3.5–4 VHN = 187–203 (basal section); 181–192 (vertical"
+    },
+    {
+      "name": "Chondrodite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/chondrodite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals rare, varied in habit, typically °attened k [01",
+      "hardnessEvidence": "Hardness = 6{6.5 D(meas.) = 3.16{3.26 D(calc.) = 3.177 Optical Pr"
+    },
+    {
+      "name": "Chrysoberyl",
+      "url": "https://www.handbookofmineralogy.org/pdfs/chrysoberyl.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "8.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Crystals are tabular on {001} or short prismat",
+      "hardnessEvidence": "Hardness = 8.5 D(meas.) = 3.75(1) D(calc.) = 3.69 Optical Propert"
+    },
+    {
+      "name": "Cinnabar",
+      "url": "https://www.handbookofmineralogy.org/pdfs/cinnabar.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "2-2.5",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 32. Rhombohedral crystals, to 10 cm; thick tabular {0001}; sto",
+      "hardnessEvidence": "Hardness = 2–2.5 VHN = 82–156 (10 g load). D(meas.) = 8.176 D(cal"
+    },
+    {
+      "name": "Clinochlore",
+      "url": "https://www.handbookofmineralogy.org/pdfs/clinochlore.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "2-2.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: In thin to thick pseudohexagonal crystals, with tapering",
+      "hardnessEvidence": "Hardness = 2{2.5 D(meas.) = 2.60{3.02 D(calc.) = 2.628 Optical Pr"
+    },
+    {
+      "name": "Colemanite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/colemanite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "4.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. As equant to short prismatic crystals, with large {110} ",
+      "hardnessEvidence": "Hardness = 4.5 D(meas.) = 2.423(5) D(calc.) = 2.42 Bright pale ye"
+    },
+    {
+      "name": "Cordierite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/cordierite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "7-7.5",
+      "evidence": "Crystal Data: Orthorhombic, pseudohexagonal. Point Group: 2=m 2=m 2=m: Crystals short prismatic, str",
+      "hardnessEvidence": "Hardness = 7{7.5 D(meas.) = 2.60{2.66 D(calc.) = 2.505 Optical Pr"
+    },
+    {
+      "name": "Corundum",
+      "url": "https://www.handbookofmineralogy.org/pdfs/corundum.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "9",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 32 /m. Crystals hexagonal, prismatic or steeply dipyramidal, t",
+      "hardnessEvidence": "Hardness = 9 D(meas.) = 3.98–4.10 D(calc.) = 3.997 May ﬂuoresce o"
+    },
+    {
+      "name": "Covellite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/covellite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "1.5-2",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 6/m 2/m 2/m. Forms hexagonal plates as large as 10 cm, ﬂattene",
+      "hardnessEvidence": "Hardness = 1.5–2 VHN = 128–138 (100 g load). D(meas.) = 4.6–4.76 "
+    },
+    {
+      "name": "Creedite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/creedite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "4",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. Crystals are prismatic [001], bladelike to acicular, typ",
+      "hardnessEvidence": "Hardness = 4 D(meas.) = 2.713–2.730 D(calc.) = 2.739 Optical Prop"
+    },
+    {
+      "name": "Crocoite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/crocoite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "2.5-3",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. As prismatic to acicular crystals with nearly square out",
+      "hardnessEvidence": "Hardness = 2.5–3 D(meas.) = 6.0–6.1 D(calc.) = [6.10] Optical Pro"
+    },
+    {
+      "name": "Cryolite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/cryolite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "2.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. Crystals, to 3 cm, are pseudocubic or short prismatic al",
+      "hardnessEvidence": "Hardness = 2.5 D(meas.) = 2.97 D(calc.) = 2.973(2) Weakly thermol"
+    },
+    {
+      "name": "Cuprite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/cuprite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Cubic. Point Group: 4/m 32 /m. As cubic, octahedral, and dodecahedral crystals, to 14 ",
+      "hardnessEvidence": "Hardness = 3.5–4 VHN = 183–222 (100 g load). D(meas.) = 6.14 D(ca"
+    },
+    {
+      "name": "Danburite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/danburite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "7-7.25",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2=m 2=m 2=m: Crystals prismatic, rhomboidal to square in cr",
+      "hardnessEvidence": "Hardness = 7{7.25 D(meas.) = 2.93{3.02 D(calc.) = 2.99 Optical Pr"
+    },
+    {
+      "name": "Datolite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/datolite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "5-5.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals typically short prismatic, with prominent f110g",
+      "hardnessEvidence": "Hardness = 5{5.5 D(meas.) = 2.96{3.00 D(calc.) = [3.00] Commonly "
+    },
+    {
+      "name": "Diopside",
+      "url": "https://www.handbookofmineralogy.org/pdfs/diopside.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "5.5-6.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: As prismatic crystals with nearly square cross sections,",
+      "hardnessEvidence": "Hardness = 5.5{6.5 D(meas.) = 3.22{3.38 D(calc.) = 3.278 Optical "
+    },
+    {
+      "name": "Dolomite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/dolomite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 3. Crystals typically combinations of {1011} and {1120}, tabul",
+      "hardnessEvidence": "Hardness = 3.5–4 D(meas.) = 2.86 D(calc.) = [2.876] May ﬂuoresce "
+    },
+    {
+      "name": "Dumortierite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/dumortierite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "7-8.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2=m 2=m 2=m: As ¯brous or columnar crystals, having general",
+      "hardnessEvidence": "Hardness = 7{8.5 D(meas.) = 3.21{3.41 D(calc.) = 3.45 Optical Pro"
+    },
+    {
+      "name": "Enargite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/enargite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: mm2. Tabular on {001}; also prismatic by elongation of [001",
+      "hardnessEvidence": "Hardness = 3 VHN = n.d. D(meas.) = 4.45 D(calc.) = 4.40 Optical P"
+    },
+    {
+      "name": "Enstatite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/enstatite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "5-6",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2=m 2=m 2=m: Crystals prismatic, to 40 cm; commonly lamella",
+      "hardnessEvidence": "Hardness = 5{6 D(meas.) = 3.2{3.9 D(calc.) = 3.189 Optical Proper"
+    },
+    {
+      "name": "Epidote",
+      "url": "https://www.handbookofmineralogy.org/pdfs/epidote.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "6-7",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals prismatic, to 35 cm, commonly elongated and str",
+      "hardnessEvidence": "Hardness = 6{7 D(meas.) = 3.38{3.49 D(calc.) = 3.391{3.464 Optica"
+    },
+    {
+      "name": "Eudialyte",
+      "url": "https://www.handbookofmineralogy.org/pdfs/eudialyte.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "5-6",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 3 2=m: Crystals short rhombohedral with f0001g dominant, to lo",
+      "hardnessEvidence": "Hardness = 5{6 D(meas.) = 2.74{3.10 D(calc.) = n.d. Optical Prope"
+    },
+    {
+      "name": "Euclase",
+      "url": "https://www.handbookofmineralogy.org/pdfs/euclase.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "7.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: As prismatic crystals, °attened on f100g, commonly morph",
+      "hardnessEvidence": "Hardness = 7.5 VHN = 1310 D(meas.) = 2.99{3.10 D(calc.) = 3.115 O"
+    },
+    {
+      "name": "Fayalite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/fayalite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "6.5-7",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2=m 2=m 2=m: Crystals are thick to thin, tabular k f100 g, ",
+      "hardnessEvidence": "Hardness = 6.5{7 D(meas.) = 4.392 D(calc.) = [4.40] Optical Prope"
+    },
+    {
+      "name": "Felsobanyaite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/felsobanyaite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "1.5",
+      "evidence": "Crystal Data: Monoclinic, pseudo-orthorhombic. Point Group: 2. As minute thin tabular crystals, typi",
+      "hardnessEvidence": "Hardness = 1.5 D(meas.) = 2.33–2.35 D(calc.) = [2.20] Optical Pro"
+    },
+    {
+      "name": "Fluorapatite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/fluorapatite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "5",
+      "evidence": "Crystal Data: Hexagonal or monoclinic. Point Group: 6/m or 2/m. As prismatic hexagonal crystals, elo",
+      "hardnessEvidence": "Hardness = 5 D(meas.) = 3.1–3.25 D(calc.) = 3.18 May be cathodolu"
+    },
+    {
+      "name": "Fluorite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/fluorite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "4",
+      "evidence": "Crystal Data: Cubic. Point Group: 4/m32/m. Cubes, octahedra, rarely dodecahedra, or combinations, wi",
+      "hardnessEvidence": "Hardness = 4 VHN = 174–181 {100}, 174–203 {111} (100 g load). D(m"
+    },
+    {
+      "name": "Forsterite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/forsterite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "7",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2=m 2=m 2=m: In euhedral or subhedral crystals, typically t",
+      "hardnessEvidence": "Hardness = 7 D(meas.) = 3.275 D(calc.) = 3.271 Optical Properties"
+    },
+    {
+      "name": "Galena",
+      "url": "https://www.handbookofmineralogy.org/pdfs/galena.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "2.5-2.75",
+      "evidence": "Crystal Data: Cubic. Point Group: 4/m 32 /m. Most commonly cubic, crystals to a meter on an edge are",
+      "hardnessEvidence": "Hardness = 2.5–2.75 VHN = 79–104 (100 g load). D(meas.) = 7.58 D("
+    },
+    {
+      "name": "Gaylussite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/gaylussite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "2.5-3",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. As ﬂattened wedge-shaped crystals with dominant {110}, {",
+      "hardnessEvidence": "Hardness = 2.5–3 D(meas.) = 1.991 D(calc.) = 1.991 Dehydrates wit"
+    },
+    {
+      "name": "Gibbsite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/gibbsite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "2.5-3.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. As pseudohexagonal crystals, tabular on {001}, with {101",
+      "hardnessEvidence": "Hardness = 2.5–3.5 D(meas.) = 2.40 D(calc.) = [2.42] Strong argil"
+    },
+    {
+      "name": "Glaucophane",
+      "url": "https://www.handbookofmineralogy.org/pdfs/glaucophane.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "6",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: As prismatic crystals; columnar, ¯brous, or granular agg",
+      "hardnessEvidence": "Hardness = 6 D(meas.) = 3.08{3.22 D(calc.) = 3.132 Optical Proper"
+    },
+    {
+      "name": "Goethite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/goethite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "5-5.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m2/m2/m. As prismatic crystals, striated ∥ [001], to 45 c",
+      "hardnessEvidence": "Hardness = 5–5.5 VHN = 667 (100 g load). D(meas.) = 4.28(1) D(cal"
+    },
+    {
+      "name": "Grossular",
+      "url": "https://www.handbookofmineralogy.org/pdfs/grossular.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "6.5-7",
+      "evidence": "Crystal Data: Cubic. Point Group: 4=m 3 2=m: Commonly in dodecahedra or trapezohedra, up to 15 cm, w",
+      "hardnessEvidence": "Hardness = 6.5{7 D(meas.) = 3.594 D(calc.) = 3.594 May °uoresce w"
+    },
+    {
+      "name": "Gypsum",
+      "url": "https://www.handbookofmineralogy.org/pdfs/gypsum.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "1.5-2",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. As acicular to stubby prismatic crystals, thin to thick ",
+      "hardnessEvidence": "Hardness = 1.5–2, varies with direction. D(meas.) = 2.317(5) D(ca"
+    },
+    {
+      "name": "Halite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/halite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "2-2.5",
+      "evidence": "Crystal Data: Cubic. Point Group: 4/m32/m. Crystals cubic, to 1 m, or octahedral; elongated along [1",
+      "hardnessEvidence": "Hardness = 2–2.5 D(meas.) = 2.168 D(calc.) = 2.165 Soluble in H 2"
+    },
+    {
+      "name": "Hausmannite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/hausmannite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "5.5",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 4/m2/m2/m. Crystals are pseudo-octahedral and striated ∥ [100",
+      "hardnessEvidence": "Hardness = 5.5 VHN = 437–572 (100 g load). D(meas.) = 4.84 D(calc"
+    },
+    {
+      "name": "Hematite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/hematite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "5-6",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 32/m. Crystals complex rhombohedral, pseudocubic, prismatic, r",
+      "hardnessEvidence": "Hardness = 5–6 VHN = 1000–1100 (100 g load). D(meas.) = 5.26 D(ca"
+    },
+    {
+      "name": "Hemimorphite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/hemimorphite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "4.5-5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: mm2: Commonly crystallized, thin tabular ? f010g, striated ",
+      "hardnessEvidence": "Hardness = 4.5{5 D(meas.) = 3.475 D(calc.) = 3.484 Strongly pyroe"
+    },
+    {
+      "name": "Heulandite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/heulandite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals commonly tabular k f010 g, and elongated, wides",
+      "hardnessEvidence": "Hardness = 3.5{4 D(meas.) = 2.10{2.20 D(calc.) = 2.17 Optical Pro"
+    },
+    {
+      "name": "Howlite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/howlite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "3.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals tabular, °attened on f100g, with f100g dominant",
+      "hardnessEvidence": "Hardness = 3.5 D(meas.) = 2.53{2.59 D(calc.) = 2.61 Optical Prope"
+    },
+    {
+      "name": "Ilmenite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/ilmenite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "5-6",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 3. As thick tabular crystals, with dominant base, to rhombohed",
+      "hardnessEvidence": "Hardness = 5–6 VHN = 566–698 (100 g load). D(meas.) = 4.72 D(calc"
+    },
+    {
+      "name": "Jadeite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/jadeite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "6-7",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals rare, prismatic with f110g, f111g, and f100g as",
+      "hardnessEvidence": "Hardness = 6{7 D(meas.) = 3.24{3.43 D(calc.) = 3.330 Optical Prop"
+    },
+    {
+      "name": "Jeremejevite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/jeremejevite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "6.5-7.5",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 6/m. Crystals are typically hexagonal prismatic {1120}, may be",
+      "hardnessEvidence": "Hardness = 6.5–7.5 D(meas.) = 3.29(1) D(calc.) = 3.284 [F 1− end-"
+    },
+    {
+      "name": "Kaolinite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/kaolinite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "2-2.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Rarely as crystals, thin platy or stacked, to 2 mm. More co",
+      "hardnessEvidence": "Hardness = 2{2.5 D(meas.) = 2.61{2.68 D(calc.) = 2.63 Optical Pro"
+    },
+    {
+      "name": "Kermesite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/kermesite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "1-1.5",
+      "evidence": "Crystal Data: Triclinic, pseudomonoclinic. Point Group: T. Crystals elongated II [010], lath-shaped ",
+      "hardnessEvidence": "Hardness = 1-1.5 VHN = 30-90 (5 g load). D(meas.) = 4.68 D( calc."
+    },
+    {
+      "name": "Kyanite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/kyanite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "5.5-7 (direction-dependent)",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Crystals bladed and tabular on f100g, elongated k to [001],",
+      "hardnessEvidence": "Hardness = 5.5 k [001], 7 k [100]. D(meas.) = 3.53{3.65 D(calc.) "
+    },
+    {
+      "name": "Labradorite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/labradorite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Crystals typically thin, tabular along [010], and rhombic i",
+      "hardnessEvidence": "Hardness = 6{6.5 D(meas.) = 2.68{2.72 D(calc.) = 2.685{2.710 Opti"
+    },
+    {
+      "name": "Langite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/langite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "2.5-3",
+      "evidence": "Crystal Data: Monoclinic, pseudo-orthorhombic or pseudohexagonal. Point Group: m. Crystals, showing ",
+      "hardnessEvidence": "Hardness = 2.5–3 D(meas.) = 3.28–3.34 D(calc.) = 3.26–3.37 Optica"
+    },
+    {
+      "name": "Lazulite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/lazulite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "5.5-6",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. As crystals, stubby to acute dipyramidal with forms {111",
+      "hardnessEvidence": "Hardness = 5.5–6 D(meas.) = 3.122–3.240 D(calc.) = 3.144 Optical "
+    },
+    {
+      "name": "Leucite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/leucite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "5.5-6",
+      "evidence": "Crystal Data: Tetragonal, pseudocubic. Point Group: 4=m: Commonly euhedral, pseudocubic crystals, sh",
+      "hardnessEvidence": "Hardness = 5.5{6 D(meas.) = 2.45{2.50 D(calc.) = [2.46] Optical P"
+    },
+    {
+      "name": "Libethenite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/libethenite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "4",
+      "evidence": "Crystal Data: Monoclinic, pseudo-orthorhombic. Point Group: 2/m. As wedge-topped prismatic crystals,",
+      "hardnessEvidence": "Hardness = 4 D(meas.) = 3.97 D(calc.) = 3.972 Optical Properties:"
+    },
+    {
+      "name": "Linarite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/linarite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "2.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. Crystals are elongated along [010], typically tabular on",
+      "hardnessEvidence": "Hardness = 2.5 D(meas.) = 5.35 D(calc.) = 5.33 Optical Properties"
+    },
+    {
+      "name": "Lithiophilite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/lithiophilite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "4-5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Sharply terminated crystals may show {010}, {0",
+      "hardnessEvidence": "Hardness = 4–5 D(meas.) = 3.445–3.50 D(calc.) = 3.433 Optical Pro"
+    },
+    {
+      "name": "Malachite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/malachite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. Crystals are acicular to prismatic, thick tabular, equan",
+      "hardnessEvidence": "Hardness = 3.5–4 D(meas.) = 4.05(2) D(calc.) = 3.983 Optical Prop"
+    },
+    {
+      "name": "Marcasite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/marcasite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Crystals typically tabular on {010}, also pyra",
+      "hardnessEvidence": "Hardness = 6–6.5 VHN = 915–1099 (200 g load). D(meas.) = 4.887 D("
+    },
+    {
+      "name": "Microcline",
+      "url": "https://www.handbookofmineralogy.org/pdfs/microcline.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Prismatic crystals elongated along [001] or [100], perhaps ",
+      "hardnessEvidence": "Hardness = 6{6.5 D(meas.) = 2.54{2.57 D(calc.) = 2.56 Optical Pro"
+    },
+    {
+      "name": "Mimetite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/mimetite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 6/m. Crystals are usually prismatic to acicular ∥ [0001], to 1",
+      "hardnessEvidence": "Hardness = 3.5–4 D(meas.) = 7.24 D(calc.) = 7.26 Piezoelectric; m"
+    },
+    {
+      "name": "Molybdenite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/molybdenite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "1-1.5",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 6/m 2/m 2/m (2H1 polytype); or 3 m (3R polytype). Crystals are",
+      "hardnessEvidence": "Hardness = 1–1.5 VHN = n.d. D(meas.) = 4.62–4.73 D(calc.) = 4.998"
+    },
+    {
+      "name": "Natrolite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/natrolite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "5-5.5",
+      "evidence": "Crystal Data: Orthorhombic, pseudotetragonal. Point Group: mm2: Crystals short to long prismatic, to",
+      "hardnessEvidence": "Hardness = 5{5.5 D(meas.) = 2.20{2.26 D(calc.) = 2.25 Pyroelectri"
+    },
+    {
+      "name": "Nepheline",
+      "url": "https://www.handbookofmineralogy.org/pdfs/nepheline.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "5.5-6",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 6: As stout six- or twelve-sided prisms, terminated by dominan",
+      "hardnessEvidence": "Hardness = 5.5{6 D(meas.) = 2.55{2.66 D(calc.) = [2.64] Optical P"
+    },
+    {
+      "name": "Neptunite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/neptunite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "5-6",
+      "evidence": "Crystal Data: Monoclinic. Point Group: m: As prismatic crystals, to 7.5 cm, with f110g prominent, ty",
+      "hardnessEvidence": "Hardness = 5{6 D(meas.) = 3.19{3.23 D(calc.) = [3.24] Piezoelectr"
+    },
+    {
+      "name": "Norbergite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/norbergite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2=m 2=m 2=m: Crystals rare, to 2.5 cm, thick tabular, typic",
+      "hardnessEvidence": "Hardness = 6{6.5 D(meas.) = 3.177 D(calc.) = 3.186 May °uoresce c"
+    },
+    {
+      "name": "Okenite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/okenite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "0.5-5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: As bladed crystals or laths, typically ¯brous with [010] as",
+      "hardnessEvidence": "Hardness = .5{5 D(meas.) = 2.28{2.33 D(calc.) = 2.33 Optical Prop"
+    },
+    {
+      "name": "Olivenite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/olivenite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "3",
+      "evidence": "Crystal Data: Monoclinic, pseudo-orthorhombic. Point Group: 2/m. Crystals may be elongated along [01",
+      "hardnessEvidence": "Hardness = 3 D(meas.) = 4.46 D(calc.) = 4.45 Optical Properties: "
+    },
+    {
+      "name": "Orthoclase",
+      "url": "https://www.handbookofmineralogy.org/pdfs/orthoclase.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals commonly short prismatic along [100] or [001], ",
+      "hardnessEvidence": "Hardness = 6{6.5 D(meas.) = 2.55{2.63 D(calc.) = 2.563 Optical Pr"
+    },
+    {
+      "name": "Pargasite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/pargasite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "5-6",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: As stout prismatic crystals, to 3 cm; granular. Twinning",
+      "hardnessEvidence": "Hardness = 5{6 D(meas.) = 3.04{3.17 D(calc.) = 3.209 Optical Prop"
+    },
+    {
+      "name": "Pectolite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/pectolite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "4.5-5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Crystals may be tabular, but also commonly acicular, to 15 ",
+      "hardnessEvidence": "Hardness = 4.5{5 D(meas.) = 2.84{2.90 D(calc.) = [2.87] May be tr"
+    },
+    {
+      "name": "Periclase",
+      "url": "https://www.handbookofmineralogy.org/pdfs/periclase.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "5.5",
+      "evidence": "Crystal Data: Cubic. Point Group: 4/m 32 /m. As small octahedra, less commonly cubo-octahedra or dod",
+      "hardnessEvidence": "Hardness = 5.5 D(meas.) = 3.56–3.68 D(calc.) = 3.58 Slightly solu"
+    },
+    {
+      "name": "Petalite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/petalite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "6.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals tabular on f010g, or elongated k [100], to 2 m;",
+      "hardnessEvidence": "Hardness = 6.5 D(meas.) = 2.412{2.422 D(calc.) = [2.40] Thermolum"
+    },
+    {
+      "name": "Phenakite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/phenakite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "7.5-8",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 3: Crystals rhombohedral, tabular to prismatic, less commonly ",
+      "hardnessEvidence": "Hardness = 7.5{8 D(meas.) = 2.93{3.00 D(calc.) = 2.960 Bright blu"
+    },
+    {
+      "name": "Phlogopite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/phlogopite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "2-3",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals six-sided, thick tabular to prismatic, commonly",
+      "hardnessEvidence": "Hardness = 2{3 D(meas.) = 2.78{2.85 D(calc.) = 2.79 Optical Prope"
+    },
+    {
+      "name": "Phosgenite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/phosgenite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "2-3",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 4/m 2/m 2/m. Crystals are short prismatic to prismatic [001];",
+      "hardnessEvidence": "Hardness = 2–3, varying with direction. D(meas.) = 6.12–6.15 D(ca"
+    },
+    {
+      "name": "Prehnite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/prehnite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: mm2: Uncommon as crystals, tabular k f001g or prismatic to ",
+      "hardnessEvidence": "Hardness = 6{6.5 D(meas.) = 2.80{2.95. D(calc.) = [2.90] Optical "
+    },
+    {
+      "name": "Proustite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/proustite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "2-2.5",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 32 /m. Crystals prismatic, to 8 cm; commonly rhombohedral with",
+      "hardnessEvidence": "Hardness = 2–2.5 VHN = 70–105 (25 g load). D(meas.) = 5.57 D(calc"
+    },
+    {
+      "name": "Purpurite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/purpurite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "4-4.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Massive; cleavage fragments to 20 cm. Physical",
+      "hardnessEvidence": "Hardness = 4–4.5 D(meas.) = 3.2–3.4 D(calc.) = 3.69 Optical Prope"
+    },
+    {
+      "name": "Pyrite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/pyrite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Cubic. Point Group: 2/m 3. Typically cubic, pyritohedral, octahedral, and combinations",
+      "hardnessEvidence": "Hardness = 6–6.5 VHN = 1505–1520 (100 g load). D(meas.) = 5.018 D"
+    },
+    {
+      "name": "Pyrolusite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/pyrolusite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "6-6.5 (2 when massive)",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 4/m 2/m 2/m. Uncommon in crystals, prismatic ∥ [001], long to",
+      "hardnessEvidence": "Hardness = 6–6.5, to 2 when massive. D(meas.) = 5.06(2) D(calc.) "
+    },
+    {
+      "name": "Pyromorphite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/pyromorphite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 6/m. Crystals short to long prismatic, may be acicular [0001],",
+      "hardnessEvidence": "Hardness = 3.5–4 D(meas.) = 7.04 D(calc.) = 7.14 Piezoelectric if"
+    },
+    {
+      "name": "Pyrrhotite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/pyrrhotite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "3.5-4.5",
+      "evidence": "Crystal Data: Monoclinic, pseudohexagonal. Point Group: 2/m. Crystals typically tabular or platy on ",
+      "hardnessEvidence": "Hardness = 3.5–4.5 VHN = 373–409 (100 g load). D(meas.) = 4.58–4."
+    },
+    {
+      "name": "Realgar",
+      "url": "https://www.handbookofmineralogy.org/pdfs/realgar.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "1.5-2",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. Crystals prismatic, to 12 cm, and striated ∥ [001]; more",
+      "hardnessEvidence": "Hardness = 1.5–2 VHN = n.d. D(meas.) = 3.56 D(calc.) = 3.59 Disin"
+    },
+    {
+      "name": "Rhodochrosite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/rhodochrosite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 32 /m. Crystals are rhombohedra {1011} or scalenohedra {2131},",
+      "hardnessEvidence": "Hardness = 3.5–4 D(meas.) = 3.70 D(calc.) = 3.70 Optical Properti"
+    },
+    {
+      "name": "Rhodonite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/rhodonite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "5.5-6.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Crystals rough, with rounded edges, typically tabular and e",
+      "hardnessEvidence": "Hardness = 5.5{6.5 D(meas.) = 3.57{3.76 D(calc.) = 3.726 Optical "
+    },
+    {
+      "name": "Riebeckite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/riebeckite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "6",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: As prismatic crystals, to 20 cm. Commonly ¯brous, asbest",
+      "hardnessEvidence": "Hardness = 6 D(meas.) = 3.28{3.44 D(calc.) = 3.380 Optical Proper"
+    },
+    {
+      "name": "Rosasite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/rosasite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "4.5",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. Crystals are acicular, to 0.5 mm; in radial or divergent",
+      "hardnessEvidence": "Hardness = 4.5 D(meas.) = 4.0–4.2 D(calc.) = 4.15 Optical Propert"
+    },
+    {
+      "name": "Rutile",
+      "url": "https://www.handbookofmineralogy.org/pdfs/rutile.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "6-6.5",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 4/m 2/m 2/m. Crystals prismatic, elongated and striated ∥ [00",
+      "hardnessEvidence": "Hardness = 6–6.5 VHN = 894–974 (100 g load). D(meas.) = 4.23(2), "
+    },
+    {
+      "name": "Sanidine",
+      "url": "https://www.handbookofmineralogy.org/pdfs/sanidine.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "6",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals commonly tabular on f010g, with a square cross ",
+      "hardnessEvidence": "Hardness = 6 D(meas.) = 2.56{2.62 D(calc.) = [2.56] Optical Prope"
+    },
+    {
+      "name": "Scheelite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/scheelite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "4.5-5",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 4/m. Crystals are typically pseudo-octahedral {011} or {112},",
+      "hardnessEvidence": "Hardness = 4.5–5 D(meas.) = 6.10(2) D(calc.) = 6.09 Bright bluish"
+    },
+    {
+      "name": "Scolecite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/scolecite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "5-5.5",
+      "evidence": "Crystal Data: Monoclinic, pseudotetragonal. Point Group: m: Crystals are slender prismatic, may be s",
+      "hardnessEvidence": "Hardness = 5{5.5 D(meas.) = 2.25{2.29 D(calc.) = 2.275 Pyroelectr"
+    },
+    {
+      "name": "Scorodite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/scorodite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Crystals pyramidal {111}, tabular [001], or pr",
+      "hardnessEvidence": "Hardness = 3.5–4 D(meas.) = 3.27 D(calc.) = 3.276 Optical Propert"
+    },
+    {
+      "name": "Serandite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/serandite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "5-5.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1: Prismatic to acicular crystals, elongated along [010]; blad",
+      "hardnessEvidence": "Hardness = 5{5.5 D(meas.) = 3.34 D(calc.) = 3.42 Optical Properti"
+    },
+    {
+      "name": "Siderite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/siderite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "3.75-4.25",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 32 /m. Commonly crystallized, typically rhombohedral {1011} to",
+      "hardnessEvidence": "Hardness = 3.75–4.25 D(meas.) = 3.96(1) D(calc.) = 3.932 Optical "
+    },
+    {
+      "name": "Sillimanite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/sillimanite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "6.5-7.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2=m 2=m 2=m: Crystals prismatic, may be acicular, with squa",
+      "hardnessEvidence": "Hardness = 6.5{7.5 D(meas.) = 3.23{3.24 D(calc.) = [3.24] Optical"
+    },
+    {
+      "name": "Smithsonite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/smithsonite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "4-4.5",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 32 /m. Uncommon as crystals, to 10 cm, rhombohedral {1011} and",
+      "hardnessEvidence": "Hardness = 4–4.5 D(meas.) = 4.43(1) D(calc.) = 4.43 May ﬂuoresce "
+    },
+    {
+      "name": "Sodalite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/sodalite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "5.5-6",
+      "evidence": "Crystal Data: Cubic. Point Group: 43m: Crystals rare, typically dodecahedra, to 10 cm; as embedded g",
+      "hardnessEvidence": "Hardness = 5.5{6 D(meas.) = 2.27{2.33 D(calc.) = 2.31 Bright red-"
+    },
+    {
+      "name": "Spessartine",
+      "url": "https://www.handbookofmineralogy.org/pdfs/spessartine.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "7-7.5",
+      "evidence": "Crystal Data: Cubic. Point Group: 4=m 3 2=m: Commonly as euhedral crystals, dodecahedra or trapezohe",
+      "hardnessEvidence": "Hardness = 7{7.5 D(meas.) = 4.190 D(calc.) = 4.179 Optical Proper"
+    },
+    {
+      "name": "Sphalerite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/sphalerite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Cubic. Point Group: 43m. Crystals tetrahedral, dodecahedral, typically complex and dis",
+      "hardnessEvidence": "Hardness = 3.5–4 VHN = 208–224 (100 g load). D(meas.) = 3.9–4.1 D"
+    },
+    {
+      "name": "Spodumene",
+      "url": "https://www.handbookofmineralogy.org/pdfs/spodumene.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "6.5-7",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Crystals prismatic, typically °attened and striated k f ",
+      "hardnessEvidence": "Hardness = 6.5{7 D(meas.) = 3.03{3.23 D(calc.) = 3.184 Yellow, or"
+    },
+    {
+      "name": "Staurolite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/staurolite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "7-7.5",
+      "evidence": "Crystal Data: Monoclinic, pseudo-orthorhombic. Point Group: 2=m: Commonly in prismatic crystals exhi",
+      "hardnessEvidence": "Hardness = 7{7.5 D(meas.) = 3.74{3.83 D(calc.) = 3.686 Optical Pr"
+    },
+    {
+      "name": "Stibnite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/stibnite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "2",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Slender to stout, complexly terminated crystal",
+      "hardnessEvidence": "Hardness = 2 VHN = 71–86, {010} section (100 g load). D(meas.) = "
+    },
+    {
+      "name": "Strontianite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/strontianite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Crystals typically short to long prismatic, ma",
+      "hardnessEvidence": "Hardness = 3.5 D(meas.) = 3.76(2) D(calc.) = 3.780 May be thermol"
+    },
+    {
+      "name": "Sylvite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/sylvite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "2",
+      "evidence": "Crystal Data: Cubic. Point Group: 4/m 32 /m. As cubes, cubo-octahedra, and octahedra, to 15 cm; may ",
+      "hardnessEvidence": "Hardness = 2 D(meas.) = 1.993(5) D(calc.) = 1.987 Soluble in H 2O"
+    },
+    {
+      "name": "Tetrahedrite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/tetrahedrite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "3-4.5",
+      "evidence": "Crystal Data: Cubic. Point Group: 43m. Crystals are tetrahedral, to 15 cm; common as groups of paral",
+      "hardnessEvidence": "Hardness = 3–4.5 VHN = 312–351 (100 g load). D(meas.) = 4.97 D(ca"
+    },
+    {
+      "name": "Titanite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/titanite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "5-5.5",
+      "evidence": "Crystal Data: Monoclinic; may be metamict. Point Group: 2=m: Crystals wedge-shaped, °attened k f001g",
+      "hardnessEvidence": "Hardness = 5{5.5 D(meas.) = 3.48{3.60 D(calc.) = [3.53] Optical P"
+    },
+    {
+      "name": "Topaz",
+      "url": "https://www.handbookofmineralogy.org/pdfs/topaz.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "8",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2=m 2=m 2=m: Well-formed crystals common, typically morphol",
+      "hardnessEvidence": "Hardness = 8 D(meas.) = 3.49{3.57 D(calc.) = 3.55 Optical Propert"
+    },
+    {
+      "name": "Tremolite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/tremolite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "5-6",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2=m: Elongated, stout prismatic, or °attened bladed crystals,",
+      "hardnessEvidence": "Hardness = 5{6 D(meas.) = 2.99{3.03 D(calc.) = 2.964 Optical Prop"
+    },
+    {
+      "name": "Tridymite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/tridymite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "7",
+      "evidence": "Crystal Data: Orthorhombic, pseudohexagonal; triclinic below about 100 ±C. Point Group: 222 or lower",
+      "hardnessEvidence": "Hardness = 7 D(meas.) = 2.25{2.28 D(calc.) = [2.28] Optical Prope"
+    },
+    {
+      "name": "Ulexite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/ulexite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "triclinic",
+      "hardness": "2.5",
+      "evidence": "Crystal Data: Triclinic. Point Group: 1. Rare as measurable crystals, which may have many forms; typ",
+      "hardnessEvidence": "Hardness = 2.5 D(meas.) = 1.955 D(calc.) = 1.955 Slightly soluble"
+    },
+    {
+      "name": "Uvarovite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/uvarovite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "cubic",
+      "hardness": "6.5-7",
+      "evidence": "Crystal Data: Cubic. Point Group: 4=m 3 2=m: Commonly as euhedral crystals, dodecahedra or trapezohe",
+      "hardnessEvidence": "Hardness = 6.5{7 D(meas.) = 3.77{3.81 D(calc.) = 3.848 Optical Pr"
+    },
+    {
+      "name": "Vanadinite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/vanadinite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "2.5-3",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 6/m. Typically in well-developed hexagonal prismatic crystals,",
+      "hardnessEvidence": "Hardness = 2.5–3 D(meas.) = 6.88 D(calc.) = 6.95 Optical Properti"
+    },
+    {
+      "name": "Variscite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/variscite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "4.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Uncommon in crystals, then pseudo-octahedral {",
+      "hardnessEvidence": "Hardness = 4.5 D(meas.) = 2.57–2.61 D(calc.) = 2.59 Optical Prope"
+    },
+    {
+      "name": "Vesuvianite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/vesuvianite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "6-7",
+      "evidence": "Crystal Data: Tetragonal or monoclinic. Point Group: 4=m 2=m 2=m or 2=m: Commonly as short pyramidal",
+      "hardnessEvidence": "Hardness = 6{7 D(meas.) = 3.32{3.43 D(calc.) = 3.42 Optical Prope"
+    },
+    {
+      "name": "Vivianite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/vivianite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "1.5-2",
+      "evidence": "Crystal Data: Monoclinic. Point Group: 2/m. Prismatic crystals, to 1.3 m; ﬂattened on [100] or [010]",
+      "hardnessEvidence": "Hardness = 1.5–2 D(meas.) = 2.68(1) D(calc.) = 2.69 Optical Prope"
+    },
+    {
+      "name": "Wavellite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/wavellite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3.5-4",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Euhedral crystals uncommon, short to long pris",
+      "hardnessEvidence": "Hardness = 3.5–4 D(meas.) = 2.36 D(calc.) = 2.37 Optical Properti"
+    },
+    {
+      "name": "Willemite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/willemite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "hexagonal",
+      "hardness": "5.5",
+      "evidence": "Crystal Data: Hexagonal. Point Group: 3: Crystals prismatic, both stout and slender, terminated by r",
+      "hardnessEvidence": "Hardness = 5.5 D(meas.) = 3.89{4.19 D(calc.) = 4.224 Typically st"
+    },
+    {
+      "name": "Witherite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/witherite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "3-3.5",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2/m 2/m 2/m. Pseudohexagonal dipyramidal due to repeated tw",
+      "hardnessEvidence": "Hardness = 3–3.5 D(meas.) = 4.22–4.31 D(calc.) = 4.24–4.29 Fluore"
+    },
+    {
+      "name": "Wollastonite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/wollastonite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "monoclinic",
+      "hardness": "4.5-5",
+      "evidence": "Crystal Data: Monoclinic or triclinic. Point Group: 2=m or 1: Crystals tabular k f100g or f001g, or ",
+      "hardnessEvidence": "Hardness = 4.5{5. D(meas.) = 2.86{3.09 D(calc.) = 2.90 May exhibi"
+    },
+    {
+      "name": "Wulfenite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/wulfenite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "2.75-3",
+      "evidence": "Crystal Data: Tetragonal. Point Group: 4/m or 4. Crystals commonly square, ﬂat tabular on [001], sho",
+      "hardnessEvidence": "Hardness = 2.75–3 D(meas.) = 6.5–7.5 D(calc.) = 6.88–7.48 Individ"
+    },
+    {
+      "name": "Zircon",
+      "url": "https://www.handbookofmineralogy.org/pdfs/zircon.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "tetragonal",
+      "hardness": "7.5",
+      "evidence": "Crystal Data: Tetragonal; may be metamict. Point Group: 4=m 2=m 2=m: Most commonly as tabular to pri",
+      "hardnessEvidence": "Hardness = 7.5 D(meas.) = 4.6{4.7 D(calc.) = 4.714 Radioactive wh"
+    },
+    {
+      "name": "Zoisite",
+      "url": "https://www.handbookofmineralogy.org/pdfs/zoisite.pdf",
+      "sourceUrl": "https://handbookofmineralogy.org/pdf-search/",
+      "crystalSystem": "orthorhombic",
+      "hardness": "6-7",
+      "evidence": "Crystal Data: Orthorhombic. Point Group: 2=m 2=m 2=m: Crystals prismatic, to 10 cm, typically deeply",
+      "hardnessEvidence": "Hardness = 6{7 D(meas.) = 3.15{3.36 D(calc.) = 3.35 Optical Prope"
+    }
+  ]
+}

@@ -11,8 +11,10 @@ const opponents = [{ name: 'Example', category: 'company' }];
 const pack = cartridges[0];
 const response = data => ({ ok: true, json: async () => data });
 
-test('Tech and Rx ship as numbered packs and Tech retains its original record key and data', async () => {
-  assert.deepEqual(cartridges.map(({ id, number }) => [id, number]), [['tech', '01'], ['rx', '02']]);
+test('Five numbered packs ship and Tech retains its original record key and data', async () => {
+  assert.deepEqual(cartridges.map(({ id, number }) => [id, number]), [['tech', '01'], ['rx', '02'], ['flat', '03'], ['rock', '04'], ['garden', '05']]);
+  assert.equal(new Set(cartridges.map(entry => entry.bestKey)).size, cartridges.length);
+  assert.equal(cartridges[1].bestKey, 'pob-best-streak-rx');
   assert.equal(pack.label, 'Tech');
   assert.equal(pack.bestKey, 'pob-best-streak');
   const loader = createCartridgeLoader(async url => response(JSON.parse(await readFile(new URL(url), 'utf8'))));
@@ -21,6 +23,102 @@ test('Tech and Rx ship as numbered packs and Tech retains its original record ke
   assert.ok(data.opponents.length >= 1000);
   assert.ok(Object.keys(data.logos).length > 0);
   assert.match(await readFile(new URL(pack.art), 'utf8'), /<svg/);
+});
+
+for (const id of ['flat', 'rock', 'garden']) {
+  test(`${id} has sourced, unambiguous names and plays a full run with its own controls`, async () => {
+    const cartridge = cartridges.find(entry => entry.id === id);
+    const loader = createCartridgeLoader(async url => response(JSON.parse(await readFile(new URL(url), 'utf8'))));
+    const data = await loader(cartridge);
+    const provenance = JSON.parse(await readFile(new URL(`../data/${id}-provenance.json`, import.meta.url)));
+    const normalize = name => name.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase();
+    const names = new Set(data.pokemon.map(entry => normalize(entry.name)));
+    const evidence = new Map(provenance.records.map(entry => [entry.name, entry]));
+    assert.match(provenance.verifiedAt, /^\d{4}-\d{2}-\d{2}$/);
+    assert.ok(data.opponents.filter(entry => !entry.TooObvious).length >= 100);
+    assert.equal(evidence.size, data.opponents.length);
+    assert.deepEqual(data.logos, {});
+    for (const entry of data.opponents) {
+      assert.equal(entry.category, cartridge.category);
+      assert.equal(typeof entry.TooObvious, 'boolean');
+      assert.ok(!names.has(normalize(entry.name)), `Ambiguous name: ${entry.name}`);
+      names.add(normalize(entry.name));
+      assert.ok(entry.description.length > 15);
+      assert.equal(new URL(entry.url).protocol, 'https:');
+      const source = evidence.get(entry.name);
+      assert.ok(source, `Missing source: ${entry.name}`);
+      if (id === 'flat') {
+        assert.equal(normalize(source.originalName), normalize(entry.name));
+        assert.equal(new URL(entry.url).hostname, 'www.ikea.com');
+        assert.equal(entry.url, source.url);
+        assert.equal(entry.description, `IKEA ${source.type.toLowerCase()}. Original name: ${source.originalName}.`);
+      } else if (id === 'rock') {
+        assert.equal(new URL(entry.url).hostname, 'www.handbookofmineralogy.org');
+        assert.ok(entry.url.endsWith('.pdf'));
+        assert.equal(entry.url, source.url);
+        assert.ok(entry.description.includes(source.crystalSystem));
+        assert.ok(entry.description.includes(source.hardness));
+        assert.match(source.evidence, /^Crystal Data:/);
+        assert.match(source.hardnessEvidence, /^Hardness/);
+      } else {
+        assert.equal(source.matchType, 'EXACT');
+        assert.equal(source.status, 'ACCEPTED');
+        assert.equal(source.kingdom, 'Plantae');
+        assert.equal(source.rank, 'GENUS');
+        assert.equal(source.canonicalName, entry.name);
+        assert.equal(entry.url, `https://www.gbif.org/species/${source.usageKey}`);
+        assert.equal(entry.description, `A plant genus in the ${source.family} family.`);
+      }
+    }
+    assert.match(await readFile(new URL(cartridge.art), 'utf8'), /<svg/);
+    assert.match(await readFile(new URL(cartridge.revealArt), 'utf8'), /<svg/);
+    assert.equal(keyCategory('P', cartridge), 'pokemon');
+    assert.equal(keyCategory(cartridge.keys[0].toUpperCase(), cartridge), cartridge.category);
+    assert.equal(keyCategory('ArrowRight', cartridge), cartridge.category);
+    assert.equal(swipeCategory(120, 0, 320, cartridge.category), cartridge.category);
+    for (const other of cartridges.filter(entry => entry.id !== id)) {
+      assert.equal(keyCategory(other.keys[0], cartridge), null);
+    }
+    const deck = createDeck(data.pokemon, data.opponents, () => .9, cartridge.category);
+    const game = createGame({ deck, now: () => 0 });
+    const drawn = new Set();
+    for (let round = 0; round < 10; round++) {
+      const { entry } = game.startRound();
+      assert.equal(entry.category, cartridge.category);
+      assert.equal(entry.TooObvious, false);
+      assert.ok(!drawn.has(entry.name));
+      drawn.add(entry.name);
+      assert.equal(game.answer(keyCategory(cartridge.keys[0], cartridge)).result.correct, true);
+    }
+    assert.equal(game.startRound().phase, 'complete');
+    assert.equal(game.getState().correct, 10);
+    // Consume the whole bag: excluded records must never leak into later rounds.
+    for (let draw = 0; draw < data.opponents.length * 2; draw++) assert.equal(deck.next().TooObvious, false);
+  });
+}
+
+test('switching through all five packs shares Pokémon and retains independent catalogs', async () => {
+  const requests = [];
+  const loader = createCartridgeLoader(async url => {
+    requests.push(url);
+    return response(JSON.parse(await readFile(new URL(url), 'utf8')));
+  });
+  for (const cartridge of [...cartridges, ...cartridges.toReversed()]) {
+    const data = await loader(cartridge);
+    assert.ok(data.opponents.every(entry => entry.category === cartridge.category));
+  }
+  assert.equal(requests.filter(url => url === pokemonUrl).length, 1);
+  for (const cartridge of cartridges) assert.equal(requests.filter(url => url === cartridge.dataUrl).length, 1);
+});
+
+test('mineral reveals retain PDF hardness ranges and material qualifications', async () => {
+  const rock = JSON.parse(await readFile(new URL('../data/rock.json', import.meta.url)));
+  const byName = new Map(rock.map(entry => [entry.name, entry]));
+  assert.match(byName.get('Albite').description, /6-6\.5/);
+  assert.match(byName.get('Akermanite').description, /5-6/);
+  assert.match(byName.get('Kyanite').description, /5\.5-7 \(direction-dependent\)/);
+  assert.match(byName.get('Pyrolusite').description, /6-6\.5 \(2 when massive\)/);
+  assert.match(byName.get('Andalusite').description, /^An orthorhombic/);
 });
 
 test('Rx loads verified prescription brands, independent controls and a separate personal best', async () => {

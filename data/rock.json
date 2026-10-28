@@ -1,0 +1,1059 @@
+[
+  {
+    "name": "Aegirine",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/aegirine.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Akermanite",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/akermanite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Albite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/albite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Almandine",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 7-7.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/almandine.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Alunite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/alunite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Anatase",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 5.5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/anatase.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Andalusite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 6.5-7.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/andalusite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Andradite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 6.5-7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/andradite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Anglesite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 2.5-3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/anglesite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Anhydrite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3-3.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/anhydrite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Anorthite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/anorthite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Aragonite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/aragonite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Arsenopyrite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 5.5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/arsenopyrite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Augite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 5.5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/augite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Aurichalcite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 1-2.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/aurichalcite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Azurite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/azurite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Benitoite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/benitoite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Beryl",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 7.5-8.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/beryl.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Bixbyite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/bixbyite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Bornite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3-3.25.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/bornite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Brucite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 2.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/brucite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Bustamite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 5.5-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/bustamite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Bytownite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/bytownite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Calomel",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 1.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/calomel.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Cancrinite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/cancrinite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Carminite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/carminite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Cassiterite",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 6-7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/cassiterite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Celestine",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3-3.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/celestine.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Cerussite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3-3.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/cerussite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Chalcanthite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 2.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/chalcanthite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Chalcocite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 2.5-3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/chalcocite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Chalcopyrite",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/chalcopyrite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Chondrodite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/chondrodite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Chrysoberyl",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 8.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/chrysoberyl.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Cinnabar",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 2-2.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/cinnabar.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Clinochlore",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 2-2.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/clinochlore.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Colemanite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 4.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/colemanite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Cordierite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 7-7.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/cordierite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Corundum",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 9.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/corundum.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Covellite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 1.5-2.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/covellite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Creedite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/creedite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Crocoite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 2.5-3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/crocoite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Cryolite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 2.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/cryolite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Cuprite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/cuprite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Danburite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 7-7.25.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/danburite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Datolite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 5-5.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/datolite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Diopside",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 5.5-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/diopside.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Dolomite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/dolomite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Dumortierite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 7-8.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/dumortierite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Enargite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/enargite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Enstatite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/enstatite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Epidote",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 6-7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/epidote.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Euclase",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 7.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/euclase.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Eudialyte",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/eudialyte.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Fayalite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 6.5-7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/fayalite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Felsobanyaite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 1.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/felsobanyaite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Fluorapatite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/fluorapatite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Fluorite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/fluorite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Forsterite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/forsterite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Galena",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 2.5-2.75.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/galena.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Gaylussite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 2.5-3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/gaylussite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Gibbsite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 2.5-3.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/gibbsite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Glaucophane",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/glaucophane.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Goethite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 5-5.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/goethite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Grossular",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 6.5-7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/grossular.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Gypsum",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 1.5-2.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/gypsum.pdf",
+    "TooObvious": true
+  },
+  {
+    "name": "Halite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 2-2.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/halite.pdf",
+    "TooObvious": true
+  },
+  {
+    "name": "Hausmannite",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 5.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/hausmannite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Hematite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/hematite.pdf",
+    "TooObvious": true
+  },
+  {
+    "name": "Hemimorphite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 4.5-5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/hemimorphite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Heulandite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/heulandite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Howlite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 3.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/howlite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Ilmenite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/ilmenite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Jadeite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 6-7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/jadeite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Jeremejevite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 6.5-7.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/jeremejevite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Kaolinite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 2-2.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/kaolinite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Kermesite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 1-1.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/kermesite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Kyanite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 5.5-7 (direction-dependent).",
+    "url": "https://www.handbookofmineralogy.org/pdfs/kyanite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Labradorite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/labradorite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Langite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 2.5-3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/langite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Lazulite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 5.5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/lazulite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Leucite",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 5.5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/leucite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Libethenite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/libethenite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Linarite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 2.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/linarite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Lithiophilite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 4-5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/lithiophilite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Malachite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/malachite.pdf",
+    "TooObvious": true
+  },
+  {
+    "name": "Marcasite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/marcasite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Microcline",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/microcline.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Mimetite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/mimetite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Molybdenite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 1-1.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/molybdenite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Natrolite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 5-5.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/natrolite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Nepheline",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 5.5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/nepheline.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Neptunite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/neptunite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Norbergite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/norbergite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Okenite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 0.5-5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/okenite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Olivenite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/olivenite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Orthoclase",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/orthoclase.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Pargasite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/pargasite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Pectolite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 4.5-5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/pectolite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Periclase",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 5.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/periclase.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Petalite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/petalite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Phenakite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 7.5-8.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/phenakite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Phlogopite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 2-3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/phlogopite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Phosgenite",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 2-3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/phosgenite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Prehnite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/prehnite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Proustite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 2-2.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/proustite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Purpurite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 4-4.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/purpurite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Pyrite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/pyrite.pdf",
+    "TooObvious": true
+  },
+  {
+    "name": "Pyrolusite",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 6-6.5 (2 when massive).",
+    "url": "https://www.handbookofmineralogy.org/pdfs/pyrolusite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Pyromorphite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/pyromorphite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Pyrrhotite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 3.5-4.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/pyrrhotite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Realgar",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 1.5-2.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/realgar.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Rhodochrosite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/rhodochrosite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Rhodonite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 5.5-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/rhodonite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Riebeckite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/riebeckite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Rosasite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 4.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/rosasite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Rutile",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 6-6.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/rutile.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Sanidine",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/sanidine.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Scheelite",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 4.5-5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/scheelite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Scolecite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 5-5.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/scolecite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Scorodite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/scorodite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Serandite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 5-5.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/serandite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Siderite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 3.75-4.25.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/siderite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Sillimanite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 6.5-7.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/sillimanite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Smithsonite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 4-4.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/smithsonite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Sodalite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 5.5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/sodalite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Spessartine",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 7-7.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/spessartine.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Sphalerite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/sphalerite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Spodumene",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 6.5-7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/spodumene.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Staurolite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 7-7.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/staurolite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Stibnite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 2.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/stibnite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Strontianite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/strontianite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Sylvite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 2.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/sylvite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Tetrahedrite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 3-4.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/tetrahedrite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Titanite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 5-5.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/titanite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Topaz",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 8.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/topaz.pdf",
+    "TooObvious": true
+  },
+  {
+    "name": "Tremolite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 5-6.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/tremolite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Tridymite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/tridymite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Ulexite",
+    "category": "mineral",
+    "description": "A triclinic mineral. Mohs hardness: 2.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/ulexite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Uvarovite",
+    "category": "mineral",
+    "description": "A cubic mineral. Mohs hardness: 6.5-7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/uvarovite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Vanadinite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 2.5-3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/vanadinite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Variscite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 4.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/variscite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Vesuvianite",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 6-7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/vesuvianite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Vivianite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 1.5-2.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/vivianite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Wavellite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3.5-4.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/wavellite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Willemite",
+    "category": "mineral",
+    "description": "A hexagonal mineral. Mohs hardness: 5.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/willemite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Witherite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 3-3.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/witherite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Wollastonite",
+    "category": "mineral",
+    "description": "A monoclinic mineral. Mohs hardness: 4.5-5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/wollastonite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Wulfenite",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 2.75-3.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/wulfenite.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Zircon",
+    "category": "mineral",
+    "description": "A tetragonal mineral. Mohs hardness: 7.5.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/zircon.pdf",
+    "TooObvious": false
+  },
+  {
+    "name": "Zoisite",
+    "category": "mineral",
+    "description": "An orthorhombic mineral. Mohs hardness: 6-7.",
+    "url": "https://www.handbookofmineralogy.org/pdfs/zoisite.pdf",
+    "TooObvious": false
+  }
+]

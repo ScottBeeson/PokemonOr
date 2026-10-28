@@ -142,6 +142,15 @@ button:focus-visible,a:focus-visible { outline:3px solid #597ea8; outline-offset
 .title-art img { width:100%; height:100%; image-rendering:pixelated; }
 .activity-light { position:absolute; width:10px; height:5px; left:100px; top:75px; background:var(--ink); animation:terminal-light 3.2s steps(1,end) infinite; }
 .title-screen[data-animation='sparkle'] .activity-light { width:25px; height:25px; left:111px; top:5px; background:var(--lcd); animation:terminal-light 3.2s steps(1,end) infinite; }
+.title-screen[data-animation='assemble'] .activity-light,
+.title-screen[data-animation='glint'] .activity-light,
+.title-screen[data-animation='grow'] .activity-light { display:none; }
+.title-screen[data-animation='assemble'] .title-art img { animation:pack-assemble 4s steps(2,end) infinite; }
+.title-screen[data-animation='glint'] .title-art img { animation:pack-glint 4s steps(2,end) infinite; }
+.title-screen[data-animation='grow'] .title-art img { transform-origin:50% 90%; animation:pack-grow 4s steps(3,end) infinite; }
+@keyframes pack-assemble { 0%,80%,100% { transform:translateY(0); } 90% { transform:translateY(-3px); } }
+@keyframes pack-glint { 0%,80%,100% { opacity:1; } 90% { opacity:.65; } }
+@keyframes pack-grow { 0%,100% { transform:rotate(-2deg); } 50% { transform:rotate(2deg); } }
 .pack-rules { margin:3px 0 0; font-size:12px; letter-spacing:1px; }
 .title-screen #best-label { font-size:12px; margin:6px 0 0; }
 .title-start { font-size:20px; letter-spacing:1.5px; margin-top:8px; }

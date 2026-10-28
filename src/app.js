@@ -2,8 +2,8 @@ import { createDeck, createGame } from './engine.js?v=3.3.0';
 import { createLcdArtwork } from './lcd-art.js?v=3.2.0';
 import { swipeCategory } from './gestures.js?v=3.3.0';
 import { installGameKeyboard } from './keyboard.js?v=3.3.0';
-import { cartridges } from './cartridges.js?v=3.4.0';
-import { createCartridgeLoader } from './cartridge-loader.js?v=3.4.0';
+import { cartridges } from './cartridges.js?v=3.5.0';
+import { createCartridgeLoader } from './cartridge-loader.js?v=3.5.0';
 
 const $ = (id) => document.getElementById(id);
 let cartridge = cartridges[0];
