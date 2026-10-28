@@ -9,7 +9,8 @@ function shuffle(items, random) {
 }
 
 /**
- * Select each category with equal probability, irrespective of dataset size.
+ * Shuffle five of each category into every consecutive ten-question batch,
+ * irrespective of dataset size.
  * Within each category, exhaust a shuffled bag before showing a name again.
  */
 export function createDeck(pokemon, companies, random = Math.random) {
@@ -51,23 +52,32 @@ export function createDeck(pokemon, companies, random = Math.random) {
   };
   const nextPokemon = makeBag(pokemon, 'pokemon');
   const nextCompany = makeBag(companies, 'company');
+  let categories = [];
   return {
     next() {
-      return sample() < 0.5 ? nextPokemon() : nextCompany();
+      if (categories.length === 0) {
+        categories = shuffle([
+          ...Array(5).fill('pokemon'),
+          ...Array(5).fill('company'),
+        ], sample);
+      }
+      return categories.shift() === 'pokemon' ? nextPokemon() : nextCompany();
     },
   };
 }
 
 /** A clock-driven state machine. The UI chooses when to begin the next round. */
-export function createGame({ deck, durationMs = 5000, now = () => performance.now() }) {
+export function createGame({ deck, durationMs = 5000, totalRounds = 10, now = () => performance.now() }) {
   if (!deck || typeof deck.next !== 'function') throw new TypeError('A deck with next() is required.');
   if (!Number.isFinite(durationMs) || durationMs <= 0) throw new RangeError('durationMs must be positive.');
+  if (!Number.isSafeInteger(totalRounds) || totalRounds <= 0) throw new RangeError('totalRounds must be a positive integer.');
   if (typeof now !== 'function') throw new TypeError('now must be a function.');
 
   const state = {
     phase: 'idle',
     entry: null,
     round: 0,
+    totalRounds,
     correct: 0,
     answered: 0,
     streak: 0,
@@ -103,7 +113,11 @@ export function createGame({ deck, durationMs = 5000, now = () => performance.no
   return {
     getState,
     startRound() {
-      if (state.phase === 'playing') return getState();
+      if (state.phase === 'playing' || state.phase === 'complete') return getState();
+      if (state.answered === totalRounds) {
+        state.phase = 'complete';
+        return getState();
+      }
       const entry = deck.next();
       if (!entry || !['pokemon', 'company'].includes(entry.category)) {
         throw new TypeError('The deck returned an invalid category.');
@@ -117,6 +131,7 @@ export function createGame({ deck, durationMs = 5000, now = () => performance.no
       return getState();
     },
     answer(categoryOrNull) {
+      if (state.phase === 'complete') return getState();
       if (categoryOrNull !== null && !['pokemon', 'company'].includes(categoryOrNull)) {
         throw new TypeError('Answer must be pokemon, company, or null.');
       }

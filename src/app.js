@@ -1,6 +1,6 @@
-import { createDeck, createGame } from './engine.js';
+import { createDeck, createGame } from './engine.js?v=2.1.0';
 import { swipeCategory } from './gestures.js';
-import { installGameKeyboard } from './keyboard.js';
+import { installGameKeyboard } from './keyboard.js?v=2.1.0';
 
 const $ = (id) => document.getElementById(id);
 const choiceButtons = { pokemon: $('pokemon-button'), company: $('company-button') };
@@ -36,8 +36,12 @@ function render(state) {
   clearResultEffects();
   const playing = state.phase === 'playing';
   const answered = state.phase === 'answered';
+  const complete = state.phase === 'complete';
   card.classList.toggle('is-playing', playing);
   card.classList.toggle('is-answered', answered);
+  card.classList.toggle('is-complete', complete);
+  card.setAttribute('aria-label', complete ? 'Final score screen' : 'Name screen. Swipe left for Pokémon or right for Big Data.');
+  $('score-screen').hidden = !complete;
   card.dataset.category = answered ? state.entry.category : '';
   card.dataset.result = answered ? (state.result.correct ? 'correct' : 'wrong') : '';
   $('score').textContent = state.correct;
@@ -45,7 +49,7 @@ function render(state) {
   $('accuracy').textContent = state.answered ? Math.round(state.correct / state.answered * 100) : '—';
   $('accuracy-unit').textContent = state.answered ? '%' : '';
   $('streak').textContent = state.streak;
-  $('round-label').textContent = state.round ? `ROUND ${String(state.round).padStart(2, '0')}` : 'YOUR NEXT FIVE-SECOND OBSESSION';
+  $('round-label').textContent = state.round ? `QUESTION ${String(state.round).padStart(2, '0')} / ${state.totalRounds}` : '10 QUESTIONS · 5 OF EACH';
   $('question-label').textContent = state.entry ? (answered ? 'THE ANSWER IS IN.' : 'POKÉMON OR BIG DATA?') : 'ONE NAME. TWO POSSIBILITIES.';
   $('name').textContent = state.entry?.name ?? 'Meet your next guess.';
   $('question-hint').textContent = answered
@@ -59,9 +63,9 @@ function render(state) {
   }
   $('next-button').hidden = playing;
   $('next-button').disabled = false;
-  $('next-button').textContent = answered ? 'Next name →' : 'Let’s play →';
-  $('action-hint').textContent = playing ? 'Make your call before the clock runs out.' : answered ? 'Ready for another?' : 'Five seconds per name. As many rounds as you like.';
-  $('reset-button').hidden = !state.round || playing;
+  $('next-button').textContent = complete ? 'Play again' : answered ? (state.answered === state.totalRounds ? 'See score' : 'Next name →') : 'Let’s play →';
+  $('action-hint').textContent = complete ? 'Press Space or Replay for a fresh set of 10.' : playing ? 'Make your call before the clock runs out.' : answered ? (state.answered === state.totalRounds ? 'All 10 answered. Press Space to see your score.' : 'Ready for another?') : '10 questions. Five seconds per name.';
+  $('reset-button').hidden = !state.round || playing || complete;
   $('feedback').hidden = !answered;
   if (answered) {
     const feedback = $('feedback');
@@ -84,6 +88,12 @@ function render(state) {
   }
   updateBest();
   updateClock(state);
+  if (complete) {
+    $('final-score').textContent = state.correct;
+    $('final-accuracy').textContent = `${Math.round(state.correct / state.totalRounds * 100)}%`;
+    $('final-streak').textContent = state.bestStreak;
+    $('final-rank').textContent = state.correct === state.totalRounds ? 'PERFECT INSTINCT.' : state.correct >= 8 ? 'SHARP INSTINCTS!' : state.correct >= 6 ? 'GOOD RUN!' : state.correct >= 4 ? 'KEEP THEM GUESSING.' : 'READY FOR A REMATCH?';
+  }
   if (answered) playResultEffects(state.result.correct);
 }
 
@@ -146,7 +156,7 @@ document.addEventListener('focusin', blurControl);
 
 function animate() {
   const state = game.tick();
-  if (state.phase === 'answered') {
+  if (state.phase !== 'playing') {
     render(state);
     blurControl();
     return;
@@ -158,11 +168,13 @@ function animate() {
 function nextRound() {
   if (!game || game.getState().phase === 'playing') return;
   cancelAnimationFrame(frame);
-  render(game.startRound());
+  if (game.getState().phase === 'complete') reset();
+  const state = game.startRound();
+  render(state);
   // Keep the name and timer visible if the player scrolled down to Next name.
   card.scrollIntoView({ block: 'nearest', behavior: 'instant' });
   blurControl();
-  frame = requestAnimationFrame(animate);
+  if (state.phase === 'playing') frame = requestAnimationFrame(animate);
 }
 
 function answer(category) {
@@ -277,10 +289,11 @@ function openDialog(title, html) {
 $('close-dialog').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', (event) => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close(); } });
 $('how-button').addEventListener('click', () => openDialog('A name. A hunch. Five seconds.', `
-  <ol><li><strong>Start a round.</strong> We’ll show you a real name.</li><li><strong>Make your call.</strong> Swipe left for Pokémon or right for Big Data before the five-second timer runs out. You can also tap a choice, press <kbd>←</kbd> / <kbd>→</kbd>, or use the original <kbd>P</kbd> / <kbd>B</kbd> keys.</li><li><strong>See the reveal.</strong> Discover the Pokémon artwork or company logo. Correct answers earn one point. Wrong answers and timeouts count toward your total and reset your streak.</li><li><strong>Keep going.</strong> Select “Next name” or press Space when you’re ready. There’s no round limit.</li></ol>
-  <p>Each category has a 50/50 chance. Names within a category won’t repeat until you’ve seen that whole category. The timer continues when you switch tabs or open this help.</p><p>Your accuracy is correct answers divided by all completed rounds. Your best streak is saved on this device when browser storage is available.</p>`));
+  <ol><li><strong>Start a game.</strong> You’ll get 10 names: exactly five Pokémon and five companies, in shuffled order.</li><li><strong>Make your call.</strong> Swipe left for Pokémon or right for Big Data before the five-second timer runs out. You can also tap a choice, press <kbd>←</kbd> / <kbd>→</kbd>, or use the original <kbd>P</kbd> / <kbd>B</kbd> keys.</li><li><strong>See the reveal.</strong> Discover the Pokémon artwork or company logo. Correct answers earn one point. Wrong answers and timeouts count toward your total and reset your streak.</li><li><strong>Finish your run.</strong> After the tenth reveal, press Space or Score to see your final result. Press Replay for a fresh game.</li></ol>
+  <p>Each game has an equal number of both categories, regardless of the collection sizes. Choosing the same category every time can score at most 5/10. Names don’t repeat within a game. The timer continues when you switch tabs or open this help.</p><p>Your accuracy is correct answers divided by all completed questions. Your best streak is saved on this device when browser storage is available.</p>`));
 $('about-button').addEventListener('click', () => openDialog('Big names. Tiny explanation.', `
   <p><strong>Pokemon or BigData</strong> is a small guessing game about the wonderfully similar names of creatures and companies.</p>
+  <p>Inspired by <a href="https://pixelastic.github.io/pokemonorbigdata/" target="_blank" rel="noopener noreferrer">Pokémon or Big Data by Pixelastic</a>. Credit to Pixelastic for the original web game.</p>
   <p><strong>The collection:</strong> ${pokemon.length.toLocaleString()} Pokémon species, sourced from the <a href="https://github.com/PokeAPI/pokeapi" target="_blank" rel="noopener noreferrer">PokéAPI project</a>, plus ${companies.length.toLocaleString()} curated companies in databases, analytics, data engineering, infrastructure, and AI data platforms. “Big Data” is used broadly; some companies have been acquired or use historical names. We use company names, not standalone products.</p>
   <p>Every answer has a source link. The complete datasets and company sourcing notes are in the <a href="https://github.com/ScottBeeson/PokemonOrBigData/tree/main/data" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Data is bundled with the game, so rounds don’t depend on a live API.</p>
   <p>This is an unofficial fan project. Pokémon and Pokémon character names are trademarks of Nintendo, Creatures Inc., and GAME FREAK inc. Company names belong to their respective owners. No affiliation or endorsement is implied.</p>

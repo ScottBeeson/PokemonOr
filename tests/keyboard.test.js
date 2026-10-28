@@ -54,3 +54,12 @@ test('search input and dialogs do not trigger game shortcuts', () => {
   press('keydown', { key: 'b' });
   assert.deepEqual(state.answers, ['pokemon', 'company']);
 });
+
+test('Space can replay from the final score without accepting choice keys', () => {
+  const { state, press } = setup();
+  state.phase = 'complete';
+  press('keydown', { key: 'ArrowLeft' });
+  assert.deepEqual(state.answers, []);
+  assert.equal(press('keydown', { key: ' ', code: 'Space' }), true);
+  assert.equal(state.next, 1);
+});

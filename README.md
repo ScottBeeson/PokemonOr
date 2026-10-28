@@ -4,17 +4,19 @@ A real Pokémon, or a real data company? Five seconds to trust your instinct.
 
 **[Play the game](https://scottbeeson.github.io/PokemonOrBigData/)**
 
+Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/pokemonorbigdata/)**. Credit to Pixelastic for the original web game.
+
 ## The game
 
 - Five seconds per name, with a countdown and shrinking timer bar.
 - Running correct/total score, accuracy percentage, current streak, and a personal best streak saved on your device.
 - 1,025 Pokémon species and 230 current or historical data companies.
-- Equal odds of each category; names are shuffled without replacement within their category.
+- Exactly ten questions per game: five Pokémon and five companies in shuffled order, with no repeated names. Always choosing one category scores at most 5/10, regardless of dataset sizes.
 - A classic handheld shell with a green LCD, physical-style left / continue / right buttons, and a screen you can swipe. The entire device scales to fit desktop and mobile viewports.
 - Pokémon artwork and company brand icons appear after each answer in the monochrome screen, with descriptions, source links, and a searchable collection.
 - Swipe **left** for Pokémon or **right** for Big Data. You can also tap the buttons, use the **left/right arrow keys**, or keep using **P/B**. Press **Space** to continue without focusing a button. Tab navigation is disabled; click the search field to type in it.
 - Short drags snap back; vertical gestures scroll normally. The five-second deadline still applies when you release a swipe.
-- Unlimited rounds. Each round starts when you choose; wrong answers and timeouts count as incorrect. Switching tabs does not pause the clock.
+- Each question starts when you choose; wrong answers and timeouts count as incorrect. Switching tabs does not pause the clock. After the tenth reveal, choose **Score** (or press Space) to see your result, accuracy, and best streak. **Replay** starts a fresh ten-question game.
 - Distinct result messages and borders, green/red choice indicators, a subtle particle burst for correct answers, and a brief shake for wrong answers. Reduced-motion preferences disable both effects. Screen-reader answer announcements remain available.
 
 “Big Data” covers databases, analytics, data engineering, governance, infrastructure, and AI data platforms. Historical company names are included; standalone open-source projects and product names are excluded. See [company sourcing notes](data/companies-sources.md).

@@ -1,11 +1,13 @@
 // Handheld presentation: viewport fit and physical button labels.
-import './app.js?v=2.0.0';
+import './app.js?v=2.1.0';
 
 // Keep the physical center button's accessible name in sync with its short label.
 const nextButton = document.getElementById('next-button');
 function labelContinue() {
-  const label = nextButton.hidden ? 'Round in progress' : nextButton.textContent.startsWith('Next') ? 'Next name' : 'Start game';
+  const action = nextButton.textContent.startsWith('Next') ? 'next' : nextButton.textContent === 'See score' ? 'score' : nextButton.textContent === 'Play again' ? 'replay' : 'start';
+  const label = nextButton.hidden ? 'Round in progress' : { next: 'Next name', score: 'See score', replay: 'Play again', start: 'Start game' }[action];
   nextButton.setAttribute('aria-label', label);
+  nextButton.dataset.action = action;
 }
 new MutationObserver(labelContinue).observe(nextButton, { childList: true, attributes: true, attributeFilter: ['hidden'] });
 labelContinue();

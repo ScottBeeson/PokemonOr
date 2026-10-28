@@ -12,10 +12,19 @@ function setup() {
   return { game, advance: (ms) => { time += ms; } };
 }
 
+function seededRandom(seed) {
+  let value = seed >>> 0;
+  return () => {
+    value = (Math.imul(value, 1664525) + 1013904223) >>> 0;
+    return value / 4294967296;
+  };
+}
+
 test('idle game starts a five-second round and ignores repeated starts', () => {
   const { game } = setup();
   assert.equal(game.getState().phase, 'idle');
   assert.equal(game.getState().deadline, null);
+  assert.equal(game.getState().totalRounds, 10);
   const state = game.startRound();
   assert.equal(state.deadline, 5100);
   assert.equal(state.remainingMs, 5000);
@@ -106,27 +115,117 @@ test('snapshots cannot mutate the internal score, entry, or result', () => {
   assert.equal(game.getState().result.correct, true);
 });
 
-test('category selection has a 50/50 boundary independent of dataset sizes', () => {
-  let roll = 0.499999;
-  const deck = createDeck(pokemon, companies, () => roll);
-  assert.equal(deck.next().category, 'pokemon');
-  roll = 0.5;
-  assert.equal(deck.next().category, 'company');
+test('every batch of ten is exactly balanced even with very different dataset sizes', () => {
+  const manyPokemon = Array.from({ length: 1025 }, (_, i) => ({ name: `Pokémon ${i}`, category: 'pokemon' }));
+  const fewerCompanies = Array.from({ length: 200 }, (_, i) => ({ name: `Company ${i}`, category: 'company' }));
+  const deck = createDeck(manyPokemon, fewerCompanies, seededRandom(123));
+  for (let batch = 0; batch < 100; batch += 1) {
+    const entries = Array.from({ length: 10 }, () => deck.next());
+    assert.equal(entries.filter((entry) => entry.category === 'pokemon').length, 5);
+    assert.equal(entries.filter((entry) => entry.category === 'company').length, 5);
+  }
+});
+
+test('category order varies across seeded runs and allows consecutive same-category questions', () => {
+  const orders = new Set();
+  let hasAdjacentMatch = false;
+  for (let seed = 1; seed <= 20; seed += 1) {
+    const deck = createDeck(pokemon, companies, seededRandom(seed));
+    const order = Array.from({ length: 10 }, () => deck.next().category);
+    orders.add(order.join(','));
+    if (order.some((category, i) => i > 0 && category === order[i - 1])) hasAdjacentMatch = true;
+  }
+  assert.ok(orders.size > 1);
+  assert.ok(hasAdjacentMatch);
 });
 
 test('each category exhausts all names before repeating and avoids adjacent cycle repeats', () => {
   const deck = createDeck(pokemon, companies, () => 0);
-  const first = Array.from({ length: pokemon.length }, () => deck.next().name);
-  const second = Array.from({ length: pokemon.length }, () => deck.next().name);
-  assert.equal(new Set(first).size, pokemon.length);
-  assert.equal(new Set(second).size, pokemon.length);
-  assert.notEqual(first.at(-1), second[0]);
+  const entries = Array.from({ length: 60 }, () => deck.next());
+  for (const dataset of [pokemon, companies]) {
+    const names = entries.filter((entry) => entry.category === dataset[0].category).map((entry) => entry.name);
+    for (let i = 0; i + dataset.length <= names.length; i += dataset.length) {
+      assert.equal(new Set(names.slice(i, i + dataset.length)).size, dataset.length);
+      if (i > 0) assert.notEqual(names[i - 1], names[i]);
+    }
+  }
 });
 
 test('single-item bags remain playable', () => {
   const deck = createDeck([pokemon[0]], [companies[0]], () => 0);
-  assert.equal(deck.next().name, 'Pikachu');
-  assert.equal(deck.next().name, 'Pikachu');
+  const entries = Array.from({ length: 20 }, () => deck.next());
+  assert.equal(entries.filter((entry) => entry.name === 'Pikachu').length, 10);
+  assert.equal(entries.filter((entry) => entry.name === 'Databricks').length, 10);
+});
+
+test('always choosing Pokémon scores exactly five out of ten', () => {
+  const game = createGame({ deck: createDeck(pokemon, companies, seededRandom(42)), now: () => 0 });
+  for (let round = 1; round <= 10; round += 1) {
+    assert.equal(game.startRound().round, round);
+    game.answer('pokemon');
+  }
+  const result = game.startRound();
+  assert.equal(result.phase, 'complete');
+  assert.equal(result.correct, 5);
+  assert.equal(result.answered, 10);
+});
+
+test('a perfect game preserves the tenth reveal, then completes with ten points', () => {
+  const game = createGame({ deck: createDeck(pokemon, companies, seededRandom(42)), now: () => 0 });
+  let reveal;
+  for (let round = 1; round <= 10; round += 1) {
+    const state = game.startRound();
+    reveal = game.answer(state.entry.category);
+    assert.equal(reveal.phase, 'answered');
+  }
+  assert.equal(reveal.correct, 10);
+  assert.equal(reveal.answered, 10);
+  assert.equal(reveal.streak, 10);
+  assert.equal(reveal.result.correct, true);
+  const complete = game.startRound();
+  assert.equal(complete.phase, 'complete');
+  assert.deepEqual(complete.entry, reveal.entry);
+  assert.deepEqual(complete.result, reveal.result);
+  assert.deepEqual(game.startRound(), complete);
+  assert.deepEqual(game.answer('company'), complete);
+  assert.deepEqual(game.tick(), complete);
+});
+
+test('a tenth-question timeout completes without drawing an eleventh question', () => {
+  let draws = 0;
+  let time = 0;
+  const game = createGame({
+    deck: { next: () => { draws += 1; return pokemon[0]; } },
+    now: () => time,
+  });
+  for (let round = 1; round <= 9; round += 1) {
+    game.startRound();
+    game.answer('pokemon');
+  }
+  game.startRound();
+  time = 5000;
+  const reveal = game.tick();
+  assert.equal(reveal.phase, 'answered');
+  assert.equal(reveal.result.timedOut, true);
+  assert.equal(reveal.correct, 9);
+  assert.equal(reveal.answered, 10);
+  const complete = game.startRound();
+  assert.equal(complete.phase, 'complete');
+  assert.equal(complete.round, 10);
+  assert.equal(draws, 10);
+  time += 5000;
+  assert.deepEqual(game.tick(), complete);
+  assert.deepEqual(game.startRound(), complete);
+  assert.deepEqual(game.answer(null), complete);
+  assert.equal(draws, 10);
+});
+
+test('a custom positive integer totalRounds limits the number of questions', () => {
+  const game = createGame({ deck: { next: () => pokemon[0] }, totalRounds: 1, now: () => 0 });
+  assert.equal(game.getState().totalRounds, 1);
+  game.startRound();
+  assert.equal(game.answer('pokemon').phase, 'answered');
+  assert.equal(game.startRound().phase, 'complete');
 });
 
 test('invalid categories, duplicate names, clocks, and random samples are rejected', () => {
@@ -136,5 +235,8 @@ test('invalid categories, duplicate names, clocks, and random samples are reject
   assert.throws(() => createDeck(pokemon, companies, () => 1).next(), /random/);
   assert.throws(() => createGame({ deck: {}, durationMs: 5000 }), /deck/);
   assert.throws(() => createGame({ deck: { next() {} }, durationMs: 0 }), /positive/);
+  for (const totalRounds of [0, -1, 1.5, NaN, Infinity, '10']) {
+    assert.throws(() => createGame({ deck: { next() {} }, totalRounds }), /positive integer/);
+  }
   assert.throws(() => setup().game.answer('banana'), /Answer/);
 });

@@ -9,7 +9,7 @@ export function installGameKeyboard(target, { getPhase, isDialogOpen, onNext, on
     if (event.code === 'Space') {
       event.preventDefault();
       const phase = getPhase();
-      if (!event.repeat && (phase === 'idle' || phase === 'answered')) onNext();
+      if (!event.repeat && ['idle', 'answered', 'complete'].includes(phase)) onNext();
       return;
     }
     if (event.repeat) return;

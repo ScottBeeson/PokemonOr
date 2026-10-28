@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#222d29">
-  <meta name="description" content="A Pokémon or a data company? Play the retro handheld guessing game: five seconds, two choices, and 1,255 names to test your instincts.">
+  <meta name="description" content="A Pokémon or a data company? Ten questions, five seconds each: a balanced retro handheld guessing game with 1,255 names.">
   <title>Pokemon or BigData — Pocket Edition</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=2.0.0">
-  <script type="module" src="./src/device.js?v=2.0.0"></script>
+  <link rel="stylesheet" href="./styles.css?v=2.1.0">
+  <script type="module" src="./src/device.js?v=2.1.0"></script>
 </head>
 <body>
-  <header class="site-header"><a href="./" class="site-brand">POCKET EDITION <span>/ 01</span></a><span class="edition-badge"><i></i> FIVE SECONDS. TRUST YOUR INSTINCT.</span><button id="how-button" class="desk-link">How to play ↗</button></header>
+  <header class="site-header"><a href="./" class="site-brand">POCKET EDITION <span>/ 01</span></a><span class="edition-badge"><i></i> TEN QUESTIONS. TRUST YOUR INSTINCT.</span><nav class="site-nav" aria-label="Game information"><button id="how-button" class="desk-link">How to play ↗</button><button id="about-button" class="desk-link">About</button></nav></header>
   <main class="desk">
     <div class="device-stage">
       <section class="handheld" aria-label="Pokemon or BigData handheld game">
@@ -35,6 +35,14 @@
               <div class="question-area"><span id="question-label">ONE NAME. TWO POSSIBILITIES.</span><h1 id="name" aria-live="polite">Meet your next guess.</h1><p id="question-hint">One name. Five seconds. Go with your gut.</p></div>
               <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
               <div class="start-prompt" aria-hidden="true">PRESS START <span>▸</span></div>
+              <section id="score-screen" class="score-screen" aria-label="Final score" aria-live="polite" hidden>
+                <span class="finish-label">RUN COMPLETE</span>
+                <h2><span id="final-score">0</span><small> / 10</small></h2>
+                <p id="final-rank"></p>
+                <div class="final-stats"><div><span>ACCURACY</span><strong id="final-accuracy">0%</strong></div><div><span>BEST STREAK</span><strong id="final-streak">0</strong></div></div>
+                <p class="balanced-note">5 Pokémon. 5 companies.<br>One fair fight.</p>
+                <span class="replay-prompt">PRESS REPLAY FOR A NEW RUN ▸</span>
+              </section>
             </div>
           </div>
           <div class="bezel-bottom" aria-hidden="true"><span>MONOCHROME INSTINCT ENGINE</span><span>▰ ▰ ▰</span></div>
@@ -45,14 +53,14 @@
           <div class="control-slot middle"><div class="start-socket"><button id="next-button" class="continue-button" disabled>Loading names…</button></div><span class="control-label">CONTINUE</span></div>
           <div class="control-slot"><button id="company-button" class="choice company" aria-label="Big Data, right arrow or B" disabled><span aria-hidden="true">→</span></button><span class="control-label">BIG DATA</span></div>
         </div>
-        <p id="action-hint" class="action-hint">Five seconds per name. As many rounds as you like.</p>
-        <div class="utility-controls"><button id="collection-button">NAME LIBRARY</button><span>•</span><button id="reset-button" hidden>NEW GAME</button><button id="about-button">ABOUT</button></div>
+        <p id="action-hint" class="action-hint">10 questions. Five seconds per name.</p>
+        <div class="utility-controls"><button id="collection-button">NAME LIBRARY</button><button id="reset-button" hidden>NEW GAME</button></div>
         <div class="device-bottom"><div><span class="bottom-label">TRUST YOUR INSTINCT™</span><p id="best-label">A little knowledge. A lot of gut feeling.</p></div><div class="speaker" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
         <span id="collection-count" hidden></span>
       </section>
     </div>
   </main>
-  <footer class="site-footer"><span>1,255 NAMES. ONE LITTLE MACHINE.</span><span>SWIPE · TAP · KEYBOARD</span></footer>
+  <footer class="site-footer"><a href="https://pixelastic.github.io/pokemonorbigdata/" target="_blank" rel="noopener noreferrer" aria-label="Inspired by Pixelastic’s Pokémon or Big Data">Inspired by Pixelastic ↗</a><span>10 QUESTIONS · 5 OF EACH</span></footer>
   <dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-content"></div></dialog>
   <noscript>Please enable JavaScript to play Pokemon or BigData.</noscript>
 </body>
