@@ -1,7 +1,7 @@
-import { createDeck, createGame } from './engine.js?v=3.1.0';
-import { createLcdArtwork } from './lcd-art.js?v=3.1.0';
+import { createDeck, createGame } from './engine.js?v=3.2.0';
+import { createLcdArtwork } from './lcd-art.js?v=3.2.0';
 import { swipeCategory } from './gestures.js';
-import { installGameKeyboard } from './keyboard.js?v=3.1.0';
+import { installGameKeyboard } from './keyboard.js?v=3.2.0';
 
 const $ = (id) => document.getElementById(id);
 const choiceButtons = { pokemon: $('pokemon-button'), company: $('company-button') };
@@ -64,8 +64,7 @@ function render(state) {
   $('next-button').hidden = playing;
   $('next-button').disabled = false;
   $('next-button').textContent = complete ? 'Play again' : answered ? (state.answered === state.totalRounds ? 'See score' : 'Next name →') : 'Let’s play →';
-  $('action-hint').textContent = complete ? 'Press Space or Replay for a fresh set of 10.' : playing ? 'Make your call before the clock runs out.' : answered ? (state.answered === state.totalRounds ? 'All 10 answered. Press Space to see your score.' : 'Ready for another?') : '10 questions. Five seconds per name.';
-  $('reset-button').hidden = !state.round || playing || complete;
+  $('reset-button').disabled = false;
   $('feedback').hidden = !answered;
   if (answered) {
     const feedback = $('feedback');
@@ -263,7 +262,12 @@ function reset() {
 }
 
 $('next-button').addEventListener('click', nextRound);
-$('reset-button').addEventListener('click', () => { reset(); blurControl(); });
+function resetGame() {
+  if (!game) return;
+  reset();
+  blurControl();
+}
+$('reset-button').addEventListener('click', resetGame);
 for (const [category, button] of Object.entries(choiceButtons)) button.addEventListener('click', () => answer(category));
 
 installGameKeyboard(document, {
@@ -271,6 +275,7 @@ installGameKeyboard(document, {
   isDialogOpen: () => dialog.open,
   onNext: nextRound,
   onAnswer: answer,
+  onReset: resetGame,
   onTab: blurControl,
 });
 
@@ -291,6 +296,7 @@ $('close-dialog').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', (event) => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close(); } });
 $('how-button').addEventListener('click', () => openDialog('A name. A hunch. Five seconds.', `
   <ol><li><strong>Start a game.</strong> You’ll get 10 names, each with an independent 50/50 chance of being a Pokémon or a company.</li><li><strong>Make your call.</strong> Swipe left for Pokémon or right for Tech before the five-second timer runs out. You can also tap a choice, press <kbd>←</kbd> / <kbd>→</kbd>, or use <kbd>P</kbd> / <kbd>T</kbd>. The original <kbd>B</kbd> shortcut still works for Tech.</li><li><strong>See the reveal.</strong> Discover the Pokémon artwork or company logo. Correct answers earn one point. Wrong answers and timeouts count toward your total and reset your streak.</li><li><strong>Finish your run.</strong> After the tenth reveal, press Space or Score to see your final result. Press Replay for a fresh game.</li></ol>
+  <p><strong>Reset your run.</strong> Press <kbd>Backspace</kbd> or tap the circular-arrow button above Start/Next to return to the start screen and clear the current score. Your personal best is preserved. Keyboard game shortcuts are paused while this help is open.</p>
   <p>The category is chosen with a fresh coin flip each question, regardless of collection sizes. The mix varies each game, and previous answers never change the next question’s odds. Always choosing one category averages 50% over many games. Names don’t repeat within a game. The timer continues when you switch tabs or open this help.</p><p>Your accuracy is correct answers divided by all completed questions. Your best streak is saved on this device when browser storage is available.</p>`));
 $('about-button').addEventListener('click', () => openDialog('Big names. Tiny explanation.', `
   <p><strong>Pokémon Or</strong> is a small guessing game about the wonderfully similar names of creatures and companies.</p>
@@ -304,10 +310,10 @@ $('about-button').addEventListener('click', () => openDialog('Big names. Tiny ex
 async function load() {
   try {
     [pokemon, companies, companyLogos] = await Promise.all([...['pokemon', 'companies'].map(async (name) => {
-      const response = await fetch(new URL(`../data/${name}.json?v=3.1.0`, import.meta.url));
+      const response = await fetch(new URL(`../data/${name}.json?v=3.2.0`, import.meta.url));
       if (!response.ok) throw new Error(`Could not load ${name}`);
       return response.json();
-    }), fetch(new URL('../data/company-logos.json?v=3.1.0', import.meta.url)).then(response => response.ok ? response.json() : {}).catch(() => ({}))]);
+    }), fetch(new URL('../data/company-logos.json?v=3.2.0', import.meta.url)).then(response => response.ok ? response.json() : {}).catch(() => ({}))]);
     reset();
   } catch (error) {
     console.error(error);

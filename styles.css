@@ -74,24 +74,24 @@ button:disabled { cursor:default; }
 .device-brand { display:flex; justify-content:space-between; align-items:baseline; margin:14px 3px 0; color:#354c72; }
 .device-brand>span { font-weight:800; font-style:italic; font-size:18px; letter-spacing:-.9px; }.device-brand small { font-weight:500; font-size:12px; }
 .device-brand em { font-size:9px; font-weight:700; letter-spacing:2.2px; border:1px solid #354c7245; border-radius:10px; padding:2px 6px; }
-.control-panel { display:flex; justify-content:space-between; align-items:center; margin:17px 9px 0; }
+.control-panel { display:flex; justify-content:space-between; align-items:center; margin:29px 9px 0; }
 .control-slot { display:flex; flex-direction:column; align-items:center; gap:9px; width:96px; }
 .choice { width:66px; height:66px; border-radius:50%; color:#f0cad8; background:radial-gradient(circle at 35% 25%,#a6476b,#762243 80%); border:1px solid #68213c; box-shadow:inset 2px 3px 3px #c9799360,inset -2px -3px 3px #3e132c55,0 4px 0 #52162e,0 6px 7px #6e6a6260,0 0 0 7px #b8bdb14d,0 1px 0 8px #f1f0dc50; font-size:31px; line-height:1; transition:transform .1s,box-shadow .1s; }
 .choice:not(:disabled):active { transform:translateY(3px); box-shadow:inset 1px 2px 3px #38102699,0 1px 0 #52162e,0 2px 4px #6e6a6260,0 0 0 7px #b8bdb14d; }
 .choice:disabled { filter:saturate(.7); color:#d9b6c1; }.choice.reveal-correct { box-shadow:inset 2px 3px 3px #c9799360,0 4px 0 #52162e,0 0 0 5px #8ba478,0 0 0 8px #d4deba; }.choice.reveal-wrong { box-shadow:inset 2px 3px 3px #c9799360,0 4px 0 #52162e,0 0 0 5px #ad7668,0 0 0 8px #d8b6a6; }
 .control-label { font-size:10px; font-weight:800; letter-spacing:1px; color:#5a6365; text-shadow:0 1px #f1f0df; }
-.middle { padding-top:13px; }.middle .control-label { font-size:9px; }
+.middle { position:relative; padding-top:13px; }.middle .control-label { font-size:9px; }
+.reset-button { position:absolute; top:-35px; left:50%; transform:translateX(-50%); width:44px; height:44px; display:grid; place-items:center; padding:0; border:1px solid #9da699; border-radius:50%; background:linear-gradient(#c5cbbd,#aeb8a8); color:#455a49; box-shadow:inset 0 1px 2px #edf0df,0 2px 0 #85917f,0 3px 4px #676e6033; }
+.reset-button svg { width:19px; height:19px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; pointer-events:none; }
+.reset-button:not(:disabled):active { transform:translate(-50%,2px); box-shadow:inset 0 1px 2px #67756055,0 1px 0 #85917f; }
 .start-socket { height:45px; display:flex; align-items:center; padding:4px; border-radius:22px; background:#adb4a947; box-shadow:inset 1px 1px 2px #8a928475,1px 1px 0 #f0f0df70; }
 .continue-button,.continue-button[hidden] { display:block!important; position:relative; width:88px; height:32px; font-size:0; border-radius:20px; border:1px solid #555f5c; background:linear-gradient(#79847d,#59665e); color:#ebefda; box-shadow:inset 0 1px 1px #a7b0a8,0 3px 0 #46534a,0 4px 5px #676e6066; }
-.continue-button::before { content:''; position:absolute; inset:-17px -4px; border-radius:20px; }
+.continue-button::before { content:''; position:absolute; inset:-6px -4px; border-radius:20px; }
 .continue-button::after { content:'START'; font-size:10px; font-weight:700; letter-spacing:1.3px; }.handheld:has(.is-answered) .continue-button::after { content:'NEXT'; }
 .handheld .continue-button[data-action='score']::after { content:'SCORE'; }
 .handheld .continue-button[data-action='replay']::after { content:'REPLAY'; }
 .continue-button[hidden] { pointer-events:none; color:#a8b0a5; }.continue-button[hidden]::after { content:'•••'; }
 .continue-button:not(:disabled):active { transform:translateY(2px); box-shadow:inset 0 1px 2px #303e34,0 1px 0 #46534a; }
-.action-hint { text-align:center; margin:13px 0 0; font-size:8px; color:#737b70; height:12px; }
-.utility-controls { margin:11px 2px 0; display:flex; gap:14px; align-items:center; color:#8b9185; height:20px; }
-.utility-controls button { background:none; border:0; padding:4px 0; color:#647164; font-size:7px; letter-spacing:1px; font-weight:700; }
 .device-bottom { position:absolute; right:38px; bottom:26px; }
 #best-label { text-align:center; font-size:13px; letter-spacing:.4px; margin:12px 0 0; flex-shrink:0; }
 .speaker { display:flex; gap:6px; transform:rotate(-22deg); margin-right:3px; }.speaker i { display:block; width:5px; height:32px; border-radius:5px; background:#6c776b; box-shadow:inset 1px 1px 2px #27372b88,1px 1px #e6e8d0; }

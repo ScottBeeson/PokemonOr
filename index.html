@@ -7,8 +7,8 @@
   <meta name="description" content="A Pokémon or a tech company? Ten questions, five seconds each: a retro handheld guessing game.">
   <title>Pokémon Or — Pocket Edition</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=3.1.0">
-  <script type="module" src="./src/device.js?v=3.1.0"></script>
+  <link rel="stylesheet" href="./styles.css?v=3.2.0">
+  <script type="module" src="./src/device.js?v=3.2.0"></script>
 </head>
 <body>
   <header class="site-header"><a href="./" class="site-brand">POCKET EDITION <span>/ 01</span></a><span class="edition-badge"><i></i> TEN QUESTIONS. FIVE SECONDS EACH.</span><nav class="site-nav" aria-label="Game information"><button id="how-button" class="desk-link">How to play ↗</button><button id="about-button" class="desk-link">About</button></nav></header>
@@ -51,11 +51,9 @@
         <div class="device-brand"><span>Pokémon Or</span><em>POCKET</em></div>
         <div class="control-panel">
           <div class="control-slot"><button id="pokemon-button" class="choice pokemon" aria-label="Pokémon, left arrow or P" disabled><span aria-hidden="true">←</span></button><span class="control-label">POKÉMON</span></div>
-          <div class="control-slot middle"><div class="start-socket"><button id="next-button" class="continue-button" disabled>Loading names…</button></div><span class="control-label">CONTINUE</span></div>
+          <div class="control-slot middle"><button id="reset-button" class="reset-button" aria-label="Reset game" title="Reset game (Backspace)" disabled><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 10a8 8 0 1 1 1.7 7M4 4v6h6"/></svg></button><div class="start-socket"><button id="next-button" class="continue-button" disabled>Loading names…</button></div><span class="control-label">CONTINUE</span></div>
           <div class="control-slot"><button id="company-button" class="choice company" aria-label="Tech company, right arrow or T (B also works)" disabled><span aria-hidden="true">→</span></button><span class="control-label">TECH</span></div>
         </div>
-        <p id="action-hint" class="action-hint">10 questions. Five seconds per name.</p>
-        <div class="utility-controls"><button id="reset-button" hidden>NEW GAME</button></div>
         <div class="device-bottom"><div class="speaker" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
       </section>
     </div>

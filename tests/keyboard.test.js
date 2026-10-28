@@ -4,10 +4,11 @@ import { installGameKeyboard } from '../src/keyboard.js';
 
 function setup() {
   const target = new EventTarget();
-  const state = { phase: 'answered', dialog: false, next: 0, answers: [], tabs: 0 };
+  const state = { phase: 'answered', dialog: false, next: 0, answers: [], tabs: 0, resets: 0 };
   installGameKeyboard(target, {
     getPhase: () => state.phase, isDialogOpen: () => state.dialog,
     onNext: () => { state.next++; state.phase = 'playing'; },
+    onReset: () => { state.resets++; state.phase = 'idle'; },
     onAnswer: category => state.answers.push(category), onTab: () => state.tabs++,
   });
   const press = (type, fields) => {
@@ -29,6 +30,43 @@ test('Space starts exactly one round and suppresses button activation on keydown
   assert.deepEqual(state.answers, []);
   assert.equal(press('keydown', { key: ' ', code: 'Space' }), true);
   assert.equal(state.next, 1);
+});
+
+test('Backspace resets from every game phase once and suppresses native behavior', () => {
+  for (const phase of ['idle', 'playing', 'answered', 'complete']) {
+    const { state, press } = setup();
+    state.phase = phase;
+    assert.equal(press('keydown', { key: 'Backspace' }), true);
+    assert.equal(press('keydown', { key: 'Backspace', repeat: true }), true);
+    assert.equal(press('keyup', { key: 'Backspace' }), true);
+    assert.equal(state.resets, 1);
+    assert.equal(state.phase, 'idle');
+    assert.equal(state.next, 0);
+    assert.deepEqual(state.answers, []);
+  }
+});
+
+test('Backspace respects editing, dialogs, modifier shortcuts, and initial loading', () => {
+  const { state, target, press } = setup();
+  for (const tagName of ['INPUT', 'TEXTAREA', 'SELECT']) {
+    target.tagName = tagName;
+    assert.equal(press('keydown', { key: 'Backspace' }), false);
+    assert.equal(press('keyup', { key: 'Backspace' }), false);
+  }
+  target.tagName = 'DIV';
+  target.isContentEditable = true;
+  assert.equal(press('keydown', { key: 'Backspace' }), false);
+  target.isContentEditable = false;
+  state.dialog = true;
+  assert.equal(press('keydown', { key: 'Backspace' }), false);
+  state.dialog = false;
+  for (const modifier of ['ctrlKey', 'metaKey', 'altKey']) {
+    assert.equal(press('keydown', { key: 'Backspace', [modifier]: true }), false);
+    assert.equal(press('keyup', { key: 'Backspace', [modifier]: true }), false);
+  }
+  state.phase = undefined;
+  press('keydown', { key: 'Backspace' });
+  assert.equal(state.resets, 0);
 });
 
 test('Tab and Shift+Tab never navigate, including in dialogs and inputs', () => {
