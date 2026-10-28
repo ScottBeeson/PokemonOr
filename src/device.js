@@ -1,5 +1,5 @@
 // Handheld presentation: viewport fit and physical button labels.
-import './app.js?v=2.1.0';
+import './app.js?v=2.2.0';
 
 // Keep the physical center button's accessible name in sync with its short label.
 const nextButton = document.getElementById('next-button');

@@ -50,7 +50,7 @@ button:disabled { cursor:default; }
 .urgent #timer { color:#142c1a; background:#70874b; }.urgent #timer-fill { background:#1d3920; }
 .reveal-visual { display:flex; align-items:center; justify-content:center; height:72px; min-height:42px; flex-shrink:1; margin-top:4px; }
 .mystery-mark { font-size:67px; line-height:1; border:3px solid #405b36; padding:0 14px; box-shadow:3px 3px #405b3640; }
-.reveal-visual img { width:72px; height:72px; object-fit:contain; filter:grayscale(1) sepia(.8) hue-rotate(30deg) saturate(.8); mix-blend-mode:multiply; image-rendering:pixelated; }
+.reveal-visual .lcd-art { width:72px; height:72px; object-fit:contain; image-rendering:pixelated; }
 .reveal-visual .company-logo { width:59px; height:59px; }
 .image-fallback { text-align:center; }.image-fallback>span { display:block; font-size:35px; }.image-fallback small { font-size:10px; }
 .question-area { text-align:center; padding:2px 0 0; flex-shrink:0; }

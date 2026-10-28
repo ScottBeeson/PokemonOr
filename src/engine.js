@@ -9,8 +9,8 @@ function shuffle(items, random) {
 }
 
 /**
- * Shuffle five of each category into every consecutive ten-question batch,
- * irrespective of dataset size.
+ * Choose each question's category independently with equal probability,
+ * irrespective of dataset size or previous categories.
  * Within each category, exhaust a shuffled bag before showing a name again.
  */
 export function createDeck(pokemon, companies, random = Math.random) {
@@ -52,16 +52,9 @@ export function createDeck(pokemon, companies, random = Math.random) {
   };
   const nextPokemon = makeBag(pokemon, 'pokemon');
   const nextCompany = makeBag(companies, 'company');
-  let categories = [];
   return {
     next() {
-      if (categories.length === 0) {
-        categories = shuffle([
-          ...Array(5).fill('pokemon'),
-          ...Array(5).fill('company'),
-        ], sample);
-      }
-      return categories.shift() === 'pokemon' ? nextPokemon() : nextCompany();
+      return sample() < 0.5 ? nextPokemon() : nextCompany();
     },
   };
 }

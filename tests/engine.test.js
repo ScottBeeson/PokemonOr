@@ -115,14 +115,37 @@ test('snapshots cannot mutate the internal score, entry, or result', () => {
   assert.equal(game.getState().result.correct, true);
 });
 
-test('every batch of ten is exactly balanced even with very different dataset sizes', () => {
+test('the category threshold is exactly 0.5 regardless of unequal dataset sizes or prior choices', () => {
   const manyPokemon = Array.from({ length: 1025 }, (_, i) => ({ name: `Pokémon ${i}`, category: 'pokemon' }));
   const fewerCompanies = Array.from({ length: 200 }, (_, i) => ({ name: `Company ${i}`, category: 'company' }));
-  const deck = createDeck(manyPokemon, fewerCompanies, seededRandom(123));
-  for (let batch = 0; batch < 100; batch += 1) {
-    const entries = Array.from({ length: 10 }, () => deck.next());
-    assert.equal(entries.filter((entry) => entry.category === 'pokemon').length, 5);
-    assert.equal(entries.filter((entry) => entry.category === 'company').length, 5);
+  let roll = 0;
+  const deck = createDeck(manyPokemon, fewerCompanies, () => roll);
+  for (let repetition = 0; repetition < 20; repetition += 1) {
+    for (const [value, expected] of [[0, 'pokemon'], [0.499999, 'pokemon'], [0.5, 'company'], [0.999999, 'company']]) {
+      roll = value;
+      assert.equal(deck.next().category, expected);
+    }
+  }
+});
+
+test('all-Pokémon and all-company ten-question runs are possible', () => {
+  for (const [roll, expected] of [[0, 'pokemon'], [0.999999, 'company']]) {
+    const deck = createDeck(pokemon, companies, () => roll);
+    const categories = Array.from({ length: 10 }, () => deck.next().category);
+    assert.deepEqual(categories, Array(10).fill(expected));
+  }
+});
+
+test('the tenth question follows its own random draw instead of a category quota', () => {
+  for (const firstRoll of [0, 0.9]) {
+    for (const tenthRoll of [0, 0.9]) {
+      const rolls = [...Array(9).fill(firstRoll), tenthRoll];
+      const deck = createDeck([pokemon[0]], [companies[0]], () => rolls.shift());
+      const categories = Array.from({ length: 10 }, () => deck.next().category);
+      assert.deepEqual(categories.slice(0, 9), Array(9).fill(firstRoll < 0.5 ? 'pokemon' : 'company'));
+      assert.equal(categories[9], tenthRoll < 0.5 ? 'pokemon' : 'company');
+      assert.equal(rolls.length, 0);
+    }
   }
 });
 
@@ -140,10 +163,11 @@ test('category order varies across seeded runs and allows consecutive same-categ
 });
 
 test('each category exhausts all names before repeating and avoids adjacent cycle repeats', () => {
-  const deck = createDeck(pokemon, companies, () => 0);
-  const entries = Array.from({ length: 60 }, () => deck.next());
-  for (const dataset of [pokemon, companies]) {
-    const names = entries.filter((entry) => entry.category === dataset[0].category).map((entry) => entry.name);
+  for (const [dataset, roll] of [[pokemon, 0], [companies, 0.999999]]) {
+    const deck = createDeck(pokemon, companies, () => roll);
+    const entries = Array.from({ length: 30 }, () => deck.next());
+    assert.ok(entries.every((entry) => entry.category === dataset[0].category));
+    const names = entries.map((entry) => entry.name);
     for (let i = 0; i + dataset.length <= names.length; i += dataset.length) {
       assert.equal(new Set(names.slice(i, i + dataset.length)).size, dataset.length);
       if (i > 0) assert.notEqual(names[i - 1], names[i]);
@@ -152,22 +176,27 @@ test('each category exhausts all names before repeating and avoids adjacent cycl
 });
 
 test('single-item bags remain playable', () => {
-  const deck = createDeck([pokemon[0]], [companies[0]], () => 0);
-  const entries = Array.from({ length: 20 }, () => deck.next());
-  assert.equal(entries.filter((entry) => entry.name === 'Pikachu').length, 10);
-  assert.equal(entries.filter((entry) => entry.name === 'Databricks').length, 10);
+  let roll = 0;
+  const deck = createDeck([pokemon[0]], [companies[0]], () => roll);
+  assert.equal(deck.next().name, 'Pikachu');
+  assert.equal(deck.next().name, 'Pikachu');
+  roll = 0.9;
+  assert.equal(deck.next().name, 'Databricks');
+  assert.equal(deck.next().name, 'Databricks');
 });
 
-test('always choosing Pokémon scores exactly five out of ten', () => {
-  const game = createGame({ deck: createDeck(pokemon, companies, seededRandom(42)), now: () => 0 });
-  for (let round = 1; round <= 10; round += 1) {
-    assert.equal(game.startRound().round, round);
-    game.answer('pokemon');
+test('always choosing Pokémon can score zero or ten depending on the independent draws', () => {
+  for (const [roll, expectedScore] of [[0, 10], [0.9, 0]]) {
+    const game = createGame({ deck: createDeck(pokemon, companies, () => roll), now: () => 0 });
+    for (let round = 1; round <= 10; round += 1) {
+      assert.equal(game.startRound().round, round);
+      game.answer('pokemon');
+    }
+    const result = game.startRound();
+    assert.equal(result.phase, 'complete');
+    assert.equal(result.correct, expectedScore);
+    assert.equal(result.answered, 10);
   }
-  const result = game.startRound();
-  assert.equal(result.phase, 'complete');
-  assert.equal(result.correct, 5);
-  assert.equal(result.answered, 10);
 });
 
 test('a perfect game preserves the tenth reveal, then completes with ten points', () => {

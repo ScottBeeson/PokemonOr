@@ -1,6 +1,7 @@
-import { createDeck, createGame } from './engine.js?v=2.1.0';
+import { createDeck, createGame } from './engine.js?v=2.2.0';
+import { createLcdArtwork } from './lcd-art.js?v=2.2.0';
 import { swipeCategory } from './gestures.js';
-import { installGameKeyboard } from './keyboard.js?v=2.1.0';
+import { installGameKeyboard } from './keyboard.js?v=2.2.0';
 
 const $ = (id) => document.getElementById(id);
 const choiceButtons = { pokemon: $('pokemon-button'), company: $('company-button') };
@@ -49,7 +50,7 @@ function render(state) {
   $('accuracy').textContent = state.answered ? Math.round(state.correct / state.answered * 100) : '—';
   $('accuracy-unit').textContent = state.answered ? '%' : '';
   $('streak').textContent = state.streak;
-  $('round-label').textContent = state.round ? `QUESTION ${String(state.round).padStart(2, '0')} / ${state.totalRounds}` : '10 QUESTIONS · 5 OF EACH';
+  $('round-label').textContent = state.round ? `QUESTION ${String(state.round).padStart(2, '0')} / ${state.totalRounds}` : '10 QUESTIONS · 50/50 ODDS';
   $('question-label').textContent = state.entry ? (answered ? 'THE ANSWER IS IN.' : 'POKÉMON OR BIG DATA?') : 'ONE NAME. TWO POSSIBILITIES.';
   $('name').textContent = state.entry?.name ?? 'Meet your next guess.';
   $('question-hint').textContent = answered
@@ -208,15 +209,16 @@ function renderVisual(entry) {
   fallback.append(initials, caption);
   visual.append(fallback);
   if (!source) return;
-  const image = document.createElement('img');
-  image.className = isPokemon ? 'pokemon-art' : 'company-logo';
-  image.alt = isPokemon ? `Artwork of ${entry.name}` : `${entry.name} logo`;
-  image.referrerPolicy = 'no-referrer';
-  image.hidden = true;
-  image.onload = () => { image.hidden = false; fallback.hidden = true; };
-  image.onerror = () => { image.remove(); caption.textContent = isPokemon ? 'Artwork unavailable' : 'Logo unavailable'; };
-  image.src = source;
-  visual.append(image);
+  createLcdArtwork(source, {
+    className: isPokemon ? 'pokemon-art' : 'company-logo',
+    alt: isPokemon ? `Artwork of ${entry.name}` : `${entry.name} logo`,
+  }).then(artwork => {
+    // A slow image must not replace the next question or another reveal.
+    if (!visual.contains(fallback)) return;
+    fallback.replaceWith(artwork);
+  }).catch(() => {
+    if (visual.contains(fallback)) caption.textContent = isPokemon ? 'Artwork unavailable' : 'Logo unavailable';
+  });
 }
 
 function clearDrag() {
@@ -289,8 +291,8 @@ function openDialog(title, html) {
 $('close-dialog').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', (event) => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close(); } });
 $('how-button').addEventListener('click', () => openDialog('A name. A hunch. Five seconds.', `
-  <ol><li><strong>Start a game.</strong> You’ll get 10 names: exactly five Pokémon and five companies, in shuffled order.</li><li><strong>Make your call.</strong> Swipe left for Pokémon or right for Big Data before the five-second timer runs out. You can also tap a choice, press <kbd>←</kbd> / <kbd>→</kbd>, or use the original <kbd>P</kbd> / <kbd>B</kbd> keys.</li><li><strong>See the reveal.</strong> Discover the Pokémon artwork or company logo. Correct answers earn one point. Wrong answers and timeouts count toward your total and reset your streak.</li><li><strong>Finish your run.</strong> After the tenth reveal, press Space or Score to see your final result. Press Replay for a fresh game.</li></ol>
-  <p>Each game has an equal number of both categories, regardless of the collection sizes. Choosing the same category every time can score at most 5/10. Names don’t repeat within a game. The timer continues when you switch tabs or open this help.</p><p>Your accuracy is correct answers divided by all completed questions. Your best streak is saved on this device when browser storage is available.</p>`));
+  <ol><li><strong>Start a game.</strong> You’ll get 10 names, each with an independent 50/50 chance of being a Pokémon or a company.</li><li><strong>Make your call.</strong> Swipe left for Pokémon or right for Big Data before the five-second timer runs out. You can also tap a choice, press <kbd>←</kbd> / <kbd>→</kbd>, or use the original <kbd>P</kbd> / <kbd>B</kbd> keys.</li><li><strong>See the reveal.</strong> Discover the Pokémon artwork or company logo. Correct answers earn one point. Wrong answers and timeouts count toward your total and reset your streak.</li><li><strong>Finish your run.</strong> After the tenth reveal, press Space or Score to see your final result. Press Replay for a fresh game.</li></ol>
+  <p>The category is chosen with a fresh coin flip each question, regardless of collection sizes. The mix varies each game, and previous answers never change the next question’s odds. Always choosing one category averages 50% over many games. Names don’t repeat within a game. The timer continues when you switch tabs or open this help.</p><p>Your accuracy is correct answers divided by all completed questions. Your best streak is saved on this device when browser storage is available.</p>`));
 $('about-button').addEventListener('click', () => openDialog('Big names. Tiny explanation.', `
   <p><strong>Pokemon or BigData</strong> is a small guessing game about the wonderfully similar names of creatures and companies.</p>
   <p>Inspired by <a href="https://pixelastic.github.io/pokemonorbigdata/" target="_blank" rel="noopener noreferrer">Pokémon or Big Data by Pixelastic</a>. Credit to Pixelastic for the original web game.</p>
