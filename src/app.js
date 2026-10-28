@@ -2,8 +2,8 @@ import { createDeck, createGame } from './engine.js?v=3.3.0';
 import { createLcdArtwork } from './lcd-art.js?v=3.2.0';
 import { swipeCategory } from './gestures.js?v=3.3.0';
 import { installGameKeyboard } from './keyboard.js?v=3.3.0';
-import { cartridges } from './cartridges.js?v=3.3.0';
-import { createCartridgeLoader } from './cartridge-loader.js?v=3.3.0';
+import { cartridges } from './cartridges.js?v=3.4.0';
+import { createCartridgeLoader } from './cartridge-loader.js?v=3.4.0';
 
 const $ = (id) => document.getElementById(id);
 let cartridge = cartridges[0];
@@ -40,12 +40,13 @@ function applyCartridge() {
   choiceButtons = { pokemon: $('pokemon-button'), [cartridge.category]: $('company-button') };
   document.querySelector('.device-stage').style.setProperty('--cart-accent', cartridge.accent);
   document.querySelectorAll('[data-cart-label]').forEach(element => { element.textContent = cartridge.label.toUpperCase(); });
-  document.querySelectorAll('[data-cart-catalog]').forEach(element => { element.textContent = cartridge.catalog; });
+  document.querySelectorAll('[data-cart-number]').forEach(element => { element.textContent = cartridge.number; });
   document.querySelectorAll('[data-cart-art]').forEach(element => { element.src = cartridge.art; });
   $('cartridge-slot').setAttribute('aria-label', `Change cartridge. ${cartridge.label} inserted.`);
   $('pack-title').textContent = cartridge.title;
   $('pack-art').src = cartridge.art;
   $('pack-art').alt = cartridge.artAlt;
+  $('title-screen').dataset.animation = cartridge.titleAnimation;
   $('opponent-label').textContent = cartridge.choiceLabel.toUpperCase();
   document.querySelector('.stamp-right').textContent = cartridge.choiceLabel.toUpperCase();
   $('company-button').setAttribute('aria-label', `${cartridge.choiceLabel}, right arrow or ${cartridge.shortcutLabel}`);
@@ -231,6 +232,14 @@ function renderVisual(entry) {
     return;
   }
   const isPokemon = entry.category === 'pokemon';
+  if (!isPokemon && cartridge.revealArt) {
+    const artwork = document.createElement('img');
+    artwork.src = cartridge.revealArt;
+    artwork.alt = cartridge.revealArtAlt;
+    artwork.className = 'lcd-art pack-reveal-art';
+    visual.append(artwork);
+    return;
+  }
   const source = isPokemon
     ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${entry.id}.png`
     : opponentLogos[entry.name]?.src;
@@ -337,17 +346,51 @@ $('close-dialog').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', (event) => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close(); } });
 $('how-button').addEventListener('click', () => openDialog('A name. A hunch. Five seconds.', `
   <ol><li><strong>Start a game.</strong> Press Start on the ${cartridge.title} screen. You’ll get 10 names, each with an independent 50/50 chance of belonging to either category.</li><li><strong>Make your call.</strong> Swipe left for Pokémon or right for ${cartridge.choiceLabel} before the five-second timer runs out. You can also tap a choice, press <kbd>←</kbd> / <kbd>→</kbd>, or use <kbd>P</kbd> / <kbd>${cartridge.keys[0].toUpperCase()}</kbd>. ${cartridge.shortcutLabel} selects ${cartridge.choiceLabel}.</li><li><strong>See the reveal.</strong> Discover the answer, its image, and a source link. Correct answers earn one point. Wrong answers and timeouts count toward your total and reset your streak.</li><li><strong>Finish your run.</strong> After the tenth reveal, press Space or Score to see your final result. Press Replay for a fresh game.</li></ol>
-  <p><strong>Change cartridge.</strong> Click the cartridge sticking out of the top of the system on the title or score screen. Choose a pack to insert it. Tab and Enter work in the picker; Escape closes it. During a run, reset first to change cartridges.</p>
+  <p><strong>Change cartridge.</strong> Click the cartridge sticking out of the top of the system on the title or score screen. Swipe or use the arrows to browse, then click a pack to insert it. Left/right arrows, Tab, and Enter work in the picker; Escape closes it. During a run, reset first to change cartridges.</p>
   <p><strong>Reset your run.</strong> Press <kbd>Backspace</kbd> or tap the circular-arrow button above Start/Next to return to the start screen and clear the current score. Your personal best is preserved. Keyboard game shortcuts are paused while this help is open.</p>
   <p>The category is chosen with a fresh coin flip each question, regardless of collection sizes. The mix varies each game, and previous answers never change the next question’s odds. Always choosing one category averages 50% over many games. Names don’t repeat within a game. The timer continues when you switch tabs or open this help.</p><p>Your accuracy is correct answers divided by all completed questions. Your best streak is saved on this device when browser storage is available.</p>`));
 $('about-button').addEventListener('click', () => openDialog('Big names. Tiny explanation.', `
   <p><strong>Pokémon Or</strong> is a small guessing game with interchangeable cartridges. Currently inserted: <strong>${cartridge.title}</strong>.</p>
   <p>Inspired by <a href="https://pixelastic.github.io/pokemonorbigdata/" target="_blank" rel="noopener noreferrer">Pokémon or Big Data by Pixelastic</a>. Credit to Pixelastic for the original web game.</p>
   <p><strong>The collection:</strong> ${pokemon.length.toLocaleString()} Pokémon species, sourced from the <a href="https://github.com/PokeAPI/pokeapi" target="_blank" rel="noopener noreferrer">PokéAPI project</a>, plus ${opponents.length.toLocaleString()} ${cartridge.collection} (${opponents.filter(entry => entry.TooObvious !== true).length.toLocaleString()} in play). ${cartridge.notes} Other names that give away the answer are kept in the collection but left out of rounds.</p>
-  <p>Every answer has a source link. This pack is sourced from <a href="${cartridge.sourceUrl}" target="_blank" rel="noopener noreferrer">${cartridge.sourceLabel}</a>, alongside the original curated collection. Directory verification establishes identity and scope; individual websites are not exhaustively audited. The datasets and sourcing notes are in the <a href="https://github.com/ScottBeeson/PokemonOr/tree/main/data" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Data is bundled with the game, so rounds don’t depend on a live API.</p>
-  <p>This is an unofficial fan project. Pokémon and Pokémon character names are trademarks of Nintendo, Creatures Inc., and GAME FREAK inc. Company names belong to their respective owners. No affiliation or endorsement is implied.</p>
-  <p>Pokémon artwork comes from <a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener noreferrer">PokéAPI’s sprite collection</a> and loads only after the answer. Pack icons are bundled locally with their provenance. Unavailable images fall back to a placeholder.</p>
+  <p>Every answer has a source link. This pack is sourced from <a href="${cartridge.sourceUrl}" target="_blank" rel="noopener noreferrer">${cartridge.sourceLabel}</a>. ${cartridge.sourceNote} The datasets and sourcing notes are in the <a href="https://github.com/ScottBeeson/PokemonOr/tree/main/data" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Data is bundled with the game, so rounds don’t depend on a live API.</p>
+  <p>This is an unofficial fan project. Pokémon and Pokémon character names are trademarks of Nintendo, Creatures Inc., and GAME FREAK inc. Other brand names belong to their respective owners. No affiliation or endorsement is implied.</p>
+  <p>Pokémon artwork comes from <a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener noreferrer">PokéAPI’s sprite collection</a> and loads only after the answer. ${cartridge.imageNote}</p>
   <p>No accounts or analytics. Only your best streak is stored locally. Fonts are requested from Google Fonts and Pokémon artwork from GitHub, with fallbacks if either is unavailable.</p>`));
+
+let carouselIndex = 0;
+const cartridgeList = $('cartridge-list');
+
+function updateCarouselPosition() {
+  const buttons = [...cartridgeList.children];
+  const center = cartridgeList.scrollLeft + cartridgeList.clientWidth / 2;
+  let nearest = 0;
+  buttons.forEach((button, index) => {
+    if (Math.abs(button.offsetLeft + button.offsetWidth / 2 - center)
+      < Math.abs(buttons[nearest].offsetLeft + buttons[nearest].offsetWidth / 2 - center)) nearest = index;
+  });
+  carouselIndex = nearest;
+  $('carousel-position').textContent = `${nearest + 1} / ${cartridges.length} · ${cartridges[nearest].title.toUpperCase()}`;
+}
+
+function showCartridge(index, { focus = false, instant = false } = {}) {
+  carouselIndex = (index + cartridges.length) % cartridges.length;
+  const button = cartridgeList.children[carouselIndex];
+  if (!button) return;
+  if (focus) button.focus({ preventScroll: true });
+  const left = button.offsetLeft - (cartridgeList.clientWidth - button.offsetWidth) / 2;
+  cartridgeList.scrollTo({ left, behavior: instant || matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  $('carousel-position').textContent = `${carouselIndex + 1} / ${cartridges.length} · ${cartridges[carouselIndex].title.toUpperCase()}`;
+}
+
+cartridgeList.addEventListener('scroll', updateCarouselPosition, { passive: true });
+$('previous-cartridge').addEventListener('click', () => showCartridge(carouselIndex - 1));
+$('next-cartridge').addEventListener('click', () => showCartridge(carouselIndex + 1));
+cartridgeDialog.addEventListener('keydown', event => {
+  if (event.altKey || event.ctrlKey || event.metaKey || !['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+  event.preventDefault();
+  showCartridge(event.key === 'Home' ? 0 : event.key === 'End' ? cartridges.length - 1 : carouselIndex + (event.key === 'ArrowRight' ? 1 : -1), { focus: true });
+});
 
 function openCartridges() {
   if ($('cartridge-slot').disabled) return;
@@ -357,18 +400,18 @@ function openCartridges() {
     const button = document.createElement('button');
     button.className = 'cartridge-option';
     button.style.setProperty('--cart-accent', pack.accent);
-    button.setAttribute('aria-label', `Insert ${pack.label}, Catalog ${pack.catalog}${pack.id === cartridge.id ? ', currently inserted' : ''}`);
+    button.setAttribute('aria-label', `Insert ${pack.title}, Pack ${pack.number}${pack.id === cartridge.id ? ', currently inserted' : ''}`);
     const shell = $('cartridge-slot').querySelector('.cartridge-shell').cloneNode(true);
     shell.querySelector('[data-cart-label]').textContent = pack.label.toUpperCase();
-    shell.querySelector('[data-cart-catalog]').textContent = pack.catalog;
+    shell.querySelector('[data-cart-number]').textContent = pack.number;
     shell.querySelector('[data-cart-art]').src = pack.art;
     // These copies belong to the picker, not the inserted cartridge.
-    shell.querySelectorAll('[data-cart-label], [data-cart-catalog], [data-cart-art]').forEach(element => {
-      for (const attr of ['data-cart-label', 'data-cart-catalog', 'data-cart-art']) element.removeAttribute(attr);
+    shell.querySelectorAll('[data-cart-label], [data-cart-number], [data-cart-art]').forEach(element => {
+      for (const attr of ['data-cart-label', 'data-cart-number', 'data-cart-art']) element.removeAttribute(attr);
     });
     const action = document.createElement('span');
     action.className = 'cartridge-option-action';
-    action.textContent = 'INSERT CARTRIDGE ↗';
+    action.textContent = pack.id === cartridge.id ? 'INSERTED · CLICK TO RELOAD' : 'CLICK TO LOAD ↗';
     button.append(shell, action);
     button.addEventListener('click', () => {
       cartridgeDialog.close();
@@ -377,7 +420,7 @@ function openCartridges() {
     list.append(button);
   }
   cartridgeDialog.showModal();
-  list.querySelector('button')?.focus();
+  showCartridge(cartridges.findIndex(pack => pack.id === cartridge.id), { focus: true, instant: true });
 }
 $('cartridge-slot').addEventListener('click', openCartridges);
 $('close-cartridges').addEventListener('click', () => cartridgeDialog.close());

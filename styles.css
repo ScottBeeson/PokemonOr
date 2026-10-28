@@ -120,7 +120,7 @@ dialog::backdrop { background:#142119bb; backdrop-filter:blur(4px); }.dialog-hea
 .cartridge-grip { position:absolute; top:5px; left:12px; right:12px; height:8px; background:repeating-linear-gradient(0deg,#65726770 0 1px,transparent 1px 3px); border-radius:2px; }
 .cartridge-label { position:absolute; top:17px; left:13px; right:13px; height:62px; overflow:hidden; text-align:left; border:1px solid #263e4d; border-radius:3px; color:#eff0df; background:var(--cart-accent); box-shadow:inset 0 0 0 3px #ffffff12; padding:8px 10px; }
 .cartridge-label::after { content:''; position:absolute; inset:0; pointer-events:none; background:repeating-linear-gradient(0deg,#fff0 0 3px,#fff04 3px 4px); }
-.cartridge-catalog { display:block; font:7px/1.2 'DM Sans',sans-serif; letter-spacing:1.6px; }
+.cartridge-number { display:block; font:7px/1.2 'DM Sans',sans-serif; letter-spacing:1.6px; }
 .cartridge-label strong { display:block; position:relative; z-index:1; margin-top:4px; font:28px/1 'VT323',monospace; letter-spacing:1px; }
 .cartridge-label img { position:absolute; right:3px; bottom:4px; width:62px; height:43px; image-rendering:pixelated; filter:grayscale(1) brightness(1.9); opacity:.8; }
 .cartridge-slot:not(:disabled):hover .cartridge-shell { filter:brightness(1.1); }
@@ -136,11 +136,12 @@ button:focus-visible,a:focus-visible { outline:3px solid #597ea8; outline-offset
 #boot-status { position:absolute; bottom:26px; left:5px; right:5px; margin:0; font-size:13px; line-height:1.25; }
 .handheld[data-screen='error'] #boot-status { bottom:12px; }
 .title-screen { justify-content:space-between; padding:8px 0 3px; }
-.title-catalog { font-size:10px; letter-spacing:1.2px; border-bottom:1px solid #29452c55; padding-bottom:7px; width:100%; }
+.title-number { font-size:10px; letter-spacing:1.2px; border-bottom:1px solid #29452c55; padding-bottom:7px; width:100%; }
 #pack-title { font:43px/.95 'VT323',monospace; text-transform:uppercase; margin:9px 0 0; letter-spacing:1px; }
 .title-art { position:relative; width:160px; height:110px; margin:2px 0 0; }
 .title-art img { width:100%; height:100%; image-rendering:pixelated; }
 .activity-light { position:absolute; width:10px; height:5px; left:100px; top:75px; background:var(--ink); animation:terminal-light 3.2s steps(1,end) infinite; }
+.title-screen[data-animation='sparkle'] .activity-light { width:25px; height:25px; left:111px; top:5px; background:var(--lcd); animation:terminal-light 3.2s steps(1,end) infinite; }
 .pack-rules { margin:3px 0 0; font-size:12px; letter-spacing:1px; }
 .title-screen #best-label { font-size:12px; margin:6px 0 0; }
 .title-start { font-size:20px; letter-spacing:1.5px; margin-top:8px; }
@@ -156,8 +157,9 @@ button:focus-visible,a:focus-visible { outline:3px solid #597ea8; outline-offset
 .cartridge-dialog .dialog-heading h2 { font-size:29px; }
 .dialog-close { flex-shrink:0; width:38px; height:38px; border:1px solid #99a392; background:none; border-radius:50%; font-size:24px; color:inherit; }
 .library-hint { margin:10px 0 0; font-size:12px; color:#5d6b60; }
-.cartridge-list { display:flex; flex-wrap:wrap; justify-content:center; gap:24px; padding:30px 0 26px; }
-.cartridge-option { border:0; background:none; padding:0; color:#34443a; border-radius:8px; }
+.cartridge-list { position:relative; display:flex; gap:24px; overflow-x:auto; overscroll-behavior-x:contain; scroll-snap-type:x mandatory; scrollbar-width:none; padding:30px max(0px,calc((100% - 204px)/2)) 26px; }
+.cartridge-list::-webkit-scrollbar { display:none; }
+.cartridge-option { flex:0 0 204px; scroll-snap-align:center; border:0; background:none; padding:0; color:#34443a; border-radius:8px; }
 .cartridge-option .cartridge-shell { width:204px; height:202px; border-radius:9px 9px 17px 9px; box-shadow:inset 3px 0 #c4c9bd,inset -3px 0 #727e74,0 5px 0 #6b776d,5px 12px 16px #20342624; }
 .cartridge-option .cartridge-shell::after { content:''; position:absolute; left:20px; right:20px; bottom:12px; height:14px; background:repeating-linear-gradient(90deg,#5a675c66 0 2px,transparent 2px 6px); border-radius:2px; }
 .cartridge-option .cartridge-label { height:145px; top:21px; padding:14px; }
@@ -165,6 +167,9 @@ button:focus-visible,a:focus-visible { outline:3px solid #597ea8; outline-offset
 .cartridge-option .cartridge-label img { width:116px; height:80px; right:10px; bottom:5px; }
 .cartridge-option-action { display:block; font-size:9px; letter-spacing:1px; margin-top:20px; }
 .cartridge-option:hover .cartridge-shell { filter:brightness(1.06); }
+.carousel-controls { display:flex; align-items:center; justify-content:space-between; gap:10px; margin:0 0 18px; }
+.carousel-arrow { flex:0 0 44px; width:44px; height:44px; border:1px solid #99a392; border-radius:50%; background:#d0d7c6; color:#34443a; font:24px 'VT323',monospace; }
+#carousel-position { font-size:9px; letter-spacing:1px; text-align:center; }
 .library-footer { padding-top:14px; margin:0; border-top:1px solid #a8b39e; font-size:8px; letter-spacing:1.5px; text-align:center; }
 @keyframes boot-settle { from { opacity:0; transform:translateY(-6px); } to { opacity:1; transform:translateY(0); } }
 @keyframes terminal-light { 0%,12%,24%,100% { opacity:0; } 6%,18% { opacity:1; } }

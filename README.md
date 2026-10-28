@@ -1,6 +1,6 @@
 # Pokémon Or
 
-A real Pokémon, or a real tech company? Five seconds to make your guess.
+A real Pokémon, a tech company, or a prescription drug brand? Pick a pack. Five seconds to make your guess.
 
 **[Play the game](https://scottbeeson.github.io/PokemonOr/)**
 
@@ -8,7 +8,8 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 
 ## The game
 
-- Tech is the first cartridge (Catalog 01) and starts inserted. The “Pokémon or…” boot leads to a Tech Pack title screen with pixel computer art and subtle animation. Click the cartridge protruding from the top of the handheld to open the picker on the title or score screen; reset first during a run. Reinserting boots the cartridge; Reset and Replay skip boot. Reduced-motion preferences disable the animation. Failed data loads offer Retry, and successful reads are reused during the session.
+- **Pack 01 — Tech Pack** starts inserted. **Pack 02 — Rx Pack** adds prescription medication brand names with source-linked ingredient reveals and capsule pixel art. Each pack keeps its own personal best; existing Tech records are preserved.
+- Click the cartridge behind the top of the handheld to open the carousel on the title or score screen; reset first during a run. Swipe, use the arrow buttons, or press left/right to browse, then click a cartridge or press Enter to load it. The “Pokémon or…” boot leads to that pack’s title screen. Reinserting boots the cartridge; Reset and Replay skip boot. Reduced-motion preferences disable animation. Failed data loads offer Retry, and successful reads are reused during the session.
 
 - Five seconds per name, with a countdown and shrinking timer bar.
 - Running correct/total score, accuracy percentage, current streak, and a personal best streak saved on your device.
@@ -22,7 +23,7 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 - Each question starts when you choose; wrong answers and timeouts count as incorrect. Switching tabs does not pause the clock. After the tenth reveal, choose **Score** (or press Space) to see your result, accuracy, and best streak. **Replay** starts a fresh ten-question game.
 - Distinct result messages and borders, green/red choice indicators, a subtle particle burst for correct answers, and a brief shake for wrong answers. Reduced-motion preferences disable both effects. Screen-reader answer announcements remain available.
 
-The current category is tech companies: software, cybersecurity, developer tools, robotics, fintech, AI, and data infrastructure. Historical company names are included; standalone open-source projects and product names are excluded. See [company sourcing notes](data/companies-sources.md).
+Tech Pack covers software, cybersecurity, developer tools, robotics, fintech, AI, and data infrastructure. Historical company names are included; standalone open-source projects and product names are excluded. See [company sourcing notes](data/companies-sources.md). Rx Pack uses **P/left** for Pokémon and **R/right** for prescription brands. Its verified label snapshot and refresh instructions are described in [Rx sourcing notes](data/rx-sources.md).
 
 ## Run locally
 

@@ -1,0 +1,1283 @@
+[
+  {
+    "name": "Abilify",
+    "category": "drug",
+    "description": "Prescription brand for aripiprazole.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c040bd1d-45b7-49f2-93ea-aed7220b30ac",
+    "TooObvious": false
+  },
+  {
+    "name": "Actemra",
+    "category": "drug",
+    "description": "Prescription brand for tocilizumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13",
+    "TooObvious": false
+  },
+  {
+    "name": "Actos",
+    "category": "drug",
+    "description": "Prescription brand for pioglitazone.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c",
+    "TooObvious": false
+  },
+  {
+    "name": "Aczone",
+    "category": "drug",
+    "description": "Prescription brand for dapsone.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=22058b7d-a578-4eaa-a476-ac982337f02a",
+    "TooObvious": false
+  },
+  {
+    "name": "Adcirca",
+    "category": "drug",
+    "description": "Prescription brand for tadalafil.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ff61b237-be8e-461b-8114-78c52a8ad0ae",
+    "TooObvious": false
+  },
+  {
+    "name": "Adempas",
+    "category": "drug",
+    "description": "Prescription brand for riociguat.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7b57509a-3d5d-41d4-8fed-1471e26372a3",
+    "TooObvious": false
+  },
+  {
+    "name": "Afrezza",
+    "category": "drug",
+    "description": "Prescription brand for insulin human.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=29f4637b-e204-425b-b89c-7238008d8c10",
+    "TooObvious": false
+  },
+  {
+    "name": "Aimovig",
+    "category": "drug",
+    "description": "Prescription brand for erenumab-aooe.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b998ed05-94b0-47fd-b28f-cddd1e128fd8",
+    "TooObvious": false
+  },
+  {
+    "name": "Ajovy",
+    "category": "drug",
+    "description": "Prescription brand for fremanezumab-vfrm.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b",
+    "TooObvious": false
+  },
+  {
+    "name": "Akynzeo",
+    "category": "drug",
+    "description": "Prescription brand for netupitant and palonosetron / fosnetupitant and palonosetron.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8e47618e-af46-4d82-94e8-1507c042252d",
+    "TooObvious": false
+  },
+  {
+    "name": "Alecensa",
+    "category": "drug",
+    "description": "Prescription brand for alectinib hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb",
+    "TooObvious": false
+  },
+  {
+    "name": "Alimta",
+    "category": "drug",
+    "description": "Prescription brand for pemetrexed disodium.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f5a860f3-37ec-429c-ae04-9c88d7c55c08",
+    "TooObvious": false
+  },
+  {
+    "name": "Alunbrig",
+    "category": "drug",
+    "description": "Prescription brand for brigatinib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db",
+    "TooObvious": false
+  },
+  {
+    "name": "Amitiza",
+    "category": "drug",
+    "description": "Prescription brand for lubiprostone.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=164a2b47-0a52-4bb4-9e71-5342c2e951f4",
+    "TooObvious": false
+  },
+  {
+    "name": "Amrix",
+    "category": "drug",
+    "description": "Prescription brand for cyclobenzaprine hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3902123b-1365-ac3c-0934-afff9eeeb1bd",
+    "TooObvious": false
+  },
+  {
+    "name": "Apidra",
+    "category": "drug",
+    "description": "Prescription brand for insulin glulisine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "TooObvious": false
+  },
+  {
+    "name": "Aptiom",
+    "category": "drug",
+    "description": "Prescription brand for eslicarbazepine acetate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d0c9554-eaeb-4694-8089-00133fcadce3",
+    "TooObvious": false
+  },
+  {
+    "name": "Arava",
+    "category": "drug",
+    "description": "Prescription brand for leflunomide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52",
+    "TooObvious": false
+  },
+  {
+    "name": "Arcalyst",
+    "category": "drug",
+    "description": "Prescription brand for rilonacept.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ad965f38-dd22-4607-a673-2fb92f3b527a",
+    "TooObvious": false
+  },
+  {
+    "name": "Aricept",
+    "category": "drug",
+    "description": "Prescription brand for donepezil hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975",
+    "TooObvious": false
+  },
+  {
+    "name": "Aromasin",
+    "category": "drug",
+    "description": "Prescription brand for exemestane.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3",
+    "TooObvious": false
+  },
+  {
+    "name": "Aubagio",
+    "category": "drug",
+    "description": "Prescription brand for teriflunomide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4650d12c-b9c8-4525-b07f-a2d773eca155",
+    "TooObvious": false
+  },
+  {
+    "name": "Auvelity",
+    "category": "drug",
+    "description": "Prescription brand for dextromethorphan hydrobromide, bupropion hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79",
+    "TooObvious": false
+  },
+  {
+    "name": "Avapro",
+    "category": "drug",
+    "description": "Prescription brand for irbesartan.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98",
+    "TooObvious": false
+  },
+  {
+    "name": "Avonex",
+    "category": "drug",
+    "description": "Prescription brand for interferon beta-1a.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d70a39cc-de15-4c12-a1ec-8063b69ea0e1",
+    "TooObvious": false
+  },
+  {
+    "name": "Azilect",
+    "category": "drug",
+    "description": "Prescription brand for rasagiline mesylate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60",
+    "TooObvious": false
+  },
+  {
+    "name": "Banzel",
+    "category": "drug",
+    "description": "Prescription brand for rufinamide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d",
+    "TooObvious": false
+  },
+  {
+    "name": "Belbuca",
+    "category": "drug",
+    "description": "Prescription brand for buprenorphine hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc2b7a3d-72cf-497c-95b0-ba2b71f63c64",
+    "TooObvious": false
+  },
+  {
+    "name": "Benicar",
+    "category": "drug",
+    "description": "Prescription brand for olmesartan medoxomil.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5b6f8a18-8f8a-4521-81c3-3a39c73c6646",
+    "TooObvious": false
+  },
+  {
+    "name": "Benlysta",
+    "category": "drug",
+    "description": "Prescription brand for belimumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3",
+    "TooObvious": false
+  },
+  {
+    "name": "Biktarvy",
+    "category": "drug",
+    "description": "Prescription brand for bictegravir sodium, emtricitabine, and tenofovir alafenamide fumarate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0476d7eb-1024-4821-bbe7-abaacfda32a2",
+    "TooObvious": false
+  },
+  {
+    "name": "Brilinta",
+    "category": "drug",
+    "description": "Prescription brand for ticagrelor.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1547e2b6-8858-178e-e063-6394a90abb23",
+    "TooObvious": false
+  },
+  {
+    "name": "Briviact",
+    "category": "drug",
+    "description": "Prescription brand for brivaracetam.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c",
+    "TooObvious": false
+  },
+  {
+    "name": "Bystolic",
+    "category": "drug",
+    "description": "Prescription brand for nebivolol hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8",
+    "TooObvious": false
+  },
+  {
+    "name": "Cabometyx",
+    "category": "drug",
+    "description": "Prescription brand for cabozantinib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5",
+    "TooObvious": false
+  },
+  {
+    "name": "Calquence",
+    "category": "drug",
+    "description": "Prescription brand for acalabrutinib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd4835ef-e1bc-4997-a399-1ffa2556fbfe",
+    "TooObvious": false
+  },
+  {
+    "name": "Caplyta",
+    "category": "drug",
+    "description": "Prescription brand for lumateperone.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db730b06-6351-47fd-8183-e61e61bbead5",
+    "TooObvious": false
+  },
+  {
+    "name": "Carafate",
+    "category": "drug",
+    "description": "Prescription brand for sucralfate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fb67b1c-b4c0-46f2-8a81-df1510e006aa",
+    "TooObvious": false
+  },
+  {
+    "name": "Cardura",
+    "category": "drug",
+    "description": "Prescription brand for doxazosin.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82",
+    "TooObvious": false
+  },
+  {
+    "name": "Cayston",
+    "category": "drug",
+    "description": "Prescription brand for aztreonam.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67300ca3-8c53-4ce4-8e86-2c03be1f9b8a",
+    "TooObvious": false
+  },
+  {
+    "name": "Celebrex",
+    "category": "drug",
+    "description": "Prescription brand for celecoxib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d6675e4-5859-4be2-8037-a20ce9f707aa",
+    "TooObvious": false
+  },
+  {
+    "name": "Cequa",
+    "category": "drug",
+    "description": "Prescription brand for cyclosporine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=48c3d8a3-4289-4b52-9189-58b48596095c",
+    "TooObvious": false
+  },
+  {
+    "name": "Cialis",
+    "category": "drug",
+    "description": "Prescription brand for tadalafil.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895",
+    "TooObvious": true
+  },
+  {
+    "name": "Cimzia",
+    "category": "drug",
+    "description": "Prescription brand for certolizumab pegol.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d",
+    "TooObvious": false
+  },
+  {
+    "name": "Cinvanti",
+    "category": "drug",
+    "description": "Prescription brand for aprepitant.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4",
+    "TooObvious": false
+  },
+  {
+    "name": "Clozaril",
+    "category": "drug",
+    "description": "Prescription brand for clozapine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90876802-0e3a-44c9-9ff7-1754dfbe736a",
+    "TooObvious": false
+  },
+  {
+    "name": "Colcrys",
+    "category": "drug",
+    "description": "Prescription brand for colchicine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6adc880-5499-4691-93f3-27c87902d5fc",
+    "TooObvious": false
+  },
+  {
+    "name": "Combigan",
+    "category": "drug",
+    "description": "Prescription brand for brimonidine tartrate, timolol maleate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=feaf1480-a4b8-4486-992a-96be3a596243",
+    "TooObvious": false
+  },
+  {
+    "name": "Concerta",
+    "category": "drug",
+    "description": "Prescription brand for methylphenidate hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a88218c-5b18-4220-8f56-526de1a276cd",
+    "TooObvious": false
+  },
+  {
+    "name": "Copaxone",
+    "category": "drug",
+    "description": "Prescription brand for glatiramer acetate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa88f583-4f5f-433b-80b4-1f4c9fb28357",
+    "TooObvious": false
+  },
+  {
+    "name": "Corlanor",
+    "category": "drug",
+    "description": "Prescription brand for ivabradine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d",
+    "TooObvious": false
+  },
+  {
+    "name": "Cosopt",
+    "category": "drug",
+    "description": "Prescription brand for dorzolamide hydrochloride and timolol maleate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23bdf1c1-3134-4ad1-8e7c-bc655156bdc6",
+    "TooObvious": false
+  },
+  {
+    "name": "Creon",
+    "category": "drug",
+    "description": "Prescription brand for pancrelipase.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=073201aa-556d-4a70-918e-84e9616fd88d",
+    "TooObvious": false
+  },
+  {
+    "name": "Cresemba",
+    "category": "drug",
+    "description": "Prescription brand for isavuconazonium sulfate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f7f73b8-586a-4df0-935f-fecd4696c16c",
+    "TooObvious": false
+  },
+  {
+    "name": "Daliresp",
+    "category": "drug",
+    "description": "Prescription brand for roflumilast.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c9a1d0a8-581f-4f91-a2b8-f419192d0ebf",
+    "TooObvious": false
+  },
+  {
+    "name": "Dayvigo",
+    "category": "drug",
+    "description": "Prescription brand for lemborexant.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7074cb65-77b3-45d2-8e8d-da8dc0f70bfd",
+    "TooObvious": false
+  },
+  {
+    "name": "Descovy",
+    "category": "drug",
+    "description": "Prescription brand for emtricitabine and tenofovir alafenamide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=06f66e98-e6ee-4538-9506-6c1282cc14c1",
+    "TooObvious": false
+  },
+  {
+    "name": "Dexilant",
+    "category": "drug",
+    "description": "Prescription brand for dexlansoprazole.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9819f033-3bbe-442e-8e92-45fec77b237d",
+    "TooObvious": false
+  },
+  {
+    "name": "Diovan",
+    "category": "drug",
+    "description": "Prescription brand for valsartan.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213",
+    "TooObvious": false
+  },
+  {
+    "name": "Dovato",
+    "category": "drug",
+    "description": "Prescription brand for dolutegravir sodium and lamivudine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=68e45422-43ed-4cfb-9356-fae88d14a53a",
+    "TooObvious": false
+  },
+  {
+    "name": "Droxia",
+    "category": "drug",
+    "description": "Prescription brand for hydroxyurea.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4ad13dc6-a2ab-4308-96b3-7c642c92cc23",
+    "TooObvious": false
+  },
+  {
+    "name": "Duavee",
+    "category": "drug",
+    "description": "Prescription brand for conjugated estrogens/bazedoxifene.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e16705d8-4472-4f83-96ac-69fa2be066cb",
+    "TooObvious": false
+  },
+  {
+    "name": "Dulera",
+    "category": "drug",
+    "description": "Prescription brand for mometasone furoate and formoterol fumarate dihydrate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f399784-f257-4f31-b3dc-368bf2a1864d",
+    "TooObvious": false
+  },
+  {
+    "name": "Durezol",
+    "category": "drug",
+    "description": "Prescription brand for difluprednate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea520a27-f569-4b31-8bad-a25ad54b2caa",
+    "TooObvious": false
+  },
+  {
+    "name": "Edarbi",
+    "category": "drug",
+    "description": "Prescription brand for azilsartan kamedoxomil.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52b27c75-9f5a-4816-bafd-dace9d7d2063",
+    "TooObvious": false
+  },
+  {
+    "name": "Edurant",
+    "category": "drug",
+    "description": "Prescription brand for rilpivirine hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6",
+    "TooObvious": false
+  },
+  {
+    "name": "Effient",
+    "category": "drug",
+    "description": "Prescription brand for prasugrel hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e",
+    "TooObvious": false
+  },
+  {
+    "name": "Eliquis",
+    "category": "drug",
+    "description": "Prescription brand for apixaban.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1523ab32-2c2c-6501-e063-6394a90aa0b3",
+    "TooObvious": false
+  },
+  {
+    "name": "Elmiron",
+    "category": "drug",
+    "description": "Prescription brand for pentosan polysulfate sodium.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593",
+    "TooObvious": false
+  },
+  {
+    "name": "Emend",
+    "category": "drug",
+    "description": "Prescription brand for aprepitant.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=696f9e80-9cae-403b-de9e-078343ce4713",
+    "TooObvious": false
+  },
+  {
+    "name": "Emgality",
+    "category": "drug",
+    "description": "Prescription brand for galcanezumab-gnlm.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0",
+    "TooObvious": false
+  },
+  {
+    "name": "Empliciti",
+    "category": "drug",
+    "description": "Prescription brand for elotuzumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80686b7e-f6f4-4154-b5c0-c846425e2d91",
+    "TooObvious": false
+  },
+  {
+    "name": "Enbrel",
+    "category": "drug",
+    "description": "Prescription brand for etanercept.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f",
+    "TooObvious": false
+  },
+  {
+    "name": "Entresto",
+    "category": "drug",
+    "description": "Prescription brand for sacubitril and valsartan.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=000dc81d-ab91-450c-8eae-8eb74e72296f",
+    "TooObvious": false
+  },
+  {
+    "name": "Entyvio",
+    "category": "drug",
+    "description": "Prescription brand for vedolizumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6e94621c-1a95-4af9-98d1-52b9e6f1949c",
+    "TooObvious": false
+  },
+  {
+    "name": "Epclusa",
+    "category": "drug",
+    "description": "Prescription brand for velpatasvir and sofosbuvir.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7f30631a-ee3b-4cfe-866b-964df3f0a44f",
+    "TooObvious": false
+  },
+  {
+    "name": "Erivedge",
+    "category": "drug",
+    "description": "Prescription brand for vismodegib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+    "TooObvious": false
+  },
+  {
+    "name": "Erleada",
+    "category": "drug",
+    "description": "Prescription brand for apalutamide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d1cda4f7-cb33-46ea-b9ac-431f6452b1a5",
+    "TooObvious": false
+  },
+  {
+    "name": "Esbriet",
+    "category": "drug",
+    "description": "Prescription brand for pirfenidone.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e",
+    "TooObvious": false
+  },
+  {
+    "name": "Eucrisa",
+    "category": "drug",
+    "description": "Prescription brand for crisaborole.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=609b77de-1ca3-4783-b8f5-01a9c0f1d77d",
+    "TooObvious": false
+  },
+  {
+    "name": "Evista",
+    "category": "drug",
+    "description": "Prescription brand for raloxifene hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9",
+    "TooObvious": false
+  },
+  {
+    "name": "Exelon",
+    "category": "drug",
+    "description": "Prescription brand for rivastigmine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=07c12e14-bbd5-4ec8-84e4-fbe7b5ba10e0",
+    "TooObvious": false
+  },
+  {
+    "name": "Farxiga",
+    "category": "drug",
+    "description": "Prescription brand for dapagliflozin.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01f90c94-71cb-4a1f-81ff-8004b850529b",
+    "TooObvious": false
+  },
+  {
+    "name": "Fasenra",
+    "category": "drug",
+    "description": "Prescription brand for benralizumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784",
+    "TooObvious": false
+  },
+  {
+    "name": "Fetzima",
+    "category": "drug",
+    "description": "Prescription brand for levomilnacipran hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f371258d-91b3-4b6a-ac99-434a1964c3af",
+    "TooObvious": false
+  },
+  {
+    "name": "Firazyr",
+    "category": "drug",
+    "description": "Prescription brand for icatibant acetate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540",
+    "TooObvious": false
+  },
+  {
+    "name": "Focalin",
+    "category": "drug",
+    "description": "Prescription brand for dexmethylphenidate hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2016f5c2-95d2-4655-af65-c588c2bf5e6d",
+    "TooObvious": false
+  },
+  {
+    "name": "Forteo",
+    "category": "drug",
+    "description": "Prescription brand for teriparatide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aae667c5-381f-4f92-93df-2ed6158d07b0",
+    "TooObvious": false
+  },
+  {
+    "name": "Fycompa",
+    "category": "drug",
+    "description": "Prescription brand for perampanel.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122",
+    "TooObvious": false
+  },
+  {
+    "name": "Genvoya",
+    "category": "drug",
+    "description": "Prescription brand for elvitegravir, cobicistat, emtricitabine, and tenofovir alafenamide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34784acf-15ed-4715-b504-eb30430518e9",
+    "TooObvious": false
+  },
+  {
+    "name": "Gilenya",
+    "category": "drug",
+    "description": "Prescription brand for fingolimod hcl.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc9e1c8c-0e2b-44e2-878b-27057f786be9",
+    "TooObvious": false
+  },
+  {
+    "name": "Gleevec",
+    "category": "drug",
+    "description": "Prescription brand for imatinib mesylate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b",
+    "TooObvious": false
+  },
+  {
+    "name": "Glyxambi",
+    "category": "drug",
+    "description": "Prescription brand for empagliflozin and linagliptin.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ddbab689-f76c-488c-9613-4168d41dd730",
+    "TooObvious": false
+  },
+  {
+    "name": "Gralise",
+    "category": "drug",
+    "description": "Prescription brand for gabapentin.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=466273b1-c9fc-3930-c94b-aa11394d5140",
+    "TooObvious": false
+  },
+  {
+    "name": "Halaven",
+    "category": "drug",
+    "description": "Prescription brand for eribulin mesylate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822",
+    "TooObvious": false
+  },
+  {
+    "name": "Harvoni",
+    "category": "drug",
+    "description": "Prescription brand for ledipasvir and sofosbuvir.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4ec77e4-bae8-4db0-b3d5-bde09c5fa075",
+    "TooObvious": false
+  },
+  {
+    "name": "Hetlioz",
+    "category": "drug",
+    "description": "Prescription brand for tasimelteon.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90",
+    "TooObvious": false
+  },
+  {
+    "name": "Horizant",
+    "category": "drug",
+    "description": "Prescription brand for gabapentin enacarbil.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c486fc7-c8c4-4c6c-b30c-366dabaeaadd",
+    "TooObvious": false
+  },
+  {
+    "name": "Humira",
+    "category": "drug",
+    "description": "Prescription brand for adalimumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4977567e-3525-44ac-9ff5-f1e74b053950",
+    "TooObvious": false
+  },
+  {
+    "name": "Ibrance",
+    "category": "drug",
+    "description": "Prescription brand for palbociclib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792",
+    "TooObvious": false
+  },
+  {
+    "name": "Iclusig",
+    "category": "drug",
+    "description": "Prescription brand for ponatinib hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac",
+    "TooObvious": false
+  },
+  {
+    "name": "Imbruvica",
+    "category": "drug",
+    "description": "Prescription brand for ibrutinib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0dfd0279-ff17-4ea9-89be-9803c71bab44",
+    "TooObvious": false
+  },
+  {
+    "name": "Ingrezza",
+    "category": "drug",
+    "description": "Prescription brand for valbenazine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c970164-cafb-421f-9eb5-c226ef0a3417",
+    "TooObvious": false
+  },
+  {
+    "name": "Inlyta",
+    "category": "drug",
+    "description": "Prescription brand for axitinib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=84137882-e000-47da-bd5b-fa76ab3c76f9",
+    "TooObvious": false
+  },
+  {
+    "name": "Inspra",
+    "category": "drug",
+    "description": "Prescription brand for eplerenone.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a",
+    "TooObvious": false
+  },
+  {
+    "name": "Intuniv",
+    "category": "drug",
+    "description": "Prescription brand for guanfacine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b972af81-3a37-40be-9fe1-3ddf59852528",
+    "TooObvious": false
+  },
+  {
+    "name": "Invega",
+    "category": "drug",
+    "description": "Prescription brand for paliperidone.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916",
+    "TooObvious": false
+  },
+  {
+    "name": "Invokana",
+    "category": "drug",
+    "description": "Prescription brand for canagliflozin.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f76e16f-0c24-454a-81af-4080b312c940",
+    "TooObvious": false
+  },
+  {
+    "name": "Jakafi",
+    "category": "drug",
+    "description": "Prescription brand for ruxolitinib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b",
+    "TooObvious": false
+  },
+  {
+    "name": "Janumet",
+    "category": "drug",
+    "description": "Prescription brand for sitagliptin and metformin hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b55ee3d9-7f0b-4dd9-9213-fbc69f09f567",
+    "TooObvious": false
+  },
+  {
+    "name": "Januvia",
+    "category": "drug",
+    "description": "Prescription brand for sitagliptin.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=194c3718-5eb5-4cf5-85d0-2bb1ed8293b8",
+    "TooObvious": false
+  },
+  {
+    "name": "Jardiance",
+    "category": "drug",
+    "description": "Prescription brand for empagliflozin.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1782b947-4a72-4feb-a488-1469d9af82bd",
+    "TooObvious": false
+  },
+  {
+    "name": "Jentadueto",
+    "category": "drug",
+    "description": "Prescription brand for linagliptin and metformin hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6dd9b86-0d18-95d4-2bc7-05591bfdd597",
+    "TooObvious": false
+  },
+  {
+    "name": "Juluca",
+    "category": "drug",
+    "description": "Prescription brand for dolutegravir sodium and rilpivirine hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=806653d1-bf35-4924-b999-ad5d21821cc1",
+    "TooObvious": false
+  },
+  {
+    "name": "Kadcyla",
+    "category": "drug",
+    "description": "Prescription brand for ado-trastuzumab emtansine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+    "TooObvious": false
+  },
+  {
+    "name": "Kaletra",
+    "category": "drug",
+    "description": "Prescription brand for lopinavir and ritonavir.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8290add3-4449-4e58-6c97-8fe1eec972e3",
+    "TooObvious": false
+  },
+  {
+    "name": "Keppra",
+    "category": "drug",
+    "description": "Prescription brand for levetiracetam.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3ca9df05-a506-4ec8-a4fe-320f1219ab21",
+    "TooObvious": false
+  },
+  {
+    "name": "Kesimpta",
+    "category": "drug",
+    "description": "Prescription brand for ofatumumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3",
+    "TooObvious": false
+  },
+  {
+    "name": "Keytruda",
+    "category": "drug",
+    "description": "Prescription brand for pembrolizumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+    "TooObvious": false
+  },
+  {
+    "name": "Kisqali",
+    "category": "drug",
+    "description": "Prescription brand for ribociclib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8",
+    "TooObvious": false
+  },
+  {
+    "name": "Klonopin",
+    "category": "drug",
+    "description": "Prescription brand for clonazepam.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1",
+    "TooObvious": false
+  },
+  {
+    "name": "Korlym",
+    "category": "drug",
+    "description": "Prescription brand for mifepristone.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=542f3fae-8bc8-4f00-9228-e4b66c9ad6a9",
+    "TooObvious": false
+  },
+  {
+    "name": "Lamictal",
+    "category": "drug",
+    "description": "Prescription brand for lamotrigine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7e3572d-56fe-4727-2bb4-013ccca22678",
+    "TooObvious": false
+  },
+  {
+    "name": "Latuda",
+    "category": "drug",
+    "description": "Prescription brand for lurasidone hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8",
+    "TooObvious": false
+  },
+  {
+    "name": "Letairis",
+    "category": "drug",
+    "description": "Prescription brand for ambrisentan.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844",
+    "TooObvious": false
+  },
+  {
+    "name": "Levemir",
+    "category": "drug",
+    "description": "Prescription brand for insulin detemir.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c",
+    "TooObvious": false
+  },
+  {
+    "name": "Lexapro",
+    "category": "drug",
+    "description": "Prescription brand for escitalopram.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13bb8267-1cab-43e5-acae-55a4d957630a",
+    "TooObvious": false
+  },
+  {
+    "name": "Livalo",
+    "category": "drug",
+    "description": "Prescription brand for pitavastatin calcium.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2",
+    "TooObvious": false
+  },
+  {
+    "name": "Lonsurf",
+    "category": "drug",
+    "description": "Prescription brand for trifluridine and tipiracil.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85",
+    "TooObvious": false
+  },
+  {
+    "name": "Lopreeza",
+    "category": "drug",
+    "description": "Prescription brand for estradiol/norethindrone acetate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=966ac064-9eb7-4d15-b271-a7880ed1e79a",
+    "TooObvious": false
+  },
+  {
+    "name": "Lorbrena",
+    "category": "drug",
+    "description": "Prescription brand for lorlatinib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=004f93d7-a1cd-4b67-9207-31cdcb5c5976",
+    "TooObvious": false
+  },
+  {
+    "name": "Lucentis",
+    "category": "drug",
+    "description": "Prescription brand for ranibizumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de4e66cc-ca05-4dc9-8262-e00e9b41c36d",
+    "TooObvious": false
+  },
+  {
+    "name": "Lunesta",
+    "category": "drug",
+    "description": "Prescription brand for eszopiclone.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3821f4b7-a3c8-4920-ba80-18aa96532c09",
+    "TooObvious": false
+  },
+  {
+    "name": "Lyrica",
+    "category": "drug",
+    "description": "Prescription brand for pregabalin.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=60185c88-ecfd-46f9-adb9-b97c6b00a553",
+    "TooObvious": false
+  },
+  {
+    "name": "Lyumjev",
+    "category": "drug",
+    "description": "Prescription brand for insulin lispro-aabc.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=616daea1-0b79-4970-a141-6f99f2072f02",
+    "TooObvious": false
+  },
+  {
+    "name": "Mavyret",
+    "category": "drug",
+    "description": "Prescription brand for glecaprevir and pibrentasvir.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7bf99777-0401-9095-8645-16c6e907fcc0",
+    "TooObvious": false
+  },
+  {
+    "name": "Mekinist",
+    "category": "drug",
+    "description": "Prescription brand for trametinib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1",
+    "TooObvious": false
+  },
+  {
+    "name": "Motegrity",
+    "category": "drug",
+    "description": "Prescription brand for prucalopride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b",
+    "TooObvious": false
+  },
+  {
+    "name": "Myrbetriq",
+    "category": "drug",
+    "description": "Prescription brand for mirabegron.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ba9e9e15-e666-4c56-9271-2e24739cfa2d",
+    "TooObvious": false
+  },
+  {
+    "name": "Namzaric",
+    "category": "drug",
+    "description": "Prescription brand for memantine hydrochloride and donepezil hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90fedc32-19e5-480c-afc6-f35a5cf4b9aa",
+    "TooObvious": false
+  },
+  {
+    "name": "Nardil",
+    "category": "drug",
+    "description": "Prescription brand for phenelzine sulfate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=513a41d0-37d4-4355-8a6d-a2c643bce6fa",
+    "TooObvious": false
+  },
+  {
+    "name": "Nerlynx",
+    "category": "drug",
+    "description": "Prescription brand for neratinib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d1e41dcf-e82a-47c2-a0ad-6c6eef621834",
+    "TooObvious": false
+  },
+  {
+    "name": "Nexavar",
+    "category": "drug",
+    "description": "Prescription brand for sorafenib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0",
+    "TooObvious": false
+  },
+  {
+    "name": "Ninlaro",
+    "category": "drug",
+    "description": "Prescription brand for ixazomib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=038f2461-834b-4488-9ebd-863c83eef5a7",
+    "TooObvious": false
+  },
+  {
+    "name": "Nivestym",
+    "category": "drug",
+    "description": "Prescription brand for filgrastim-aafi.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d23ab39c-b6ec-41cf-a529-9dd2852c9d9a",
+    "TooObvious": false
+  },
+  {
+    "name": "Nucynta",
+    "category": "drug",
+    "description": "Prescription brand for tapentadol hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d",
+    "TooObvious": false
+  },
+  {
+    "name": "Nuplazid",
+    "category": "drug",
+    "description": "Prescription brand for pimavanserin tartrate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e6bea44-57d6-4bac-9328-46e1ee59f83b",
+    "TooObvious": false
+  },
+  {
+    "name": "Ocrevus",
+    "category": "drug",
+    "description": "Prescription brand for ocrelizumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d",
+    "TooObvious": false
+  },
+  {
+    "name": "Odefsey",
+    "category": "drug",
+    "description": "Prescription brand for emtricitabine, rilpivirine hydrochloride, and tenofovir alafenamide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea3b9ec8-e04a-412c-8b3f-e5cbc7e641d5",
+    "TooObvious": false
+  },
+  {
+    "name": "Ofev",
+    "category": "drug",
+    "description": "Prescription brand for nintedanib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da1c9f37-779e-4682-816f-93d0faa4cfc9",
+    "TooObvious": false
+  },
+  {
+    "name": "Onpattro",
+    "category": "drug",
+    "description": "Prescription brand for patisiran.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e87ec36f-b4b4-49d4-aea4-d4ffb09b0970",
+    "TooObvious": false
+  },
+  {
+    "name": "Opdivo",
+    "category": "drug",
+    "description": "Prescription brand for nivolumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+    "TooObvious": false
+  },
+  {
+    "name": "Opsumit",
+    "category": "drug",
+    "description": "Prescription brand for macitentan.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e484a50-55db-4b85-8c57-6cd1b0353abd",
+    "TooObvious": false
+  },
+  {
+    "name": "Orencia",
+    "category": "drug",
+    "description": "Prescription brand for abatacept.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb",
+    "TooObvious": false
+  },
+  {
+    "name": "Orilissa",
+    "category": "drug",
+    "description": "Prescription brand for elagolix.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a86757b3-09c5-fd3b-1223-244e94f50a66",
+    "TooObvious": false
+  },
+  {
+    "name": "Otezla",
+    "category": "drug",
+    "description": "Prescription brand for apremilast.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6b1f516-4972-4d82-bced-113e47b41cc5",
+    "TooObvious": false
+  },
+  {
+    "name": "Ozempic",
+    "category": "drug",
+    "description": "Prescription brand for oral semaglutide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+    "TooObvious": true
+  },
+  {
+    "name": "Pamelor",
+    "category": "drug",
+    "description": "Prescription brand for nortriptyline hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb",
+    "TooObvious": false
+  },
+  {
+    "name": "Plaquenil",
+    "category": "drug",
+    "description": "Prescription brand for hydroxychloroquine sulfate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34496b43-05a2-45fb-a769-52b12e099341",
+    "TooObvious": false
+  },
+  {
+    "name": "Plavix",
+    "category": "drug",
+    "description": "Prescription brand for clopidogrel.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227",
+    "TooObvious": false
+  },
+  {
+    "name": "Pomalyst",
+    "category": "drug",
+    "description": "Prescription brand for pomalidomide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b25ef01-5c9e-11e1-b86c-0800200c9a66",
+    "TooObvious": false
+  },
+  {
+    "name": "Praluent",
+    "category": "drug",
+    "description": "Prescription brand for alirocumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=446f6b5c-0dd4-44ff-9bc2-c2b41f2806b4",
+    "TooObvious": false
+  },
+  {
+    "name": "Prevymis",
+    "category": "drug",
+    "description": "Prescription brand for letermovir.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b",
+    "TooObvious": false
+  },
+  {
+    "name": "Prolia",
+    "category": "drug",
+    "description": "Prescription brand for denosumab.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88",
+    "TooObvious": false
+  },
+  {
+    "name": "Promacta",
+    "category": "drug",
+    "description": "Prescription brand for eltrombopag olamine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7714a0ed-34bb-46e6-a0a5-b363908b22c2",
+    "TooObvious": false
+  },
+  {
+    "name": "Qsymia",
+    "category": "drug",
+    "description": "Prescription brand for phentermine and topiramate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=40dd5602-53da-45ac-bb4b-15789aba40f9",
+    "TooObvious": false
+  },
+  {
+    "name": "Qulipta",
+    "category": "drug",
+    "description": "Prescription brand for atogepant.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8c8ab8f4-32bd-497a-befa-70c8a51d8d52",
+    "TooObvious": false
+  },
+  {
+    "name": "Rasuvo",
+    "category": "drug",
+    "description": "Prescription brand for methotrexate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d0075461-0e7e-4967-9c9b-d6440e912c0e",
+    "TooObvious": false
+  },
+  {
+    "name": "Rayaldee",
+    "category": "drug",
+    "description": "Prescription brand for calcifediol.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a95effd-32a5-46b6-a30e-7f4f9bf8cc77",
+    "TooObvious": false
+  },
+  {
+    "name": "Relistor",
+    "category": "drug",
+    "description": "Prescription brand for methylnaltrexone bromide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c488fb7c-0a5b-487c-b452-996809d1cb99",
+    "TooObvious": false
+  },
+  {
+    "name": "Renvela",
+    "category": "drug",
+    "description": "Prescription brand for sevelamer carbonate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e6328460-a57b-450b-a48c-6dcd4b476360",
+    "TooObvious": false
+  },
+  {
+    "name": "Restasis",
+    "category": "drug",
+    "description": "Prescription brand for cyclosporine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8e24af2b-bc1c-4849-94f2-6df950cdca89",
+    "TooObvious": false
+  },
+  {
+    "name": "Rexulti",
+    "category": "drug",
+    "description": "Prescription brand for brexpiprazole.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d301358-6291-4ec1-bd87-37b4ad9bd850",
+    "TooObvious": false
+  },
+  {
+    "name": "Rezurock",
+    "category": "drug",
+    "description": "Prescription brand for belumosudil.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=102e4ef4-7f84-4e34-8df1-479c24d1575d",
+    "TooObvious": false
+  },
+  {
+    "name": "Rinvoq",
+    "category": "drug",
+    "description": "Prescription brand for upadacitinib.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095",
+    "TooObvious": false
+  },
+  {
+    "name": "Ritalin",
+    "category": "drug",
+    "description": "Prescription brand for methylphenidate hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6fb2750-cdab-4749-ba0d-7534840a5892",
+    "TooObvious": true
+  },
+  {
+    "name": "Rozerem",
+    "category": "drug",
+    "description": "Prescription brand for ramelteon.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9de82310-70e8-47b9-b1fc-6c6848b99455",
+    "TooObvious": false
+  },
+  {
+    "name": "Rybelsus",
+    "category": "drug",
+    "description": "Prescription brand for oral semaglutide.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+    "TooObvious": false
+  },
+  {
+    "name": "Saphris",
+    "category": "drug",
+    "description": "Prescription brand for asenapine maleate.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8",
+    "TooObvious": false
+  },
+  {
+    "name": "Savella",
+    "category": "drug",
+    "description": "Prescription brand for milnacipran hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16a4a314-f97e-4e91-95e9-576a3773d284",
+    "TooObvious": false
+  },
+  {
+    "name": "Segluromet",
+    "category": "drug",
+    "description": "Prescription brand for ertugliflozin and metformin hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6aeb99a-ce49-4125-90ce-642df3f1ebad",
+    "TooObvious": false
+  },
+  {
+    "name": "Seroquel",
+    "category": "drug",
+    "description": "Prescription brand for quetiapine.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0584dda8-bc3c-48fe-1a90-79608f78e8a0",
+    "TooObvious": false
+  },
+  {
+    "name": "Silenor",
+    "category": "drug",
+    "description": "Prescription brand for doxepin hydrochloride.",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1bec1223-5239-4eb6-a9e8-62444106d2c0",
+    "TooObvious": false
+  }
+]

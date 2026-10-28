@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#222d29">
-  <meta name="description" content="A Pokémon or a tech company? Ten questions, five seconds each: a retro handheld guessing game.">
+  <meta name="description" content="Pokémon or Tech? Pokémon or Rx? Pick a cartridge: ten questions, five seconds each, on a retro handheld.">
   <title>Pokémon Or — Pocket Edition</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=3.3.1">
-  <script type="module" src="./src/device.js?v=3.3.1"></script>
+  <link rel="stylesheet" href="./styles.css?v=3.4.0">
+  <script type="module" src="./src/device.js?v=3.4.0"></script>
 </head>
 <body>
   <header class="site-header"><a href="./" class="site-brand">POCKET EDITION <span>/ 01</span></a><span class="edition-badge"><i></i> TEN QUESTIONS. FIVE SECONDS EACH.</span><nav class="site-nav" aria-label="Game information"><button id="how-button" class="desk-link">How to play ↗</button><button id="about-button" class="desk-link">About</button></nav></header>
   <main class="desk">
     <div class="device-stage">
         <button id="cartridge-slot" class="cartridge-slot" aria-label="Change cartridge. Tech inserted." title="Change cartridge" aria-haspopup="dialog" disabled>
-          <span class="cartridge-shell" aria-hidden="true"><span class="cartridge-grip"></span><span class="cartridge-label"><span class="cartridge-catalog">CATALOG <span data-cart-catalog>01</span></span><strong data-cart-label>TECH</strong><img data-cart-art src="./assets/cartridges/tech.svg" alt=""></span></span>
+          <span class="cartridge-shell" aria-hidden="true"><span class="cartridge-grip"></span><span class="cartridge-label"><span class="cartridge-number">PACK <span data-cart-number>01</span></span><strong data-cart-label>TECH</strong><img data-cart-art src="./assets/cartridges/tech.svg" alt=""></span></span>
         </button>
       <section class="handheld" aria-label="Pokémon Or handheld game" data-screen="boot">
         <div class="top-seam" aria-hidden="true"></div>
@@ -31,7 +31,7 @@
               <p id="boot-status">READING CARTRIDGE…</p>
             </section>
             <section id="title-screen" class="title-screen" aria-label="Cartridge title screen" hidden>
-              <span class="title-catalog">CATALOG <span data-cart-catalog>01</span> · POCKET EDITION</span>
+              <span class="title-number">PACK <span data-cart-number>01</span> · POCKET EDITION</span>
               <h1 id="pack-title">Tech Pack</h1>
               <div class="title-art"><img id="pack-art" src="./assets/cartridges/tech.svg" alt="A pixel computer with a smiling screen and circuit traces"><span class="activity-light" aria-hidden="true"></span></div>
               <p class="pack-rules">10 QUESTIONS · 5 SECONDS</p>
@@ -77,8 +77,9 @@
   <dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-content"></div></dialog>
   <dialog id="cartridge-dialog" class="cartridge-dialog" aria-labelledby="cartridge-heading">
     <div class="dialog-heading"><div><span class="library-eyebrow">YOUR COLLECTION</span><h2 id="cartridge-heading">Choose a cartridge.</h2></div><button id="close-cartridges" class="dialog-close" aria-label="Close cartridge picker">×</button></div>
-    <p class="library-hint">Pick a pack. Trust your instinct.</p>
-    <div id="cartridge-list" class="cartridge-list"></div>
+    <p class="library-hint">Browse the packs. Tap a cartridge to load it.</p>
+    <div id="cartridge-list" class="cartridge-list" role="region" aria-roledescription="carousel" aria-label="Available cartridges"></div>
+    <div class="carousel-controls"><button id="previous-cartridge" class="carousel-arrow" aria-label="Previous cartridge">←</button><span id="carousel-position" role="status" aria-live="polite"></span><button id="next-cartridge" class="carousel-arrow" aria-label="Next cartridge">→</button></div>
     <p class="library-footer">10 QUESTIONS. TWO POSSIBILITIES.</p>
   </dialog>
   <noscript>Please enable JavaScript to play Pokémon Or.</noscript>

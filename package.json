@@ -1,14 +1,15 @@
 {
   "name": "pokemon-or",
-  "version": "3.3.1",
+  "version": "3.4.0",
   "private": true,
   "type": "module",
-  "description": "Five seconds to tell a Pokémon from a tech company.",
+  "description": "Pick a Tech or Rx cartridge. Five seconds to spot the Pokémon.",
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "test": "node --test",
     "build": "node scripts/build.mjs",
-    "update:pokemon": "node scripts/update-pokemon.mjs"
+    "update:pokemon": "node scripts/update-pokemon.mjs",
+    "update:rx": "node scripts/update-rx.mjs"
   },
   "engines": { "node": ">=22" }
 }

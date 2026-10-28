@@ -1,0 +1,2945 @@
+[
+  {
+    "name": "Abilify",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Abilify%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c040bd1d-45b7-49f2-93ea-aed7220b30ac",
+    "setId": "c040bd1d-45b7-49f2-93ea-aed7220b30ac",
+    "brandNames": [
+      "ABILIFY"
+    ],
+    "genericNames": [
+      "ARIPIPRAZOLE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Actemra",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Actemra%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13",
+    "setId": "2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13",
+    "brandNames": [
+      "ACTEMRA",
+      "Actemra",
+      "Actemra ACTPen"
+    ],
+    "genericNames": [
+      "TOCILIZUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Actos",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Actos%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c",
+    "setId": "d2ddc491-88a9-4063-9150-443b4fa4330c",
+    "brandNames": [
+      "Actos"
+    ],
+    "genericNames": [
+      "PIOGLITAZONE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Aczone",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Aczone%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=22058b7d-a578-4eaa-a476-ac982337f02a",
+    "setId": "22058b7d-a578-4eaa-a476-ac982337f02a",
+    "brandNames": [
+      "Aczone"
+    ],
+    "genericNames": [
+      "DAPSONE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Adcirca",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Adcirca%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ff61b237-be8e-461b-8114-78c52a8ad0ae",
+    "setId": "ff61b237-be8e-461b-8114-78c52a8ad0ae",
+    "brandNames": [
+      "ADCIRCA"
+    ],
+    "genericNames": [
+      "TADALAFIL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Adempas",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Adempas%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7b57509a-3d5d-41d4-8fed-1471e26372a3",
+    "setId": "7b57509a-3d5d-41d4-8fed-1471e26372a3",
+    "brandNames": [
+      "Adempas"
+    ],
+    "genericNames": [
+      "RIOCIGUAT"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Afrezza",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Afrezza%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=29f4637b-e204-425b-b89c-7238008d8c10",
+    "setId": "29f4637b-e204-425b-b89c-7238008d8c10",
+    "brandNames": [
+      "AFREZZA"
+    ],
+    "genericNames": [
+      "INSULIN HUMAN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Aimovig",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Aimovig%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b998ed05-94b0-47fd-b28f-cddd1e128fd8",
+    "setId": "b998ed05-94b0-47fd-b28f-cddd1e128fd8",
+    "brandNames": [
+      "AIMOVIG"
+    ],
+    "genericNames": [
+      "ERENUMAB-AOOE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Ajovy",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Ajovy%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b",
+    "setId": "98e344ea-5916-4947-b6f2-4a76ccc04b6b",
+    "brandNames": [
+      "AJOVY"
+    ],
+    "genericNames": [
+      "FREMANEZUMAB-VFRM"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Akynzeo",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Akynzeo%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8e47618e-af46-4d82-94e8-1507c042252d",
+    "setId": "8e47618e-af46-4d82-94e8-1507c042252d",
+    "brandNames": [
+      "AKYNZEO"
+    ],
+    "genericNames": [
+      "NETUPITANT AND PALONOSETRON",
+      "FOSNETUPITANT AND PALONOSETRON"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Alecensa",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Alecensa%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb",
+    "setId": "42c49deb-713b-427a-9670-08af08adcffb",
+    "brandNames": [
+      "ALECENSA"
+    ],
+    "genericNames": [
+      "ALECTINIB HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Alimta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Alimta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f5a860f3-37ec-429c-ae04-9c88d7c55c08",
+    "setId": "f5a860f3-37ec-429c-ae04-9c88d7c55c08",
+    "brandNames": [
+      "Alimta"
+    ],
+    "genericNames": [
+      "PEMETREXED DISODIUM"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Alunbrig",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Alunbrig%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db",
+    "setId": "0fe9ff20-d402-41f3-bc1e-7002ea7007db",
+    "brandNames": [
+      "Alunbrig"
+    ],
+    "genericNames": [
+      "BRIGATINIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Amitiza",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Amitiza%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=164a2b47-0a52-4bb4-9e71-5342c2e951f4",
+    "setId": "164a2b47-0a52-4bb4-9e71-5342c2e951f4",
+    "brandNames": [
+      "Amitiza"
+    ],
+    "genericNames": [
+      "LUBIPROSTONE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Amrix",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Amrix%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3902123b-1365-ac3c-0934-afff9eeeb1bd",
+    "setId": "3902123b-1365-ac3c-0934-afff9eeeb1bd",
+    "brandNames": [
+      "AMRIX"
+    ],
+    "genericNames": [
+      "CYCLOBENZAPRINE HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Apidra",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Apidra%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "setId": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "brandNames": [
+      "Apidra",
+      "Apidra SoloStar"
+    ],
+    "genericNames": [
+      "INSULIN GLULISINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Aptiom",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Aptiom%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d0c9554-eaeb-4694-8089-00133fcadce3",
+    "setId": "3d0c9554-eaeb-4694-8089-00133fcadce3",
+    "brandNames": [
+      "Aptiom"
+    ],
+    "genericNames": [
+      "ESLICARBAZEPINE ACETATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Arava",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Arava%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52",
+    "setId": "320f63f2-fac3-4aee-aff8-85724e00ef52",
+    "brandNames": [
+      "Arava"
+    ],
+    "genericNames": [
+      "LEFLUNOMIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Arcalyst",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Arcalyst%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ad965f38-dd22-4607-a673-2fb92f3b527a",
+    "setId": "ad965f38-dd22-4607-a673-2fb92f3b527a",
+    "brandNames": [
+      "Arcalyst"
+    ],
+    "genericNames": [
+      "RILONACEPT"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Aricept",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Aricept%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975",
+    "setId": "98e451e1-e4d7-4439-a675-c5457ba20975",
+    "brandNames": [
+      "Aricept"
+    ],
+    "genericNames": [
+      "DONEPEZIL HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Aromasin",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Aromasin%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3",
+    "setId": "cf066b7a-032a-416c-8d40-15ba581423e3",
+    "brandNames": [
+      "Aromasin"
+    ],
+    "genericNames": [
+      "EXEMESTANE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Aubagio",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Aubagio%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4650d12c-b9c8-4525-b07f-a2d773eca155",
+    "setId": "4650d12c-b9c8-4525-b07f-a2d773eca155",
+    "brandNames": [
+      "Aubagio"
+    ],
+    "genericNames": [
+      "TERIFLUNOMIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Auvelity",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Auvelity%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79",
+    "setId": "dcefda7c-9a68-278e-e053-2995a90aec79",
+    "brandNames": [
+      "AUVELITY"
+    ],
+    "genericNames": [
+      "DEXTROMETHORPHAN HYDROBROMIDE, BUPROPION HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Avapro",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Avapro%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98",
+    "setId": "7885b2a8-be4e-48ab-8113-4e6ab791eb98",
+    "brandNames": [
+      "Avapro"
+    ],
+    "genericNames": [
+      "IRBESARTAN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Avonex",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Avonex%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d70a39cc-de15-4c12-a1ec-8063b69ea0e1",
+    "setId": "d70a39cc-de15-4c12-a1ec-8063b69ea0e1",
+    "brandNames": [
+      "Avonex",
+      "Avonex Pen",
+      "AVONEX"
+    ],
+    "genericNames": [
+      "INTERFERON BETA-1A"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Azilect",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Azilect%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60",
+    "setId": "a40d0e73-3f9f-4b01-979d-402c9cdaeb60",
+    "brandNames": [
+      "Azilect"
+    ],
+    "genericNames": [
+      "RASAGILINE MESYLATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Banzel",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Banzel%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d",
+    "setId": "0a3fa925-1abd-458a-bd57-4ae780a1ef2d",
+    "brandNames": [
+      "Banzel"
+    ],
+    "genericNames": [
+      "RUFINAMIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Belbuca",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Belbuca%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc2b7a3d-72cf-497c-95b0-ba2b71f63c64",
+    "setId": "bc2b7a3d-72cf-497c-95b0-ba2b71f63c64",
+    "brandNames": [
+      "BELBUCA"
+    ],
+    "genericNames": [
+      "BUPRENORPHINE HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Benicar",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Benicar%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5b6f8a18-8f8a-4521-81c3-3a39c73c6646",
+    "setId": "5b6f8a18-8f8a-4521-81c3-3a39c73c6646",
+    "brandNames": [
+      "Benicar"
+    ],
+    "genericNames": [
+      "OLMESARTAN MEDOXOMIL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Benlysta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Benlysta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3",
+    "setId": "2fa3c528-1777-4628-8a55-a69dae2381a3",
+    "brandNames": [
+      "BENLYSTA"
+    ],
+    "genericNames": [
+      "BELIMUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Biktarvy",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Biktarvy%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0476d7eb-1024-4821-bbe7-abaacfda32a2",
+    "setId": "0476d7eb-1024-4821-bbe7-abaacfda32a2",
+    "brandNames": [
+      "Biktarvy"
+    ],
+    "genericNames": [
+      "BICTEGRAVIR SODIUM, EMTRICITABINE, AND TENOFOVIR ALAFENAMIDE FUMARATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Brilinta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Brilinta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1547e2b6-8858-178e-e063-6394a90abb23",
+    "setId": "1547e2b6-8858-178e-e063-6394a90abb23",
+    "brandNames": [
+      "BRILINTA"
+    ],
+    "genericNames": [
+      "TICAGRELOR"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Briviact",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Briviact%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c",
+    "setId": "3cf2f439-0e97-443e-8e33-25ecef616f6c",
+    "brandNames": [
+      "Briviact"
+    ],
+    "genericNames": [
+      "BRIVARACETAM"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Bystolic",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Bystolic%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8",
+    "setId": "8b8ad213-1dc8-454e-a524-075685c0e1a8",
+    "brandNames": [
+      "Bystolic"
+    ],
+    "genericNames": [
+      "NEBIVOLOL HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Cabometyx",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Cabometyx%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5",
+    "setId": "3850cce2-6137-42e5-a792-d318c4a4b3b5",
+    "brandNames": [
+      "CABOMETYX"
+    ],
+    "genericNames": [
+      "CABOZANTINIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Calquence",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Calquence%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd4835ef-e1bc-4997-a399-1ffa2556fbfe",
+    "setId": "dd4835ef-e1bc-4997-a399-1ffa2556fbfe",
+    "brandNames": [
+      "CALQUENCE"
+    ],
+    "genericNames": [
+      "ACALABRUTINIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Caplyta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Caplyta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db730b06-6351-47fd-8183-e61e61bbead5",
+    "setId": "db730b06-6351-47fd-8183-e61e61bbead5",
+    "brandNames": [
+      "CAPLYTA"
+    ],
+    "genericNames": [
+      "LUMATEPERONE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Carafate",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Carafate%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fb67b1c-b4c0-46f2-8a81-df1510e006aa",
+    "setId": "0fb67b1c-b4c0-46f2-8a81-df1510e006aa",
+    "brandNames": [
+      "Carafate"
+    ],
+    "genericNames": [
+      "SUCRALFATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Cardura",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Cardura%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82",
+    "setId": "5e1f5e49-2da1-43ab-9795-228a8bcc5a82",
+    "brandNames": [
+      "Cardura"
+    ],
+    "genericNames": [
+      "DOXAZOSIN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Cayston",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Cayston%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67300ca3-8c53-4ce4-8e86-2c03be1f9b8a",
+    "setId": "67300ca3-8c53-4ce4-8e86-2c03be1f9b8a",
+    "brandNames": [
+      "Cayston"
+    ],
+    "genericNames": [
+      "AZTREONAM"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Celebrex",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Celebrex%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d6675e4-5859-4be2-8037-a20ce9f707aa",
+    "setId": "2d6675e4-5859-4be2-8037-a20ce9f707aa",
+    "brandNames": [
+      "CELEBREX"
+    ],
+    "genericNames": [
+      "CELECOXIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Cequa",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Cequa%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=48c3d8a3-4289-4b52-9189-58b48596095c",
+    "setId": "48c3d8a3-4289-4b52-9189-58b48596095c",
+    "brandNames": [
+      "CEQUA"
+    ],
+    "genericNames": [
+      "CYCLOSPORINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Cialis",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Cialis%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895",
+    "setId": "bcd8f8ab-81a2-4891-83db-24a0b0e25895",
+    "brandNames": [
+      "Cialis"
+    ],
+    "genericNames": [
+      "TADALAFIL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Cimzia",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Cimzia%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d",
+    "setId": "b4c2c9dc-a0bb-4d64-a667-a67ebe88392d",
+    "brandNames": [
+      "Cimzia"
+    ],
+    "genericNames": [
+      "CERTOLIZUMAB PEGOL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Cinvanti",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Cinvanti%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4",
+    "setId": "4c218d3a-a508-4abc-9ed8-a6e8e191d1b4",
+    "brandNames": [
+      "CINVANTI"
+    ],
+    "genericNames": [
+      "APREPITANT"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Clozaril",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Clozaril%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90876802-0e3a-44c9-9ff7-1754dfbe736a",
+    "setId": "90876802-0e3a-44c9-9ff7-1754dfbe736a",
+    "brandNames": [
+      "Clozaril"
+    ],
+    "genericNames": [
+      "CLOZAPINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Colcrys",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Colcrys%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6adc880-5499-4691-93f3-27c87902d5fc",
+    "setId": "d6adc880-5499-4691-93f3-27c87902d5fc",
+    "brandNames": [
+      "Colcrys"
+    ],
+    "genericNames": [
+      "COLCHICINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Combigan",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Combigan%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=feaf1480-a4b8-4486-992a-96be3a596243",
+    "setId": "feaf1480-a4b8-4486-992a-96be3a596243",
+    "brandNames": [
+      "COMBIGAN"
+    ],
+    "genericNames": [
+      "BRIMONIDINE TARTRATE, TIMOLOL MALEATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Concerta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Concerta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a88218c-5b18-4220-8f56-526de1a276cd",
+    "setId": "1a88218c-5b18-4220-8f56-526de1a276cd",
+    "brandNames": [
+      "CONCERTA"
+    ],
+    "genericNames": [
+      "METHYLPHENIDATE HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Copaxone",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Copaxone%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa88f583-4f5f-433b-80b4-1f4c9fb28357",
+    "setId": "aa88f583-4f5f-433b-80b4-1f4c9fb28357",
+    "brandNames": [
+      "Copaxone"
+    ],
+    "genericNames": [
+      "GLATIRAMER ACETATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Corlanor",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Corlanor%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d",
+    "setId": "92018a65-38f6-45f7-91d4-a34921b81d0d",
+    "brandNames": [
+      "Corlanor"
+    ],
+    "genericNames": [
+      "IVABRADINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Cosopt",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Cosopt%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23bdf1c1-3134-4ad1-8e7c-bc655156bdc6",
+    "setId": "23bdf1c1-3134-4ad1-8e7c-bc655156bdc6",
+    "brandNames": [
+      "COSOPT"
+    ],
+    "genericNames": [
+      "DORZOLAMIDE HYDROCHLORIDE AND TIMOLOL MALEATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Creon",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Creon%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=073201aa-556d-4a70-918e-84e9616fd88d",
+    "setId": "073201aa-556d-4a70-918e-84e9616fd88d",
+    "brandNames": [
+      "Creon"
+    ],
+    "genericNames": [
+      "PANCRELIPASE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Cresemba",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Cresemba%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f7f73b8-586a-4df0-935f-fecd4696c16c",
+    "setId": "8f7f73b8-586a-4df0-935f-fecd4696c16c",
+    "brandNames": [
+      "CRESEMBA"
+    ],
+    "genericNames": [
+      "ISAVUCONAZONIUM SULFATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Daliresp",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Daliresp%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c9a1d0a8-581f-4f91-a2b8-f419192d0ebf",
+    "setId": "c9a1d0a8-581f-4f91-a2b8-f419192d0ebf",
+    "brandNames": [
+      "Daliresp"
+    ],
+    "genericNames": [
+      "ROFLUMILAST"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Dayvigo",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Dayvigo%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7074cb65-77b3-45d2-8e8d-da8dc0f70bfd",
+    "setId": "7074cb65-77b3-45d2-8e8d-da8dc0f70bfd",
+    "brandNames": [
+      "DAYVIGO"
+    ],
+    "genericNames": [
+      "LEMBOREXANT"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Descovy",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Descovy%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=06f66e98-e6ee-4538-9506-6c1282cc14c1",
+    "setId": "06f66e98-e6ee-4538-9506-6c1282cc14c1",
+    "brandNames": [
+      "DESCOVY"
+    ],
+    "genericNames": [
+      "EMTRICITABINE AND TENOFOVIR ALAFENAMIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Dexilant",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Dexilant%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9819f033-3bbe-442e-8e92-45fec77b237d",
+    "setId": "9819f033-3bbe-442e-8e92-45fec77b237d",
+    "brandNames": [
+      "Dexilant"
+    ],
+    "genericNames": [
+      "DEXLANSOPRAZOLE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Diovan",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Diovan%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213",
+    "setId": "5ddba454-f3e6-43c2-a7a6-58365d297213",
+    "brandNames": [
+      "Diovan"
+    ],
+    "genericNames": [
+      "VALSARTAN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Dovato",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Dovato%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=68e45422-43ed-4cfb-9356-fae88d14a53a",
+    "setId": "68e45422-43ed-4cfb-9356-fae88d14a53a",
+    "brandNames": [
+      "Dovato"
+    ],
+    "genericNames": [
+      "DOLUTEGRAVIR SODIUM AND LAMIVUDINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Droxia",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Droxia%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4ad13dc6-a2ab-4308-96b3-7c642c92cc23",
+    "setId": "4ad13dc6-a2ab-4308-96b3-7c642c92cc23",
+    "brandNames": [
+      "DROXIA"
+    ],
+    "genericNames": [
+      "HYDROXYUREA"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Duavee",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Duavee%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e16705d8-4472-4f83-96ac-69fa2be066cb",
+    "setId": "e16705d8-4472-4f83-96ac-69fa2be066cb",
+    "brandNames": [
+      "Duavee"
+    ],
+    "genericNames": [
+      "CONJUGATED ESTROGENS/BAZEDOXIFENE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Dulera",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Dulera%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f399784-f257-4f31-b3dc-368bf2a1864d",
+    "setId": "8f399784-f257-4f31-b3dc-368bf2a1864d",
+    "brandNames": [
+      "Dulera"
+    ],
+    "genericNames": [
+      "MOMETASONE FUROATE AND FORMOTEROL FUMARATE DIHYDRATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Durezol",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Durezol%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea520a27-f569-4b31-8bad-a25ad54b2caa",
+    "setId": "ea520a27-f569-4b31-8bad-a25ad54b2caa",
+    "brandNames": [
+      "DUREZOL"
+    ],
+    "genericNames": [
+      "DIFLUPREDNATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Edarbi",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Edarbi%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52b27c75-9f5a-4816-bafd-dace9d7d2063",
+    "setId": "52b27c75-9f5a-4816-bafd-dace9d7d2063",
+    "brandNames": [
+      "Edarbi"
+    ],
+    "genericNames": [
+      "AZILSARTAN KAMEDOXOMIL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Edurant",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Edurant%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6",
+    "setId": "03880372-2c68-45c6-a53a-f420c49541d6",
+    "brandNames": [
+      "EDURANT",
+      "EDURANT PED"
+    ],
+    "genericNames": [
+      "RILPIVIRINE HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Effient",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Effient%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e",
+    "setId": "69ea2d58-5353-4222-b61f-cab976fa7e5e",
+    "brandNames": [
+      "Effient"
+    ],
+    "genericNames": [
+      "PRASUGREL HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Eliquis",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Eliquis%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1523ab32-2c2c-6501-e063-6394a90aa0b3",
+    "setId": "1523ab32-2c2c-6501-e063-6394a90aa0b3",
+    "brandNames": [
+      "ELIQUIS"
+    ],
+    "genericNames": [
+      "APIXABAN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Elmiron",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Elmiron%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593",
+    "setId": "f0ba651e-3d8a-11df-8fbe-119855d89593",
+    "brandNames": [
+      "ELMIRON"
+    ],
+    "genericNames": [
+      "PENTOSAN POLYSULFATE SODIUM"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Emend",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Emend%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=696f9e80-9cae-403b-de9e-078343ce4713",
+    "setId": "696f9e80-9cae-403b-de9e-078343ce4713",
+    "brandNames": [
+      "EMEND"
+    ],
+    "genericNames": [
+      "APREPITANT"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Emgality",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Emgality%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0",
+    "setId": "33a147be-233a-40e8-a55e-e40936e28db0",
+    "brandNames": [
+      "EMGALITY"
+    ],
+    "genericNames": [
+      "GALCANEZUMAB-GNLM"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Empliciti",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Empliciti%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80686b7e-f6f4-4154-b5c0-c846425e2d91",
+    "setId": "80686b7e-f6f4-4154-b5c0-c846425e2d91",
+    "brandNames": [
+      "EMPLICITI"
+    ],
+    "genericNames": [
+      "ELOTUZUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Enbrel",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Enbrel%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f",
+    "setId": "a002b40c-097d-47a5-957f-7a7b1807af7f",
+    "brandNames": [
+      "ENBREL"
+    ],
+    "genericNames": [
+      "ETANERCEPT"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Entresto",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Entresto%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=000dc81d-ab91-450c-8eae-8eb74e72296f",
+    "setId": "000dc81d-ab91-450c-8eae-8eb74e72296f",
+    "brandNames": [
+      "ENTRESTO"
+    ],
+    "genericNames": [
+      "SACUBITRIL AND VALSARTAN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Entyvio",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Entyvio%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6e94621c-1a95-4af9-98d1-52b9e6f1949c",
+    "setId": "6e94621c-1a95-4af9-98d1-52b9e6f1949c",
+    "brandNames": [
+      "ENTYVIO",
+      "ENTYVIO Pen",
+      "Entyvio"
+    ],
+    "genericNames": [
+      "VEDOLIZUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Epclusa",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Epclusa%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7f30631a-ee3b-4cfe-866b-964df3f0a44f",
+    "setId": "7f30631a-ee3b-4cfe-866b-964df3f0a44f",
+    "brandNames": [
+      "Epclusa"
+    ],
+    "genericNames": [
+      "VELPATASVIR AND SOFOSBUVIR"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Erivedge",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Erivedge%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+    "setId": "eb368bb6-80e3-4df9-8a85-91df0a2ada6a",
+    "brandNames": [
+      "ERIVEDGE"
+    ],
+    "genericNames": [
+      "VISMODEGIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Erleada",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Erleada%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d1cda4f7-cb33-46ea-b9ac-431f6452b1a5",
+    "setId": "d1cda4f7-cb33-46ea-b9ac-431f6452b1a5",
+    "brandNames": [
+      "ERLEADA"
+    ],
+    "genericNames": [
+      "APALUTAMIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Esbriet",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Esbriet%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e",
+    "setId": "2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e",
+    "brandNames": [
+      "ESBRIET"
+    ],
+    "genericNames": [
+      "PIRFENIDONE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Eucrisa",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Eucrisa%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=609b77de-1ca3-4783-b8f5-01a9c0f1d77d",
+    "setId": "609b77de-1ca3-4783-b8f5-01a9c0f1d77d",
+    "brandNames": [
+      "Eucrisa"
+    ],
+    "genericNames": [
+      "CRISABOROLE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Evista",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Evista%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9",
+    "setId": "fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9",
+    "brandNames": [
+      "Evista"
+    ],
+    "genericNames": [
+      "RALOXIFENE HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Exelon",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Exelon%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=07c12e14-bbd5-4ec8-84e4-fbe7b5ba10e0",
+    "setId": "07c12e14-bbd5-4ec8-84e4-fbe7b5ba10e0",
+    "brandNames": [
+      "Exelon"
+    ],
+    "genericNames": [
+      "RIVASTIGMINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Farxiga",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Farxiga%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01f90c94-71cb-4a1f-81ff-8004b850529b",
+    "setId": "01f90c94-71cb-4a1f-81ff-8004b850529b",
+    "brandNames": [
+      "FARXIGA"
+    ],
+    "genericNames": [
+      "DAPAGLIFLOZIN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Fasenra",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Fasenra%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784",
+    "setId": "da6aca1a-19ed-44a4-abb7-696c7d58b784",
+    "brandNames": [
+      "FASENRA"
+    ],
+    "genericNames": [
+      "BENRALIZUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Fetzima",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Fetzima%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f371258d-91b3-4b6a-ac99-434a1964c3af",
+    "setId": "f371258d-91b3-4b6a-ac99-434a1964c3af",
+    "brandNames": [
+      "Fetzima"
+    ],
+    "genericNames": [
+      "LEVOMILNACIPRAN HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Firazyr",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Firazyr%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540",
+    "setId": "ed6657ca-ab68-477a-9968-e12dc928b540",
+    "brandNames": [
+      "Firazyr"
+    ],
+    "genericNames": [
+      "ICATIBANT ACETATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Focalin",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Focalin%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2016f5c2-95d2-4655-af65-c588c2bf5e6d",
+    "setId": "2016f5c2-95d2-4655-af65-c588c2bf5e6d",
+    "brandNames": [
+      "Focalin"
+    ],
+    "genericNames": [
+      "DEXMETHYLPHENIDATE HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Forteo",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Forteo%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aae667c5-381f-4f92-93df-2ed6158d07b0",
+    "setId": "aae667c5-381f-4f92-93df-2ed6158d07b0",
+    "brandNames": [
+      "Forteo"
+    ],
+    "genericNames": [
+      "TERIPARATIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Fycompa",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Fycompa%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122",
+    "setId": "71cf3309-e182-473c-8b0b-280cabd0e122",
+    "brandNames": [
+      "Fycompa"
+    ],
+    "genericNames": [
+      "PERAMPANEL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Genvoya",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Genvoya%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34784acf-15ed-4715-b504-eb30430518e9",
+    "setId": "34784acf-15ed-4715-b504-eb30430518e9",
+    "brandNames": [
+      "Genvoya"
+    ],
+    "genericNames": [
+      "ELVITEGRAVIR, COBICISTAT, EMTRICITABINE, AND TENOFOVIR ALAFENAMIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Gilenya",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Gilenya%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc9e1c8c-0e2b-44e2-878b-27057f786be9",
+    "setId": "cc9e1c8c-0e2b-44e2-878b-27057f786be9",
+    "brandNames": [
+      "Gilenya"
+    ],
+    "genericNames": [
+      "FINGOLIMOD HCL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Gleevec",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Gleevec%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b",
+    "setId": "211ef2da-2868-4a77-8055-1cb2cd78e24b",
+    "brandNames": [
+      "Gleevec"
+    ],
+    "genericNames": [
+      "IMATINIB MESYLATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Glyxambi",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Glyxambi%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ddbab689-f76c-488c-9613-4168d41dd730",
+    "setId": "ddbab689-f76c-488c-9613-4168d41dd730",
+    "brandNames": [
+      "Glyxambi"
+    ],
+    "genericNames": [
+      "EMPAGLIFLOZIN AND LINAGLIPTIN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Gralise",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Gralise%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=466273b1-c9fc-3930-c94b-aa11394d5140",
+    "setId": "466273b1-c9fc-3930-c94b-aa11394d5140",
+    "brandNames": [
+      "Gralise"
+    ],
+    "genericNames": [
+      "GABAPENTIN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Halaven",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Halaven%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822",
+    "setId": "31ce4750-ded5-4a0b-95e9-f229fa6bc822",
+    "brandNames": [
+      "Halaven"
+    ],
+    "genericNames": [
+      "ERIBULIN MESYLATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Harvoni",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Harvoni%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4ec77e4-bae8-4db0-b3d5-bde09c5fa075",
+    "setId": "f4ec77e4-bae8-4db0-b3d5-bde09c5fa075",
+    "brandNames": [
+      "Harvoni"
+    ],
+    "genericNames": [
+      "LEDIPASVIR AND SOFOSBUVIR"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Hetlioz",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Hetlioz%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90",
+    "setId": "ca4a9b63-708e-49e9-8f9b-010625443b90",
+    "brandNames": [
+      "Hetlioz",
+      "Hetlioz LQ"
+    ],
+    "genericNames": [
+      "TASIMELTEON"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Horizant",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Horizant%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c486fc7-c8c4-4c6c-b30c-366dabaeaadd",
+    "setId": "4c486fc7-c8c4-4c6c-b30c-366dabaeaadd",
+    "brandNames": [
+      "Horizant"
+    ],
+    "genericNames": [
+      "GABAPENTIN ENACARBIL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Humira",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Humira%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4977567e-3525-44ac-9ff5-f1e74b053950",
+    "setId": "4977567e-3525-44ac-9ff5-f1e74b053950",
+    "brandNames": [
+      "Humira"
+    ],
+    "genericNames": [
+      "ADALIMUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Ibrance",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Ibrance%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792",
+    "setId": "89a142d5-7e61-48bf-9e77-e2cd124c4792",
+    "brandNames": [
+      "Ibrance"
+    ],
+    "genericNames": [
+      "PALBOCICLIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Iclusig",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Iclusig%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac",
+    "setId": "16d804b6-4957-43ee-b18c-3b36ec37c5ac",
+    "brandNames": [
+      "Iclusig"
+    ],
+    "genericNames": [
+      "PONATINIB HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Imbruvica",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Imbruvica%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0dfd0279-ff17-4ea9-89be-9803c71bab44",
+    "setId": "0dfd0279-ff17-4ea9-89be-9803c71bab44",
+    "brandNames": [
+      "Imbruvica"
+    ],
+    "genericNames": [
+      "IBRUTINIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Ingrezza",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Ingrezza%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c970164-cafb-421f-9eb5-c226ef0a3417",
+    "setId": "4c970164-cafb-421f-9eb5-c226ef0a3417",
+    "brandNames": [
+      "INGREZZA",
+      "INGREZZA Sprinkle"
+    ],
+    "genericNames": [
+      "VALBENAZINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Inlyta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Inlyta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=84137882-e000-47da-bd5b-fa76ab3c76f9",
+    "setId": "84137882-e000-47da-bd5b-fa76ab3c76f9",
+    "brandNames": [
+      "INLYTA"
+    ],
+    "genericNames": [
+      "AXITINIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Inspra",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Inspra%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a",
+    "setId": "1a52bedc-8e2c-4116-a296-a87770676b4a",
+    "brandNames": [
+      "Inspra"
+    ],
+    "genericNames": [
+      "EPLERENONE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Intuniv",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Intuniv%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b972af81-3a37-40be-9fe1-3ddf59852528",
+    "setId": "b972af81-3a37-40be-9fe1-3ddf59852528",
+    "brandNames": [
+      "Intuniv"
+    ],
+    "genericNames": [
+      "GUANFACINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Invega",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Invega%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916",
+    "setId": "7b8e5b26-b9e4-4704-921b-3c3c0d159916",
+    "brandNames": [
+      "INVEGA"
+    ],
+    "genericNames": [
+      "PALIPERIDONE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Invokana",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Invokana%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5f76e16f-0c24-454a-81af-4080b312c940",
+    "setId": "5f76e16f-0c24-454a-81af-4080b312c940",
+    "brandNames": [
+      "INVOKANA"
+    ],
+    "genericNames": [
+      "CANAGLIFLOZIN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Jakafi",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Jakafi%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b",
+    "setId": "f1c82580-87ae-11e0-bc84-0002a5d5c51b",
+    "brandNames": [
+      "JAKAFI",
+      "JAKAFI XR"
+    ],
+    "genericNames": [
+      "RUXOLITINIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Janumet",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Janumet%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b55ee3d9-7f0b-4dd9-9213-fbc69f09f567",
+    "setId": "b55ee3d9-7f0b-4dd9-9213-fbc69f09f567",
+    "brandNames": [
+      "JANUMET"
+    ],
+    "genericNames": [
+      "SITAGLIPTIN AND METFORMIN HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Januvia",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Januvia%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=194c3718-5eb5-4cf5-85d0-2bb1ed8293b8",
+    "setId": "194c3718-5eb5-4cf5-85d0-2bb1ed8293b8",
+    "brandNames": [
+      "JANUVIA"
+    ],
+    "genericNames": [
+      "SITAGLIPTIN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Jardiance",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Jardiance%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1782b947-4a72-4feb-a488-1469d9af82bd",
+    "setId": "1782b947-4a72-4feb-a488-1469d9af82bd",
+    "brandNames": [
+      "JARDIANCE"
+    ],
+    "genericNames": [
+      "EMPAGLIFLOZIN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Jentadueto",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Jentadueto%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6dd9b86-0d18-95d4-2bc7-05591bfdd597",
+    "setId": "f6dd9b86-0d18-95d4-2bc7-05591bfdd597",
+    "brandNames": [
+      "Jentadueto"
+    ],
+    "genericNames": [
+      "LINAGLIPTIN AND METFORMIN HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Juluca",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Juluca%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=806653d1-bf35-4924-b999-ad5d21821cc1",
+    "setId": "806653d1-bf35-4924-b999-ad5d21821cc1",
+    "brandNames": [
+      "Juluca"
+    ],
+    "genericNames": [
+      "DOLUTEGRAVIR SODIUM AND RILPIVIRINE HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Kadcyla",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Kadcyla%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+    "setId": "23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+    "brandNames": [
+      "KADCYLA"
+    ],
+    "genericNames": [
+      "ADO-TRASTUZUMAB EMTANSINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Kaletra",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Kaletra%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8290add3-4449-4e58-6c97-8fe1eec972e3",
+    "setId": "8290add3-4449-4e58-6c97-8fe1eec972e3",
+    "brandNames": [
+      "Kaletra"
+    ],
+    "genericNames": [
+      "LOPINAVIR AND RITONAVIR"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Keppra",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Keppra%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3ca9df05-a506-4ec8-a4fe-320f1219ab21",
+    "setId": "3ca9df05-a506-4ec8-a4fe-320f1219ab21",
+    "brandNames": [
+      "Keppra"
+    ],
+    "genericNames": [
+      "LEVETIRACETAM"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Kesimpta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Kesimpta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3",
+    "setId": "6a8a3f53-2062-48ff-9dbe-b939df133ca3",
+    "brandNames": [
+      "KESIMPTA"
+    ],
+    "genericNames": [
+      "OFATUMUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Keytruda",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Keytruda%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+    "setId": "9333c79b-d487-4538-a9f0-71b91a02b287",
+    "brandNames": [
+      "KEYTRUDA"
+    ],
+    "genericNames": [
+      "PEMBROLIZUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Kisqali",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Kisqali%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8",
+    "setId": "aaeaef94-f3f5-4367-8ea2-b181d7be2da8",
+    "brandNames": [
+      "KISQALI"
+    ],
+    "genericNames": [
+      "RIBOCICLIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Klonopin",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Klonopin%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1",
+    "setId": "cfa0d79a-843c-4b88-95a1-e9511d649ca1",
+    "brandNames": [
+      "Klonopin"
+    ],
+    "genericNames": [
+      "CLONAZEPAM"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Korlym",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Korlym%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=542f3fae-8bc8-4f00-9228-e4b66c9ad6a9",
+    "setId": "542f3fae-8bc8-4f00-9228-e4b66c9ad6a9",
+    "brandNames": [
+      "Korlym"
+    ],
+    "genericNames": [
+      "MIFEPRISTONE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Lamictal",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Lamictal%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7e3572d-56fe-4727-2bb4-013ccca22678",
+    "setId": "d7e3572d-56fe-4727-2bb4-013ccca22678",
+    "brandNames": [
+      "LAMICTAL",
+      "LAMICTAL ODT"
+    ],
+    "genericNames": [
+      "LAMOTRIGINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Latuda",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Latuda%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8",
+    "setId": "afad3051-9df2-4c54-9684-e8262a133af8",
+    "brandNames": [
+      "Latuda"
+    ],
+    "genericNames": [
+      "LURASIDONE HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Letairis",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Letairis%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844",
+    "setId": "725d4e73-6c83-477a-adc6-0ae4a133a844",
+    "brandNames": [
+      "Letairis"
+    ],
+    "genericNames": [
+      "AMBRISENTAN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Levemir",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Levemir%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c",
+    "setId": "82192527-99aa-4b53-8ce9-9173668d309c",
+    "brandNames": [
+      "Levemir"
+    ],
+    "genericNames": [
+      "INSULIN DETEMIR"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Lexapro",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Lexapro%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13bb8267-1cab-43e5-acae-55a4d957630a",
+    "setId": "13bb8267-1cab-43e5-acae-55a4d957630a",
+    "brandNames": [
+      "Lexapro"
+    ],
+    "genericNames": [
+      "ESCITALOPRAM"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Livalo",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Livalo%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2",
+    "setId": "44dcbf97-99ec-427c-ba50-207e0069d6d2",
+    "brandNames": [
+      "Livalo"
+    ],
+    "genericNames": [
+      "PITAVASTATIN CALCIUM"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Lonsurf",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Lonsurf%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85",
+    "setId": "f5beed22-d71d-4c0d-8dca-2c7317d65d85",
+    "brandNames": [
+      "LONSURF"
+    ],
+    "genericNames": [
+      "TRIFLURIDINE AND TIPIRACIL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Lopreeza",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Lopreeza%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=966ac064-9eb7-4d15-b271-a7880ed1e79a",
+    "setId": "966ac064-9eb7-4d15-b271-a7880ed1e79a",
+    "brandNames": [
+      "LOPREEZA"
+    ],
+    "genericNames": [
+      "ESTRADIOL/NORETHINDRONE ACETATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Lorbrena",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Lorbrena%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=004f93d7-a1cd-4b67-9207-31cdcb5c5976",
+    "setId": "004f93d7-a1cd-4b67-9207-31cdcb5c5976",
+    "brandNames": [
+      "Lorbrena"
+    ],
+    "genericNames": [
+      "LORLATINIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Lucentis",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Lucentis%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de4e66cc-ca05-4dc9-8262-e00e9b41c36d",
+    "setId": "de4e66cc-ca05-4dc9-8262-e00e9b41c36d",
+    "brandNames": [
+      "LUCENTIS"
+    ],
+    "genericNames": [
+      "RANIBIZUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Lunesta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Lunesta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3821f4b7-a3c8-4920-ba80-18aa96532c09",
+    "setId": "3821f4b7-a3c8-4920-ba80-18aa96532c09",
+    "brandNames": [
+      "Lunesta"
+    ],
+    "genericNames": [
+      "ESZOPICLONE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Lyrica",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Lyrica%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=60185c88-ecfd-46f9-adb9-b97c6b00a553",
+    "setId": "60185c88-ecfd-46f9-adb9-b97c6b00a553",
+    "brandNames": [
+      "Lyrica"
+    ],
+    "genericNames": [
+      "PREGABALIN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Lyumjev",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Lyumjev%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=616daea1-0b79-4970-a141-6f99f2072f02",
+    "setId": "616daea1-0b79-4970-a141-6f99f2072f02",
+    "brandNames": [
+      "LYUMJEV"
+    ],
+    "genericNames": [
+      "INSULIN LISPRO-AABC"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Mavyret",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Mavyret%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7bf99777-0401-9095-8645-16c6e907fcc0",
+    "setId": "7bf99777-0401-9095-8645-16c6e907fcc0",
+    "brandNames": [
+      "Mavyret"
+    ],
+    "genericNames": [
+      "GLECAPREVIR AND PIBRENTASVIR"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Mekinist",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Mekinist%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1",
+    "setId": "0002ad27-779d-42ab-83b5-bc65453412a1",
+    "brandNames": [
+      "Mekinist"
+    ],
+    "genericNames": [
+      "TRAMETINIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Motegrity",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Motegrity%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b",
+    "setId": "bca1e4c6-4b2b-4876-8ab3-654629c4ff1b",
+    "brandNames": [
+      "MOTEGRITY"
+    ],
+    "genericNames": [
+      "PRUCALOPRIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Myrbetriq",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Myrbetriq%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ba9e9e15-e666-4c56-9271-2e24739cfa2d",
+    "setId": "ba9e9e15-e666-4c56-9271-2e24739cfa2d",
+    "brandNames": [
+      "Myrbetriq"
+    ],
+    "genericNames": [
+      "MIRABEGRON"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Namzaric",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Namzaric%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90fedc32-19e5-480c-afc6-f35a5cf4b9aa",
+    "setId": "90fedc32-19e5-480c-afc6-f35a5cf4b9aa",
+    "brandNames": [
+      "Namzaric"
+    ],
+    "genericNames": [
+      "MEMANTINE HYDROCHLORIDE AND DONEPEZIL HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Nardil",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Nardil%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=513a41d0-37d4-4355-8a6d-a2c643bce6fa",
+    "setId": "513a41d0-37d4-4355-8a6d-a2c643bce6fa",
+    "brandNames": [
+      "Nardil"
+    ],
+    "genericNames": [
+      "PHENELZINE SULFATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Nerlynx",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Nerlynx%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d1e41dcf-e82a-47c2-a0ad-6c6eef621834",
+    "setId": "d1e41dcf-e82a-47c2-a0ad-6c6eef621834",
+    "brandNames": [
+      "Nerlynx"
+    ],
+    "genericNames": [
+      "NERATINIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Nexavar",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Nexavar%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0",
+    "setId": "b50667e4-5ebc-4968-a646-d605058dbef0",
+    "brandNames": [
+      "Nexavar"
+    ],
+    "genericNames": [
+      "SORAFENIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Ninlaro",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Ninlaro%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=038f2461-834b-4488-9ebd-863c83eef5a7",
+    "setId": "038f2461-834b-4488-9ebd-863c83eef5a7",
+    "brandNames": [
+      "NINLARO"
+    ],
+    "genericNames": [
+      "IXAZOMIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Nivestym",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Nivestym%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d23ab39c-b6ec-41cf-a529-9dd2852c9d9a",
+    "setId": "d23ab39c-b6ec-41cf-a529-9dd2852c9d9a",
+    "brandNames": [
+      "Nivestym"
+    ],
+    "genericNames": [
+      "FILGRASTIM-AAFI"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Nucynta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Nucynta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d",
+    "setId": "80938c30-9fe3-4c7d-9d9c-5476638cfb2d",
+    "brandNames": [
+      "Nucynta"
+    ],
+    "genericNames": [
+      "TAPENTADOL HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Nuplazid",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Nuplazid%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e6bea44-57d6-4bac-9328-46e1ee59f83b",
+    "setId": "1e6bea44-57d6-4bac-9328-46e1ee59f83b",
+    "brandNames": [
+      "NUPLAZID"
+    ],
+    "genericNames": [
+      "PIMAVANSERIN TARTRATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Ocrevus",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Ocrevus%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d",
+    "setId": "9da42362-3bb5-4b83-b4bb-b59fd4e55f0d",
+    "brandNames": [
+      "OCREVUS"
+    ],
+    "genericNames": [
+      "OCRELIZUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Odefsey",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Odefsey%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea3b9ec8-e04a-412c-8b3f-e5cbc7e641d5",
+    "setId": "ea3b9ec8-e04a-412c-8b3f-e5cbc7e641d5",
+    "brandNames": [
+      "ODEFSEY"
+    ],
+    "genericNames": [
+      "EMTRICITABINE, RILPIVIRINE HYDROCHLORIDE, AND TENOFOVIR ALAFENAMIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Ofev",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Ofev%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da1c9f37-779e-4682-816f-93d0faa4cfc9",
+    "setId": "da1c9f37-779e-4682-816f-93d0faa4cfc9",
+    "brandNames": [
+      "Ofev"
+    ],
+    "genericNames": [
+      "NINTEDANIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Onpattro",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Onpattro%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e87ec36f-b4b4-49d4-aea4-d4ffb09b0970",
+    "setId": "e87ec36f-b4b4-49d4-aea4-d4ffb09b0970",
+    "brandNames": [
+      "Onpattro"
+    ],
+    "genericNames": [
+      "PATISIRAN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Opdivo",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Opdivo%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+    "setId": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+    "brandNames": [
+      "OPDIVO"
+    ],
+    "genericNames": [
+      "NIVOLUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Opsumit",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Opsumit%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e484a50-55db-4b85-8c57-6cd1b0353abd",
+    "setId": "1e484a50-55db-4b85-8c57-6cd1b0353abd",
+    "brandNames": [
+      "OPSUMIT"
+    ],
+    "genericNames": [
+      "MACITENTAN"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Orencia",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Orencia%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb",
+    "setId": "0836c6ac-ee37-5640-2fed-a3185a0b16eb",
+    "brandNames": [
+      "ORENCIA"
+    ],
+    "genericNames": [
+      "ABATACEPT"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Orilissa",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Orilissa%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a86757b3-09c5-fd3b-1223-244e94f50a66",
+    "setId": "a86757b3-09c5-fd3b-1223-244e94f50a66",
+    "brandNames": [
+      "Orilissa"
+    ],
+    "genericNames": [
+      "ELAGOLIX"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Otezla",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Otezla%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f6b1f516-4972-4d82-bced-113e47b41cc5",
+    "setId": "f6b1f516-4972-4d82-bced-113e47b41cc5",
+    "brandNames": [
+      "Otezla"
+    ],
+    "genericNames": [
+      "APREMILAST"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Ozempic",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Ozempic%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+    "setId": "27f15fac-7d98-4114-a2ec-92494a91da98",
+    "brandNames": [
+      "OZEMPIC",
+      "RYBELSUS"
+    ],
+    "genericNames": [
+      "ORAL SEMAGLUTIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Pamelor",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Pamelor%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb",
+    "setId": "e17dc299-f52d-414d-ab6e-e809bd6f8acb",
+    "brandNames": [
+      "PAMELOR"
+    ],
+    "genericNames": [
+      "NORTRIPTYLINE HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Plaquenil",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Plaquenil%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34496b43-05a2-45fb-a769-52b12e099341",
+    "setId": "34496b43-05a2-45fb-a769-52b12e099341",
+    "brandNames": [
+      "Plaquenil"
+    ],
+    "genericNames": [
+      "HYDROXYCHLOROQUINE SULFATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Plavix",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Plavix%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227",
+    "setId": "de8b0b67-eb25-4684-83b5-7ad785314227",
+    "brandNames": [
+      "Plavix"
+    ],
+    "genericNames": [
+      "CLOPIDOGREL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Pomalyst",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Pomalyst%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b25ef01-5c9e-11e1-b86c-0800200c9a66",
+    "setId": "2b25ef01-5c9e-11e1-b86c-0800200c9a66",
+    "brandNames": [
+      "Pomalyst"
+    ],
+    "genericNames": [
+      "POMALIDOMIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Praluent",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Praluent%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=446f6b5c-0dd4-44ff-9bc2-c2b41f2806b4",
+    "setId": "446f6b5c-0dd4-44ff-9bc2-c2b41f2806b4",
+    "brandNames": [
+      "Praluent"
+    ],
+    "genericNames": [
+      "ALIROCUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Prevymis",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Prevymis%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b",
+    "setId": "1b49df80-be4f-47e0-a0b7-123f3e69395b",
+    "brandNames": [
+      "PREVYMIS"
+    ],
+    "genericNames": [
+      "LETERMOVIR"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Prolia",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Prolia%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49e5afe9-a0c7-40c4-af9f-f287a80c5c88",
+    "setId": "49e5afe9-a0c7-40c4-af9f-f287a80c5c88",
+    "brandNames": [
+      "Prolia"
+    ],
+    "genericNames": [
+      "DENOSUMAB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Promacta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Promacta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7714a0ed-34bb-46e6-a0a5-b363908b22c2",
+    "setId": "7714a0ed-34bb-46e6-a0a5-b363908b22c2",
+    "brandNames": [
+      "PROMACTA"
+    ],
+    "genericNames": [
+      "ELTROMBOPAG OLAMINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Qsymia",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Qsymia%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=40dd5602-53da-45ac-bb4b-15789aba40f9",
+    "setId": "40dd5602-53da-45ac-bb4b-15789aba40f9",
+    "brandNames": [
+      "Qsymia"
+    ],
+    "genericNames": [
+      "PHENTERMINE AND TOPIRAMATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Qulipta",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Qulipta%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8c8ab8f4-32bd-497a-befa-70c8a51d8d52",
+    "setId": "8c8ab8f4-32bd-497a-befa-70c8a51d8d52",
+    "brandNames": [
+      "Qulipta"
+    ],
+    "genericNames": [
+      "ATOGEPANT"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Rasuvo",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Rasuvo%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d0075461-0e7e-4967-9c9b-d6440e912c0e",
+    "setId": "d0075461-0e7e-4967-9c9b-d6440e912c0e",
+    "brandNames": [
+      "Rasuvo"
+    ],
+    "genericNames": [
+      "METHOTREXATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Rayaldee",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Rayaldee%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a95effd-32a5-46b6-a30e-7f4f9bf8cc77",
+    "setId": "6a95effd-32a5-46b6-a30e-7f4f9bf8cc77",
+    "brandNames": [
+      "Rayaldee"
+    ],
+    "genericNames": [
+      "CALCIFEDIOL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Relistor",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Relistor%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c488fb7c-0a5b-487c-b452-996809d1cb99",
+    "setId": "c488fb7c-0a5b-487c-b452-996809d1cb99",
+    "brandNames": [
+      "Relistor"
+    ],
+    "genericNames": [
+      "METHYLNALTREXONE BROMIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Renvela",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Renvela%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e6328460-a57b-450b-a48c-6dcd4b476360",
+    "setId": "e6328460-a57b-450b-a48c-6dcd4b476360",
+    "brandNames": [
+      "Renvela"
+    ],
+    "genericNames": [
+      "SEVELAMER CARBONATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Restasis",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Restasis%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8e24af2b-bc1c-4849-94f2-6df950cdca89",
+    "setId": "8e24af2b-bc1c-4849-94f2-6df950cdca89",
+    "brandNames": [
+      "RESTASIS"
+    ],
+    "genericNames": [
+      "CYCLOSPORINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Rexulti",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Rexulti%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d301358-6291-4ec1-bd87-37b4ad9bd850",
+    "setId": "2d301358-6291-4ec1-bd87-37b4ad9bd850",
+    "brandNames": [
+      "Rexulti"
+    ],
+    "genericNames": [
+      "BREXPIPRAZOLE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Rezurock",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Rezurock%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=102e4ef4-7f84-4e34-8df1-479c24d1575d",
+    "setId": "102e4ef4-7f84-4e34-8df1-479c24d1575d",
+    "brandNames": [
+      "Rezurock"
+    ],
+    "genericNames": [
+      "BELUMOSUDIL"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Rinvoq",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Rinvoq%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095",
+    "setId": "2966aec7-2ef0-923c-d8ff-fe1a957bf095",
+    "brandNames": [
+      "Rinvoq"
+    ],
+    "genericNames": [
+      "UPADACITINIB"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Ritalin",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Ritalin%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6fb2750-cdab-4749-ba0d-7534840a5892",
+    "setId": "d6fb2750-cdab-4749-ba0d-7534840a5892",
+    "brandNames": [
+      "Ritalin"
+    ],
+    "genericNames": [
+      "METHYLPHENIDATE HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Rozerem",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Rozerem%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9de82310-70e8-47b9-b1fc-6c6848b99455",
+    "setId": "9de82310-70e8-47b9-b1fc-6c6848b99455",
+    "brandNames": [
+      "Rozerem"
+    ],
+    "genericNames": [
+      "RAMELTEON"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Rybelsus",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Rybelsus%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98",
+    "setId": "27f15fac-7d98-4114-a2ec-92494a91da98",
+    "brandNames": [
+      "OZEMPIC",
+      "RYBELSUS"
+    ],
+    "genericNames": [
+      "ORAL SEMAGLUTIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Saphris",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Saphris%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8",
+    "setId": "5429f134-839f-4ffc-9944-55f51238def8",
+    "brandNames": [
+      "SAPHRIS"
+    ],
+    "genericNames": [
+      "ASENAPINE MALEATE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Savella",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Savella%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16a4a314-f97e-4e91-95e9-576a3773d284",
+    "setId": "16a4a314-f97e-4e91-95e9-576a3773d284",
+    "brandNames": [
+      "Savella"
+    ],
+    "genericNames": [
+      "MILNACIPRAN HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Segluromet",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Segluromet%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6aeb99a-ce49-4125-90ce-642df3f1ebad",
+    "setId": "a6aeb99a-ce49-4125-90ce-642df3f1ebad",
+    "brandNames": [
+      "SEGLUROMET"
+    ],
+    "genericNames": [
+      "ERTUGLIFLOZIN AND METFORMIN HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Seroquel",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Seroquel%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0584dda8-bc3c-48fe-1a90-79608f78e8a0",
+    "setId": "0584dda8-bc3c-48fe-1a90-79608f78e8a0",
+    "brandNames": [
+      "SEROQUEL"
+    ],
+    "genericNames": [
+      "QUETIAPINE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  },
+  {
+    "name": "Silenor",
+    "source": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22Silenor%22+AND+openfda.product_type%3A%22HUMAN+PRESCRIPTION+DRUG%22&limit=10",
+    "labelUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1bec1223-5239-4eb6-a9e8-62444106d2c0",
+    "setId": "1bec1223-5239-4eb6-a9e8-62444106d2c0",
+    "brandNames": [
+      "Silenor"
+    ],
+    "genericNames": [
+      "DOXEPIN HYDROCHLORIDE"
+    ],
+    "productTypes": [
+      "HUMAN PRESCRIPTION DRUG"
+    ],
+    "verified": "2026-10-28"
+  }
+]
