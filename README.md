@@ -48,6 +48,12 @@ The repository uses **GitHub Actions** as its Pages source. Pushing to `main` ru
 
 For a fork, set **Settings → Pages → Build and deployment → Source → GitHub Actions**, and update the repository links in `index.html`, `src/app.js`, and this README. All application assets use relative paths, so hosting in a repository subdirectory works without a base-URL build setting.
 
+## Link previews
+
+The browser and social title is **Pokémon or…?**. Open Graph and Twitter card metadata live directly in `index.html`, so crawlers do not need JavaScript. The canonical page is `https://scottbeeson.github.io/PokemonOr/`; forks should update the canonical, `og:url`, and absolute image URLs too.
+
+`assets/social/pokemon-or-share-v1.png` is the public 1200 × 630 share image. Its editable source is `assets/social/pokemon-or-share.svg`, an illustration using the game's handheld design and palette. When changing the artwork, export an opaque 1200 × 630 PNG, give it a new versioned filename, and update both image URLs and alt text in the metadata. The static build already copies the whole assets directory. Facebook may retain a previously fetched preview; use its Sharing Debugger's **Scrape Again** after deployment to refresh cached metadata.
+
 ## Data maintenance
 
 Pokémon names and English species classifications come from the [PokéAPI dataset](https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv). One record represents one species, not every alternate form. Refresh the snapshot with:

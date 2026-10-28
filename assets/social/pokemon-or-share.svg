@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>Pokémon or…?</title>
+  <desc>A retro handheld guessing game. Ten questions, five seconds each. Choose Tech, Rx, IKEA, Minerals, or Plants.</desc>
+  <defs>
+    <radialGradient id="desk"><stop stop-color="#405447"/><stop offset="1" stop-color="#222d29"/></radialGradient>
+    <linearGradient id="shell" x2="1" y2="1"><stop stop-color="#e7e5d9"/><stop offset=".55" stop-color="#d0d0c5"/><stop offset="1" stop-color="#adb4a8"/></linearGradient>
+    <linearGradient id="screen" x2="1" y2="1"><stop stop-color="#b4c58a"/><stop offset="1" stop-color="#95aa69"/></linearGradient>
+    <linearGradient id="button" x2=".8" y2="1"><stop stop-color="#ad5273"/><stop offset="1" stop-color="#762243"/></linearGradient>
+    <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#142c1a" stroke-opacity=".08"/></pattern>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#a8ba79" opacity=".09"/></pattern>
+    <filter id="shadow" x="-40%" y="-30%" width="180%" height="180%"><feDropShadow dx="12" dy="19" stdDeviation="15" flood-color="#0b1712" flood-opacity=".6"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#desk)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <path d="M64 50H1136" stroke="#788e77" stroke-opacity=".32"/>
+  <circle cx="70" cy="81" r="5" fill="#b4c98e"/>
+  <text x="88" y="87" fill="#becbb5" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">THE FIVE-SECOND GUESSING GAME</text>
+  <text x="59" y="207" fill="#f0efe3" font-family="Arial,sans-serif" font-size="85" font-weight="800" letter-spacing="-4">Pokémon</text>
+  <text x="60" y="312" fill="#b4c98e" font-family="Arial,sans-serif" font-size="110" font-weight="800" letter-spacing="-5">or…?</text>
+  <text x="64" y="371" fill="#f0efe3" font-family="Arial,sans-serif" font-size="29" font-weight="700">One name. Five seconds.</text>
+  <text x="64" y="411" fill="#becbb5" font-family="Arial,sans-serif" font-size="28">Trust your instinct.</text>
+  <g font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1">
+    <rect x="64" y="447" width="163" height="39" rx="19.5" fill="#b4c98e"/>
+    <text x="145.5" y="472" text-anchor="middle" fill="#263d2b">10 QUESTIONS</text>
+    <rect x="239" y="447" width="141" height="39" rx="19.5" fill="none" stroke="#6a806a"/>
+    <text x="309.5" y="472" text-anchor="middle" fill="#d8e0cf">5 CARTRIDGES</text>
+  </g>
+  <text x="64" y="540" fill="#92a68f" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2.5">PICK YOUR CHALLENGE</text>
+  <text x="64" y="572" fill="#e0e5d7" font-family="Arial,sans-serif" font-size="21" font-weight="600">Tech · Rx · IKEA · Minerals · Plants</text>
+  <g transform="translate(752 77) rotate(5 173 240)" filter="url(#shadow)">
+    <rect x="105" y="-38" width="155" height="75" rx="8" fill="#848e7f" stroke="#b5c0a7" stroke-width="2"/>
+    <path d="M115-26H250M115-19H250" stroke="#5a6855" stroke-width="3"/>
+    <rect x="121" y="-10" width="123" height="29" rx="3" fill="#b4c58a"/>
+    <text x="182.5" y="10" text-anchor="middle" font-family="Consolas,Courier New,monospace" font-weight="700" font-size="17" fill="#29452c">TECH PACK</text>
+    <path d="M23 5H322Q345 5 345 29V436Q345 491 290 491H23Q0 491 0 468V29Q0 5 23 5Z" fill="#879181"/>
+    <path d="M23 0H322Q345 0 345 24V430Q345 485 290 485H23Q0 485 0 462V24Q0 0 23 0Z" fill="url(#shell)" stroke="#eeeedf" stroke-width="2"/>
+    <path d="M0 25H345" stroke="#9da796"/>
+    <rect x="39" y="9" width="24" height="6" rx="3" fill="#89937f"/>
+    <text x="73" y="15" font-family="Arial,sans-serif" font-size="7" letter-spacing="1" fill="#687463">OFF · ON</text>
+    <text x="279" y="15" font-family="Arial,sans-serif" font-size="7" fill="#687463">POT–01</text>
+    <path d="M31 39H314Q324 39 324 49V286Q324 316 294 316H31Q21 316 21 306V49Q21 39 31 39Z" fill="#576360" stroke="#3f4d45"/>
+    <text x="174" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" letter-spacing="2" fill="#d0d5c7">DOT MATRIX DISPLAY</text>
+    <circle cx="34" cy="119" r="3.5" fill="#e56b56"/>
+    <rect x="48" y="68" width="254" height="222" fill="url(#screen)" stroke="#354e32" stroke-width="4"/>
+    <g fill="#29452c" font-family="Consolas,Courier New,monospace" font-weight="700">
+      <text x="62" y="92" font-size="11">ROUND 01 / 10</text><text x="284" y="93" text-anchor="end" font-size="16">5.0s</text>
+      <path d="M62 105H286" stroke="#29452c" stroke-width="3"/>
+      <rect x="152" y="125" width="46" height="51" fill="none" stroke="#29452c" stroke-width="3"/>
+      <text x="175" y="165" text-anchor="middle" font-size="45">?</text>
+      <text x="175" y="202" text-anchor="middle" font-size="10">ONE NAME. TWO POSSIBILITIES.</text>
+      <text x="175" y="238" text-anchor="middle" font-size="29">Pokémon or…?</text>
+      <text x="175" y="270" text-anchor="middle" font-size="11">GO WITH YOUR GUT.</text>
+    </g>
+    <rect x="50" y="70" width="250" height="218" fill="url(#lines)"/>
+    <text x="175" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" letter-spacing="1.4" fill="#bbc9b3">MONOCHROME INSTINCT ENGINE</text>
+    <text x="25" y="344" font-family="Arial,sans-serif" font-style="italic" font-weight="800" font-size="19" fill="#354c72">Pokémon or…?</text>
+    <g fill="#52162e"><circle cx="70" cy="394" r="28"/><circle cx="276" cy="394" r="28"/></g>
+    <g fill="url(#button)" stroke="#68213c"><circle cx="70" cy="390" r="27"/><circle cx="276" cy="390" r="27"/></g>
+    <g stroke="#f0cad8" fill="none" stroke-width="3"><path d="M81 390H59L67 382M59 390L67 398"/><path d="M265 390H287L279 382M287 390L279 398"/></g>
+    <rect x="135" y="386" width="76" height="23" rx="11.5" fill="#73836c" stroke="#506549"/>
+    <text x="173" y="402" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="10" fill="#f1f0df">START</text>
+    <g font-family="Arial,sans-serif" font-weight="700" font-size="9" fill="#5a6365" letter-spacing="1"><text x="70" y="436" text-anchor="middle">POKÉMON</text><text x="276" y="436" text-anchor="middle">TECH</text></g>
+    <g stroke="#88917f" stroke-width="4" stroke-linecap="round"><path d="M225 461L239 451M239 465L253 455M253 469L267 459M267 473L281 463"/></g>
+  </g>
+</svg>
