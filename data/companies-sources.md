@@ -4,13 +4,15 @@ Curated on 2026-10-27 for **Pokemon or BigData**.
 
 ## Scope
 
-`companies.json` contains **230 distinct company names**, each with a short original description and an HTTPS source link.
+`companies.json` contains **201 distinct company names**, each with a short original description and an HTTPS source link.
 
 “Big Data” is deliberately broad for this game: data platforms, databases, analytics, business intelligence, data engineering, governance, observability, and AI data infrastructure. Some large technology companies are included because they sell substantial data infrastructure. This is a name-recognition game, not an investment directory or a strict industry taxonomy.
 
 Both current and historical company names are eligible. Acquired or renamed companies such as Census, Rockset, Varada, Trifacta, Talend, and Pachyderm still count. Descriptions use past tense where a former independent company or older brand is relevant. Acquisition or rebranding does not make a historical company name a Pokémon.
 
 Bare open-source projects and product-only names such as Hadoop, Spark, Kafka, PostgreSQL, and BigQuery are intentionally excluded. A name shared by a company and its software, such as MongoDB, is eligible. Former and current aliases of the same company are not deliberately included as separate entries.
+
+On 2026-10-28, 29 company names containing "Tech" or "Data" (case-insensitive substrings) were excluded from play. None of the 1,025 bundled Pokémon names contain either substring. The active logo collection now has 177 icons; the original collection and verification history below are retained for provenance.
 
 ## Sources and verification
 

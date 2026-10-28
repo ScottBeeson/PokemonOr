@@ -11,6 +11,7 @@ test('bundled data contains complete Pokémon species and a substantial company 
       assert.equal(entry.category, category);
       assert.equal(typeof entry.name, 'string');
       assert.ok(entry.name.trim().length > 0);
+      assert.doesNotMatch(entry.name, /tech|data/i, `${category} name contains an excluded giveaway: ${entry.name}`);
       assert.ok(!names.has(entry.name.toLowerCase()), `Duplicate name ${entry.name}`);
       names.add(entry.name.toLowerCase());
       assert.ok(entry.description.length > 10, `Missing description for ${entry.name}`);

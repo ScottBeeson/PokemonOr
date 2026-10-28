@@ -159,10 +159,6 @@
     "src": "./assets/company-logos/cribl.ico",
     "source": "https://cribl.io/favicon.ico"
   },
-  "Crunchy Data": {
-    "src": "./assets/company-logos/crunchy-data.ico",
-    "source": "https://www.crunchydata.com/favicon.ico"
-  },
   "Cube": {
     "src": "./assets/company-logos/cube.png",
     "source": "https://cube.dev/apple-touch-icon.png"
@@ -170,46 +166,6 @@
   "Dagster Labs": {
     "src": "./assets/company-logos/dagster-labs.png",
     "source": "https://dagster.io/site-icons/apple-touch-icon.png"
-  },
-  "Databricks": {
-    "src": "./assets/company-logos/databricks.png",
-    "source": "https://www.databricks.com/en-website-assets/icons/icon-512x512.png?v=c9b9916c3b27dc51866c46b79a6e9b88"
-  },
-  "Datadog": {
-    "src": "./assets/company-logos/datadog.png",
-    "source": "https://corp.dd-static.net/img/favicons/apple-touch-icon.png"
-  },
-  "Datafold": {
-    "src": "./assets/company-logos/datafold.png",
-    "source": "https://www.datafold.com/images/webclip.png"
-  },
-  "DataGrail": {
-    "src": "./assets/company-logos/datagrail.png",
-    "source": "https://www.datagrail.io/apple-touch-icon.png"
-  },
-  "DataHub": {
-    "src": "./assets/company-logos/datahub.svg",
-    "source": "https://datahub.com/wp-content/uploads/2026/01/dataHub_symbol_color.svg"
-  },
-  "Dataiku": {
-    "src": "./assets/company-logos/dataiku.png",
-    "source": "https://www.dataiku.com/favicon.png"
-  },
-  "DataKitchen": {
-    "src": "./assets/company-logos/datakitchen.png",
-    "source": "https://datakitchen.io/favicon-192.png"
-  },
-  "Datameer": {
-    "src": "./assets/company-logos/datameer.svg",
-    "source": "https://www.datameer.com/wp-content/uploads/2021/08/Datameer-Dot-Green-and-Navy-Blue.svg"
-  },
-  "Dataminr": {
-    "src": "./assets/company-logos/dataminr.png",
-    "source": "https://www.dataminr.com/wp-content/themes/bigdrop-theme/assets/favicons/apple-touch-icon.png"
-  },
-  "DataRobot": {
-    "src": "./assets/company-logos/datarobot.png",
-    "source": "https://www.datarobot.com/wp-content/themes/datarobot6/assets/images/favicons/apple-icon-180x180.png"
   },
   "Datorios": {
     "src": "./assets/company-logos/datorios.png",
@@ -238,10 +194,6 @@
   "DoltHub": {
     "src": "./assets/company-logos/dolthub.png",
     "source": "https://www.dolthub.com/dhfavicon/apple-touch-icon.png"
-  },
-  "Domino Data Lab": {
-    "src": "./assets/company-logos/domino-data-lab.ico",
-    "source": "https://domino.ai/favicon.ico?favicon.0-n~8ld_v~a98.ico"
   },
   "Dremio": {
     "src": "./assets/company-logos/dremio.ico",
@@ -298,10 +250,6 @@
   "Glean": {
     "src": "./assets/company-logos/glean.png",
     "source": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/67189bfac8da27b3a70ddd93_256%20x%20256%20Glean%20Favicon.png"
-  },
-  "GoodData": {
-    "src": "./assets/company-logos/gooddata.png",
-    "source": "https://www.gooddata.ai/apple-touch-icon.png"
   },
   "Grafana Labs": {
     "src": "./assets/company-logos/grafana-labs.ico",
@@ -362,10 +310,6 @@
   "InCountry": {
     "src": "./assets/company-logos/incountry.png",
     "source": "https://incountry.com/wp-content/themes/incountry2020/assets/images/favicon/apple-touch-icon-180x180.png"
-  },
-  "InfluxData": {
-    "src": "./assets/company-logos/influxdata.svg",
-    "source": "https://www.influxdata.com/images/logos/cubo.svg"
   },
   "Informatica": {
     "src": "./assets/company-logos/informatica.png",
@@ -450,10 +394,6 @@
   "MotherDuck": {
     "src": "./assets/company-logos/motherduck.png",
     "source": "https://motherduck.com/apple-touch-icon.png"
-  },
-  "Mozart Data": {
-    "src": "./assets/company-logos/mozart-data.png",
-    "source": "https://mozartdata.com/wp-content/uploads/2023/03/cropped-favicon-180x180.png"
   },
   "Neo4j": {
     "src": "./assets/company-logos/neo4j.png",
@@ -699,10 +639,6 @@
     "src": "./assets/company-logos/tellius.png",
     "source": "https://cdn.prod.website-files.com/67a0c237ecbf5f9b3f714d92/67b49f8ea0d4dc31eaa01891_256x256.png"
   },
-  "Teradata": {
-    "src": "./assets/company-logos/teradata.ico",
-    "source": "https://www.teradata.com/favicon.ico"
-  },
   "ThoughtSpot": {
     "src": "./assets/company-logos/thoughtspot.png",
     "source": "https://www.thoughtspot.com/images/TS-FAV-180x180_Dark.png?v=2025"
@@ -710,10 +646,6 @@
   "TIBCO": {
     "src": "./assets/company-logos/tibco.png",
     "source": "https://www.tibco.com/content/dam/tibco/images/apple-touch-icon.png"
-  },
-  "Tiger Data": {
-    "src": "./assets/company-logos/tiger-data.ico",
-    "source": "https://www.tigerdata.com/icon.ico?1fba71913669969d"
   },
   "TigerGraph": {
     "src": "./assets/company-logos/tigergraph.png",
@@ -727,21 +659,9 @@
     "src": "./assets/company-logos/tonic.png",
     "source": "https://cdn.prod.website-files.com/62e28cf08913e81176ba2c39/62e28cf08913e8a4baba2dff_webclip-tonic.png"
   },
-  "Treasure Data": {
-    "src": "./assets/company-logos/treasure-data.svg",
-    "source": "https://www.treasure.ai/hubfs/assets/images/logos/favicon.svg"
-  },
-  "Unravel Data": {
-    "src": "./assets/company-logos/unravel-data.png",
-    "source": "https://cdn.prod.website-files.com/69c4c9c7f795b263782ef5be/69feac42604992735e521ba3_favicon.png"
-  },
   "Vanna": {
     "src": "./assets/company-logos/vanna.png",
     "source": "https://vanna.ai/apple-touch-icon.png"
-  },
-  "VAST Data": {
-    "src": "./assets/company-logos/vast-data.png",
-    "source": "https://www.vastdata.com/apple-touch-icon.png"
   },
   "Vectara": {
     "src": "./assets/company-logos/vectara.png",
@@ -750,10 +670,6 @@
   "Vespa": {
     "src": "./assets/company-logos/vespa.png",
     "source": "https://vespa.ai/vespa-content/uploads/2024/06/cropped-favicon-180x180.png"
-  },
-  "Volt Active Data": {
-    "src": "./assets/company-logos/volt-active-data.png",
-    "source": "https://www.voltactivedata.com/wp-content/uploads/2024/06/voltdb-favicon.png"
   },
   "Weaviate": {
     "src": "./assets/company-logos/weaviate.ico",
@@ -766,10 +682,6 @@
   "Y42": {
     "src": "./assets/company-logos/y42.ico",
     "source": "https://www.y42.com/favicon/favicon.ico"
-  },
-  "YData": {
-    "src": "./assets/company-logos/ydata.png",
-    "source": "https://ydata.ai/hubfs/YData_logo_colored_black_1024-2.png"
   },
   "Yellowbrick": {
     "src": "./assets/company-logos/yellowbrick.png",

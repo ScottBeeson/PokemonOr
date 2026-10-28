@@ -10,7 +10,7 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 
 - Five seconds per name, with a countdown and shrinking timer bar.
 - Running correct/total score, accuracy percentage, current streak, and a personal best streak saved on your device.
-- 1,025 Pokémon species and 230 current or historical data companies.
+- 1,025 Pokémon species and 201 current or historical data companies.
 - Exactly ten questions per game, with an independent 50/50 category choice on every question and no repeated names. The mix varies each game: previous answers never constrain the next category. Always choosing one category averages 50% over many games, regardless of dataset sizes.
 - A classic handheld shell with a green LCD, physical-style left / continue / right buttons, and a screen you can swipe. The entire device scales to fit desktop and mobile viewports.
 - Pokémon artwork and company brand icons appear after each answer in the monochrome screen, with descriptions and source links.
@@ -50,11 +50,11 @@ Pokémon names and English species classifications come from the [PokéAPI datas
 npm run update:pokemon
 ```
 
-Curated company records live in `data/companies.json`. Each record contains `name`, `category: "company"`, a short `description`, and an official HTTPS `url`. Add verified company names, update the sourcing notes and collection count in this README, then run `npm test` before committing. Both datasets ship with the site, so gameplay has no live API dependency.
+Curated company records live in `data/companies.json`. Each record contains `name`, `category: "company"`, a short `description`, and an official HTTPS `url`. Names containing "Tech" or "Data" anywhere (case-insensitive) are excluded to avoid easy giveaways; none of the 1,025 bundled Pokémon names contain either substring. Add verified company names, update the sourcing notes and collection count in this README, then run `npm test` before committing. Both datasets ship with the site, so gameplay has no live API dependency.
 
 ## Answer images
 
-Pokémon artwork loads after an answer from [PokéAPI's official artwork collection](https://github.com/PokeAPI/sprites). Images are never shown before the guess. Decoded images are tinted into LCD-colored canvas pixels before display, preventing a full-color flash during the reveal. Company icons from official websites are bundled locally in `assets/company-logos/`, with exact-name mappings and source URLs in `data/company-logos.json`. There are currently 199 icons for the 230 companies; unavailable or historically ambiguous logos use initials instead. Failed Pokémon artwork requests also show a text fallback. These are website brand icons, not necessarily full company wordmarks.
+Pokémon artwork loads after an answer from [PokéAPI's official artwork collection](https://github.com/PokeAPI/sprites). Images are never shown before the guess. Decoded images are tinted into LCD-colored canvas pixels before display, preventing a full-color flash during the reveal. Company icons from official websites are bundled locally in `assets/company-logos/`, with exact-name mappings and source URLs in `data/company-logos.json`. There are currently 177 icons for the 201 companies; unavailable or historically ambiguous logos use initials instead. Failed Pokémon artwork requests also show a text fallback. These are website brand icons, not necessarily full company wordmarks.
 
 Refresh company icons with `node scripts/update-company-logos.mjs`; pass `--refresh` to recheck already cached icons. Review identity and image quality before committing new assets.
 

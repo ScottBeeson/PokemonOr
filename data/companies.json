@@ -162,18 +162,6 @@
     "url": "https://carto.com/"
   },
   {
-    "name": "CData",
-    "category": "company",
-    "description": "Provides data connectivity and integration software.",
-    "url": "https://cdata.com/"
-  },
-  {
-    "name": "CelerData",
-    "category": "company",
-    "description": "Built real-time analytics infrastructure based on StarRocks.",
-    "url": "https://celerdata.com/"
-  },
-  {
     "name": "Celonis",
     "category": "company",
     "description": "Provides process mining and business process analytics.",
@@ -270,12 +258,6 @@
     "url": "https://cribl.io/"
   },
   {
-    "name": "Crunchy Data",
-    "category": "company",
-    "description": "Provides enterprise PostgreSQL software and managed databases.",
-    "url": "https://crunchydata.com/"
-  },
-  {
     "name": "Cube",
     "category": "company",
     "description": "Provides a semantic layer for business intelligence and analytics.",
@@ -286,78 +268,6 @@
     "category": "company",
     "description": "Builds data orchestration software.",
     "url": "https://dagster.io/"
-  },
-  {
-    "name": "Databricks",
-    "category": "company",
-    "description": "Provides a platform for data engineering, analytics, and AI.",
-    "url": "https://databricks.com/"
-  },
-  {
-    "name": "Datadog",
-    "category": "company",
-    "description": "Provides monitoring and analytics for cloud applications and infrastructure.",
-    "url": "https://datadoghq.com/"
-  },
-  {
-    "name": "Datafold",
-    "category": "company",
-    "description": "Provides data comparison and validation tools for data engineering.",
-    "url": "https://datafold.com/"
-  },
-  {
-    "name": "DataGrail",
-    "category": "company",
-    "description": "Provides data privacy management and discovery software.",
-    "url": "https://datagrail.io/"
-  },
-  {
-    "name": "DataHub",
-    "category": "company",
-    "description": "Provides a metadata platform and enterprise data catalog.",
-    "url": "https://datahub.com/"
-  },
-  {
-    "name": "Dataiku",
-    "category": "company",
-    "description": "Provides a platform for data science, analytics, and AI.",
-    "url": "https://dataiku.com/"
-  },
-  {
-    "name": "DataKitchen",
-    "category": "company",
-    "description": "Provides DataOps automation and data quality tools.",
-    "url": "https://datakitchen.io/"
-  },
-  {
-    "name": "Dataloop",
-    "category": "company",
-    "description": "Provides infrastructure for managing and annotating AI training data.",
-    "url": "https://dataloop.ai/"
-  },
-  {
-    "name": "Datameer",
-    "category": "company",
-    "description": "Builds data preparation and transformation software.",
-    "url": "https://datameer.com/"
-  },
-  {
-    "name": "Dataminr",
-    "category": "company",
-    "description": "Analyzes public data to identify real-time events and risks.",
-    "url": "https://dataminr.com/"
-  },
-  {
-    "name": "DataRobot",
-    "category": "company",
-    "description": "Builds enterprise machine-learning and AI software.",
-    "url": "https://datarobot.com/"
-  },
-  {
-    "name": "DataStax",
-    "category": "company",
-    "description": "Develops data infrastructure associated with Apache Cassandra.",
-    "url": "https://datastax.com/"
   },
   {
     "name": "Datorios",
@@ -400,12 +310,6 @@
     "category": "company",
     "description": "Builds version-controlled databases and database collaboration tools.",
     "url": "https://dolthub.com/"
-  },
-  {
-    "name": "Domino Data Lab",
-    "category": "company",
-    "description": "Provides an enterprise platform for data science and AI development.",
-    "url": "https://dominodatalab.com/"
   },
   {
     "name": "Domo",
@@ -496,12 +400,6 @@
     "category": "company",
     "description": "Provides enterprise search across organizational information.",
     "url": "https://glean.com/"
-  },
-  {
-    "name": "GoodData",
-    "category": "company",
-    "description": "Provides analytics and embedded business intelligence software.",
-    "url": "https://gooddata.com/"
   },
   {
     "name": "Grafana Labs",
@@ -598,12 +496,6 @@
     "category": "company",
     "description": "Provides data residency infrastructure for global applications.",
     "url": "https://incountry.com/"
-  },
-  {
-    "name": "InfluxData",
-    "category": "company",
-    "description": "Builds InfluxDB, a database for time-series data.",
-    "url": "https://influxdata.com/"
   },
   {
     "name": "Informatica",
@@ -744,12 +636,6 @@
     "url": "https://motherduck.com/"
   },
   {
-    "name": "Mozart Data",
-    "category": "company",
-    "description": "Provides a managed platform for collecting and analyzing business data.",
-    "url": "https://mozartdata.com/"
-  },
-  {
     "name": "Neo4j",
     "category": "company",
     "description": "Develops graph databases and graph analytics software.",
@@ -802,12 +688,6 @@
     "category": "company",
     "description": "Provides a managed data lakehouse platform.",
     "url": "https://onehouse.ai/"
-  },
-  {
-    "name": "Opendatasoft",
-    "category": "company",
-    "description": "Built software for publishing, sharing, and exploring data.",
-    "url": "https://opendatasoft.com/"
   },
   {
     "name": "Optimizely",
@@ -1188,12 +1068,6 @@
     "url": "https://tellius.com/"
   },
   {
-    "name": "Teradata",
-    "category": "company",
-    "description": "Provides enterprise analytics and data platform software.",
-    "url": "https://teradata.com/"
-  },
-  {
     "name": "ThoughtSpot",
     "category": "company",
     "description": "Provides search-driven business intelligence and analytics.",
@@ -1204,12 +1078,6 @@
     "category": "company",
     "description": "Provides data integration, analytics, and enterprise software.",
     "url": "https://tibco.com/"
-  },
-  {
-    "name": "Tiger Data",
-    "category": "company",
-    "description": "Builds PostgreSQL-based infrastructure for time-series and operational data.",
-    "url": "https://tigerdata.com/"
   },
   {
     "name": "TigerGraph",
@@ -1230,12 +1098,6 @@
     "url": "https://tonic.ai/"
   },
   {
-    "name": "Treasure Data",
-    "category": "company",
-    "description": "Provides a customer data platform for unifying and analyzing customer information.",
-    "url": "https://treasuredata.com/"
-  },
-  {
     "name": "Trifacta",
     "category": "company",
     "description": "Developed tools for preparing and transforming data.",
@@ -1246,12 +1108,6 @@
     "category": "company",
     "description": "Developed tools for evaluating and monitoring machine-learning models.",
     "url": "https://www.snowflake.com/en/blog/snowflake-acquires-truera-to-bring-llm-ml-observability-to-data-cloud/"
-  },
-  {
-    "name": "Unravel Data",
-    "category": "company",
-    "description": "Provides observability and optimization for data workloads.",
-    "url": "https://unraveldata.com/"
   },
   {
     "name": "Upsolver",
@@ -1272,12 +1128,6 @@
     "url": "https://www.starburst.io/press-releases/starburst-acquires-varada-to-deliver-the-new-standard-of-data-lake-analytics/"
   },
   {
-    "name": "VAST Data",
-    "category": "company",
-    "description": "Builds data storage and computing infrastructure for AI and analytics.",
-    "url": "https://vastdata.com/"
-  },
-  {
     "name": "Vectara",
     "category": "company",
     "description": "Provides retrieval infrastructure for AI applications.",
@@ -1288,18 +1138,6 @@
     "category": "company",
     "description": "Develops infrastructure for search, recommendations, and AI retrieval.",
     "url": "https://vespa.ai/"
-  },
-  {
-    "name": "Volt Active Data",
-    "category": "company",
-    "description": "Provides a real-time data processing platform.",
-    "url": "https://voltactivedata.com/"
-  },
-  {
-    "name": "Voltron Data",
-    "category": "company",
-    "description": "Builds tools and infrastructure for accelerated data analytics.",
-    "url": "https://voltrondata.com/"
   },
   {
     "name": "Weaviate",
@@ -1324,12 +1162,6 @@
     "category": "company",
     "description": "Provides tools for building and operating data pipelines.",
     "url": "https://y42.com/"
-  },
-  {
-    "name": "YData",
-    "category": "company",
-    "description": "Provides data profiling and synthetic data tools for AI development.",
-    "url": "https://ydata.ai/"
   },
   {
     "name": "Yellowbrick",
@@ -1360,12 +1192,6 @@
     "category": "company",
     "description": "Provides vector database infrastructure associated with Milvus.",
     "url": "https://zilliz.com/"
-  },
-  {
-    "name": "Zing Data",
-    "category": "company",
-    "description": "Provides collaborative business intelligence and analytics software.",
-    "url": "https://docs.getzingdata.com/docs/getting-started/"
   },
   {
     "name": "Zoho",

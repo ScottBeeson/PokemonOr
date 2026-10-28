@@ -1,7 +1,7 @@
-import { createDeck, createGame } from './engine.js?v=2.2.1';
-import { createLcdArtwork } from './lcd-art.js?v=2.2.1';
+import { createDeck, createGame } from './engine.js?v=2.3.0';
+import { createLcdArtwork } from './lcd-art.js?v=2.3.0';
 import { swipeCategory } from './gestures.js';
-import { installGameKeyboard } from './keyboard.js?v=2.2.1';
+import { installGameKeyboard } from './keyboard.js?v=2.3.0';
 
 const $ = (id) => document.getElementById(id);
 const choiceButtons = { pokemon: $('pokemon-button'), company: $('company-button') };
@@ -304,10 +304,10 @@ $('about-button').addEventListener('click', () => openDialog('Big names. Tiny ex
 async function load() {
   try {
     [pokemon, companies, companyLogos] = await Promise.all([...['pokemon', 'companies'].map(async (name) => {
-      const response = await fetch(new URL(`../data/${name}.json`, import.meta.url));
+      const response = await fetch(new URL(`../data/${name}.json?v=2.3.0`, import.meta.url));
       if (!response.ok) throw new Error(`Could not load ${name}`);
       return response.json();
-    }), fetch(new URL('../data/company-logos.json', import.meta.url)).then(response => response.ok ? response.json() : {}).catch(() => ({}))]);
+    }), fetch(new URL('../data/company-logos.json?v=2.3.0', import.meta.url)).then(response => response.ok ? response.json() : {}).catch(() => ({}))]);
     reset();
   } catch (error) {
     console.error(error);
