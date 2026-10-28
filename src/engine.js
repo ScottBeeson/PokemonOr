@@ -12,6 +12,7 @@ function shuffle(items, random) {
  * Choose each question's category independently with equal probability,
  * irrespective of dataset size or previous categories.
  * Within each category, exhaust a shuffled bag before showing a name again.
+ * Entries explicitly marked TooObvious: true are validated but never drawn.
  */
 export function createDeck(pokemon, companies, random = Math.random) {
   if (typeof random !== 'function') throw new TypeError('random must be a function.');
@@ -31,11 +32,17 @@ export function createDeck(pokemon, companies, random = Math.random) {
       if (!entry || typeof entry.name !== 'string' || !entry.name.trim() || entry.category !== category) {
         throw new TypeError(`Every ${category} entry needs a name and matching category.`);
       }
+      if (entry.TooObvious !== undefined && typeof entry.TooObvious !== 'boolean') {
+        throw new TypeError(`TooObvious must be a boolean when defined: ${entry.name}`);
+      }
       const key = entry.name.toLocaleLowerCase('en');
       if (names.has(key)) throw new TypeError(`Duplicate ${category} name: ${entry.name}`);
       names.add(key);
       return { ...entry };
-    });
+    }).filter((entry) => entry.TooObvious !== true);
+    if (source.length === 0) {
+      throw new TypeError(`The ${category} dataset has no eligible entries after TooObvious filtering.`);
+    }
     let bag = [];
     let previousName = null;
     return () => {

@@ -185,6 +185,88 @@ test('single-item bags remain playable', () => {
   assert.equal(deck.next().name, 'Databricks');
 });
 
+test('TooObvious entries never appear while false and missing flags retain no-repeat cycles', () => {
+  const makeEntries = category => [
+    { name: `${category} excluded`, category, TooObvious: true },
+    { name: `${category} false`, category, TooObvious: false },
+    { name: `${category} missing`, category },
+    { name: `${category} undefined`, category, TooObvious: undefined },
+  ];
+  const pokemonEntries = makeEntries('pokemon');
+  const companyEntries = makeEntries('company');
+  for (const [category, roll] of [['pokemon', 0], ['company', 0.9]]) {
+    const deck = createDeck(pokemonEntries, companyEntries, () => roll);
+    const names = Array.from({ length: 30 }, () => deck.next().name);
+    const eligible = [`${category} false`, `${category} missing`, `${category} undefined`];
+    for (let i = 0; i < names.length; i += eligible.length) {
+      assert.deepEqual(new Set(names.slice(i, i + eligible.length)), new Set(eligible));
+      if (i > 0) assert.notEqual(names[i - 1], names[i]);
+    }
+  }
+});
+
+test('filtering TooObvious entries leaves source arrays and their entries unchanged', () => {
+  const pokemonEntries = Object.freeze([
+    Object.freeze({ ...pokemon[0], TooObvious: true }),
+    Object.freeze({ ...pokemon[1], TooObvious: false }),
+    Object.freeze({ ...pokemon[2] }),
+  ]);
+  const companyEntries = Object.freeze(companies.map(entry => Object.freeze({ ...entry })));
+  const before = structuredClone({ pokemonEntries, companyEntries });
+  const deck = createDeck(pokemonEntries, companyEntries, seededRandom(42));
+  for (let i = 0; i < 50; i += 1) {
+    const entry = deck.next();
+    entry.name = 'Changed by the caller';
+    entry.TooObvious = true;
+  }
+  assert.deepEqual({ pokemonEntries, companyEntries }, before);
+});
+
+test('categories with no eligible entries fail clearly', () => {
+  assert.throws(
+    () => createDeck(pokemon.map(entry => ({ ...entry, TooObvious: true })), companies),
+    { name: 'TypeError', message: /pokemon dataset has no eligible entries/ },
+  );
+  assert.throws(
+    () => createDeck(pokemon, companies.map(entry => ({ ...entry, TooObvious: true }))),
+    { name: 'TypeError', message: /company dataset has no eligible entries/ },
+  );
+});
+
+test('malformed TooObvious flags and invalid or duplicate suppressed entries are rejected', () => {
+  for (const TooObvious of ['true', 'false', 0, 1, null, {}, []]) {
+    assert.throws(
+      () => createDeck([{ ...pokemon[0], TooObvious }], companies),
+      { name: 'TypeError', message: /TooObvious must be a boolean/ },
+    );
+    assert.throws(
+      () => createDeck(pokemon, [{ ...companies[0], TooObvious }]),
+      { name: 'TypeError', message: /TooObvious must be a boolean/ },
+    );
+  }
+  assert.throws(() => createDeck([
+    pokemon[0], { ...pokemon[0], TooObvious: true },
+  ], companies), /Duplicate pokemon name/);
+  assert.throws(() => createDeck([
+    pokemon[0], { name: '', category: 'pokemon', TooObvious: true },
+  ], companies), /needs a name and matching category/);
+  assert.throws(() => createDeck(pokemon, [
+    companies[0], { ...pokemon[0], TooObvious: true },
+  ]), /needs a name and matching category/);
+});
+
+test('unequal suppression counts do not change the independent 50/50 category boundary', () => {
+  const pokemonEntries = pokemon.map((entry, i) => ({ ...entry, TooObvious: i !== 0 }));
+  let roll = 0;
+  const deck = createDeck(pokemonEntries, companies, () => roll);
+  for (let i = 0; i < 20; i += 1) {
+    roll = 0.499999;
+    assert.equal(deck.next().category, 'pokemon');
+    roll = 0.5;
+    assert.equal(deck.next().category, 'company');
+  }
+});
+
 test('always choosing Pokémon can score zero or ten depending on the independent draws', () => {
   for (const [roll, expectedScore] of [[0, 10], [0.9, 0]]) {
     const game = createGame({ deck: createDeck(pokemon, companies, () => roll), now: () => 0 });

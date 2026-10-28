@@ -1,7 +1,7 @@
-import { createDeck, createGame } from './engine.js?v=3.0.0';
-import { createLcdArtwork } from './lcd-art.js?v=3.0.0';
+import { createDeck, createGame } from './engine.js?v=3.1.0';
+import { createLcdArtwork } from './lcd-art.js?v=3.1.0';
 import { swipeCategory } from './gestures.js';
-import { installGameKeyboard } from './keyboard.js?v=3.0.0';
+import { installGameKeyboard } from './keyboard.js?v=3.1.0';
 
 const $ = (id) => document.getElementById(id);
 const choiceButtons = { pokemon: $('pokemon-button'), company: $('company-button') };
@@ -295,7 +295,7 @@ $('how-button').addEventListener('click', () => openDialog('A name. A hunch. Fiv
 $('about-button').addEventListener('click', () => openDialog('Big names. Tiny explanation.', `
   <p><strong>Pokémon Or</strong> is a small guessing game about the wonderfully similar names of creatures and companies.</p>
   <p>Inspired by <a href="https://pixelastic.github.io/pokemonorbigdata/" target="_blank" rel="noopener noreferrer">Pokémon or Big Data by Pixelastic</a>. Credit to Pixelastic for the original web game.</p>
-  <p><strong>The collection:</strong> ${pokemon.length.toLocaleString()} Pokémon species, sourced from the <a href="https://github.com/PokeAPI/pokeapi" target="_blank" rel="noopener noreferrer">PokéAPI project</a>, plus ${companies.length.toLocaleString()} tech companies spanning software, cybersecurity, developer tools, robotics, fintech, AI, and data infrastructure. Some companies have been acquired or use historical names. We use company names, not standalone products. Names containing “Tech” or “Data” are excluded to avoid easy giveaways.</p>
+  <p><strong>The collection:</strong> ${pokemon.length.toLocaleString()} Pokémon species, sourced from the <a href="https://github.com/PokeAPI/pokeapi" target="_blank" rel="noopener noreferrer">PokéAPI project</a>, plus ${companies.length.toLocaleString()} tech companies (${companies.filter(company => company.TooObvious !== true).length.toLocaleString()} in play) spanning software, cybersecurity, developer tools, robotics, fintech, AI, and data infrastructure. Some companies have been acquired or use historical names. We use company names, not standalone products. Names containing “Tech” or “Data” are excluded. Other names that give away the answer are kept in the collection but left out of rounds.</p>
   <p>Every answer has a source link. The expanded company catalog is sourced from <a href="https://www.ycombinator.com/companies" target="_blank" rel="noopener noreferrer">Y Combinator’s official directory</a>, alongside the original curated collection. Company identity and tech focus are checked against directory records; individual company websites are not exhaustively audited. The datasets and sourcing notes are in the <a href="https://github.com/ScottBeeson/PokemonOr/tree/main/data" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Data is bundled with the game, so rounds don’t depend on a live API.</p>
   <p>This is an unofficial fan project. Pokémon and Pokémon character names are trademarks of Nintendo, Creatures Inc., and GAME FREAK inc. Company names belong to their respective owners. No affiliation or endorsement is implied.</p>
   <p>Pokémon artwork comes from <a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener noreferrer">PokéAPI’s sprite collection</a> and loads only after the answer. Company brand icons come from official websites and Y Combinator’s directory and are bundled locally. Unavailable images fall back to a placeholder; historical companies may have no logo.</p>
@@ -304,10 +304,10 @@ $('about-button').addEventListener('click', () => openDialog('Big names. Tiny ex
 async function load() {
   try {
     [pokemon, companies, companyLogos] = await Promise.all([...['pokemon', 'companies'].map(async (name) => {
-      const response = await fetch(new URL(`../data/${name}.json?v=3.0.0`, import.meta.url));
+      const response = await fetch(new URL(`../data/${name}.json?v=3.1.0`, import.meta.url));
       if (!response.ok) throw new Error(`Could not load ${name}`);
       return response.json();
-    }), fetch(new URL('../data/company-logos.json?v=3.0.0', import.meta.url)).then(response => response.ok ? response.json() : {}).catch(() => ({}))]);
+    }), fetch(new URL('../data/company-logos.json?v=3.1.0', import.meta.url)).then(response => response.ok ? response.json() : {}).catch(() => ({}))]);
     reset();
   } catch (error) {
     console.error(error);

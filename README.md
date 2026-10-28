@@ -10,7 +10,7 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 
 - Five seconds per name, with a countdown and shrinking timer bar.
 - Running correct/total score, accuracy percentage, current streak, and a personal best streak saved on your device.
-- 1,025 Pokémon species and 1,000 current or historical tech companies.
+- 1,025 Pokémon species and 1,000 stored tech companies: 763 playable, with 237 obvious names retained but excluded from rounds.
 - Exactly ten questions per game, with an independent 50/50 category choice on every question and no repeated names. The mix varies each game: previous answers never constrain the next category. Always choosing one category averages 50% over many games, regardless of dataset sizes.
 - A classic handheld shell with a green LCD, physical-style left / continue / right buttons, and a screen you can swipe. The entire device scales to fit desktop and mobile viewports.
 - Pokémon artwork and company brand icons appear after each answer in the monochrome screen, with descriptions and source links.
@@ -50,13 +50,13 @@ Pokémon names and English species classifications come from the [PokéAPI datas
 npm run update:pokemon
 ```
 
-Curated company records live in `data/companies.json`. Each record contains `name`, `category: "company"`, a short `description`, and an official HTTPS `url`. Names containing "Tech" or "Data" anywhere (case-insensitive) are excluded to avoid easy giveaways; none of the 1,025 bundled Pokémon names contain either substring. Add verified company names, update the sourcing notes and collection count in this README, then run `npm test` before committing. Both datasets ship with the site, so gameplay has no live API dependency.
+Curated company records live in `data/companies.json`. Each record contains `name`, `category: "company"`, a short `description`, an official HTTPS `url`, and a boolean `TooObvious`. Set `TooObvious: true` to keep a company and its logo in the catalog while excluding it from every game. Set it to `false` to make it playable again. Review notes are in `data/company-obvious-review.json`; the flag on the company record controls gameplay. Names containing "Tech" or "Data" anywhere (case-insensitive) are excluded to avoid easy giveaways; none of the 1,025 bundled Pokémon names contain either substring. Add verified company names, review their difficulty, update the sourcing notes and collection count in this README, then run `npm test` before committing. Both datasets ship with the site, so gameplay has no live API dependency.
 
 ## Answer images
 
 Pokémon artwork loads after an answer from [PokéAPI's official artwork collection](https://github.com/PokeAPI/sprites). Images are never shown before the guess. Decoded images are tinted into LCD-colored canvas pixels before display, preventing a full-color flash during the reveal. Company icons from official websites and Y Combinator’s official directory are bundled locally in `assets/company-logos/`, with exact-name mappings and source URLs in `data/company-logos.json`. There are currently 975 icons for the 1,000 companies; unavailable or historically ambiguous logos use initials instead. Failed Pokémon artwork requests also show a text fallback. These are website brand icons, not necessarily full company wordmarks.
 
-The expansion adds 799 companies sourced from [Y Combinator’s official directory](https://www.ycombinator.com/companies), retaining the 201 curated entries. Per-company directory links, website associations, tags, and verification dates are recorded in `data/company-provenance.json`. Directory verification establishes identity and technology scope; individual websites are not exhaustively audited. Refresh the selection with `node scripts/import-tech-companies.mjs`, then update logos and run tests.
+The expansion adds 799 companies sourced from [Y Combinator’s official directory](https://www.ycombinator.com/companies), retaining the 201 curated entries. Per-company directory links, website associations, tags, and verification dates are recorded in `data/company-provenance.json`. Directory verification establishes identity and technology scope; individual websites are not exhaustively audited. Refresh the selection with `node scripts/import-tech-companies.mjs`, then review new names, update logos and run tests. Refreshes preserve existing `TooObvious` decisions by source URL/name, and retain flagged records and their provenance even if the directory no longer selects them. Keeping those archived records may increase the stored catalog above the import target. New entries default to `TooObvious: false` pending review.
 
 Refresh company icons with `node scripts/update-company-logos.mjs`; pass `--refresh` to recheck already cached icons. Review identity and image quality before committing new assets.
 

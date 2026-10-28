@@ -1,6 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { preserveCompanyFlags } from './company-flags.mjs';
 
 // Uses only the public, read-only search endpoint exposed by YC's own directory.
 // No secret credentials are stored. Public short-lived search options are discovered each run.
@@ -11,6 +12,7 @@ const catalogPath = path.join(root, 'data/companies.json');
 const provenancePath = path.join(root, 'data/company-provenance.json');
 const directory = 'https://www.ycombinator.com/companies';
 const old = JSON.parse(await readFile(catalogPath, 'utf8'));
+const oldProvenance = await readFile(provenancePath, 'utf8').then(JSON.parse).catch(() => ({ companies: {} }));
 const pokemon = JSON.parse(await readFile(path.join(root, 'data/pokemon.json'), 'utf8'));
 const pokemonNames = new Set(pokemon.map(row => row.name.toLowerCase()));
 // Keep the curated pre-import catalog; replace only records previously added by this importer.
@@ -143,17 +145,30 @@ while (curated.length + additions.length < target && progress) {
   }
 }
 if (curated.length + additions.length < target) throw new Error(`Only ${curated.length + additions.length} eligible unique records; no files changed`);
-const catalog = [...curated, ...additions].sort((a, b) => a.name.localeCompare(b.name));
+// Keep manual flags and archive flagged entries even if a later directory refresh omits them.
+// Retaining such records can take the stored catalog above the requested target.
+const catalog = preserveCompanyFlags(old, [...curated, ...additions]);
+for (const entry of catalog.filter(entry => entry.source)) {
+  if (!provenance[entry.name]) {
+    const record = oldProvenance.companies[entry.name];
+    if (!record) throw new Error(`Missing retained provenance for ${entry.name}`);
+    provenance[entry.name] = record;
+  }
+}
+const finalMix = {};
+for (const record of Object.values(provenance)) {
+  finalMix[record.selectionGroup] = (finalMix[record.selectionGroup] || 0) + 1;
+}
 if (catalog.some(row => /tech|data/i.test(row.name))) throw new Error('Forbidden company name');
 if (catalog.some(row => pokemonNames.has(row.name.toLowerCase()))) throw new Error('Ambiguous Pokémon/company name');
 if (new Set(catalog.map(row => row.name.toLowerCase())).size !== catalog.length) throw new Error('Duplicate company name');
 await writeFile(provenancePath, JSON.stringify({
   source: directory, retrievedAt: now, verification: 'Company identity, website association, industry, and tags verified against Y Combinator\'s official public directory; individual company websites are not exhaustively audited.',
-  discoveredCount: discovered.size, curatedCount: curated.length, importedCount: additions.length,
-  selectionGroups: mix, exclusions: excluded, reviewedExclusions: Object.fromEntries(reviewedExclusions), companies: Object.fromEntries(Object.entries(provenance).sort(([a], [b]) => a.localeCompare(b))),
+  discoveredCount: discovered.size, curatedCount: curated.length, importedCount: Object.keys(provenance).length,
+  selectionGroups: finalMix, exclusions: excluded, reviewedExclusions: Object.fromEntries(reviewedExclusions), companies: Object.fromEntries(Object.entries(provenance).sort(([a], [b]) => a.localeCompare(b))),
 }, null, 2) + '\n');
 await writeFile(catalogPath, JSON.stringify(catalog, null, 2) + '\n');
-console.log(JSON.stringify({ total: catalog.length, preserved: curated.length, imported: additions.length, discovered: discovered.size, mix, excluded,
+console.log(JSON.stringify({ total: catalog.length, preserved: curated.length, imported: Object.keys(provenance).length, selectedImports: additions.length, discovered: discovered.size, mix: finalMix, excluded,
   removedNames: old.filter(a => !catalog.some(b => a.name === b.name)).map(a => a.name),
   addedNames: catalog.filter(a => !old.some(b => a.name === b.name)).map(a => a.name),
 }, null, 2));

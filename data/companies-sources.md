@@ -16,6 +16,12 @@ On 2026-10-28, 29 original company names containing "Tech" or "Data" (case-insen
 
 ## Official Y Combinator import
 
+### Name difficulty review
+
+On 2026-10-28, all 1,000 company names were reviewed for obvious company identifiers. Each record now has the literal boolean `TooObvious`: 237 are `true` and excluded from rounds, while 763 are `false` and eligible. No records, existing fields, provenance, or logos were removed. Legal suffixes, explicit industry/technical labels, domain-style names, and a few widely recognizable company names were flagged; ambiguous short brands were retained. Individual reasons and examples are recorded in `company-obvious-review.json`.
+
+The flag in `companies.json` is authoritative: changing it to `false` makes that company eligible again. Refreshes preserve manual flags by source URL/name and retain flagged records with their provenance even when a later directory selection omits them. This can take the stored catalog above the refresh target. Newly imported entries default to `false` and should receive a difficulty review before publication.
+
 Run `node scripts/import-tech-companies.mjs` to reproduce the expansion. The default target is 1,000 total records; `--target=1000` is explicit. The importer preserves the curated entries and replaces only its own prior imports. It fails before writing if there are too few eligible records.
 
 The importer reads the [official YC startup directory](https://www.ycombinator.com/companies), discovers the short-lived public search options embedded in that page, and queries the same read-only Algolia index used by YC's directory. It retrieves records by batch to stay within the service's result limit. No search key is saved in source, data, logs, or provenance. The 2026-10-28 run examined **6,342 official directory records** across non-future batches.

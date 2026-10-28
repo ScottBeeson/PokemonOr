@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
+import { createDeck } from '../src/engine.js';
 
 test('bundled data contains complete Pokémon species and a substantial company collection', async () => {
   const names = new Set();
@@ -9,6 +10,7 @@ test('bundled data contains complete Pokémon species and a substantial company 
     assert.ok(entries.length >= minimum, `${file} must contain at least ${minimum} entries`);
     for (const entry of entries) {
       assert.equal(entry.category, category);
+      if (category === 'company') assert.equal(typeof entry.TooObvious, 'boolean', `Missing review flag for ${entry.name}`);
       assert.equal(typeof entry.name, 'string');
       assert.ok(entry.name.trim().length > 0);
       assert.doesNotMatch(entry.name, /tech|data/i, `${category} name contains an excluded giveaway: ${entry.name}`);
@@ -24,6 +26,21 @@ test('bundled data contains complete Pokémon species and a substantial company 
       assert.ok(entries.some(entry => entry.name === 'Flabébé'));
     }
   }
+});
+
+test('the real company deck skips reviewed giveaways without dropping catalog records', async () => {
+  const companies = JSON.parse(await readFile(new URL('../data/companies.json', import.meta.url), 'utf8'));
+  assert.equal(companies.find(company => company.name === 'Azalea Robotics Corporation')?.TooObvious, true);
+  const eligible = companies.filter(company => company.TooObvious !== true);
+  assert.ok(eligible.length < companies.length);
+  const deck = createDeck([{ name: 'Pikachu', category: 'pokemon' }], companies, () => 0.75);
+  const seen = new Set();
+  for (let i = 0; i < eligible.length; i++) {
+    const entry = deck.next();
+    assert.equal(entry.TooObvious, false);
+    seen.add(entry.name);
+  }
+  assert.equal(seen.size, eligible.length);
 });
 
 test('imported tech companies retain primary-source provenance', async () => {
