@@ -81,9 +81,10 @@ button:disabled { cursor:default; }
 .choice:disabled { filter:saturate(.7); color:#d9b6c1; }.choice.reveal-correct { box-shadow:inset 2px 3px 3px #c9799360,0 4px 0 #52162e,0 0 0 5px #8ba478,0 0 0 8px #d4deba; }.choice.reveal-wrong { box-shadow:inset 2px 3px 3px #c9799360,0 4px 0 #52162e,0 0 0 5px #ad7668,0 0 0 8px #d8b6a6; }
 .control-label { font-size:10px; font-weight:800; letter-spacing:1px; color:#5a6365; text-shadow:0 1px #f1f0df; }
 .middle { position:relative; padding-top:13px; }.middle .control-label { font-size:9px; }
-.reset-button { position:absolute; top:-35px; left:50%; transform:translateX(-50%); width:44px; height:44px; display:grid; place-items:center; padding:0; border:1px solid #9da699; border-radius:50%; background:linear-gradient(#c5cbbd,#aeb8a8); color:#455a49; box-shadow:inset 0 1px 2px #edf0df,0 2px 0 #85917f,0 3px 4px #676e6033; }
-.reset-button svg { width:19px; height:19px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; pointer-events:none; }
-.reset-button:not(:disabled):active { transform:translate(-50%,2px); box-shadow:inset 0 1px 2px #67756055,0 1px 0 #85917f; }
+.reset-button { position:absolute; top:-35px; left:50%; transform:translateX(-50%); width:44px; height:44px; display:grid; place-items:center; padding:0; border:0; border-radius:50%; background:transparent; color:#52614c; }
+.reset-button::before { content:''; position:absolute; inset:11px; border:1px solid #89937f; border-radius:50%; background:linear-gradient(#9ba591,#c0c7b4); box-shadow:inset 0 2px 3px #4c584a88,inset 0 -1px 1px #e2e6d366,0 1px 0 #f0f0dfb3; pointer-events:none; }
+.reset-button svg { position:relative; width:11px; height:11px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; pointer-events:none; filter:drop-shadow(0 .5px 0 #edf0df88); }
+.reset-button:not(:disabled):active::before { background:#99a58c; box-shadow:inset 0 3px 4px #3d493ba0,0 1px 0 #f0f0dfb3; }
 .start-socket { height:45px; display:flex; align-items:center; padding:4px; border-radius:22px; background:#adb4a947; box-shadow:inset 1px 1px 2px #8a928475,1px 1px 0 #f0f0df70; }
 .continue-button,.continue-button[hidden] { display:block!important; position:relative; width:88px; height:32px; font-size:0; border-radius:20px; border:1px solid #555f5c; background:linear-gradient(#79847d,#59665e); color:#ebefda; box-shadow:inset 0 1px 1px #a7b0a8,0 3px 0 #46534a,0 4px 5px #676e6066; }
 .continue-button::before { content:''; position:absolute; inset:-6px -4px; border-radius:20px; }
