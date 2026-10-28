@@ -22,6 +22,8 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 - Short drags snap back; vertical gestures scroll normally. The five-second deadline still applies when you release a swipe.
 - Each question starts when you choose; wrong answers and timeouts count as incorrect. Switching tabs does not pause the clock. After the tenth reveal, choose **Score** (or press Space) to see your result, accuracy, and best streak. **Replay** starts a fresh ten-question game.
 - Distinct result messages and borders, green/red choice indicators, a subtle particle burst for correct answers, and a brief shake for wrong answers. Reduced-motion preferences disable both effects. Screen-reader answer announcements remain available.
+- A perfect **10/10** unlocks a different secret ending for each cartridge after the tenth answer reveal. Press **Continue** or **Space** to see the normal score, then Replay to start again. The ending can be skipped immediately; Reset and cartridge switching still work. Reduced-motion mode shows a still character pose. Sprite sheets load only when earned, and a failed image leaves the caption and controls usable.
+- On any cartridge's **start screen**, enter **↑ ↑ ↓ ↓ ← → ← →** to preview its secret ending. Continue or Space returns to that cartridge's start screen without changing scores or personal bests. This code requires a keyboard; there is no mobile/touch equivalent. It is inactive during gameplay, on the score screen, and while a dialog is open.
 
 Tech Pack covers software, cybersecurity, developer tools, robotics, fintech, AI, and data infrastructure. Historical company names are included; standalone open-source projects and product names are excluded. See [company sourcing notes](data/companies-sources.md). Rx Pack uses **R/right** for prescription brands; see [Rx sourcing notes](data/rx-sources.md). Flat uses **I/right** for IKEA, Rock uses **M/right** for minerals, and Garden uses **G/right** for plants. **P/left** always chooses Pokémon. The new packs reveal the IKEA product type and original spelling, a mineral's crystal system and hardness, or a plant genus's botanical family. Their artwork is symbolic, not an image of the named item. See [expansion sourcing and refresh instructions](data/expansion-sources.md).
 
@@ -74,6 +76,10 @@ src/app.js                 Interface, keyboard controls, timer rendering
 src/cartridges.js          Cartridge labels, artwork, data paths, and score keys
 src/cartridge-loader.js    Shared Pokémon data, selected pack loading, and retry cache
 assets/cartridges/         Reusable cartridge and title-screen pixel artwork
+assets/victories/          Five generated secret-ending sprite sheets and their prompts
+src/perfect-run.js         Perfect-score eligibility and per-run ending dismissal
+src/victory-screen.js      Sprite loading and secret-ending presentation
+src/secret-code.js         Keyboard-only start-screen ending unlock
 src/engine.js              Pure game state machine and independent fair category selection
 src/gestures.js            Keyboard mapping and intentional swipe thresholds
 assets/company-logos/      Locally bundled website and official directory icons

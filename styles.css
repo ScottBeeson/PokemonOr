@@ -129,6 +129,43 @@ button:focus-visible,a:focus-visible { outline:3px solid #597ea8; outline-offset
 .handheld[data-screen='boot'] .scoreboard,.handheld[data-screen='boot'] .game-card,
 .handheld[data-screen='error'] .scoreboard,.handheld[data-screen='error'] .game-card,
 .handheld[data-screen='title'] .scoreboard,.handheld[data-screen='title'] .game-card { display:none; }
+.handheld[data-screen='victory'] .scoreboard,.handheld[data-screen='victory'] .game-card { display:none; }
+.handheld .continue-button[data-action='ending']::after { content:'CONTINUE'; font-size:9px; letter-spacing:.5px; }
+.victory-screen { height:100%; position:relative; display:flex; flex-direction:column; align-items:center; text-align:center; }
+.victory-heading { width:100%; border-bottom:1px solid #29452c55; padding:2px 0 6px; }
+.victory-heading>span { display:block; font-size:10px; letter-spacing:2px; }
+.victory-heading>strong { display:block; font-size:23px; line-height:1; font-weight:400; margin-top:3px; }
+.victory-stage { width:240px; height:150px; flex-shrink:0; position:relative; overflow:hidden; }
+.victory-sprite { width:150px; height:150px; overflow:hidden; position:absolute; top:0; left:45px; visibility:hidden; }
+.victory-screen.is-ready .victory-sprite { visibility:visible; }
+#victory-sheet { display:block; width:300px; height:300px; max-width:none; image-rendering:pixelated; }
+.victory-screen.is-ready #victory-sheet { animation:victory-frames 5s steps(1,end) both; }
+.victory-character { font-size:11px; line-height:1; letter-spacing:1.4px; text-transform:uppercase; }
+.victory-caption { font-size:22px; line-height:.95; margin:7px 0 0; max-width:260px; }
+.victory-continue { margin-top:auto; padding-top:6px; font-size:11px; letter-spacing:.6px; }
+.victory-snack { display:none; position:absolute; top:65px; right:0; padding:3px 5px; font-size:22px; line-height:1; background:var(--lcd); border:2px solid var(--ink); }
+.victory-screen[data-pack='garden'].is-ready .victory-snack { display:block; animation:victory-gulp 5s linear both; }
+.victory-screen[data-pack='tech'].is-ready #victory-sheet { animation:victory-frames 6s steps(1,end) both,clippy-exit 6s steps(1,end) both; }
+.victory-art-fallback { display:none; font-size:95px; line-height:150px; }
+.art-unavailable .victory-art-fallback { display:block; }
+.art-unavailable .victory-sprite,.art-unavailable .victory-snack { display:none!important; }
+@keyframes victory-frames {
+  0% { transform:translate(0,0); }
+  25% { transform:translate(-50%,0); }
+  55% { transform:translate(0,-50%); }
+  80%,100% { transform:translate(-50%,-50%); }
+}
+@keyframes victory-gulp {
+  0%,55% { transform:translate(0,0); opacity:1; }
+  75% { transform:translate(-72px,-8px) scale(.6); opacity:1; }
+  80%,100% { transform:translate(-78px,-8px) scale(0); opacity:0; }
+}
+@keyframes clippy-exit { 0%,95% { opacity:1; } 100% { opacity:0; } }
+@media(prefers-reduced-motion:reduce) {
+  #victory-sheet { animation:none; transform:translate(-50%,-50%); }
+  .victory-screen[data-pack='tech'] #victory-sheet { transform:translate(-50%,0); }
+  .victory-screen[data-pack='garden'] .victory-snack { animation:none; opacity:1; transform:none; }
+}
 .boot-screen,.title-screen { position:relative; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
 .boot-wordmark { font:46px/1 'VT323',monospace; letter-spacing:-1.5px; animation:boot-settle .55s ease-out both; }
 .boot-wordmark>span { letter-spacing:0; }

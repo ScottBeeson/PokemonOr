@@ -7,8 +7,8 @@
   <meta name="description" content="Pokémon or Tech, Rx, IKEA, Mineral, or Plant? Pick a cartridge: ten questions, five seconds each, on a retro handheld.">
   <title>Pokémon Or — Pocket Edition</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=3.5.0">
-  <script type="module" src="./src/device.js?v=3.5.0"></script>
+  <link rel="stylesheet" href="./styles.css?v=3.6.0">
+  <script type="module" src="./src/device.js?v=3.6.0"></script>
 </head>
 <body>
   <header class="site-header"><a href="./" class="site-brand">POCKET EDITION <span>/ 01</span></a><span class="edition-badge"><i></i> TEN QUESTIONS. FIVE SECONDS EACH.</span><nav class="site-nav" aria-label="Game information"><button id="how-button" class="desk-link">How to play ↗</button><button id="about-button" class="desk-link">About</button></nav></header>
@@ -37,6 +37,19 @@
               <p class="pack-rules">10 QUESTIONS · 5 SECONDS</p>
               <p id="best-label">PERSONAL BEST · 0 IN A ROW</p>
               <span class="title-start">PRESS START <span aria-hidden="true">▸</span></span>
+            </section>
+            <section id="victory-screen" class="victory-screen" aria-label="Perfect run secret ending" aria-live="polite" aria-atomic="true" hidden>
+              <div class="victory-heading"><span>SECRET ENDING</span><strong>PERFECT · 10/10</strong></div>
+              <div class="victory-stage">
+                <div class="victory-sprite" role="img" aria-label="Perfect run character">
+                  <img id="victory-sheet" alt="" aria-hidden="true">
+                </div>
+                <span class="victory-snack" aria-hidden="true">10/10</span>
+                <span class="victory-art-fallback" aria-hidden="true">★</span>
+              </div>
+              <span id="victory-character" class="victory-character"></span>
+              <p id="victory-caption" class="victory-caption"></p>
+              <span id="victory-continue" class="victory-continue">CONTINUE TO SCORE ▸</span>
             </section>
             <div class="scoreboard" aria-label="Your score">
               <div><span>SCORE</span><strong><b id="score">0</b><small>/<b id="answered">0</b></small></strong></div>

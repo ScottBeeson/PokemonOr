@@ -4,6 +4,9 @@ import { swipeCategory } from './gestures.js?v=3.3.0';
 import { installGameKeyboard } from './keyboard.js?v=3.3.0';
 import { cartridges } from './cartridges.js?v=3.5.0';
 import { createCartridgeLoader } from './cartridge-loader.js?v=3.5.0';
+import { createPerfectRun, perfectScenes } from './perfect-run.js?v=3.6.0';
+import { createVictoryScreen } from './victory-screen.js?v=3.6.0';
+import { installSecretCode } from './secret-code.js?v=3.6.0';
 
 const $ = (id) => document.getElementById(id);
 let cartridge = cartridges[0];
@@ -25,6 +28,11 @@ const card = $('game-card');
 let resultAnimations = [];
 let particleLayer = null;
 let bestStreak = 0;
+const perfectRun = createPerfectRun();
+const victoryScreen = createVictoryScreen({
+  root: $('victory-screen'), sheet: $('victory-sheet'),
+  character: $('victory-character'), caption: $('victory-caption'),
+});
 
 function setContinue(action, label, disabled = false) {
   const button = $('next-button');
@@ -74,7 +82,10 @@ function render(state) {
   const answered = state.phase === 'answered';
   const complete = state.phase === 'complete';
   const idle = state.phase === 'idle';
-  handheld.dataset.screen = idle ? 'title' : 'game';
+  const ending = perfectRun.scene(state, cartridge.id);
+  victoryScreen.render(ending, cartridge.id);
+  $('victory-continue').textContent = 'CONTINUE TO SCORE ▸';
+  handheld.dataset.screen = ending ? 'victory' : idle ? 'title' : 'game';
   $('title-screen').hidden = !idle;
   $('boot-screen').hidden = true;
   $('cartridge-slot').disabled = !idle && !complete;
@@ -83,7 +94,7 @@ function render(state) {
   card.classList.toggle('is-answered', answered);
   card.classList.toggle('is-complete', complete);
   card.setAttribute('aria-label', complete ? 'Final score screen' : `Name screen. Swipe left for Pokémon or right for ${cartridge.choiceLabel}.`);
-  $('score-screen').hidden = !complete;
+  $('score-screen').hidden = !complete || Boolean(ending);
   card.dataset.category = answered ? state.entry.category : '';
   card.dataset.result = answered ? (state.result.correct ? 'correct' : 'wrong') : '';
   $('score').textContent = state.correct;
@@ -105,6 +116,7 @@ function render(state) {
   }
   $('next-button').hidden = playing;
   setContinue(complete ? 'replay' : answered ? (state.answered === state.totalRounds ? 'score' : 'next') : 'start', complete ? 'Play again' : answered ? (state.answered === state.totalRounds ? 'See score' : 'Next name') : 'Start game');
+  if (ending) setContinue('ending', 'Continue to score');
   $('reset-button').disabled = false;
   $('feedback').hidden = !answered;
   if (answered) {
@@ -202,13 +214,23 @@ function animate() {
 }
 
 function nextRound() {
+  if (screen === 'secret' && !isDialogOpen()) {
+    screen = 'game';
+    render(game.getState());
+    return;
+  }
   if (screen !== 'game' || isDialogOpen() || !game || game.getState().phase === 'playing') return;
   cancelAnimationFrame(frame);
+  if (perfectRun.scene(game.getState(), cartridge.id)) {
+    perfectRun.dismiss();
+    render(game.getState());
+    return;
+  }
   if (game.getState().phase === 'complete') reset();
   const state = game.startRound();
   render(state);
   // Keep the name and timer visible if the player scrolled down to Next name.
-  card.scrollIntoView({ block: 'nearest', behavior: 'instant' });
+  (perfectRun.scene(state, cartridge.id) ? $('victory-screen') : card).scrollIntoView({ block: 'nearest', behavior: 'instant' });
   blurControl();
   if (state.phase === 'playing') frame = requestAnimationFrame(animate);
 }
@@ -302,6 +324,8 @@ card.addEventListener('lostpointercapture', clearDrag);
 
 function reset() {
   cancelAnimationFrame(frame);
+  secretCode.reset();
+  perfectRun.reset();
   game = createGame({ deck: createDeck(pokemon, opponents, Math.random, cartridge.category) });
   render(game.getState());
 }
@@ -312,7 +336,8 @@ $('next-button').addEventListener('click', () => {
   else nextRound();
 });
 function resetGame() {
-  if (screen !== 'game' || isDialogOpen() || !game) return;
+  if (!['game', 'secret'].includes(screen) || isDialogOpen() || !game) return;
+  screen = 'game';
   reset();
   blurControl();
 }
@@ -321,13 +346,26 @@ $('pokemon-button').addEventListener('click', () => answer('pokemon'));
 $('company-button').addEventListener('click', () => answer(cartridge.category));
 
 installGameKeyboard(document, {
-  getPhase: () => screen === 'game' ? game?.getState().phase : undefined,
+  getPhase: () => screen === 'secret' ? 'complete' : screen === 'game' ? game?.getState().phase : undefined,
   getOpponent: () => cartridge,
   isDialogOpen,
   onNext: nextRound,
   onAnswer: answer,
   onReset: resetGame,
   onTab: blurControl,
+});
+
+const secretCode = installSecretCode(document, {
+  canEnter: () => screen === 'game' && game?.getState().phase === 'idle',
+  isDialogOpen,
+  onUnlock() {
+    screen = 'secret';
+    $('title-screen').hidden = true;
+    handheld.dataset.screen = 'victory';
+    victoryScreen.render(perfectScenes[cartridge.id], cartridge.id);
+    $('victory-continue').textContent = 'RETURN TO START ▸';
+    setContinue('ending', 'Return to start');
+  },
 });
 
 document.addEventListener('visibilitychange', () => {
@@ -338,6 +376,7 @@ document.addEventListener('visibilitychange', () => {
 });
 
 function openDialog(title, html) {
+  secretCode.reset();
   $('dialog-title').textContent = title;
   $('dialog-content').innerHTML = html;
   dialog.showModal();
@@ -394,6 +433,7 @@ cartridgeDialog.addEventListener('keydown', event => {
 
 function openCartridges() {
   if ($('cartridge-slot').disabled) return;
+  secretCode.reset();
   const list = $('cartridge-list');
   list.replaceChildren();
   for (const pack of cartridges) {
@@ -435,6 +475,9 @@ async function insertCartridge(pack) {
   cancelAnimationFrame(frame);
   clearDrag();
   clearResultEffects();
+  secretCode.reset();
+  perfectRun.reset();
+  victoryScreen.render(null);
   game = null;
   screen = 'boot';
   cartridge = pack;
