@@ -7,11 +7,11 @@
   <meta name="description" content="A Pokémon or a data company? Ten questions, five seconds each: a retro handheld guessing game with 1,255 names.">
   <title>Pokemon or BigData — Pocket Edition</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=2.2.0">
-  <script type="module" src="./src/device.js?v=2.2.0"></script>
+  <link rel="stylesheet" href="./styles.css?v=2.2.1">
+  <script type="module" src="./src/device.js?v=2.2.1"></script>
 </head>
 <body>
-  <header class="site-header"><a href="./" class="site-brand">POCKET EDITION <span>/ 01</span></a><span class="edition-badge"><i></i> TEN QUESTIONS. TRUST YOUR INSTINCT.</span><nav class="site-nav" aria-label="Game information"><button id="how-button" class="desk-link">How to play ↗</button><button id="about-button" class="desk-link">About</button></nav></header>
+  <header class="site-header"><a href="./" class="site-brand">POCKET EDITION <span>/ 01</span></a><span class="edition-badge"><i></i> TEN QUESTIONS. FIVE SECONDS EACH.</span><nav class="site-nav" aria-label="Game information"><button id="how-button" class="desk-link">How to play ↗</button><button id="about-button" class="desk-link">About</button></nav></header>
   <main class="desk">
     <div class="device-stage">
       <section class="handheld" aria-label="Pokemon or BigData handheld game">
@@ -34,13 +34,14 @@
               <div class="reveal-visual" id="reveal-visual"><span class="mystery-mark" aria-hidden="true">?</span></div>
               <div class="question-area"><span id="question-label">ONE NAME. TWO POSSIBILITIES.</span><h1 id="name" aria-live="polite">Meet your next guess.</h1><p id="question-hint">One name. Five seconds. Go with your gut.</p></div>
               <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
+              <p id="best-label">PERSONAL BEST · 0 IN A ROW</p>
               <div class="start-prompt" aria-hidden="true">PRESS START <span>▸</span></div>
               <section id="score-screen" class="score-screen" aria-label="Final score" aria-live="polite" hidden>
                 <span class="finish-label">RUN COMPLETE</span>
                 <h2><span id="final-score">0</span><small> / 10</small></h2>
                 <p id="final-rank"></p>
                 <div class="final-stats"><div><span>ACCURACY</span><strong id="final-accuracy">0%</strong></div><div><span>BEST STREAK</span><strong id="final-streak">0</strong></div></div>
-                <p class="balanced-note">Fresh odds every question.<br>Trust your instinct.</p>
+                <p class="balanced-note">Fresh odds every question.</p>
                 <span class="replay-prompt">PRESS REPLAY FOR A NEW RUN ▸</span>
               </section>
             </div>
@@ -54,9 +55,8 @@
           <div class="control-slot"><button id="company-button" class="choice company" aria-label="Big Data, right arrow or B" disabled><span aria-hidden="true">→</span></button><span class="control-label">BIG DATA</span></div>
         </div>
         <p id="action-hint" class="action-hint">10 questions. Five seconds per name.</p>
-        <div class="utility-controls"><button id="collection-button">NAME LIBRARY</button><button id="reset-button" hidden>NEW GAME</button></div>
-        <div class="device-bottom"><div><span class="bottom-label">TRUST YOUR INSTINCT™</span><p id="best-label">A little knowledge. A lot of gut feeling.</p></div><div class="speaker" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
-        <span id="collection-count" hidden></span>
+        <div class="utility-controls"><button id="reset-button" hidden>NEW GAME</button></div>
+        <div class="device-bottom"><div class="speaker" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
       </section>
     </div>
   </main>

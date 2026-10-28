@@ -1,7 +1,7 @@
-import { createDeck, createGame } from './engine.js?v=2.2.0';
-import { createLcdArtwork } from './lcd-art.js?v=2.2.0';
+import { createDeck, createGame } from './engine.js?v=2.2.1';
+import { createLcdArtwork } from './lcd-art.js?v=2.2.1';
 import { swipeCategory } from './gestures.js';
-import { installGameKeyboard } from './keyboard.js?v=2.2.0';
+import { installGameKeyboard } from './keyboard.js?v=2.2.1';
 
 const $ = (id) => document.getElementById(id);
 const choiceButtons = { pokemon: $('pokemon-button'), company: $('company-button') };
@@ -19,9 +19,7 @@ let bestStreak = 0;
 try { bestStreak = Math.max(0, Number(localStorage.getItem('pob-best-streak')) || 0); } catch { /* Storage is optional. */ }
 
 function updateBest() {
-  $('best-label').textContent = bestStreak > 0
-    ? `Your personal best: ${bestStreak} correct in a row. Can you beat it?`
-    : 'A little knowledge. A lot of gut feeling.';
+  $('best-label').textContent = `PERSONAL BEST · ${bestStreak} IN A ROW`;
 }
 
 function updateClock(state) {
@@ -38,6 +36,7 @@ function render(state) {
   const playing = state.phase === 'playing';
   const answered = state.phase === 'answered';
   const complete = state.phase === 'complete';
+  $('best-label').hidden = state.phase !== 'idle';
   card.classList.toggle('is-playing', playing);
   card.classList.toggle('is-answered', answered);
   card.classList.toggle('is-complete', complete);
@@ -301,30 +300,6 @@ $('about-button').addEventListener('click', () => openDialog('Big names. Tiny ex
   <p>This is an unofficial fan project. Pokémon and Pokémon character names are trademarks of Nintendo, Creatures Inc., and GAME FREAK inc. Company names belong to their respective owners. No affiliation or endorsement is implied.</p>
   <p>Pokémon artwork comes from <a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener noreferrer">PokéAPI’s sprite collection</a> and loads only after the answer. Company brand icons are sourced from official websites and bundled locally. Unavailable images fall back to a placeholder; historical companies may have no logo.</p>
   <p>No accounts or analytics. Only your best streak is stored locally. Fonts are requested from Google Fonts and Pokémon artwork from GitHub, with fallbacks if either is unavailable.</p>`));
-$('collection-button').addEventListener('click', () => {
-  openDialog('Meet the name collection.', '<p>Discover the names behind the game. Searching here might give you an edge.</p><label for="collection-search">Search Pokémon and companies</label><input id="collection-search" class="search-input" type="search" placeholder="Try Pikachu or Databricks…"><p id="result-count" role="status"></p><ul class="collection-results" id="collection-results"></ul>');
-  const all = [...pokemon, ...companies].sort((a, b) => a.name.localeCompare(b.name));
-  function search() {
-    const query = $('collection-search').value.trim().toLocaleLowerCase();
-    const results = all.filter((entry) => entry.name.toLocaleLowerCase().includes(query));
-    $('result-count').textContent = `${results.length.toLocaleString()} ${results.length === 1 ? 'name' : 'names'}${results.length > 100 ? ' · showing the first 100' : ''}`;
-    $('collection-results').replaceChildren(...results.slice(0, 100).map((entry) => {
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.textContent = entry.name;
-      a.href = entry.url;
-      a.target = '_blank';
-      a.rel = 'noopener noreferrer';
-      a.tabIndex = -1;
-      const category = document.createElement('span');
-      category.textContent = entry.category === 'pokemon' ? 'Pokémon' : 'Big Data';
-      li.append(a, category);
-      return li;
-    }));
-  }
-  $('collection-search').addEventListener('input', search);
-  search();
-});
 
 async function load() {
   try {
@@ -333,7 +308,6 @@ async function load() {
       if (!response.ok) throw new Error(`Could not load ${name}`);
       return response.json();
     }), fetch(new URL('../data/company-logos.json', import.meta.url)).then(response => response.ok ? response.json() : {}).catch(() => ({}))]);
-    $('collection-count').textContent = `${pokemon.length.toLocaleString()} Pokémon + ${companies.length.toLocaleString()} data companies. Endless second-guessing.`;
     reset();
   } catch (error) {
     console.error(error);

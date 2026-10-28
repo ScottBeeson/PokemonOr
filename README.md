@@ -1,6 +1,6 @@
 # Pokemon or BigData
 
-A real Pokémon, or a real data company? Five seconds to trust your instinct.
+A real Pokémon, or a real data company? Five seconds to make your guess.
 
 **[Play the game](https://scottbeeson.github.io/PokemonOrBigData/)**
 
@@ -13,8 +13,8 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 - 1,025 Pokémon species and 230 current or historical data companies.
 - Exactly ten questions per game, with an independent 50/50 category choice on every question and no repeated names. The mix varies each game: previous answers never constrain the next category. Always choosing one category averages 50% over many games, regardless of dataset sizes.
 - A classic handheld shell with a green LCD, physical-style left / continue / right buttons, and a screen you can swipe. The entire device scales to fit desktop and mobile viewports.
-- Pokémon artwork and company brand icons appear after each answer in the monochrome screen, with descriptions, source links, and a searchable collection.
-- Swipe **left** for Pokémon or **right** for Big Data. You can also tap the buttons, use the **left/right arrow keys**, or keep using **P/B**. Press **Space** to continue without focusing a button. Tab navigation is disabled; click the search field to type in it.
+- Pokémon artwork and company brand icons appear after each answer in the monochrome screen, with descriptions and source links.
+- Swipe **left** for Pokémon or **right** for Big Data. You can also tap the buttons, use the **left/right arrow keys**, or keep using **P/B**. Press **Space** to continue without focusing a button. Tab navigation is disabled. Your personal best streak appears inside the LCD on the start screen.
 - Short drags snap back; vertical gestures scroll normally. The five-second deadline still applies when you release a swipe.
 - Each question starts when you choose; wrong answers and timeouts count as incorrect. Switching tabs does not pause the clock. After the tenth reveal, choose **Score** (or press Space) to see your result, accuracy, and best streak. **Replay** starts a fresh ten-question game.
 - Distinct result messages and borders, green/red choice indicators, a subtle particle burst for correct answers, and a brief shake for wrong answers. Reduced-motion preferences disable both effects. Screen-reader answer announcements remain available.
