@@ -42,17 +42,49 @@ test('Tab and Shift+Tab never navigate, including in dialogs and inputs', () => 
 
 test('search input and dialogs do not trigger game shortcuts', () => {
   const { target, state, press } = setup();
+  state.phase = 'playing';
   target.tagName = 'INPUT';
   assert.equal(press('keydown', { key: ' ', code: 'Space' }), false);
+  assert.equal(press('keydown', { key: 't', code: 'KeyT' }), false);
   target.tagName = 'BODY';
   state.dialog = true;
   press('keydown', { key: ' ', code: 'Space' });
+  assert.equal(press('keydown', { key: 'T', code: 'KeyT' }), false);
   assert.equal(state.next, 0);
+  assert.deepEqual(state.answers, []);
   state.dialog = false;
   state.phase = 'playing';
   press('keydown', { key: 'ArrowLeft' });
   press('keydown', { key: 'b' });
   assert.deepEqual(state.answers, ['pokemon', 'company']);
+});
+
+test('T and legacy B answer company, while Pokémon and arrow shortcuts keep working', () => {
+  const { state, press } = setup();
+  state.phase = 'playing';
+  for (const key of ['t', 'T', 'b', 'B', 'ArrowRight']) {
+    assert.equal(press('keydown', { key }), true);
+  }
+  for (const key of ['p', 'P', 'ArrowLeft']) {
+    assert.equal(press('keydown', { key }), true);
+  }
+  assert.deepEqual(state.answers, [
+    'company', 'company', 'company', 'company', 'company',
+    'pokemon', 'pokemon', 'pokemon',
+  ]);
+});
+
+test('T ignores repeats, modifier shortcuts, and inactive rounds', () => {
+  const { state, press } = setup();
+  for (const phase of ['idle', 'answered', 'complete']) {
+    state.phase = phase;
+    assert.equal(press('keydown', { key: 't', code: 'KeyT' }), false);
+  }
+  state.phase = 'playing';
+  for (const modifier of ['repeat', 'ctrlKey', 'metaKey', 'altKey']) {
+    assert.equal(press('keydown', { key: 't', code: 'KeyT', [modifier]: true }), false);
+  }
+  assert.deepEqual(state.answers, []);
 });
 
 test('Space can replay from the final score without accepting choice keys', () => {

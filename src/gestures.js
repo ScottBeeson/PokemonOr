@@ -1,6 +1,6 @@
 export function keyCategory(key) {
   if (['ArrowLeft', 'p', 'P'].includes(key)) return 'pokemon';
-  if (['ArrowRight', 'b', 'B'].includes(key)) return 'company';
+  if (['ArrowRight', 't', 'T', 'b', 'B'].includes(key)) return 'company';
   return null;
 }
 

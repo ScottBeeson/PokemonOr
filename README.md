@@ -1,8 +1,8 @@
-# Pokemon or BigData
+# Pokémon Or
 
-A real Pokémon, or a real data company? Five seconds to make your guess.
+A real Pokémon, or a real tech company? Five seconds to make your guess.
 
-**[Play the game](https://scottbeeson.github.io/PokemonOrBigData/)**
+**[Play the game](https://scottbeeson.github.io/PokemonOr/)**
 
 Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/pokemonorbigdata/)**. Credit to Pixelastic for the original web game.
 
@@ -10,16 +10,16 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 
 - Five seconds per name, with a countdown and shrinking timer bar.
 - Running correct/total score, accuracy percentage, current streak, and a personal best streak saved on your device.
-- 1,025 Pokémon species and 201 current or historical data companies.
+- 1,025 Pokémon species and 1,000 current or historical tech companies.
 - Exactly ten questions per game, with an independent 50/50 category choice on every question and no repeated names. The mix varies each game: previous answers never constrain the next category. Always choosing one category averages 50% over many games, regardless of dataset sizes.
 - A classic handheld shell with a green LCD, physical-style left / continue / right buttons, and a screen you can swipe. The entire device scales to fit desktop and mobile viewports.
 - Pokémon artwork and company brand icons appear after each answer in the monochrome screen, with descriptions and source links.
-- Swipe **left** for Pokémon or **right** for Big Data. You can also tap the buttons, use the **left/right arrow keys**, or keep using **P/B**. Press **Space** to continue without focusing a button. Tab navigation is disabled. Your personal best streak appears inside the LCD on the start screen.
+- Swipe **left** for Pokémon or **right** for Tech. You can also tap the buttons, use the **left/right arrow keys**, or use **P/T** (**B** still works for Tech). Press **Space** to continue without focusing a button. Tab navigation is disabled. Your personal best streak appears inside the LCD on the start screen.
 - Short drags snap back; vertical gestures scroll normally. The five-second deadline still applies when you release a swipe.
 - Each question starts when you choose; wrong answers and timeouts count as incorrect. Switching tabs does not pause the clock. After the tenth reveal, choose **Score** (or press Space) to see your result, accuracy, and best streak. **Replay** starts a fresh ten-question game.
 - Distinct result messages and borders, green/red choice indicators, a subtle particle burst for correct answers, and a brief shake for wrong answers. Reduced-motion preferences disable both effects. Screen-reader answer announcements remain available.
 
-“Big Data” covers databases, analytics, data engineering, governance, infrastructure, and AI data platforms. Historical company names are included; standalone open-source projects and product names are excluded. See [company sourcing notes](data/companies-sources.md).
+The current category is tech companies: software, cybersecurity, developer tools, robotics, fintech, AI, and data infrastructure. Historical company names are included; standalone open-source projects and product names are excluded. See [company sourcing notes](data/companies-sources.md).
 
 ## Run locally
 
@@ -54,7 +54,9 @@ Curated company records live in `data/companies.json`. Each record contains `nam
 
 ## Answer images
 
-Pokémon artwork loads after an answer from [PokéAPI's official artwork collection](https://github.com/PokeAPI/sprites). Images are never shown before the guess. Decoded images are tinted into LCD-colored canvas pixels before display, preventing a full-color flash during the reveal. Company icons from official websites are bundled locally in `assets/company-logos/`, with exact-name mappings and source URLs in `data/company-logos.json`. There are currently 177 icons for the 201 companies; unavailable or historically ambiguous logos use initials instead. Failed Pokémon artwork requests also show a text fallback. These are website brand icons, not necessarily full company wordmarks.
+Pokémon artwork loads after an answer from [PokéAPI's official artwork collection](https://github.com/PokeAPI/sprites). Images are never shown before the guess. Decoded images are tinted into LCD-colored canvas pixels before display, preventing a full-color flash during the reveal. Company icons from official websites and Y Combinator’s official directory are bundled locally in `assets/company-logos/`, with exact-name mappings and source URLs in `data/company-logos.json`. There are currently 975 icons for the 1,000 companies; unavailable or historically ambiguous logos use initials instead. Failed Pokémon artwork requests also show a text fallback. These are website brand icons, not necessarily full company wordmarks.
+
+The expansion adds 799 companies sourced from [Y Combinator’s official directory](https://www.ycombinator.com/companies), retaining the 201 curated entries. Per-company directory links, website associations, tags, and verification dates are recorded in `data/company-provenance.json`. Directory verification establishes identity and technology scope; individual websites are not exhaustively audited. Refresh the selection with `node scripts/import-tech-companies.mjs`, then update logos and run tests.
 
 Refresh company icons with `node scripts/update-company-logos.mjs`; pass `--refresh` to recheck already cached icons. Review identity and image quality before committing new assets.
 
@@ -67,10 +69,10 @@ src/device.js              Viewport scaling and physical button labels
 src/app.js                 Interface, keyboard controls, timer rendering
 src/engine.js              Pure game state machine and independent fair category selection
 src/gestures.js            Keyboard mapping and intentional swipe thresholds
-assets/company-logos/      Locally bundled official company website icons
+assets/company-logos/      Locally bundled website and official directory icons
 data/                      Bundled datasets and provenance
 tests/                     Node built-in test suite
-scripts/                   Local server, static build, Pokémon refresh
+scripts/                   Local server, static build, catalog and logo refresh
 .github/workflows/pages.yml Automated tests and deployment
 ```
 

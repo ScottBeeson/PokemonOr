@@ -1,4 +1,4 @@
-import { keyCategory } from './gestures.js';
+import { keyCategory } from './gestures.js?v=3.0.0';
 
 /** Space belongs to the game, never to a focused button's native click behavior. */
 export function installGameKeyboard(target, { getPhase, isDialogOpen, onNext, onAnswer, onTab }) {

@@ -1,9 +1,9 @@
 {
-  "name": "pokemon-or-bigdata",
-  "version": "2.3.0",
+  "name": "pokemon-or",
+  "version": "3.0.0",
   "private": true,
   "type": "module",
-  "description": "Five seconds to tell a Pokémon from a data company.",
+  "description": "Five seconds to tell a Pokémon from a tech company.",
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "test": "node --test",

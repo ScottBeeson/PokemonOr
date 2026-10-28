@@ -1,7 +1,35 @@
 {
+  "0.security": {
+    "src": "./assets/company-logos/0-security.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a4a356af2535effc85a23e22046de196453243ce.png"
+  },
+  "a0.dev": {
+    "src": "./assets/company-logos/a0-dev.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/eed1f4cfbc94ee7934ad288bea413225964237fe.png"
+  },
+  "Abstra": {
+    "src": "./assets/company-logos/abstra.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7fbfc5106c32c35b1a0242652667b0ea1ceb47b8.png"
+  },
+  "AccessOwl": {
+    "src": "./assets/company-logos/accessowl.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1f47d40efa2ec60ceb6de3d5dad85ab504f1c80f.png"
+  },
   "Actian": {
     "src": "./assets/company-logos/actian.png",
     "source": "https://www.actian.com/wp-content/uploads/2024/06/Actian-logo-color.png"
+  },
+  "Activeloop": {
+    "src": "./assets/company-logos/activeloop.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c516ed5054847ecb1afb63f795f712b8d5c7f23d.png"
+  },
+  "Activepieces": {
+    "src": "./assets/company-logos/activepieces.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0e3da00ac0f6b66a7e896be53679d01b6fe5fd45.png"
+  },
+  "Advanced Metal Research": {
+    "src": "./assets/company-logos/advanced-metal-research.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d5a7969eb6dca800d7d66a510da584091e078f33.png"
   },
   "Adverity": {
     "src": "./assets/company-logos/adverity.png",
@@ -11,21 +39,117 @@
     "src": "./assets/company-logos/aerospike.png",
     "source": "https://aerospike.com/favicon.png"
   },
+  "Agency Tool Company": {
+    "src": "./assets/company-logos/agency-tool-company.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/244ddf9b0965c4c601170d71dd660ad1a89f8792.png"
+  },
+  "Agent Relay": {
+    "src": "./assets/company-logos/agent-relay.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/819b1618d86a223b725a999a980a27a830ef8441.png"
+  },
+  "Agentic Fabriq": {
+    "src": "./assets/company-logos/agentic-fabriq.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9a5cc9740ffbab442e3f13d623875ee650093eac.png"
+  },
+  "Agentic Labs": {
+    "src": "./assets/company-logos/agentic-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9791d71963721033c262db3532e5b55aa8f03fdf.png"
+  },
+  "AgentMail": {
+    "src": "./assets/company-logos/agentmail.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5c18d385fb2e41299574abf5d25f5ba98485d781.png"
+  },
+  "Ahazou": {
+    "src": "./assets/company-logos/ahazou.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/688b5c2786948f05b6cdae30e72d3113fea715bb.png"
+  },
+  "AICE": {
+    "src": "./assets/company-logos/aice.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/581bc66ce17e1873b4f5c5446cc221ea8275a118.png"
+  },
   "Airbyte": {
     "src": "./assets/company-logos/airbyte.png",
     "source": "https://airbyte.com/apple-touch-icon.png?v=20260618"
+  },
+  "Airhart Aeronautics": {
+    "src": "./assets/company-logos/airhart-aeronautics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8754b2c358df7ab9263e0a74ddf008cb7c8cee4d.png"
   },
   "Aiven": {
     "src": "./assets/company-logos/aiven.png",
     "source": "https://aiven.io/favicons/apple-touch-icon.png"
   },
+  "Akiflow": {
+    "src": "./assets/company-logos/akiflow.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/711701aab43e1cf32d5d6f30ef959de45cbc80c1.png"
+  },
+  "Aktoria Robotics": {
+    "src": "./assets/company-logos/aktoria-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/87a10d62adb927072657a9be3281af92a78ab9c6.png"
+  },
   "Alation": {
     "src": "./assets/company-logos/alation.svg",
     "source": "https://www.alation.com/icon-light.svg"
   },
+  "Albacore Inc.": {
+    "src": "./assets/company-logos/albacore-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/136331286874ea99fbd7e2a7b2acfee659b0c7bf.png"
+  },
+  "Albedo": {
+    "src": "./assets/company-logos/albedo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3429747f66833536a5f2b50b1cbea5ad275f53c8.png"
+  },
+  "Albiware Inc.": {
+    "src": "./assets/company-logos/albiware-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/98b59db8e386fdd1ee47fb4a3c5d37055f50994a.png"
+  },
+  "Alguna": {
+    "src": "./assets/company-logos/alguna.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2e2a3ced5969028060bbaaf152193b5b6a2b3982.png"
+  },
+  "Alkera AI": {
+    "src": "./assets/company-logos/alkera-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/eecc1a49c35b3a26973c35ce53d1c3f862a058cb.png"
+  },
+  "Almond": {
+    "src": "./assets/company-logos/almond.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/37312e12dc6f12e2470a531052ec0e30ee697a75.png"
+  },
+  "Alpaca": {
+    "src": "./assets/company-logos/alpaca.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/52a69dab52f99ab972ab44d22d038a190f461ac4.png"
+  },
+  "Alpas": {
+    "src": "./assets/company-logos/alpas.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f75fa5cbbbd1f82f9e195e9eef79a92f3f74333b.png"
+  },
+  "Alpha Vantage": {
+    "src": "./assets/company-logos/alpha-vantage.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fccb7b1e6dbde25d668a442439b79122df4f20cd.png"
+  },
+  "Alterya": {
+    "src": "./assets/company-logos/alterya.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6f7e22aa96dc1d6baabade2bc3dad88a3cdc9bb8.png"
+  },
   "Alteryx": {
     "src": "./assets/company-logos/alteryx.png",
     "source": "https://cdn-ilebkin.nitrocdn.com/JEFSMzmzwFcXftzdERHKYzgDrSDuEATd/assets/images/optimized/rev-c7178bf/www.alteryx.com/wp-content/themes/trifacta/assets/favicon/apple-icon-180x180.png"
+  },
+  "Alude": {
+    "src": "./assets/company-logos/alude.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/632fd88b607b7a9f3857f1809a459b06c3e55488.png"
+  },
+  "Amazon Web Services": {
+    "src": "./assets/company-logos/amazon-web-services.ico",
+    "source": "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico"
+  },
+  "Ambition": {
+    "src": "./assets/company-logos/ambition.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7651fbde07f5ac811e98325179c3cd86d42041fc.png"
+  },
+  "Amika": {
+    "src": "./assets/company-logos/amika.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c42840d914de4ea4ec78f647bf0db2e93434ca5d.png"
   },
   "Amplitude": {
     "src": "./assets/company-logos/amplitude.png",
@@ -35,29 +159,133 @@
     "src": "./assets/company-logos/anaconda.png",
     "source": "https://www.anaconda.com/wp-content/uploads/2025/05/cropped-favicon-180x180.png"
   },
+  "Anakin": {
+    "src": "./assets/company-logos/anakin.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/02c14cb72f132c0009e52ca2645a3fb3851846ce.png"
+  },
+  "Anchor": {
+    "src": "./assets/company-logos/anchor.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4d9e510d39cddedba8ade2150d4c3b5cb572aa10.png"
+  },
+  "Andi": {
+    "src": "./assets/company-logos/andi.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8c2b55aa5e7689ba35628ff2ed6299db9328d83c.png"
+  },
+  "Andon Labs": {
+    "src": "./assets/company-logos/andon-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7330cbaf802a2b7ccf2d046a09809940eb0d1050.png"
+  },
   "Anomalo": {
     "src": "./assets/company-logos/anomalo.png",
     "source": "https://www.anomalo.com/wp-content/uploads/2024/01/favicon-1.png"
+  },
+  "Antropi Robotics": {
+    "src": "./assets/company-logos/antropi-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b8c101f20a3b29a6ae368d81297168e49391e75a.png"
   },
   "Anyscale": {
     "src": "./assets/company-logos/anyscale.png",
     "source": "https://www.anyscale.com/static/favicon-new.ico"
   },
+  "AnythingLLM": {
+    "src": "./assets/company-logos/anythingllm.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/33d296040fb4ce26e9922ae20db732c90a4f11ce.png"
+  },
+  "ApolloShield": {
+    "src": "./assets/company-logos/apolloshield.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/86c94c24723a06f19dde6996b82d50916b0d8159.png"
+  },
+  "AppX": {
+    "src": "./assets/company-logos/appx.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e525187409442d1ab27754ce9ef76abf1c162b05.png"
+  },
+  "Apto Payments": {
+    "src": "./assets/company-logos/apto-payments.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/75e540aa00e6d4d7c686312ec0d7b3d44772f12e.png"
+  },
   "ArangoDB": {
     "src": "./assets/company-logos/arangodb.png",
     "source": "https://cdn-ileelek.nitrocdn.com/sXYAZLumybqOWnupmQzoYCIzmJyAtkMh/assets/images/optimized/rev-9e89448/arango.ai/wp-content/themes/knightowl/assets/img/icons/favicons/apple-touch-icon.png"
+  },
+  "Aravolta": {
+    "src": "./assets/company-logos/aravolta.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fef90b2fedf3b6bcd07d770648c6074b9717d2a0.png"
+  },
+  "Archal": {
+    "src": "./assets/company-logos/archal.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d5457b412312bd26ecc72ccead99d16248cd087a.png"
+  },
+  "Archil": {
+    "src": "./assets/company-logos/archil.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0695554aaa43f831a6d970c73486aad8f7a9101f.png"
+  },
+  "Archon": {
+    "src": "./assets/company-logos/archon.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a035400f6acd84a35dea2f9fb7832b054c02ed12.png"
+  },
+  "Ardent": {
+    "src": "./assets/company-logos/ardent.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f4ef54cc2ae204ad4ac662f9bfacf6a3fa6faf47.png"
   },
   "Arize AI": {
     "src": "./assets/company-logos/arize-ai.png",
     "source": "https://arize.com/wp-content/themes/arize-2022/images/favicon.png"
   },
+  "Arlo Industries": {
+    "src": "./assets/company-logos/arlo-industries.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9516f2cea09963c1b9ba307c35589a5d194c61c0.png"
+  },
+  "Arpio": {
+    "src": "./assets/company-logos/arpio.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/66c7285459db25644e19347ea1d63375d2625749.png"
+  },
+  "Arroyo": {
+    "src": "./assets/company-logos/arroyo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1a7f1c3e5b076e80781490318e3dfe43f0db3a2b.png"
+  },
+  "Artemis Search": {
+    "src": "./assets/company-logos/artemis-search.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/002e53ddce5bb4318d71a6b7c48c2417fb3ad159.png"
+  },
   "Arthur": {
     "src": "./assets/company-logos/arthur.svg",
     "source": "https://www.arthur.ai/icon-4usi79.svg?icon.1trevkb75pwty.svg"
   },
+  "Artie": {
+    "src": "./assets/company-logos/artie.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/973d2f0c6c4d07505113e974a08d18864eb95d54.png"
+  },
   "Ascend.io": {
     "src": "./assets/company-logos/ascend-io.png",
     "source": "https://www.ascend.io/images/favicon.png"
+  },
+  "Aside": {
+    "src": "./assets/company-logos/aside.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/433466322b82d033544acff5354641108752eb11.png"
+  },
+  "Asim": {
+    "src": "./assets/company-logos/asim.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a3d66de7c8d8809683c96657196dfeabd35eb9bc.png"
+  },
+  "Asimov": {
+    "src": "./assets/company-logos/asimov.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f6d1f298b9c57b01b04001ed5fb4e04350cf49c3.png"
+  },
+  "Aspire": {
+    "src": "./assets/company-logos/aspire.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/753f62b42ec2f778dd6395d3ae91802c52ab6b5a.png"
+  },
+  "Assemble": {
+    "src": "./assets/company-logos/assemble.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fdaeafd72d237eaf328842585365c3b7ce49cb7c.png"
+  },
+  "AssemblyAI": {
+    "src": "./assets/company-logos/assemblyai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/10887edbd9771d54d34bdf7780c6f3cda92e7366.png"
+  },
+  "assistant-ui": {
+    "src": "./assets/company-logos/assistant-ui.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/11f41b527f94c63e7d0ee1e19db038344f713a8f.png"
   },
   "Astronomer": {
     "src": "./assets/company-logos/astronomer.svg",
@@ -75,61 +303,445 @@
     "src": "./assets/company-logos/atscale.png",
     "source": "https://www.atscale.com/wp-content/uploads/2026/10/Atscale-Favicon-1-300x300.png"
   },
+  "Attain": {
+    "src": "./assets/company-logos/attain.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/49382467e2a565f576c3b472c767c5c5095a0c0b.png"
+  },
+  "Attune": {
+    "src": "./assets/company-logos/attune.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8df0ce49cc11e96b09c8980da86ed900b39fe9dc.png"
+  },
+  "Aucert": {
+    "src": "./assets/company-logos/aucert.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fcf314b4f1f24f66082b93a3ec4084c76234c436.png"
+  },
+  "Auctor": {
+    "src": "./assets/company-logos/auctor.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e14ac50e2fa0724e7b0c94e9bc2c4cdac5732e9e.png"
+  },
+  "authzed": {
+    "src": "./assets/company-logos/authzed.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ee578b781cb190a51362b9fda6dc57b36d74972d.png"
+  },
+  "AutoPallet Robotics": {
+    "src": "./assets/company-logos/autopallet-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d2f0c4ca0e1ee62abec263fe32fc601c69e08139.png"
+  },
+  "Autosana": {
+    "src": "./assets/company-logos/autosana.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5c7dda83aa113d5017c2cb187435ccccb356bd6a.png"
+  },
+  "Autumn Labs": {
+    "src": "./assets/company-logos/autumn-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5df469af020f91ac0b4d19796abb3d31c3518288.png"
+  },
+  "Avea Robotics": {
+    "src": "./assets/company-logos/avea-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8bbc0f67672c28c5bc0d90aef4a3427383e238ac.png"
+  },
+  "Avenue": {
+    "src": "./assets/company-logos/avenue.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e5f67e2ce27f5eb8afbeff838eb65ceab7f77903.png"
+  },
+  "Axiom.ai": {
+    "src": "./assets/company-logos/axiom-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/48ab4ee91faa4c6436804bf3d71a9e06873ff688.png"
+  },
+  "Axoni": {
+    "src": "./assets/company-logos/axoni.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8c4cc56e4a37201555dc18cf1c50c92082ad616b.png"
+  },
+  "Axonnic": {
+    "src": "./assets/company-logos/axonnic.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f269fdfc703083f216ecc708a1d72e1eec821657.png"
+  },
+  "Azalea Robotics Corporation": {
+    "src": "./assets/company-logos/azalea-robotics-corporation.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a43d3ef392fa3a7d4ef89797c2972ddacbdd1b5c.png"
+  },
+  "Banner": {
+    "src": "./assets/company-logos/banner.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7f7894aa9ed686ecf41b4e45c69ea8f7318f0d7e.png"
+  },
+  "Basalt": {
+    "src": "./assets/company-logos/basalt.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bdc6db574181bc5f564f9fcdee3e3a8f66a68b75.png"
+  },
+  "Baserun": {
+    "src": "./assets/company-logos/baserun.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/690380b4e86d38cde32c248c69764afbcf933aed.png"
+  },
   "Baseten": {
     "src": "./assets/company-logos/baseten.png",
     "source": "https://www.baseten.co/apple-icon.png"
+  },
+  "Beam": {
+    "src": "./assets/company-logos/beam.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cf7324872fe6b37d7579334928f7018d2099483b.png"
+  },
+  "Beeper": {
+    "src": "./assets/company-logos/beeper.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/948a1172adcc312a1fb3800c8c220af61d46efdf.png"
+  },
+  "Belvedir": {
+    "src": "./assets/company-logos/belvedir.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fdbbbe883c8bc36d2de50d07c6d7cb80cde6ad0a.png"
+  },
+  "Belvo": {
+    "src": "./assets/company-logos/belvo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8a630e8e8c65d44c6d85d84dfe4c115d9c8671c2.png"
   },
   "BentoML": {
     "src": "./assets/company-logos/bentoml.png",
     "source": "https://bentoml.com/bentoml-favicon/apple-touch-icon.png"
   },
+  "Berry": {
+    "src": "./assets/company-logos/berry.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/59005c33d3a0d40259f58fdc4a12bc21a5d29d73.png"
+  },
+  "Better Auth": {
+    "src": "./assets/company-logos/better-auth.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1f768f164c4dd92121e70abbd42713af3118834a.png"
+  },
+  "Better Opinions": {
+    "src": "./assets/company-logos/better-opinions.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f6ae65ec2d1ccb8f2c368690d2013dc58fcdf2be.png"
+  },
   "Better Stack": {
     "src": "./assets/company-logos/better-stack.png",
     "source": "https://betterstack.com/assets/favicon-64296699.png"
+  },
+  "Beyond Aero": {
+    "src": "./assets/company-logos/beyond-aero.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c372268dde1c1e5ed3e639d9cb8603d8cf3639ea.png"
   },
   "Bigeye": {
     "src": "./assets/company-logos/bigeye.svg",
     "source": "https://cdn.prod.website-files.com/64b205c9041f2a26ac7cb23f/64b572b9bb1169138c45f110_webclip.svg"
   },
+  "Bitnami": {
+    "src": "./assets/company-logos/bitnami.png",
+    "source": "https://bitnami.com/o/developer-portal-theme/images/favicon.ico"
+  },
+  "Bitrise": {
+    "src": "./assets/company-logos/bitrise.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2e5308a0848139b34600dfa7eed02fb958647387.png"
+  },
+  "Blaxel": {
+    "src": "./assets/company-logos/blaxel.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/daedc1e66e212180bb678c683cd4595f1c7cd149.png"
+  },
+  "BlindPay": {
+    "src": "./assets/company-logos/blindpay.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f1817a0c9b9ff2db524e7cb0712e6867cdfcb2f0.png"
+  },
+  "Blink": {
+    "src": "./assets/company-logos/blink.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a032695f4ef91de1841f09f2b8ba9b6fc2bcf959.png"
+  },
+  "Blitz": {
+    "src": "./assets/company-logos/blitz.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9319d5ef3419cc17f12a1fb2910035be736adcb4.png"
+  },
+  "Blixo": {
+    "src": "./assets/company-logos/blixo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/387bbc46ef24e2458068251a26e8567f41af9908.png"
+  },
+  "Boat": {
+    "src": "./assets/company-logos/boat.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/dd00ca6a15fbe23bc8d3447bda9de39006326892.png"
+  },
   "Bodo": {
     "src": "./assets/company-logos/bodo.png",
     "source": "https://cdn.prod.website-files.com/6a107660da731c4732babfb0/6a5a36bc63d0c38dfa50d410_ChatGPT%20Image%20Jul%2017%2C%202026%2C%2010_05_38%20AM.png"
+  },
+  "Bonsai": {
+    "src": "./assets/company-logos/bonsai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/704ac62f48316d04d9fc8a57fe4aed9e46970839.png"
+  },
+  "Boom": {
+    "src": "./assets/company-logos/boom.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/99fad830d694e292b87e0628e50c052c9f87cf86.png"
+  },
+  "Boost Robotics": {
+    "src": "./assets/company-logos/boost-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4ab11f23c518bbbd560df743f85f60218829e65f.png"
+  },
+  "BotBuilt": {
+    "src": "./assets/company-logos/botbuilt.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6c0f70c9a27028dd4b634603cfcc5021fc68ccb3.png"
+  },
+  "Boton": {
+    "src": "./assets/company-logos/boton.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/358e3bc7c5a63ac1e3b373ee88906f1251181ba4.png"
+  },
+  "Bountiful": {
+    "src": "./assets/company-logos/bountiful.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/40bd701518c1492966677e92d610182861a00a02.png"
+  },
+  "Boxes.dev": {
+    "src": "./assets/company-logos/boxes-dev.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9949c6b8484314fd6471d7e95c251af659528195.png"
+  },
+  "Bracket": {
+    "src": "./assets/company-logos/bracket.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/743850446c402a0284c29ccc61272697d62fc139.png"
+  },
+  "Brainboard": {
+    "src": "./assets/company-logos/brainboard.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a1940cbdacec83b1df06f778aab51ef87295bad3.png"
+  },
+  "Bramante": {
+    "src": "./assets/company-logos/bramante.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d13627b06670d3337bda071d8e7bccb8d6728ffd.png"
+  },
+  "Brex": {
+    "src": "./assets/company-logos/brex.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/72237ca3782563f0b12ffe1fe9869d878c153ab6.png"
+  },
+  "Brighterway": {
+    "src": "./assets/company-logos/brighterway.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4c3ccc32c3cef12a79c45aceb7aa532c954f0602.png"
+  },
+  "BrioHR": {
+    "src": "./assets/company-logos/briohr.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d7d26e3a8b124e3c002dfda1b12da4ee6b000aa8.png"
+  },
+  "Brite": {
+    "src": "./assets/company-logos/brite.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/396df8b615efb145166e71f986645ec788d1d655.png"
+  },
+  "Browser Use": {
+    "src": "./assets/company-logos/browser-use.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c098c79c1154d878f59439428e54fe98a83295a2.png"
+  },
+  "BrowserOS": {
+    "src": "./assets/company-logos/browseros.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8ee9034382624e07d15bb234736662d02dc829f8.png"
+  },
+  "Brumby": {
+    "src": "./assets/company-logos/brumby.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e7f64c3261f306e1859d503d40ad84601c127c82.png"
+  },
+  "Bucket Robotics": {
+    "src": "./assets/company-logos/bucket-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/55cc697d9f14eca5a5d45772ac14d97a83df16ae.png"
+  },
+  "BuildJet": {
+    "src": "./assets/company-logos/buildjet.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6581ded9fa54308e7ffa3c61c36bd6ef62e369cd.png"
+  },
+  "Bulldozair": {
+    "src": "./assets/company-logos/bulldozair.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3dffe52796a98de944fc574c506e6e924e4a7085.png"
+  },
+  "Bunkyr": {
+    "src": "./assets/company-logos/bunkyr.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bab71568a30f64680488b01543947e165355c6d6.png"
+  },
+  "Buoyant Aero": {
+    "src": "./assets/company-logos/buoyant-aero.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8a7ac8d28bd5a2bea4410ab6e9333809385e98d9.png"
+  },
+  "Bytebot": {
+    "src": "./assets/company-logos/bytebot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/98cd71fc795fe80387da92b38a105f7c275db52d.png"
+  },
+  "Cactus Compute": {
+    "src": "./assets/company-logos/cactus-compute.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/38edcfba2831cce5f05a5da045992ae4f758e655.png"
+  },
+  "Campfire": {
+    "src": "./assets/company-logos/campfire.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b964d406b730adef7e1ad9fcd6fdf8775ca296fc.png"
+  },
+  "Canix": {
+    "src": "./assets/company-logos/canix.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/307944ea6b0927bae195cd145f3959c47e943c9c.png"
+  },
+  "Capitol AI": {
+    "src": "./assets/company-logos/capitol-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d21edd589862cd64f905545df119c53426538c8d.png"
+  },
+  "Captain": {
+    "src": "./assets/company-logos/captain.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0c5e5da360891b80b4a1d6d511de963d613bbf08.png"
+  },
+  "CaptivateIQ": {
+    "src": "./assets/company-logos/captivateiq.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d6335987a80e28fc8c303050aa104d2e7285ef01.png"
+  },
+  "Caribou": {
+    "src": "./assets/company-logos/caribou.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6babda5ff95102983cef278d4efd8b7a1d06c10b.png"
+  },
+  "CarSignal": {
+    "src": "./assets/company-logos/carsignal.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/adebdc425b676af3d7f53e7ba2ba70bd7359f2f7.png"
+  },
+  "Cartage": {
+    "src": "./assets/company-logos/cartage.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3d0afccc0962e52bb6440d323cf8b43f42b8a268.png"
   },
   "CARTO": {
     "src": "./assets/company-logos/carto.webp",
     "source": "https://carto.com/cdn.prod.website-files.com/6345207a1b18e581fcf67604/637e3b4c42ffe84d0f71381f_cargo-webclip.webp"
   },
+  "Cartpanda": {
+    "src": "./assets/company-logos/cartpanda.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fdd422df573f9e77279f0da5b79f0c2fcd5b52ca.png"
+  },
+  "Caution": {
+    "src": "./assets/company-logos/caution.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a0571039e7dc6cc20c7a181c0b7ffa967bc5c6d3.png"
+  },
+  "Cedana": {
+    "src": "./assets/company-logos/cedana.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/765d8a1a78a1c5939f354a26be87d3c1c1696290.png"
+  },
   "Celonis": {
     "src": "./assets/company-logos/celonis.ico",
     "source": "https://www.celonis.com/favicon.ico"
+  },
+  "Cerulion": {
+    "src": "./assets/company-logos/cerulion.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/336383ad58869871ce591b4e1b31dd374319435c.png"
+  },
+  "Charge Robotics": {
+    "src": "./assets/company-logos/charge-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0118080552ba9d1fbdfe132c3eead249237876d9.png"
+  },
+  "Charm": {
+    "src": "./assets/company-logos/charm.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bdd48a02de2e277524168808bf7edcd14c995ed9.png"
+  },
+  "Chiron": {
+    "src": "./assets/company-logos/chiron.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/413bccd180b2d3b183e43292dcbda31f7c7beaf3.png"
+  },
+  "Chordio": {
+    "src": "./assets/company-logos/chordio.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b29418be152187b38ccc249652bf446728ba67bc.png"
   },
   "Chroma": {
     "src": "./assets/company-logos/chroma.ico",
     "source": "https://www.trychroma.com/img/favicon.ico"
   },
+  "Cinapse": {
+    "src": "./assets/company-logos/cinapse.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ddc4d4e8009e0c8d02d4de7f4bdf26587f0a8a7c.png"
+  },
+  "CircuitHub": {
+    "src": "./assets/company-logos/circuithub.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5967d06c7b101af8570dc47b6eea5cd8567dd32b.png"
+  },
+  "Clad": {
+    "src": "./assets/company-logos/clad.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5ab0e3d7b0de12617818a986b541a5e524c146ae.png"
+  },
+  "Clear": {
+    "src": "./assets/company-logos/clear.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b9c7802fe390e275d36ad0835a41223e647bcf5a.png"
+  },
+  "Clearline": {
+    "src": "./assets/company-logos/clearline.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/53a34147e63b67c7a9270226ba55f80c0701d86e.png"
+  },
+  "Clever": {
+    "src": "./assets/company-logos/clever.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/76cc0d8c3947ddc3bc0b8b889117b3cf3dc00ba2.png"
+  },
   "CleverTap": {
     "src": "./assets/company-logos/clevertap.png",
     "source": "https://clevertap.com/wp-content/uploads/2023/08/apple-touch-icon-1.png"
+  },
+  "Clew": {
+    "src": "./assets/company-logos/clew.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/69535410a6347993aca0be153285a41597ac154d.png"
   },
   "ClickHouse": {
     "src": "./assets/company-logos/clickhouse.png",
     "source": "https://clickhouse.com/apple-icon.png?apple-icon.18ftzencg_4sl.png"
   },
+  "ClipDrop": {
+    "src": "./assets/company-logos/clipdrop.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3bfd4a654412f2405d3448ad846ed61f08074a04.png"
+  },
+  "cloud humans": {
+    "src": "./assets/company-logos/cloud-humans.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/37f0dc4beddd72199475bab9ec433aaf3d593df6.png"
+  },
+  "Cloudchipr": {
+    "src": "./assets/company-logos/cloudchipr.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/96f17fae40f55e74f9d214af11045d8eed8f096f.png"
+  },
+  "CloudCruise": {
+    "src": "./assets/company-logos/cloudcruise.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/71e4ab89282d96cbbe0eb42a1883f2331e1c77c3.png"
+  },
   "Cloudera": {
     "src": "./assets/company-logos/cloudera.png",
     "source": "https://www.cloudera.com/etc.clientlibs/www/clientlibs/clientlib-siteroot/resources/css/assets/icons/favicon/apple-touch-icon-180x180.png"
+  },
+  "Cloudglue": {
+    "src": "./assets/company-logos/cloudglue.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/83e6dd01545303c123ca60f1dcf8bdc7566497c5.png"
+  },
+  "Cloudthread": {
+    "src": "./assets/company-logos/cloudthread.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/901ce3d4d85e5af8508dc541cdc117afcf14c583.png"
+  },
+  "co.dev": {
+    "src": "./assets/company-logos/co-dev.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/69fb9c525432d1e46ceb4d9dc25dc4e77da0f0be.png"
   },
   "Coalesce": {
     "src": "./assets/company-logos/coalesce.png",
     "source": "https://coalesce.io/wp-content/uploads/2023/04/favicon.png"
   },
+  "Coast": {
+    "src": "./assets/company-logos/coast.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/78f28e553f97b2af49a667ef43877655e0079d3e.png"
+  },
+  "Cobblestone": {
+    "src": "./assets/company-logos/cobblestone.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6cf240361cd25bc54d8ed95f6708c9750de6531f.png"
+  },
   "Cockroach Labs": {
     "src": "./assets/company-logos/cockroach-labs.png",
     "source": "https://www.cockroachlabs.com/icon1.png?38190d312b196e2c"
   },
+  "Cococart": {
+    "src": "./assets/company-logos/cococart.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0231dbdea9ea0245b47c0551525efdd857307371.png"
+  },
+  "cocreate": {
+    "src": "./assets/company-logos/cocreate.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0fa7e6874bb04b698aead6e523b8be6359e8af3d.png"
+  },
+  "CodeAnt AI": {
+    "src": "./assets/company-logos/codeant-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9efd3b7815df44b6aca06023be3c607e3a345ee5.png"
+  },
+  "CodeCombat": {
+    "src": "./assets/company-logos/codecombat.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f867ef5f1e9cc19b841714369785ca83d8d9df2a.png"
+  },
+  "Codevisor": {
+    "src": "./assets/company-logos/codevisor.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/36fd79daacb53819fc86fd68b564556a5bd51a64.png"
+  },
+  "CodeViz": {
+    "src": "./assets/company-logos/codeviz.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3b3886b4eeec86b01eb6eb8ba6e07dd24f7af701.png"
+  },
   "Cognite": {
     "src": "./assets/company-logos/cognite.png",
     "source": "https://www.cognite.com/icon.png?icon.08484x9h5icrf.png"
+  },
+  "Coldreach": {
+    "src": "./assets/company-logos/coldreach.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/01cfd7370853173c26a810e2aec87fd55f289393.png"
   },
   "Collibra": {
     "src": "./assets/company-logos/collibra.svg",
@@ -139,17 +751,125 @@
     "src": "./assets/company-logos/comet.png",
     "source": "https://www.comet.com/site/wp-content/uploads/2025/01/cropped-apple-touch-icon-180x180.png"
   },
+  "Command AI": {
+    "src": "./assets/company-logos/command-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2bca198859e87cd196f78931db97af3133a90eee.png"
+  },
+  "CommodityAI": {
+    "src": "./assets/company-logos/commodityai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/933c7f548a28cf3c29ce287133e7a5c8f9b0ca0c.png"
+  },
+  "Common Paper": {
+    "src": "./assets/company-logos/common-paper.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1a5fd0218aaaf79164dd214261cfc4cec6d668f8.png"
+  },
+  "CompUp": {
+    "src": "./assets/company-logos/compup.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/418fe819ff51f7a93e3dfa5ef6d26990a3053c22.png"
+  },
+  "Compyle": {
+    "src": "./assets/company-logos/compyle.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d64e6601db5d659b1726d0d5ea126494391f5f62.png"
+  },
+  "Condor Energy": {
+    "src": "./assets/company-logos/condor-energy.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8fb409eebab1bce05d1234942c6f03c6739eec60.png"
+  },
+  "Cone": {
+    "src": "./assets/company-logos/cone.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6749dbc3973af54314fb19bab89f96afd64cd254.png"
+  },
+  "Confident LIMS": {
+    "src": "./assets/company-logos/confident-lims.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/33dbffe2b04c05f3f81daf8f724a1ad65f7cd311.png"
+  },
   "Confluent": {
     "src": "./assets/company-logos/confluent.png",
     "source": "https://www.confluent.io/icons/apple-touch-icon.png"
+  },
+  "Constellation Space": {
+    "src": "./assets/company-logos/constellation-space.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/507992dfdd26c7120b018a48e02b63f2dbff68b3.png"
+  },
+  "Context.dev": {
+    "src": "./assets/company-logos/context-dev.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fe20b06c889ed9f1a1b7d9b0ecf522c8e057d68b.png"
+  },
+  "ContextFort": {
+    "src": "./assets/company-logos/contextfort.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6087e1f0e34063f0cc8f7a39962c8cbe63788444.png"
+  },
+  "ContraForce": {
+    "src": "./assets/company-logos/contraforce.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/432a4f78b4ff1733ad967eccea1a465f5a83c959.png"
+  },
+  "Convex": {
+    "src": "./assets/company-logos/convex.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7c5d3a6d72aa7ddc98296b94c59a3ba4b3e19f96.png"
+  },
+  "Convoy": {
+    "src": "./assets/company-logos/convoy.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2ef5e56e5aadbe1bd56567cef7d719b7f1e4c6b7.png"
+  },
+  "Coperniq": {
+    "src": "./assets/company-logos/coperniq.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9213f506809754ff509502961f8e99070b3ed411.png"
   },
   "Coralogix": {
     "src": "./assets/company-logos/coralogix.png",
     "source": "https://coralogix.com/wp-content/uploads/2025/09/cropped-cropped-favicon-180x180.png"
   },
+  "Corelayer": {
+    "src": "./assets/company-logos/corelayer.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7fc77bd9760310dfdeb4b8ba962b09280b614937.png"
+  },
+  "Corgea": {
+    "src": "./assets/company-logos/corgea.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4f659e1a5051b790e28f097f1c858880dc797b7f.png"
+  },
+  "Coris": {
+    "src": "./assets/company-logos/coris.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f8d68f694a6b7f9bb0fb7015ac9814c591f45f5d.png"
+  },
+  "Corsair": {
+    "src": "./assets/company-logos/corsair.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/669230895e9a350309e4b696d01d846593838da1.png"
+  },
+  "Cortex AI": {
+    "src": "./assets/company-logos/cortex-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1c9246b8eba5ba12a7373a930ea46cc687dddb98.png"
+  },
+  "Corvus Robotics": {
+    "src": "./assets/company-logos/corvus-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a834aa68231adfb62bba1347854fb4089ce584f5.png"
+  },
+  "Cosmic": {
+    "src": "./assets/company-logos/cosmic.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9a999bf9f887684e2cad49138c36cf7abb029831.png"
+  },
+  "Cosmic Robotics": {
+    "src": "./assets/company-logos/cosmic-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/610b3f44c95c65ea346121a48c57b8c81a3788ce.png"
+  },
   "Couchbase": {
     "src": "./assets/company-logos/couchbase.svg",
     "source": "https://www.couchbase.com/wp-content/uploads/2026/07/couchbase-favicon.svg"
+  },
+  "Courier": {
+    "src": "./assets/company-logos/courier.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/947167fc07350afdc803e650746e6c0c278e9937.png"
+  },
+  "Coval": {
+    "src": "./assets/company-logos/coval.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/adc31ffe74137f2876c08ce7153b3a5cfd5001ca.png"
+  },
+  "Covera": {
+    "src": "./assets/company-logos/covera.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e711e58f600a9ea3c53a45d934c825989e9b5b57.png"
+  },
+  "Cranston AI": {
+    "src": "./assets/company-logos/cranston-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/88689b5dae77948437304c27aefbb12261dcacb3.png"
   },
   "CrateDB": {
     "src": "./assets/company-logos/cratedb.png",
@@ -159,13 +879,73 @@
     "src": "./assets/company-logos/cribl.ico",
     "source": "https://cribl.io/favicon.ico"
   },
+  "Crocodoc": {
+    "src": "./assets/company-logos/crocodoc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/934b28e2d4367fc33767785a5a2414ea7c0783b5.png"
+  },
+  "Cron": {
+    "src": "./assets/company-logos/cron.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/edafb7eb94752a83fda53fa53146e61b448ee6e1.png"
+  },
+  "Cua": {
+    "src": "./assets/company-logos/cua.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/388c63ca4d8b705c5dcaf89934394977693456e0.png"
+  },
   "Cube": {
     "src": "./assets/company-logos/cube.png",
     "source": "https://cube.dev/apple-touch-icon.png"
   },
+  "cubic": {
+    "src": "./assets/company-logos/cubic.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8d4b717bddf685ac3a5f54298f79381c741a52c3.png"
+  },
+  "Cumbuca": {
+    "src": "./assets/company-logos/cumbuca.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/77e60a49b6259a7c45a281590f221925fc32c563.png"
+  },
+  "Cyberdesk": {
+    "src": "./assets/company-logos/cyberdesk.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b6deea0aa4e96211ac35f75ade0705df19758a8e.png"
+  },
+  "Cyble": {
+    "src": "./assets/company-logos/cyble.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f1559fe73a2c1a1b683d40299a231a3a0becfe24.png"
+  },
+  "Dagger": {
+    "src": "./assets/company-logos/dagger.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a64005bed7a505fdb8ec6767c1f1c599ebf660ca.png"
+  },
   "Dagster Labs": {
     "src": "./assets/company-logos/dagster-labs.png",
     "source": "https://dagster.io/site-icons/apple-touch-icon.png"
+  },
+  "DAGWorks Inc.": {
+    "src": "./assets/company-logos/dagworks-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/94a18b5c0cc3a340150d731fa97acee3a6a56ebd.png"
+  },
+  "Dailybot": {
+    "src": "./assets/company-logos/dailybot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f727e5abc1675504008ed497195c21034c360412.png"
+  },
+  "Dalus": {
+    "src": "./assets/company-logos/dalus.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7076b7fa11f6e99d25bfd27695c8c6125132b882.png"
+  },
+  "dari.dev": {
+    "src": "./assets/company-logos/dari-dev.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/db1cb9787e09629b6ccb1639f659a5f8d0bb21b1.png"
+  },
+  "Darwin": {
+    "src": "./assets/company-logos/darwin.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/834b16b30c5de79bf9dbcd0a4819289bfa937936.png"
+  },
+  "Dashdive": {
+    "src": "./assets/company-logos/dashdive.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6b6df4ea1d773219dccecb0fefc99b7b3e5052c8.png"
+  },
+  "Datoric": {
+    "src": "./assets/company-logos/datoric.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fa894803120df3a3a9250c66e4232e33e2a223d0.png"
   },
   "Datorios": {
     "src": "./assets/company-logos/datorios.png",
@@ -175,17 +955,85 @@
     "src": "./assets/company-logos/dbt-labs.png",
     "source": "https://www.getdbt.com/img/site-meta/apple-touch-icon.png"
   },
+  "Decent": {
+    "src": "./assets/company-logos/decent.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/211741e576e95e4b60804792a946753d0b41a090.png"
+  },
+  "Decentro": {
+    "src": "./assets/company-logos/decentro.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/26546d4be80e83088bea9fc9e77f6aa3cd234174.png"
+  },
   "Decodable": {
     "src": "./assets/company-logos/decodable.svg",
     "source": "https://cdn.prod.website-files.com/61cee6b18e0e207d3f2978a6/61ec5bfd7ca592fd91024e02_Frame%206654.svg"
+  },
+  "Dedalus Labs": {
+    "src": "./assets/company-logos/dedalus-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7090c5a2d73a4c3057030995d02dc87abae964a5.png"
+  },
+  "Deed": {
+    "src": "./assets/company-logos/deed.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1b80a4df0b9154b81c10f1f6293cdab63dc635a1.png"
+  },
+  "Deep Interactions": {
+    "src": "./assets/company-logos/deep-interactions.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2150b2f6e149aef04ef65b7381c3bd0b77037221.png"
+  },
+  "Deepgram": {
+    "src": "./assets/company-logos/deepgram.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e8d9b89a7e8039b79a0d0a37b71313e724036e55.png"
   },
   "Deepnote": {
     "src": "./assets/company-logos/deepnote.png",
     "source": "https://deepnote.com/favicon.ico"
   },
+  "DeepSource": {
+    "src": "./assets/company-logos/deepsource.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/40895f9d8f2b40522c600e5eaad2d50a265b76ca.png"
+  },
+  "Definite": {
+    "src": "./assets/company-logos/definite.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ea163685b0ad74eaec6a19637a061cdb5e63acae.png"
+  },
+  "Degla Inc": {
+    "src": "./assets/company-logos/degla-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9b4aa40c1f823de9d3ec9a6c4b04e1e382dc5a85.png"
+  },
+  "Demodesk": {
+    "src": "./assets/company-logos/demodesk.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/20c74945d30965bb5d2101fd68ae3e99cc624985.png"
+  },
   "Denodo": {
     "src": "./assets/company-logos/denodo.ico",
     "source": "https://www.denodo.com/sites/default/files/favicon.ico"
+  },
+  "Deploy": {
+    "src": "./assets/company-logos/deploy.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6d01c6f3a4b9cb73c5468cd6441f7c93909edb6a.png"
+  },
+  "Depot": {
+    "src": "./assets/company-logos/depot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ee26edbce33f1fe3229feaa137276afd82b5ea00.png"
+  },
+  "Dexto": {
+    "src": "./assets/company-logos/dexto.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/151976ce07fb22bf59209dda8531a283a9eeda58.png"
+  },
+  "Discovered Materials": {
+    "src": "./assets/company-logos/discovered-materials.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8369f21b7293d92e30b956a07f47bda16f550d10.png"
+  },
+  "DisputeNinja": {
+    "src": "./assets/company-logos/disputeninja.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/be80458dcbfc97e8fb3e29817ae9f8981da73858.png"
+  },
+  "Diversion": {
+    "src": "./assets/company-logos/diversion.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3cca9dfc5d45583f86876ecd0b8110e7412ab6cd.png"
+  },
+  "Dojah Inc": {
+    "src": "./assets/company-logos/dojah-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/efe7334aa351791d82bb37028b9f9bc229817771.png"
   },
   "DolphinDB": {
     "src": "./assets/company-logos/dolphindb.ico",
@@ -195,25 +1043,149 @@
     "src": "./assets/company-logos/dolthub.png",
     "source": "https://www.dolthub.com/dhfavicon/apple-touch-icon.png"
   },
+  "Doppler": {
+    "src": "./assets/company-logos/doppler.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/66a107c5c83003596991722f8d3d73d13a0b6da2.png"
+  },
+  "Double": {
+    "src": "./assets/company-logos/double.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5c0d4190c226cfebdb2847415960320fc3195b52.png"
+  },
+  "Double Robotics": {
+    "src": "./assets/company-logos/double-robotics.png",
+    "source": "https://www.doublerobotics.com/img2/standard/logo-double-robotics-mark-512.png"
+  },
+  "Doublezero": {
+    "src": "./assets/company-logos/doublezero.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ea427a37dc1568cb8c8a1e8aa0b5bda3a77baac1.png"
+  },
+  "Draftbit": {
+    "src": "./assets/company-logos/draftbit.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d17a0ed990c48104bc90127a4fb06f01edc52a17.png"
+  },
+  "Dragoneye": {
+    "src": "./assets/company-logos/dragoneye.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/354a00433e0332ff17869b4c08d6ee8d10b8a232.png"
+  },
+  "Dreamscale Labs": {
+    "src": "./assets/company-logos/dreamscale-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5a0eb88901e7f46ec71cc8739e8069f4815b0a52.png"
+  },
   "Dremio": {
     "src": "./assets/company-logos/dremio.ico",
     "source": "https://www.dremio.com//wp-content/themes/subsurface/assets/_corp/favicon.ico"
+  },
+  "Dripos": {
+    "src": "./assets/company-logos/dripos.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f0fd578735825717b2afbf0834e1df6184ba35be.png"
+  },
+  "Dropback": {
+    "src": "./assets/company-logos/dropback.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b7cff51aae96543f4a2b5a8f4b6e64e2b3823e6e.png"
   },
   "DuckLabs": {
     "src": "./assets/company-logos/ducklabs.png",
     "source": "https://ducklabs.com/img/favicon/apple-touch-icon.png"
   },
+  "Dydema": {
+    "src": "./assets/company-logos/dydema.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/85eacc9eef1101a2060cf6b9873797fd43445325.png"
+  },
+  "Dyspatch": {
+    "src": "./assets/company-logos/dyspatch.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/14dfb847178b7f4bbd87cf5c343762a6ac57c19d.png"
+  },
+  "Earendil Robotics": {
+    "src": "./assets/company-logos/earendil-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/39ec6212427cdf833238bd48eca01f40904ba49f.png"
+  },
   "EDB": {
     "src": "./assets/company-logos/edb.ico",
     "source": "https://www.enterprisedb.com/themes/custom/edb_theme/favicon.ico"
+  },
+  "Eden": {
+    "src": "./assets/company-logos/eden.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6f59a6cd72ad7a541111cd58bd8a38bbd6fb95f4.png"
+  },
+  "Edexia": {
+    "src": "./assets/company-logos/edexia.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6c47809acef827e8266fe22b15646d39f5911391.png"
   },
   "Edge Delta": {
     "src": "./assets/company-logos/edge-delta.png",
     "source": "https://edgedelta.com/apple-touch-icon.png"
   },
+  "EdgeBit": {
+    "src": "./assets/company-logos/edgebit.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/129c0d512b87fa767fbbc001172d26269d9a0ab0.png"
+  },
+  "Edgerun": {
+    "src": "./assets/company-logos/edgerun.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8fb84bc8b7f8d02b776dec7685bbaf102fdadf1c.png"
+  },
+  "Egoist Machines": {
+    "src": "./assets/company-logos/egoist-machines.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cfd986a9205506ed6e96b2903d048ce2aa98626d.png"
+  },
   "Elastic": {
     "src": "./assets/company-logos/elastic.png",
     "source": "https://www.elastic.co/apple-touch-icon.png"
+  },
+  "Ellipsis": {
+    "src": "./assets/company-logos/ellipsis.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1fa4719de38384c762164e3dcd13cfaa014c5ba3.png"
+  },
+  "Elodin": {
+    "src": "./assets/company-logos/elodin.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1c69ab06e9dcd05c2d8d6257e045ed1514a741f0.png"
+  },
+  "Elyos AI": {
+    "src": "./assets/company-logos/elyos-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/76f14de542d5e5e64cbd1bcda09aac3368c32350.png"
+  },
+  "Embedder": {
+    "src": "./assets/company-logos/embedder.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/be01ab7ec03dfffcf2a6f87ab306a19bf22fe64b.png"
+  },
+  "Embrace": {
+    "src": "./assets/company-logos/embrace.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6c5df7e755694ec01e6b16cfc307e0ddf5712e43.png"
+  },
+  "Emerge Tools": {
+    "src": "./assets/company-logos/emerge-tools.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d082e2fe9c186f3598bbc35bc7f05b0752b53458.png"
+  },
+  "Emergent": {
+    "src": "./assets/company-logos/emergent.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/86f3eae4a9616e976acbe6b16031d057f3c2fbc8.png"
+  },
+  "Emobi": {
+    "src": "./assets/company-logos/emobi.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d33f8249b3bdf459257e46d019d4e6687e56a9c0.png"
+  },
+  "Enact": {
+    "src": "./assets/company-logos/enact.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6f79f9bbc22f20d6e3465ca66081c4a646834064.png"
+  },
+  "Encord": {
+    "src": "./assets/company-logos/encord.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fd8270caf52cdd1093c290cba2176776fc6c3460.png"
+  },
+  "Endla": {
+    "src": "./assets/company-logos/endla.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3964fbff527341490472ba6e23806a1eec6a7469.png"
+  },
+  "Enjamb Labs": {
+    "src": "./assets/company-logos/enjamb-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b1348d79301216902dfdfa731a133bfa809b1447.png"
+  },
+  "Enso": {
+    "src": "./assets/company-logos/enso.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b6759a6164c3fd0594119ff78b7d4a6206f80f1b.png"
+  },
+  "Epsilon3": {
+    "src": "./assets/company-logos/epsilon3.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6bb6677a8475d7e45f3bdaa25abe71e53f68ffca.png"
   },
   "Estuary": {
     "src": "./assets/company-logos/estuary.ico",
@@ -223,45 +1195,353 @@
     "src": "./assets/company-logos/exasol.png",
     "source": "https://www.exasol.com/app/uploads/2025/04/site-icon-300x300.png"
   },
+  "Excellence Learning": {
+    "src": "./assets/company-logos/excellence-learning.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1e153fb91aba9399d441f6364476829f360fb0a5.png"
+  },
+  "Exosat": {
+    "src": "./assets/company-logos/exosat.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c71c0447005f2a40e7e7610af283842dbce65e39.png"
+  },
+  "Expected Parrot": {
+    "src": "./assets/company-logos/expected-parrot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fb8df693185d3d01a607d26dc392fa6f5307be2a.png"
+  },
+  "Expent Inc": {
+    "src": "./assets/company-logos/expent-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a78fb173a701d08d55012208b7663e2dd99cb2be.png"
+  },
+  "Explo": {
+    "src": "./assets/company-logos/explo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/780b4e13b382139633e716a4aa5a74afed2cbe10.png"
+  },
+  "Expo": {
+    "src": "./assets/company-logos/expo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3628951a3d0760d9fcc3099d4360ec712d6f72b3.png"
+  },
+  "Fabraix": {
+    "src": "./assets/company-logos/fabraix.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d3d83aa2013bbe6b22b37f316b294d0c717eea35.png"
+  },
+  "Faraday": {
+    "src": "./assets/company-logos/faraday.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fbde4bac30252064b1c0af408469172eea1d9b55.png"
+  },
+  "Farel": {
+    "src": "./assets/company-logos/farel.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/16337ec8a0f138205cdce1ce175d05a922980057.png"
+  },
+  "Fastgen": {
+    "src": "./assets/company-logos/fastgen.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e3d017d6b2932b5d62965a60b41ea099e46ea0c1.png"
+  },
+  "Fastshot": {
+    "src": "./assets/company-logos/fastshot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bac15cb365c68f8004b888ffdda5946e5ec65b76.png"
+  },
+  "Fern": {
+    "src": "./assets/company-logos/fern.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4f48c426b67826bae7fd3fded6bfc3e891fd72d2.png"
+  },
+  "Fiber AI": {
+    "src": "./assets/company-logos/fiber-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e7118ffc006ccecf44fec5c8d5c5268024216181.png"
+  },
   "Fiddler": {
     "src": "./assets/company-logos/fiddler.png",
     "source": "https://cdn.prod.website-files.com/67fda64a156dc33e1842992b/695d7670ee7aef79108ed37f_favicon-256x256.png"
+  },
+  "Finch": {
+    "src": "./assets/company-logos/finch.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/204c5a234c0f203a89d58c1407d93894d494118d.png"
+  },
+  "Fini": {
+    "src": "./assets/company-logos/fini.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b044a080c88a5aedab72016a60feff3dd053fc64.png"
+  },
+  "Finley": {
+    "src": "./assets/company-logos/finley.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b8f7eafbaed6e4784352f8ba9e3f4c19615d784e.png"
+  },
+  "Finmark": {
+    "src": "./assets/company-logos/finmark.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/71ea8566db212df8f6c23e62b0d21ec93eedd66d.png"
   },
   "Firebolt": {
     "src": "./assets/company-logos/firebolt.png",
     "source": "https://www.firebolt.io/apple-icon.png?apple-icon.2658tnz3mdecq.png"
   },
+  "Firecrawl": {
+    "src": "./assets/company-logos/firecrawl.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fe35a47d1e4dd7a3c1a7dcbea86c08b5ef2d67e6.png"
+  },
   "Fireworks AI": {
     "src": "./assets/company-logos/fireworks-ai.png",
     "source": "https://fireworks.ai/apple-icon.png?7a21affc7a2d4744"
+  },
+  "Firezone": {
+    "src": "./assets/company-logos/firezone.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b332f151ea2bb27aee388d55b28c0e973525f259.png"
+  },
+  "FIRST": {
+    "src": "./assets/company-logos/first.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cb7fe1b3f89d693041018270e2cb671fb9b106d6.png"
+  },
+  "Firstbase.io": {
+    "src": "./assets/company-logos/firstbase-io.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e25b587ba0f496e6716664e7fc54e10f8b437fdb.png"
   },
   "Fivetran": {
     "src": "./assets/company-logos/fivetran.png",
     "source": "https://cdn.prod.website-files.com/6130fa1501794ed4d11867ba/6a10657efae8d58934eddd4b_Webclip%20%5BLight%5D.png"
   },
+  "Fleetzero": {
+    "src": "./assets/company-logos/fleetzero.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/72afaac30b2857360fd2c20810a8d2c00083b39a.png"
+  },
+  "FlexWash": {
+    "src": "./assets/company-logos/flexwash.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/91e7c3ac7ae72c11b4d5a3c04877460cac5d2d3d.png"
+  },
+  "Floatpays Inc": {
+    "src": "./assets/company-logos/floatpays-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9958a79bc44f22b3d870acdfd34254ea08e9945f.png"
+  },
+  "Floot": {
+    "src": "./assets/company-logos/floot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1f34cf0cf02c3e2059e48082daf0ddc693722515.png"
+  },
+  "FlowiseAI": {
+    "src": "./assets/company-logos/flowiseai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/430a7c6b91b2b976c63ca3ebab6cfe4e2a6371d4.png"
+  },
+  "Fluently": {
+    "src": "./assets/company-logos/fluently.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ac751ae51071034b75af18536b15a7ec51b6c117.png"
+  },
+  "Forge Automation": {
+    "src": "./assets/company-logos/forge-automation.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/83675e4cb8108f5003548d5dd5c6e5ee56ede4aa.png"
+  },
+  "Forge Robotics": {
+    "src": "./assets/company-logos/forge-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fc718543c8da7c7d1c6d5308ecd4cde3ca18269c.png"
+  },
+  "Four Growers": {
+    "src": "./assets/company-logos/four-growers.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a86e5aae41ca760baa70c54d2b6ae402c4f84280.png"
+  },
+  "Frigade": {
+    "src": "./assets/company-logos/frigade.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2ebf166f7f6e8f6d186e2ea4a16a6cf16becaf7b.png"
+  },
+  "Frizzle": {
+    "src": "./assets/company-logos/frizzle.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3daf2d29bc3da3d9f526ade87b3daa93b0d6a6cd.png"
+  },
+  "Front": {
+    "src": "./assets/company-logos/front.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bf249c52ada525d9126563265f52ec4b3105ea54.png"
+  },
   "Galileo": {
     "src": "./assets/company-logos/galileo.png",
     "source": "https://framerusercontent.com/images/ZPCCTUdAWfqDBdZ3d8YL4vq4X1s.png"
+  },
+  "Galini": {
+    "src": "./assets/company-logos/galini.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0265bae051699223c11948f14b6032d7772f3b7a.png"
+  },
+  "Gas Pos": {
+    "src": "./assets/company-logos/gas-pos.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/86f8f64334b32d8ebb242023b050bd8e715cc458.png"
+  },
+  "Gather": {
+    "src": "./assets/company-logos/gather.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5b50416a3c9266b978c7bb1e375a92eeb2782b8f.png"
+  },
+  "Gecko Robotics": {
+    "src": "./assets/company-logos/gecko-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/eb7bd253bc194c1e1245a6c643b86e65d530a53f.png"
+  },
+  "Gecko Security": {
+    "src": "./assets/company-logos/gecko-security.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/45adce9bea5991ec16d5af841bb7bca96948baf2.png"
+  },
+  "General Astronautics": {
+    "src": "./assets/company-logos/general-astronautics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3d7cf823c4893a350166b41685cc7e72de36fe4d.png"
+  },
+  "General Context Labs": {
+    "src": "./assets/company-logos/general-context-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0321fc7ea5809962e3910e985c4d9d2acbbed27a.png"
+  },
+  "General Instinct": {
+    "src": "./assets/company-logos/general-instinct.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e506831e9805799a19c0fa94ac85f0578ee4374e.png"
+  },
+  "General Trajectory": {
+    "src": "./assets/company-logos/general-trajectory.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4c79fb57c52ab75fc14e93779100504407b5e064.png"
+  },
+  "Genuity": {
+    "src": "./assets/company-logos/genuity.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2af07bc05265ab98710e52ec7c714c24063df621.png"
+  },
+  "Geosite": {
+    "src": "./assets/company-logos/geosite.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/89a7b53fb2d9e4a5231c362b84c71fe445c95d99.png"
+  },
+  "GetAccept": {
+    "src": "./assets/company-logos/getaccept.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ab0099ae34e6606159dad752edf7880c52ae235b.png"
+  },
+  "GetDot": {
+    "src": "./assets/company-logos/getdot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a36b7c96b74a0599b17814e9f0a758e676fd706a.png"
   },
   "GigaSpaces": {
     "src": "./assets/company-logos/gigaspaces.png",
     "source": "https://www.gigaspaces.com/assets/images/gigaspaces-mark.png"
   },
+  "Gigwell": {
+    "src": "./assets/company-logos/gigwell.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/410acaf649ddb5822f7639caa9757423b17424c5.png"
+  },
+  "GimBooks": {
+    "src": "./assets/company-logos/gimbooks.png",
+    "source": "https://landing-new.gimbooks.com/favicon.png"
+  },
+  "GitPrime": {
+    "src": "./assets/company-logos/gitprime.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b2d3dd198bca90e8788c0aefde72b644504fe75e.png"
+  },
+  "GitStart": {
+    "src": "./assets/company-logos/gitstart.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/26fef31f4719ab5a8c2e4a0ba8f081e756d63f0d.png"
+  },
+  "Glade": {
+    "src": "./assets/company-logos/glade.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/39e64fe4e49894144581ae2ef69befe4cb83f6b8.png"
+  },
+  "Glasskube": {
+    "src": "./assets/company-logos/glasskube.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c9fd82d6ad8c83a6a8a30a2f1f88b9186d91f977.png"
+  },
   "Glean": {
     "src": "./assets/company-logos/glean.png",
     "source": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/67189bfac8da27b3a70ddd93_256%20x%20256%20Glean%20Favicon.png"
+  },
+  "Glep": {
+    "src": "./assets/company-logos/glep.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/43385de74ef544ad440b821a7f4f5e3436bdc1a2.png"
+  },
+  "Glide": {
+    "src": "./assets/company-logos/glide.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/43d2fbfbaba3aeb673e435f9035b2a74c1dc35d7.png"
+  },
+  "Grade": {
+    "src": "./assets/company-logos/grade.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/97bee8995323297bfa4540365e98ff74a62aa5fd.png"
   },
   "Grafana Labs": {
     "src": "./assets/company-logos/grafana-labs.ico",
     "source": "https://grafana.com/favicon.ico?67f0da79a12facce"
   },
+  "Greenboard": {
+    "src": "./assets/company-logos/greenboard.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b27383428d763a236956940e76e892fc851162b4.png"
+  },
+  "Greptile": {
+    "src": "./assets/company-logos/greptile.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/16a991d8af835ae196b30e656796c7aa6805c9d1.png"
+  },
+  "Greypoint Industries": {
+    "src": "./assets/company-logos/greypoint-industries.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b0d5898f7b8fc2ee6fc19f6de3dae045123c7608.png"
+  },
+  "Greywing": {
+    "src": "./assets/company-logos/greywing.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c83d7cd944c66a4565ddeaebe43111f7196d0a98.png"
+  },
+  "Grip": {
+    "src": "./assets/company-logos/grip.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a6be2671c5d4e3adfe916a4a59aad4680c7cc9d3.png"
+  },
+  "GroundControl": {
+    "src": "./assets/company-logos/groundcontrol.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/aa0a54f0fef4c64097aee43f99b1b40bf7bda56a.png"
+  },
+  "GrowthBook": {
+    "src": "./assets/company-logos/growthbook.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4c060531ea33b3550b25532f59de594cc620f374.png"
+  },
+  "Guardian RF": {
+    "src": "./assets/company-logos/guardian-rf.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ec6cf435222465cfd6d7908d7b853c7edb7ab66d.png"
+  },
+  "GuruHotel": {
+    "src": "./assets/company-logos/guruhotel.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8bb5ff249316d5bcee9ba94498a3fbe24db5bd30.png"
+  },
   "H2O.ai": {
     "src": "./assets/company-logos/h2o-ai.png",
     "source": "https://h2o.ai/apple-icon.png?apple-icon.2le716yi6om7i.png"
   },
+  "HarnessRouter": {
+    "src": "./assets/company-logos/harnessrouter.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f2e582140d05a49c2195e6fa0ed3e3fe192c9467.png"
+  },
+  "Hatchet": {
+    "src": "./assets/company-logos/hatchet.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5e540520fafc66c31f803395b8f5603e6765d484.png"
+  },
+  "Haystack": {
+    "src": "./assets/company-logos/haystack.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ff1cda43059b714dc8f36a50fe66096c4ac537ca.png"
+  },
   "Hazelcast": {
     "src": "./assets/company-logos/hazelcast.png",
     "source": "https://hazelcast.com/wp-content/themes/hazelcast/assets/img/icons/favicons/apple-touch-icon.png"
+  },
+  "Hebbian Robotics": {
+    "src": "./assets/company-logos/hebbian-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4e7272f21860060f8aa33bb297af6d18fab5ffdc.png"
+  },
+  "Hegel AI": {
+    "src": "./assets/company-logos/hegel-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d4c1505ac12ec772ffd315c1efa3139c51ae9e35.png"
+  },
+  "Helicone": {
+    "src": "./assets/company-logos/helicone.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0fd0f837e64cef0930fd804e4345c0342b9a2827.png"
+  },
+  "Helium": {
+    "src": "./assets/company-logos/helium.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/46d487203d596b97a146790985b19ea2f9776e5e.png"
+  },
+  "HelixDB": {
+    "src": "./assets/company-logos/helixdb.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/64b0b8869e482d2c399a6856e5127933c31381bd.png"
+  },
+  "HelloSign": {
+    "src": "./assets/company-logos/hellosign.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/251df7a6d1d16ee11aac63b910791aca861aff29.png"
+  },
+  "Hemut": {
+    "src": "./assets/company-logos/hemut.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0130d4e41d286011dbbf71e01781948525f98d90.png"
+  },
+  "HEO Robotics": {
+    "src": "./assets/company-logos/heo-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4eb6dbf348024d4e5ac4fca59b2986a44df80f67.png"
+  },
+  "Heron": {
+    "src": "./assets/company-logos/heron.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f86f1836e1bd65adb93aa3f9f5e5db9c12222c15.png"
+  },
+  "HeroUI": {
+    "src": "./assets/company-logos/heroui.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/781d2df5a4a1764a1267531183e62e101f6d26a7.png"
   },
   "Hevo": {
     "src": "./assets/company-logos/hevo.png",
@@ -271,9 +1551,25 @@
     "src": "./assets/company-logos/hex.svg",
     "source": "https://hex.tech/favicon.svg"
   },
+  "highlight.io": {
+    "src": "./assets/company-logos/highlight-io.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0d4301601e4f70936655aa2574a0bf0a798fe1bd.png"
+  },
   "Hightouch": {
     "src": "./assets/company-logos/hightouch.ico",
     "source": "https://hightouch.com/favicon.ico?v=3"
+  },
+  "Hilos": {
+    "src": "./assets/company-logos/hilos.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e12060432546be212b6fccb6641d81cb777072e1.png"
+  },
+  "HippoBuild": {
+    "src": "./assets/company-logos/hippobuild.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a5b7abe9b8dc9591204def8329e61e695322cd8e.png"
+  },
+  "HockeyStack": {
+    "src": "./assets/company-logos/hockeystack.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/90725285723955c6a718c11c6de42fac109093c5.png"
   },
   "Honeycomb": {
     "src": "./assets/company-logos/honeycomb.ico",
@@ -283,25 +1579,133 @@
     "src": "./assets/company-logos/hopsworks.png",
     "source": "https://www.hopsworks.ai/apple-icon.png?apple-icon.72c73c50.png"
   },
+  "Hoss": {
+    "src": "./assets/company-logos/hoss.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7d30265114aa37a7614a3decc8911468482645ff.png"
+  },
+  "hotglue": {
+    "src": "./assets/company-logos/hotglue.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/17fad6e0528ee0136eda2c81609b88c573cddeef.png"
+  },
+  "Howdy.com": {
+    "src": "./assets/company-logos/howdy-com.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d7b90bd25c8f2118457b464c606643e5a8501453.png"
+  },
+  "Hub": {
+    "src": "./assets/company-logos/hub.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4807c17f08dbbfbdd8f51297746a838ba6db58c1.png"
+  },
+  "Hubble Network": {
+    "src": "./assets/company-logos/hubble-network.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e08e93bf4770b4f15d9dea2ef02c5f492eb0adb5.png"
+  },
+  "HUBUC": {
+    "src": "./assets/company-logos/hubuc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/94c72c8322619fc4fcd30c21ff401c545be7dc70.png"
+  },
+  "Humaans": {
+    "src": "./assets/company-logos/humaans.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5d9d92284da5e0578d6ae11b390f879ee72085b9.png"
+  },
+  "Humand": {
+    "src": "./assets/company-logos/humand.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b6e7ef5d32cdb3b41d849bbefb205dbca3311181.png"
+  },
+  "Humble Bundle": {
+    "src": "./assets/company-logos/humble-bundle.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3871c33f04d1b6b876b0a47537afa6930860bcfa.png"
+  },
+  "Humwork": {
+    "src": "./assets/company-logos/humwork.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/63357814f2f59989ae18e2736412df94c2d8bc31.png"
+  },
+  "Hydra": {
+    "src": "./assets/company-logos/hydra.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/87c0954c151aa7067e034d8de33b3174d43f5ff0.png"
+  },
   "Hydrolix": {
     "src": "./assets/company-logos/hydrolix.png",
     "source": "https://hydrolix.io/wp-content/uploads/2026/08/hydrolix_favicon-300x300.png"
+  },
+  "HyLight": {
+    "src": "./assets/company-logos/hylight.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5bcbb9e93eb3ebbc3a622b3826ec8c2df9b276d7.png"
+  },
+  "HypaHub": {
+    "src": "./assets/company-logos/hypahub.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5a364403fcd1dfaabe90af51ec8af68eac5364cf.png"
+  },
+  "Hyperbeam": {
+    "src": "./assets/company-logos/hyperbeam.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/052a280e25ca5a3119b5718b3864edc2b1d19adb.png"
+  },
+  "Hyperbrowser": {
+    "src": "./assets/company-logos/hyperbrowser.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f3b213c6492ebfd585bec4644b94f381db09e0e4.png"
+  },
+  "Hypercore": {
+    "src": "./assets/company-logos/hypercore.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b990f248fafbfb15158a00efa981170b5e2bad41.png"
+  },
+  "HyperDX": {
+    "src": "./assets/company-logos/hyperdx.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d08fa4a9e984544038c06b9790dd7d376a594c35.png"
+  },
+  "HyperProbe": {
+    "src": "./assets/company-logos/hyperprobe.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b4b91e0b78bbed1c83add57d22b06ab632567450.png"
+  },
+  "Hypotenuse AI": {
+    "src": "./assets/company-logos/hypotenuse-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2e709f345af0105b77cf1718bbd11559604606b2.png"
+  },
+  "Hyrex": {
+    "src": "./assets/company-logos/hyrex.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c33003b33c54f32f641d1dd6956b58f331c3842d.png"
   },
   "IBM": {
     "src": "./assets/company-logos/ibm.png",
     "source": "https://www.ibm.com/content/dam/adobe-cms/default-images/apple-touch-icon-180x180.png"
   },
+  "Icarus": {
+    "src": "./assets/company-logos/icarus.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/641db1cdc907f274cb944fd6796edc486aa6d653.png"
+  },
+  "IcePanel": {
+    "src": "./assets/company-logos/icepanel.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/dbd813cd554f2fcf891554ea0c9a4e0eceff792e.png"
+  },
   "Iguazio": {
     "src": "./assets/company-logos/iguazio.webp",
     "source": "https://www.iguazio.com/wp-content/uploads/2022/12/Iguazio-logo-icon-48x48-1.png"
+  },
+  "iLabService": {
+    "src": "./assets/company-logos/ilabservice.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/61e5909632a59998a05ddf3639be15ca20ce6478.png"
+  },
+  "Imgix": {
+    "src": "./assets/company-logos/imgix.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2273004e67b5c5dafba52cce5fd02df150287bfb.png"
   },
   "Immuta": {
     "src": "./assets/company-logos/immuta.png",
     "source": "https://cdn.prod.website-files.com/69f398d567d00b28f09ec392/69f8e08b4f992ba644b5d03a_Twitter%20-%20Avatar%20-%20Standard%202024%20-%20400%20x%20400.jpg"
   },
+  "IMPACT Drones": {
+    "src": "./assets/company-logos/impact-drones.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c7df3a5c9dfd6e7d9865e24f95f172c997a7183b.png"
+  },
   "Imply": {
     "src": "./assets/company-logos/imply.png",
     "source": "https://imply.io/wp-content/uploads/2023/05/favicon-96x96-imply-data.png"
+  },
+  "Impossible Metals": {
+    "src": "./assets/company-logos/impossible-metals.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ea0fdeea1c74c026930139320ca3eca24d80b7f3.png"
+  },
+  "inBalance": {
+    "src": "./assets/company-logos/inbalance.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/99290b7945e22f2dcc0d8b0286db8221c37245e7.png"
   },
   "Incorta": {
     "src": "./assets/company-logos/incorta.png",
@@ -311,21 +1715,149 @@
     "src": "./assets/company-logos/incountry.png",
     "source": "https://incountry.com/wp-content/themes/incountry2020/assets/images/favicon/apple-touch-icon-180x180.png"
   },
+  "Increase": {
+    "src": "./assets/company-logos/increase.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d403cfce97e130a6633ec6be329d8e61bf9e9230.png"
+  },
+  "Industrial Next": {
+    "src": "./assets/company-logos/industrial-next.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f77b3fae4e9032c53ab1dabf92d2dde1c13be9a0.png"
+  },
+  "InEvent": {
+    "src": "./assets/company-logos/inevent.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9001d7186569d3da9eef7ffe9711b1df75087e47.png"
+  },
+  "Infield": {
+    "src": "./assets/company-logos/infield.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/53d5d9e38ab8a46ebb1ab80cd604e30e429fb341.png"
+  },
+  "Infinite": {
+    "src": "./assets/company-logos/infinite.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3ee72e2d0f729f9fecd56cec594e37086a27cff9.png"
+  },
+  "Infisical": {
+    "src": "./assets/company-logos/infisical.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e613a0916d0e99cf2fa52a3c8be726a00bd6c51a.png"
+  },
   "Informatica": {
     "src": "./assets/company-logos/informatica.png",
     "source": "https://www.informatica.com/etc.clientlibs/informatica-commons/clientlibs/clientlib-base/resources/images/favicon.png"
+  },
+  "Infracost": {
+    "src": "./assets/company-logos/infracost.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fe6b97eef16a2d22e437f6cf663c11b64b223fc8.png"
+  },
+  "Inkeep": {
+    "src": "./assets/company-logos/inkeep.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ca1b5818bf14fe551342345b16c3c399f2ecdf21.png"
+  },
+  "Innate": {
+    "src": "./assets/company-logos/innate.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/374e6b2cd282f5fe31c64fcc82aaebb3105153c9.png"
+  },
+  "Instant": {
+    "src": "./assets/company-logos/instant.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5ee33d4dd08812f99b8d82ea64b812f8d2810e88.png"
+  },
+  "Instrumentl": {
+    "src": "./assets/company-logos/instrumentl.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e054eb9c71bc1227e5948307d9af61a46a784d79.png"
+  },
+  "Integuru": {
+    "src": "./assets/company-logos/integuru.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c28333543424f2e5753fd39fd195e354af322187.png"
+  },
+  "Intelligence Factory": {
+    "src": "./assets/company-logos/intelligence-factory.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/30c1f1fb7356289878fa2341c0a20700f178fbcf.png"
+  },
+  "Intuned": {
+    "src": "./assets/company-logos/intuned.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/86c20a802b3a2e0667f7dcdc7fa4c4cb22913691.png"
+  },
+  "Invofox": {
+    "src": "./assets/company-logos/invofox.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1f26d831f2c3961adfb05a98f923a285cd1aa50e.png"
+  },
+  "Invopop": {
+    "src": "./assets/company-logos/invopop.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5903341d8e42bfa4053fabf5f02effd07eda7793.png"
   },
   "Inzata": {
     "src": "./assets/company-logos/inzata.png",
     "source": "https://inzata.com/apple-touch-icon.png"
   },
+  "Ionworks": {
+    "src": "./assets/company-logos/ionworks.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9d19f43559a7c58d6263bc07ad06e83fd4ad1f0a.png"
+  },
+  "IoTFlows Inc": {
+    "src": "./assets/company-logos/iotflows-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/db834b21af4ce2705ca320994110533bc0a0b2c6.png"
+  },
+  "Jamsocket": {
+    "src": "./assets/company-logos/jamsocket.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/49c1f43f10b8f99493ac3006583172298d236974.png"
+  },
+  "Jet Admin": {
+    "src": "./assets/company-logos/jet-admin.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/36f3d929390edbb2302940824ff50512f48f5516.png"
+  },
+  "Jido Maps": {
+    "src": "./assets/company-logos/jido-maps.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/788dc05b2141606cea9f6805759306ec0ea99f5e.png"
+  },
+  "Jitsu": {
+    "src": "./assets/company-logos/jitsu.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d2a6bc92874bce104c70f6971a040465116e2321.png"
+  },
+  "Jitter": {
+    "src": "./assets/company-logos/jitter.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f9885314d8a12ecf1298daa046c69fee6f90a5fe.png"
+  },
   "Keboola": {
     "src": "./assets/company-logos/keboola.svg",
     "source": "https://www.keboola.com/icon.svg?icon.2e8qfr5gz2qfv.svg"
   },
+  "Keres": {
+    "src": "./assets/company-logos/keres.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d410d4ceb3965f8c5b5e653e10007865ff03aaf9.png"
+  },
+  "KERNEL": {
+    "src": "./assets/company-logos/kernel.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0b651ae4215e55c6eec3b366c18c9dcdd7838a97.png"
+  },
+  "Kestrel AI": {
+    "src": "./assets/company-logos/kestrel-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a17c93b508bc423bb59667db4befdfd07cfd6f68.png"
+  },
+  "Key Values": {
+    "src": "./assets/company-logos/key-values.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/69b6a37b7adaa6a16d3c4640af935a47c7002a49.png"
+  },
+  "Keye": {
+    "src": "./assets/company-logos/keye.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/90506160477f970492b1093950c729f17eeb2192.png"
+  },
+  "Keyri": {
+    "src": "./assets/company-logos/keyri.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9d204b37489e1bf0407fdab24bd4c6ec609fffd5.png"
+  },
+  "Kilvin": {
+    "src": "./assets/company-logos/kilvin.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b8aa78b8b96db85bb2ce800dc4eae6fc788564af.png"
+  },
   "Kinetica": {
     "src": "./assets/company-logos/kinetica.svg",
     "source": "https://www.kinetica.com/favicon.svg"
+  },
+  "Kitemaker": {
+    "src": "./assets/company-logos/kitemaker.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/31e1e3cc75ece89e87204c189c3bac074fa63d7b.png"
+  },
+  "Kombo": {
+    "src": "./assets/company-logos/kombo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1ea96f644bc25cfeaa1198b5db442e95f63b56b4.png"
   },
   "KX": {
     "src": "./assets/company-logos/kx.png",
@@ -335,53 +1867,321 @@
     "src": "./assets/company-logos/kyligence.png",
     "source": "https://siteprod-s3-cdn.kyligence.io/2022/01/cropped-favicon-180x180.png"
   },
+  "Lab0": {
+    "src": "./assets/company-logos/lab0.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e54ac65b683433835143a5b5da2159a7c9445255.png"
+  },
   "Labelbox": {
     "src": "./assets/company-logos/labelbox.png",
     "source": "https://labelbox.com/static/images/favicon-v4-black.png"
+  },
+  "Lago": {
+    "src": "./assets/company-logos/lago.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/29939f1cfbd3fe315d3ded8f43c33775de6b9c89.png"
   },
   "LanceDB": {
     "src": "./assets/company-logos/lancedb.png",
     "source": "https://cdn.prod.website-files.com/69a866b324926425eccc4cf5/69c7084d292e7ccbe0914e87_favicon%20-%20256x256.png"
   },
+  "Langfuse": {
+    "src": "./assets/company-logos/langfuse.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d3e0acd0e4d5b3b53104245ec4f7548555f11896.png"
+  },
+  "Lark": {
+    "src": "./assets/company-logos/lark.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d081c0c274bbf68a2b6814e7891694bfd2e2c515.png"
+  },
+  "Laudable": {
+    "src": "./assets/company-logos/laudable.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/eb7d6cfef41904da6758d65129b0adeffca2b2e1.png"
+  },
+  "Laurence": {
+    "src": "./assets/company-logos/laurence.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/68ac6b4c3dd34328cb86f2f81c4d868040f3557d.png"
+  },
+  "Lendflow": {
+    "src": "./assets/company-logos/lendflow.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3e4d17532ffa99531ffd5aab036f25518126619a.png"
+  },
+  "Lever": {
+    "src": "./assets/company-logos/lever.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5aab29bbd372c8ae56867cfafbca2d5d2ae180e6.png"
+  },
+  "Levers": {
+    "src": "./assets/company-logos/levers.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e063d5dc165bf3b68f24cb10ce208da833719fa6.png"
+  },
+  "Lexi": {
+    "src": "./assets/company-logos/lexi.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/eb8c922483150b7ebb7320f8160a0722809b666c.png"
+  },
+  "LFcarry": {
+    "src": "./assets/company-logos/lfcarry.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d52139d69bb434e6d76a4140915a34125b981220.png"
+  },
+  "Libra Robotics": {
+    "src": "./assets/company-logos/libra-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e588f98ac537da3d55ea3c2b43b0bd505524c7f8.png"
+  },
+  "Lightberry": {
+    "src": "./assets/company-logos/lightberry.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e293e7e459ca366271fd5317cd8af37ed2cd6625.png"
+  },
   "Lightdash": {
     "src": "./assets/company-logos/lightdash.png",
     "source": "https://framerusercontent.com/images/oTIjxsdUUYoPxSZO5Rt2E7QxLys.png"
+  },
+  "LightSprint": {
+    "src": "./assets/company-logos/lightsprint.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c43e010268551eab76be0368766c6aa0da142440.png"
+  },
+  "LightTwist": {
+    "src": "./assets/company-logos/lighttwist.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f8ec12fb14b1244b971c7c93d53e48145c568d22.png"
+  },
+  "Lilac": {
+    "src": "./assets/company-logos/lilac.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/18234851431f8da18d1f087abc867a57412f1a97.png"
+  },
+  "Linewise": {
+    "src": "./assets/company-logos/linewise.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2b6523fd3e82e786169b750e69bb81160c422bc6.png"
+  },
+  "LinkGrep": {
+    "src": "./assets/company-logos/linkgrep.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/36b1df36488e8c11a87320ccb0a8a66e9313c5bd.png"
+  },
+  "LiteLLM": {
+    "src": "./assets/company-logos/litellm.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/34f2cd4e65f065f81d234d6cfb21f911860e50cc.png"
+  },
+  "Litnerd": {
+    "src": "./assets/company-logos/litnerd.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4be81c45a4c22ebb279bdcb6a14289982bd868bd.png"
+  },
+  "Logica": {
+    "src": "./assets/company-logos/logica.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/16762085083dab3c42ea7e024432adbfac599f0d.png"
   },
   "Logz.io": {
     "src": "./assets/company-logos/logz-io.png",
     "source": "https://logz.io/wp-content/themes/Avada-Child-Theme-logz/theme_favicon/apple-touch-icon.png"
   },
+  "Loops": {
+    "src": "./assets/company-logos/loops.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ef8d8c9b30ba22bdd91401d412f32c73551f5439.png"
+  },
+  "Luca IQ": {
+    "src": "./assets/company-logos/luca-iq.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/05718bc482e46fde4208c29e7eef28f2f4b686e7.png"
+  },
+  "Lucid Bots": {
+    "src": "./assets/company-logos/lucid-bots.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3ef3c01732ca1adf6e17c2105c507271f7b86744.png"
+  },
+  "Mach9": {
+    "src": "./assets/company-logos/mach9.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/05390d32227edd1416d7dc545801c3fc59e2ac15.png"
+  },
+  "MagicBell": {
+    "src": "./assets/company-logos/magicbell.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a9dc3cf4111497ede32cf6559a6fb868bb609626.png"
+  },
+  "Mailmodo": {
+    "src": "./assets/company-logos/mailmodo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2cd8af0cab42bc6084be64d866151163c3120d15.png"
+  },
+  "Mailwarm": {
+    "src": "./assets/company-logos/mailwarm.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/28e9d8c1afc2f855ecd63f4a8547074fb4563efd.png"
+  },
+  "Malga": {
+    "src": "./assets/company-logos/malga.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bf80258b38552f28c03c1373b8c641819abe5f97.png"
+  },
+  "malibou": {
+    "src": "./assets/company-logos/malibou.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d58137f5ea9c3d97a49e190602fc6dd4331ccf6d.png"
+  },
+  "Malloc Inc": {
+    "src": "./assets/company-logos/malloc-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6f9e51a7bd166fd06ac233b1bc31a81d599db773.png"
+  },
+  "Manifold": {
+    "src": "./assets/company-logos/manifold.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/98f03122e41743439cec57f8152eac9cd506d714.png"
+  },
+  "Manufact": {
+    "src": "./assets/company-logos/manufact.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3838f80b214ed1fcda53a2778860e8be11cfdb0d.png"
+  },
+  "Marble": {
+    "src": "./assets/company-logos/marble.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fd8594643506090563d23eac2d8bee3b9c1e526f.png"
+  },
   "MariaDB": {
     "src": "./assets/company-logos/mariadb.ico",
     "source": "https://mariadb.com/favicon.ico"
+  },
+  "Maritime": {
+    "src": "./assets/company-logos/maritime.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d8ff801ef7e9094077a292c8bed3e86ce7e01f00.png"
+  },
+  "MarqVision": {
+    "src": "./assets/company-logos/marqvision.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b993f487d88442acd03e44f8b8ba2ff9dd1c72c7.png"
+  },
+  "Mars Auto": {
+    "src": "./assets/company-logos/mars-auto.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f5295faf44c40fbb90c24090479454a928300bbd.png"
+  },
+  "Mass Magnetics": {
+    "src": "./assets/company-logos/mass-magnetics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/26161cef0e683292e39a5da2d6258b38702473a0.png"
+  },
+  "Massdriver": {
+    "src": "./assets/company-logos/massdriver.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5883f8852f673efcb705f840a66ea4747e755db5.png"
+  },
+  "Mastra": {
+    "src": "./assets/company-logos/mastra.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a6e5f319cbd11b23e8938be90ed120209a914c0a.png"
+  },
+  "Matano": {
+    "src": "./assets/company-logos/matano.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a222c90e6dc5a485e0f58e7075243197316b5126.png"
+  },
+  "Matidor.com": {
+    "src": "./assets/company-logos/matidor-com.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/021ce949e37c4b16d1b09188fc8214d07f3f8eeb.png"
   },
   "Matillion": {
     "src": "./assets/company-logos/matillion.png",
     "source": "https://www.matillion.com/apple-touch-icon.png"
   },
+  "Mbodi AI": {
+    "src": "./assets/company-logos/mbodi-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ff64e6d141801dbac20dba751384bbd49f916a4a.png"
+  },
   "Meltano": {
     "src": "./assets/company-logos/meltano.png",
     "source": "https://meltano.com/content/assets/favicon.png"
+  },
+  "Mem0": {
+    "src": "./assets/company-logos/mem0.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7d1e9679b389145f8635f2a0ae631bb24eba7cf8.png"
+  },
+  "Memberstack": {
+    "src": "./assets/company-logos/memberstack.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3f928c1bbbe5bb0fb2a114872be6bf1ee17a9f0d.png"
+  },
+  "Memfault": {
+    "src": "./assets/company-logos/memfault.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/69aff41aabfb54d70629bb4411a828953bd10011.png"
   },
   "Memgraph": {
     "src": "./assets/company-logos/memgraph.png",
     "source": "https://memgraph.com/favicon.png"
   },
+  "Mentra": {
+    "src": "./assets/company-logos/mentra.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7244027171670b7caf312b35e16b9e5cfdd49164.png"
+  },
+  "Merlin AI": {
+    "src": "./assets/company-logos/merlin-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b546cd339690195550c29da13ada87ec426a083a.png"
+  },
+  "Mesmer": {
+    "src": "./assets/company-logos/mesmer.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c7d56dd73799b9dbf8fdb9e3dd627ec70680c4c8.png"
+  },
   "Metabase": {
     "src": "./assets/company-logos/metabase.png",
     "source": "https://cdn.metabase.com/images/apple-touch-icon.png"
+  },
+  "Metalware": {
+    "src": "./assets/company-logos/metalware.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/17a2d106f9cdebdba12fd6e7d00d9e948e77f5be.png"
+  },
+  "Meteoric": {
+    "src": "./assets/company-logos/meteoric.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d2429e5b744af3176c949e0f696004529640d5c5.png"
+  },
+  "Method Financial": {
+    "src": "./assets/company-logos/method-financial.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8fe82c6fb65a41c32500091074e518f40adc2538.png"
+  },
+  "Meticulous": {
+    "src": "./assets/company-logos/meticulous.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4ce6aef4dc5475edfb21a97203439220a785f2b5.png"
+  },
+  "Metofico": {
+    "src": "./assets/company-logos/metofico.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9fad9edec40c2dac0c3cfb3743f5450804f2ada1.png"
+  },
+  "Mezmo": {
+    "src": "./assets/company-logos/mezmo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f3a71ea034c7bfc9aef393b47b27829a3413f0b3.png"
   },
   "Microsoft": {
     "src": "./assets/company-logos/microsoft.ico",
     "source": "https://www.microsoft.com/favicon.ico?v2"
   },
+  "Middleware": {
+    "src": "./assets/company-logos/middleware.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/dc8d28e84cb985c9cc0b597aae845c99c32f9a23.png"
+  },
+  "Midplane": {
+    "src": "./assets/company-logos/midplane.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5fda9dc0196ef666a5a460e8ffbc29dddfc27396.png"
+  },
+  "Milliray": {
+    "src": "./assets/company-logos/milliray.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a4a1552aeba914f75657392e47de071913dbe0bc.png"
+  },
+  "Mindee": {
+    "src": "./assets/company-logos/mindee.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/be982807a0a8b2d7a22e6247219e680616ddd517.png"
+  },
+  "MindFort": {
+    "src": "./assets/company-logos/mindfort.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/67f8fa73a583138ab0060e99d6a10e8341a0d040.png"
+  },
   "MinIO": {
     "src": "./assets/company-logos/minio.png",
     "source": "https://cdn.prod.website-files.com/681c8426519d8db8f867c1e8/688a35cded1aa356c351871e_minio-logo-webclip.png"
   },
+  "Miru": {
+    "src": "./assets/company-logos/miru.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5f8c54103232ce6ad4a91f33685eeaecbcd4d224.png"
+  },
   "Mixpanel": {
     "src": "./assets/company-logos/mixpanel.png",
     "source": "https://framerusercontent.com/images/j6EPdIw4BKPE9dPx3zrTjkkAM14.png"
+  },
+  "MixRank": {
+    "src": "./assets/company-logos/mixrank.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/98189b51f5b6f25d164e611f2ea6a3c5f972de3f.png"
+  },
+  "MobileBoost": {
+    "src": "./assets/company-logos/mobileboost.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4fdfe6ee3e3551142b62a5144a0c5d6494e9c0ac.png"
+  },
+  "Mobot": {
+    "src": "./assets/company-logos/mobot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1d0bf05671926ad00ff8728c45f6416fb329f300.png"
+  },
+  "Modelence": {
+    "src": "./assets/company-logos/modelence.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/caf676672b230c36291913a0a2ddce1bd212e7b0.png"
+  },
+  "Modernbanc": {
+    "src": "./assets/company-logos/modernbanc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e71ae997b9de042f26db450a5b99d594a75be4e6.png"
+  },
+  "Momentic": {
+    "src": "./assets/company-logos/momentic.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d6de9c09ef38f242ca0f06fc3c76a1616228e790.png"
   },
   "MongoDB": {
     "src": "./assets/company-logos/mongodb.ico",
@@ -391,9 +2191,37 @@
     "src": "./assets/company-logos/monte-carlo.png",
     "source": "https://montecarlo.ai/wp-content/uploads/2026/05/monte-carlo-logo-300x300.png"
   },
+  "MorphoAI": {
+    "src": "./assets/company-logos/morphoai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b6d184a7985bf94fb06fe3645712c7af87070512.png"
+  },
+  "Most Robotic": {
+    "src": "./assets/company-logos/most-robotic.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/16ccadcbd2ec474ed470efbc872763f4a7984ec0.png"
+  },
   "MotherDuck": {
     "src": "./assets/company-logos/motherduck.png",
     "source": "https://motherduck.com/apple-touch-icon.png"
+  },
+  "Moving Atoms": {
+    "src": "./assets/company-logos/moving-atoms.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ee4bd602221f77fc05dda940b7202523dd2b9d10.png"
+  },
+  "mutable.ai": {
+    "src": "./assets/company-logos/mutable-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5e9d67f4f9b4fe022f90fe7c836e1fa021382d31.png"
+  },
+  "Nango": {
+    "src": "./assets/company-logos/nango.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a2c91c467d6826fc9888627093516dbe795e1a6f.png"
+  },
+  "Nash": {
+    "src": "./assets/company-logos/nash.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8931d523c719bb8419658e9193f7363a4c6df72f.png"
+  },
+  "NebuSec": {
+    "src": "./assets/company-logos/nebusec.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c60d9cd12e8c1b315e07ee45555c24b5f74d5654.png"
   },
   "Neo4j": {
     "src": "./assets/company-logos/neo4j.png",
@@ -403,6 +2231,22 @@
     "src": "./assets/company-logos/neon.png",
     "source": "https://neon.com/apple-touch-icon.png"
   },
+  "Nestor": {
+    "src": "./assets/company-logos/nestor.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cb0b822e6856385d3543855ed728bb5905505e0e.png"
+  },
+  "Nestybox": {
+    "src": "./assets/company-logos/nestybox.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/96395197cf5391bfe46b1a049e281b2e13986adc.png"
+  },
+  "Neuromorphic": {
+    "src": "./assets/company-logos/neuromorphic.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/470f3b57cd018aad9c127e64e5b952d32a64d435.png"
+  },
+  "NewsCatcher": {
+    "src": "./assets/company-logos/newscatcher.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4e6df1d33e5151e6b36a83a91e94b8bb2550c930.png"
+  },
   "Nexla": {
     "src": "./assets/company-logos/nexla.png",
     "source": "https://nexla.com/n3x_ctx/themes/nexla/images/favicon/apple-touch-icon.png"
@@ -411,25 +2255,249 @@
     "src": "./assets/company-logos/nimble.png",
     "source": "https://cdn.prod.website-files.com/699c65d475d592ff4cf972a8/69a6e7d7b99b10c3a2130733_Group%202147257030%20(3).png"
   },
+  "Nine Fives": {
+    "src": "./assets/company-logos/nine-fives.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/12cace5da5d5e5852e19a386d33613f3f8222281.png"
+  },
+  "Nira Energy": {
+    "src": "./assets/company-logos/nira-energy.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e59de748140c2abe4901df495b402acb929dfbf0.png"
+  },
+  "Noloco": {
+    "src": "./assets/company-logos/noloco.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/201600bf7fcca3398cb1ecbf2e073352ee612ae3.png"
+  },
+  "North": {
+    "src": "./assets/company-logos/north.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e598d38b27ed1203b3e155824bb2a55c1ba65e32.png"
+  },
+  "Notte": {
+    "src": "./assets/company-logos/notte.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/63003c4a4bcce138151403c1e186fcebf3dfa34a.png"
+  },
+  "Novig": {
+    "src": "./assets/company-logos/novig.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/70b63d7ab273fdb7b71b48db89fe1042c817e72b.png"
+  },
+  "Null Labs": {
+    "src": "./assets/company-logos/null-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5c6d34be502792f6dd14717502e2286fd5399a8b.png"
+  },
+  "Numero": {
+    "src": "./assets/company-logos/numero.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8663319687cca8664b93c3aa543baf1423129ed5.png"
+  },
+  "Nyckel": {
+    "src": "./assets/company-logos/nyckel.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/aee1b48f0824b44d72f028343c04530da1313ae1.png"
+  },
   "Ocient": {
     "src": "./assets/company-logos/ocient.png",
     "source": "https://ocient.com/wp-content/uploads/2022/04/cropped-favicon-r4-180x180.png"
+  },
+  "OctaPulse": {
+    "src": "./assets/company-logos/octapulse.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b3e0172397f4c3479d08f16556c96343e2d1c9b1.png"
+  },
+  "Odin Robotics": {
+    "src": "./assets/company-logos/odin-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3df37a1fb66526c47cc75fbebe1f480c83847131.png"
+  },
+  "Officely": {
+    "src": "./assets/company-logos/officely.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/82aabff5fa61346351a232a5d89a04da87334aff.png"
+  },
+  "Oki": {
+    "src": "./assets/company-logos/oki.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2739d81dbffcc2b373478801ae236fbf5c3b86d0.png"
+  },
+  "Okteto": {
+    "src": "./assets/company-logos/okteto.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/65528c51b9eccc4012b7ad09d502f4452f49c03f.png"
+  },
+  "Omnara": {
+    "src": "./assets/company-logos/omnara.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fd794dace414f8acdb113022db360874e7706519.png"
   },
   "Omni": {
     "src": "./assets/company-logos/omni.png",
     "source": "https://omni.co/favicon.png"
   },
+  "Onboard.io": {
+    "src": "./assets/company-logos/onboard-io.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e83f60ab02d8e0f4aca16aeb97ffa47a2a169318.png"
+  },
+  "OnDeck AI": {
+    "src": "./assets/company-logos/ondeck-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9fb6ad4cbd4cdfac49ff1b40404d7053d5789883.png"
+  },
+  "One Robot": {
+    "src": "./assets/company-logos/one-robot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e234115139eb6fced2e2703ae2ba2ee2d691412c.png"
+  },
+  "Onebrief": {
+    "src": "./assets/company-logos/onebrief.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a9dd01a9d8456816adc08efdeb71d76abc637e45.png"
+  },
+  "OneFin": {
+    "src": "./assets/company-logos/onefin.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c6faf92eb91f0ff8910311336fa3f164df398c35.png"
+  },
   "Onehouse": {
     "src": "./assets/company-logos/onehouse.png",
     "source": "https://www.onehouse.ai/webclip.png"
+  },
+  "Oneleet": {
+    "src": "./assets/company-logos/oneleet.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/35b93ab2671a1397037aa92e0703d5f6c2ec0fba.png"
+  },
+  "OneSchema": {
+    "src": "./assets/company-logos/oneschema.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0da6fd5bf7648bc26ba469b7a2a03b08186196dd.png"
+  },
+  "OneSignal": {
+    "src": "./assets/company-logos/onesignal.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e909ca477c49ecc4630b711eb00e53523cd42a90.png"
+  },
+  "OneTriangle": {
+    "src": "./assets/company-logos/onetriangle.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/75197a50573558e4b8c16932b7db7c7c11f235a4.png"
+  },
+  "Onyx": {
+    "src": "./assets/company-logos/onyx.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/def9ae8f0c06685a28e8184b828d9de7e1232ad3.png"
+  },
+  "Open Actuation": {
+    "src": "./assets/company-logos/open-actuation.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/04bbecc591031b8b78b9a43b4f8c9cd329829f72.png"
+  },
+  "Openbenchmarks": {
+    "src": "./assets/company-logos/openbenchmarks.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fba2fe192898aad8d25d7bcb8cef6e121485b633.png"
+  },
+  "OpenInt": {
+    "src": "./assets/company-logos/openint.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/67a1ff68627d7db644256cf5b89e938213258bed.png"
+  },
+  "Openlayer": {
+    "src": "./assets/company-logos/openlayer.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/35b3b987d05aeeeea2e5ed41eb9bc474ea3d6529.png"
+  },
+  "OpenMeter": {
+    "src": "./assets/company-logos/openmeter.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/926363f3ba3f7c82e427f22950ca596e978572b5.png"
+  },
+  "OpenScale": {
+    "src": "./assets/company-logos/openscale.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ac8dea3a9e37379ddfaa9b0b53f21208acf79b25.png"
+  },
+  "OpenTools": {
+    "src": "./assets/company-logos/opentools.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a9bcfe9761e073ad33344f49653b2ae4ea849d91.png"
+  },
+  "OpenUnit": {
+    "src": "./assets/company-logos/openunit.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c063e6119d1ef16af3b3ba553af4fa06713df1ab.png"
+  },
+  "OpenVector": {
+    "src": "./assets/company-logos/openvector.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/54df715903ce304e2b9e3b2fe1f375caf7811ea6.png"
+  },
+  "Optery": {
+    "src": "./assets/company-logos/optery.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/02ca984c664acd671be4123ea5824a7fbc55c95c.png"
   },
   "Optimizely": {
     "src": "./assets/company-logos/optimizely.png",
     "source": "https://www.optimizely.com/favicon/apple-touch-icon.png"
   },
+  "Orbio Earth": {
+    "src": "./assets/company-logos/orbio-earth.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c8b46bfc8422d4590d819ae4695c62834845a549.png"
+  },
+  "Orderli": {
+    "src": "./assets/company-logos/orderli.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/45c63131149be4a1a901457bcfe9d6014bd7651a.png"
+  },
+  "Ornadyne": {
+    "src": "./assets/company-logos/ornadyne.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a1b22be817e9ad2d1f4b3a606e7b94d10bc6a8d6.png"
+  },
+  "OS3": {
+    "src": "./assets/company-logos/os3.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bd88161755dbb4d7513a2dc91e69b26930313524.png"
+  },
+  "Outerbase": {
+    "src": "./assets/company-logos/outerbase.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e7ffc83c79c7fc5268f3ebcb40e602151effc32b.png"
+  },
+  "Overview": {
+    "src": "./assets/company-logos/overview.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cd1326e4f02e779f1009ae931cfeb26eb1eb20b7.png"
+  },
+  "Oway": {
+    "src": "./assets/company-logos/oway.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a3e196a71b4a93ad7200cf278186954bda68e7e3.png"
+  },
   "Palantir": {
     "src": "./assets/company-logos/palantir.ico",
     "source": "https://www.palantir.com/favicon.ico"
+  },
+  "PaletteHQ": {
+    "src": "./assets/company-logos/palettehq.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c9bce72c2317a7d021e57753b48e391f11396ca9.png"
+  },
+  "Paloma": {
+    "src": "./assets/company-logos/paloma.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f1218976659374be7dae288b56678777bbb6a1eb.png"
+  },
+  "Pandai": {
+    "src": "./assets/company-logos/pandai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c207a301c4b691e3442cd4f0f0e317b08fdb8c94.png"
+  },
+  "Pangolin": {
+    "src": "./assets/company-logos/pangolin.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1ddd59479807f1000294d305ca0a4a84f2d40f97.png"
+  },
+  "Panorama Education": {
+    "src": "./assets/company-logos/panorama-education.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cf3c7c83086821a88ee659c700552b3a9a953709.png"
+  },
+  "Paperspace": {
+    "src": "./assets/company-logos/paperspace.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/71d8fe724bf62445db1e2f76ff63e411c7f74f2c.png"
+  },
+  "Parse": {
+    "src": "./assets/company-logos/parse.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fd2b15ce8a8e404c0ec54c33a17f938963c26455.png"
+  },
+  "Parsewise": {
+    "src": "./assets/company-logos/parsewise.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7f1c0c72a7f623d3b80ce3fbde35d6d196e31e5c.png"
+  },
+  "PartnerStack": {
+    "src": "./assets/company-logos/partnerstack.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e130ed8d270dae9cb2eace1ef6128c1722eb6610.png"
+  },
+  "Patent Watch": {
+    "src": "./assets/company-logos/patent-watch.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5c1d7fe830232f3ad92055c328a9c623fe69050a.png"
+  },
+  "Pave Robotics": {
+    "src": "./assets/company-logos/pave-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/928589de1c658eafaba5d1b3f60eee04d58ffa36.png"
+  },
+  "Payflow": {
+    "src": "./assets/company-logos/payflow.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c2f3335ebf887d6a8fa009be25267d1702eb2a4c.png"
+  },
+  "Payload": {
+    "src": "./assets/company-logos/payload.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0f0a550c10525505849576c534b00a71c9d71c7e.png"
+  },
+  "Pazi": {
+    "src": "./assets/company-logos/pazi.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/39be77a3f81a0c68f20c5bdfe6e6a34a1979d88c.png"
   },
   "Pecan": {
     "src": "./assets/company-logos/pecan.png",
@@ -443,9 +2511,41 @@
     "src": "./assets/company-logos/pentaho.png",
     "source": "https://pentaho.com/wp-content/uploads/2024/04/favicon.png"
   },
+  "Per Vices": {
+    "src": "./assets/company-logos/per-vices.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6babeda54b0ed96762130082cdda8af29de466eb.png"
+  },
   "Percona": {
     "src": "./assets/company-logos/percona.png",
     "source": "https://www.percona.com/wp-content/uploads/2026/03/cropped-Favicon-4-180x180.png"
+  },
+  "Perseus Defense": {
+    "src": "./assets/company-logos/perseus-defense.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5cdd4deac94e3261e5048ff6c4ffdd39942a5840.png"
+  },
+  "Philon": {
+    "src": "./assets/company-logos/philon.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c55c56d8a17e50d5a5504f506e783c2b8c9f8a61.png"
+  },
+  "Photonium": {
+    "src": "./assets/company-logos/photonium.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1f9f89a3e11065395408b656b79f12f0fd9868a1.png"
+  },
+  "Photoroom": {
+    "src": "./assets/company-logos/photoroom.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e5f5e5ed0c922fb566fac15578940996a8f6a930.png"
+  },
+  "Physical Turing": {
+    "src": "./assets/company-logos/physical-turing.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c87367cd52d809c0b9a6f05ef79f3c162b4dd082.png"
+  },
+  "Piggy Robotics": {
+    "src": "./assets/company-logos/piggy-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bb8bcc76da3e91c1a436eea5e5eec4075f3deb89.png"
+  },
+  "PiinPoint": {
+    "src": "./assets/company-logos/piinpoint.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ab66514ee2aae2caa138e769ced840f8e4eba100.png"
   },
   "Pinecone": {
     "src": "./assets/company-logos/pinecone.ico",
@@ -455,13 +2555,73 @@
     "src": "./assets/company-logos/pingcap.png",
     "source": "https://www.pingcap.com/core/themes/pingcap/media/favicon/apple-touch-icon.png"
   },
+  "PingPong": {
+    "src": "./assets/company-logos/pingpong.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f60fc0298e4210c3ecef8236aada13ca0951206c.png"
+  },
+  "Pipekit": {
+    "src": "./assets/company-logos/pipekit.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/04ac699768ee01bea09ec4c32c01f02b31efebd7.png"
+  },
+  "Pivot Robotics": {
+    "src": "./assets/company-logos/pivot-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ee0d44cf8688258862f3d2457491a3a79d07f53c.png"
+  },
   "PlanetScale": {
     "src": "./assets/company-logos/planetscale.png",
     "source": "https://planetscale.com/apple-touch-icon.png"
   },
+  "Plasticity": {
+    "src": "./assets/company-logos/plasticity.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2ae1a81c0b76312154e82224b9883070ca8b7b54.png"
+  },
+  "Players' Lounge": {
+    "src": "./assets/company-logos/players-lounge.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fd4e4e9c1afabc39fd1748565af4e0fe70ed996f.png"
+  },
   "Plotly": {
     "src": "./assets/company-logos/plotly.ico",
     "source": "https://plotly.com/favicon.ico"
+  },
+  "Pluralith": {
+    "src": "./assets/company-logos/pluralith.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e7957008ca3bafd61f38b146c1fef179229d84a4.png"
+  },
+  "Pocket Worlds": {
+    "src": "./assets/company-logos/pocket-worlds.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cb33e87a2697a70c09d13511e8b5a86ca7d0ef84.png"
+  },
+  "PocketSuite": {
+    "src": "./assets/company-logos/pocketsuite.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cdb97ca4207ccb8346f6dd29984f5fca487812e0.png"
+  },
+  "PoloTab": {
+    "src": "./assets/company-logos/polotab.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/125206d3d51ae1a0a9e8a0446836031dcecb557a.png"
+  },
+  "Poly": {
+    "src": "./assets/company-logos/poly.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2c933e4442d83b03a9d59a60dc94be3f95e9d475.png"
+  },
+  "Polytomic": {
+    "src": "./assets/company-logos/polytomic.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4767968ca9a72ca160b394cd0fb3eba2f5602eb7.png"
+  },
+  "PopSQL": {
+    "src": "./assets/company-logos/popsql.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/79a599a24d933d5f21dc134891224337e7ef167a.png"
+  },
+  "Porter": {
+    "src": "./assets/company-logos/porter.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a4ed1610bf1bf1bff5ffcd350ef85f5c381ad63f.png"
+  },
+  "Praxis Robotics": {
+    "src": "./assets/company-logos/praxis-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9bc18b804ad9a5d92ef1db88e90491f98e0204a7.png"
+  },
+  "Precip": {
+    "src": "./assets/company-logos/precip.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ce5bdc762563a51d03ff83ec08044222b14c450e.png"
   },
   "Precisely": {
     "src": "./assets/company-logos/precisely.webp",
@@ -471,13 +2631,69 @@
     "src": "./assets/company-logos/prefect.ico",
     "source": "https://www.prefect.io/favicon.ico?favicon.2_tzich_gaey5.ico"
   },
+  "Preload": {
+    "src": "./assets/company-logos/preload.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6b263628afee781ad6a54e9c6db03225c28f419f.png"
+  },
+  "Prodigal": {
+    "src": "./assets/company-logos/prodigal.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e46d97427184f51f49b12df6e51ecf8765104fa0.png"
+  },
+  "PropelAuth": {
+    "src": "./assets/company-logos/propelauth.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/72dfbc62d781eba9b77e867d8e40fdab0d7efbf8.png"
+  },
+  "Propexo": {
+    "src": "./assets/company-logos/propexo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7822d11e41140d7f6d2558bc38734397f57dde43.png"
+  },
   "Prophecy": {
     "src": "./assets/company-logos/prophecy.png",
     "source": "https://cdn.prod.website-files.com/68d1b095dc087971c6e3ba80/68d31ca68610a7a5c50aa71b_favicn-big.png"
   },
+  "Proprio Robotics": {
+    "src": "./assets/company-logos/proprio-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3aeac99898de10d679342b3768b7bc6047f56469.png"
+  },
+  "PropRise": {
+    "src": "./assets/company-logos/proprise.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/099267e4ee22818f2d0af078193f368735107d1e.png"
+  },
   "Protegrity": {
     "src": "./assets/company-logos/protegrity.png",
     "source": "https://cdn-ildokgi.nitrocdn.com/RwytoRrZbuHWwDfBfWBwCzQiQydipAUS/assets/images/optimized/rev-911ae83/www.protegrity.com/wp-content/uploads/2026/08/cropped-Primary-Social-Icon-180x180.png"
+  },
+  "Protex AI": {
+    "src": "./assets/company-logos/protex-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/500e8598ba6bacb62abd9828780893ab69ba3e5e.png"
+  },
+  "Protocol Labs": {
+    "src": "./assets/company-logos/protocol-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fd54c56e11e7dd30d3e421cedfe5bb4a57c001a3.png"
+  },
+  "Prototyping.io": {
+    "src": "./assets/company-logos/prototyping-io.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5f7df040bbed273d21312d9b7e349583e363f5e4.png"
+  },
+  "Proxis": {
+    "src": "./assets/company-logos/proxis.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/451285ce2b3407f2b83c947851ea72847724516e.png"
+  },
+  "Proxy": {
+    "src": "./assets/company-logos/proxy.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/190493234a6fff12dbec698756a71b558faa2267.png"
+  },
+  "Pump.co": {
+    "src": "./assets/company-logos/pump-co.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2e52daa194550c954ede0338084d6994d0aeefde.png"
+  },
+  "Pylon": {
+    "src": "./assets/company-logos/pylon.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/412a6b3ef532664df77532bc5d7ae3c1233de965.png"
+  },
+  "Pyroscope": {
+    "src": "./assets/company-logos/pyroscope.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/247a74da94904c06b274f1d233ed28b07bb00ee7.png"
   },
   "Qdrant": {
     "src": "./assets/company-logos/qdrant.png",
@@ -487,17 +2703,97 @@
     "src": "./assets/company-logos/qlik.png",
     "source": "https://www.qlik.com/icons/icon-512x512.png?v=2d8023c3b2369d28e981716a746231f0"
   },
+  "Qlo": {
+    "src": "./assets/company-logos/qlo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6bdf97a8fbe4a8a51a745ce366d9c6c2bfc6d75c.png"
+  },
   "Qubole": {
     "src": "./assets/company-logos/qubole.png",
     "source": "https://www.qubole.com/wp-content/themes/qubole/img/favicon-96x96.png"
+  },
+  "Query Vary": {
+    "src": "./assets/company-logos/query-vary.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cd0d06c611bd85e89ae37ce4e652e975ca7a2a46.png"
   },
   "QuestDB": {
     "src": "./assets/company-logos/questdb.ico",
     "source": "https://questdb.com/favicon.ico"
   },
+  "Quetzal": {
+    "src": "./assets/company-logos/quetzal.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e2e0833dd48a420927a12b9525cc6f2b83f83211.png"
+  },
+  "Quicknode": {
+    "src": "./assets/company-logos/quicknode.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3738c77c0ea3671e089e7ffa51492968ed674317.png"
+  },
+  "QUIK": {
+    "src": "./assets/company-logos/quik.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/104ed7687886dad7316b97aac2274923341fed2a.png"
+  },
+  "Quill": {
+    "src": "./assets/company-logos/quill.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cadeb9c28b524b34507f63691f600743f4fa5b6f.png"
+  },
+  "Quindar": {
+    "src": "./assets/company-logos/quindar.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bab55689155fe5f27aa4e87f73ddcae81fde5f8b.png"
+  },
+  "Radical": {
+    "src": "./assets/company-logos/radical.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d6c4df45192bc64b3d0c669324d48fcd4465995d.png"
+  },
+  "Rainbow": {
+    "src": "./assets/company-logos/rainbow.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/28f27645fc5edf8589ed512ab974bba4e165bad1.png"
+  },
+  "Rainforest": {
+    "src": "./assets/company-logos/rainforest.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/49bc9e493d029a722d06cf9c8ebef18ffa6edc92.png"
+  },
+  "Ramen VR": {
+    "src": "./assets/company-logos/ramen-vr.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a7c073a2ccf01b410c9d549753dd965b8febee93.png"
+  },
+  "Ranla": {
+    "src": "./assets/company-logos/ranla.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e77030a95d7d1d6848dce062a119a876a2676952.png"
+  },
   "RavenDB": {
     "src": "./assets/company-logos/ravendb.png",
     "source": "https://ravendb.net/wp-content/uploads/2023/08/ms-icon-310x310-1-40x40.png"
+  },
+  "Ravion": {
+    "src": "./assets/company-logos/ravion.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/37e14c5170610d3f3a08f942bf5e63e5d48ced34.png"
+  },
+  "Raycast": {
+    "src": "./assets/company-logos/raycast.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/463c3d193688528df24476e8cb9f38c5c795dadf.png"
+  },
+  "RDash": {
+    "src": "./assets/company-logos/rdash.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/def911c8f3c9b81c8e514a4f1b29d88c06452d30.png"
+  },
+  "RealPact": {
+    "src": "./assets/company-logos/realpact.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0066aaeaa91920faf3f4b4ee35ce9e7c2bc99740.png"
+  },
+  "Rebill": {
+    "src": "./assets/company-logos/rebill.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ac317d3596d742abd3e551f40119a6ba9a7f3d40.png"
+  },
+  "Rebolt": {
+    "src": "./assets/company-logos/rebolt.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1c24ec3a4e8dad0268813a9fa6aad15a4b1d9c34.png"
+  },
+  "Rebulk": {
+    "src": "./assets/company-logos/rebulk.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/37f1f3fac3b53d55834007e8aa34e2f8bb7a1198.png"
+  },
+  "Recall.ai": {
+    "src": "./assets/company-logos/recall-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/59d10237794442de721976fafb390beb322715ed.png"
   },
   "Redgate": {
     "src": "./assets/company-logos/redgate.png",
@@ -507,13 +2803,125 @@
     "src": "./assets/company-logos/redis.png",
     "source": "https://redis.io/icon.png?icon.3r8p6nysrg-mh.png"
   },
+  "Reditus Space": {
+    "src": "./assets/company-logos/reditus-space.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f567bf243e624ac80b841cec50ec05ef7e87c1ac.png"
+  },
   "Redpanda": {
     "src": "./assets/company-logos/redpanda.png",
     "source": "https://cdn.prod.website-files.com/68ed36e99e31581dedf5dc7c/68fbe910c263282ff5f65171_webclip.png"
   },
+  "Reducto": {
+    "src": "./assets/company-logos/reducto.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9794d4fb523375d125992ce9fa5e9e9db45daf9a.png"
+  },
+  "refine": {
+    "src": "./assets/company-logos/refine.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/aeaa683b72502977824eb71f47dba97607b154c0.png"
+  },
+  "Reflect": {
+    "src": "./assets/company-logos/reflect.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f7bfe137c38c2daa6007634c68b4c0aeb91e2862.png"
+  },
+  "Reflex": {
+    "src": "./assets/company-logos/reflex.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/677513c7f80f22199de3136c5024581799a126f2.png"
+  },
+  "Refresh": {
+    "src": "./assets/company-logos/refresh.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ccf0b2ab481c2f80ab1cae885c909b33ef41f986.png"
+  },
+  "Relari": {
+    "src": "./assets/company-logos/relari.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d8724ca6da40d81a8aadbd3cf9cf5fbaa58ac997.png"
+  },
+  "Relling": {
+    "src": "./assets/company-logos/relling.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e003594279b3a4474845b643ff2ee16c26f34a1a.png"
+  },
   "Reltio": {
     "src": "./assets/company-logos/reltio.png",
     "source": "https://www.reltio.com/wp-content/uploads/2024/03/cropped-cropped-Reltio_Light_Mode_Dark_Mode_Favicon-180x180.png"
+  },
+  "Relvy AI": {
+    "src": "./assets/company-logos/relvy-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2aa06b2c04632ad68c2151cc3aac66c942a0119b.png"
+  },
+  "Remade": {
+    "src": "./assets/company-logos/remade.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/54349afe229386963a0d97273557dd9db8219ab7.png"
+  },
+  "Remix": {
+    "src": "./assets/company-logos/remix.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d61c2a371b31c9e15555407e966ec3992500d5d0.png"
+  },
+  "Remy AI": {
+    "src": "./assets/company-logos/remy-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/94f9d60cdf58d3c7fc724152a315ad834ec78eec.png"
+  },
+  "Repaint": {
+    "src": "./assets/company-logos/repaint.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a40c666dc622907d8af3f29f4b78c554dba156c9.png"
+  },
+  "Replicate": {
+    "src": "./assets/company-logos/replicate.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/256be79b4f9ac851425e3bf2a60af5ae33ca72ba.png"
+  },
+  "Replit": {
+    "src": "./assets/company-logos/replit.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/233d387923712777913e62bff3a3ea50d70ed780.png"
+  },
+  "Requestly": {
+    "src": "./assets/company-logos/requestly.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/397665634f98c5b29320b633cf76ae515930481f.png"
+  },
+  "Rescale": {
+    "src": "./assets/company-logos/rescale.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/711fea8d5911eff2cca6ae58f7c2371f123c9dc1.png"
+  },
+  "Resolve": {
+    "src": "./assets/company-logos/resolve.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2ee341b6668b147683ee3427bd13f6a3a34cb892.png"
+  },
+  "Respan": {
+    "src": "./assets/company-logos/respan.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/511c79fc4e10857bff72dd38626234991f19c62c.png"
+  },
+  "Retape": {
+    "src": "./assets/company-logos/retape.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ae3ba43742d4dcd5a5ed43d8813d3cab2253bd1f.png"
+  },
+  "Revenir": {
+    "src": "./assets/company-logos/revenir.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0873f3e44b21b9503d92938ee073ec554248871f.png"
+  },
+  "RevenueCat": {
+    "src": "./assets/company-logos/revenuecat.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f8dc20fcc951e007754d6896f9f4c42ee9502a51.png"
+  },
+  "Revyl": {
+    "src": "./assets/company-logos/revyl.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1eca61dd3b32e7b0f7174161cd567ec823504e49.png"
+  },
+  "Ridecell": {
+    "src": "./assets/company-logos/ridecell.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/993ff6073116071031609f9e3bed69101446082b.png"
+  },
+  "Rimba": {
+    "src": "./assets/company-logos/rimba.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b68af887ba539134268ac073e1a367094447c416.png"
+  },
+  "Rimward": {
+    "src": "./assets/company-logos/rimward.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bd215af97ab581709a04ff6284c6091f29c2058e.png"
+  },
+  "Rinsed": {
+    "src": "./assets/company-logos/rinsed.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e04c655a1fa7eded2a929a6692b1417c648b4a2f.png"
+  },
+  "Riot": {
+    "src": "./assets/company-logos/riot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/36131ce5d03d467ffcb131f3d5407fb52c9be6d9.png"
   },
   "RisingWave": {
     "src": "./assets/company-logos/risingwave.svg",
@@ -523,37 +2931,193 @@
     "src": "./assets/company-logos/rivery.webp",
     "source": "https://rivery.io/favicon-32x32.png"
   },
+  "Rivia.AI": {
+    "src": "./assets/company-logos/rivia-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/74b8fae20934df4dfafa899ab30b9ddd193b6f6b.png"
+  },
+  "Riviera": {
+    "src": "./assets/company-logos/riviera.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/790dbe46b89475fab7c527c1403f9dcbd5c92c33.png"
+  },
+  "RMFG": {
+    "src": "./assets/company-logos/rmfg.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3d6481e53fac19208ab930fa400c6e6efc6e1d7b.png"
+  },
+  "Robocurve": {
+    "src": "./assets/company-logos/robocurve.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1cfdafb2f71eef92d986496e842d5218b330742b.png"
+  },
   "Roboflow": {
     "src": "./assets/company-logos/roboflow.png",
     "source": "https://roboflow.com/apple-icon.png?apple-icon.44hzu8-ttqbmn.png"
+  },
+  "Rocketable": {
+    "src": "./assets/company-logos/rocketable.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bc12cf4638585675745dadeea5e4a62aec1543cb.png"
+  },
+  "Rodeo Robotics": {
+    "src": "./assets/company-logos/rodeo-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ed94f83ed341c4f879d7c08c2570c04ba145e07c.png"
+  },
+  "RouterPlus": {
+    "src": "./assets/company-logos/routerplus.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6bb3c1b091b775faf5b88bf2fdc28cd10b50bb08.png"
+  },
+  "Rowboat Labs": {
+    "src": "./assets/company-logos/rowboat-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8c4e76ac514dde1b24f29f53724cc0f032c90a91.png"
+  },
+  "Rownd": {
+    "src": "./assets/company-logos/rownd.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b3fb21e9b70226a262919d3a7737f14e63ee8352.png"
   },
   "RudderStack": {
     "src": "./assets/company-logos/rudderstack.png",
     "source": "https://www.rudderstack.com/images/logos/logo-mark-dark.png"
   },
+  "RunLocal AI": {
+    "src": "./assets/company-logos/runlocal-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0c096a99a018da47706cb093bff201df7e6cbd6d.png"
+  },
+  "Runtime.si": {
+    "src": "./assets/company-logos/runtime-si.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/461a9d05728add7a3449b82167ac418e94d301eb.png"
+  },
+  "Runway": {
+    "src": "./assets/company-logos/runway.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a792f803f1d7ccad7da795b30ca7b07eb81a1cdc.png"
+  },
+  "Rutter": {
+    "src": "./assets/company-logos/rutter.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/58546f561c6a3cd285083ee0d5e1c3c9c285fcb2.png"
+  },
+  "Ryvn": {
+    "src": "./assets/company-logos/ryvn.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/38a4a570871fba4b9702b51fa8da50142159b1a8.png"
+  },
+  "s2.dev": {
+    "src": "./assets/company-logos/s2-dev.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/db49ec4c66c85d205171bbf2f1700ea1146f627c.png"
+  },
+  "Saffron": {
+    "src": "./assets/company-logos/saffron.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d3143a0fc23ce4251d146cce9ebb5799fc664317.png"
+  },
+  "Sails Co.": {
+    "src": "./assets/company-logos/sails-co.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/065c8c25c94a5b7288159539b52e8719bf30381d.png"
+  },
+  "SalaryBook": {
+    "src": "./assets/company-logos/salarybook.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/18003ad0da61412ba9ecc11d59ec2045f6248cc0.png"
+  },
+  "SalaryBox": {
+    "src": "./assets/company-logos/salarybox.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bfea3ef1c729dbc6ec5526da896c404d28fa550f.png"
+  },
+  "Salem Robotics Inc": {
+    "src": "./assets/company-logos/salem-robotics-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fbf386dc8fa91340ed1cce1b80613f66e88ee12d.png"
+  },
+  "SalesPatriot": {
+    "src": "./assets/company-logos/salespatriot.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c55eb595eb8712daeb02c69afcc09007bcb63c4f.png"
+  },
+  "Salt Security": {
+    "src": "./assets/company-logos/salt-security.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ee67d3955bee952b7146cbf36150b372e91df27a.png"
+  },
+  "Salvy": {
+    "src": "./assets/company-logos/salvy.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7b71e1e8adce18f87e8ef73ee6a188e9e025e033.png"
+  },
+  "Sanifu": {
+    "src": "./assets/company-logos/sanifu.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/dc10943e14517d77a119ecad164eb2d76d6db52b.png"
+  },
   "SAP": {
     "src": "./assets/company-logos/sap.png",
     "source": "https://www.sap.com/etc.clientlibs/sapdx/clientlibs/clientlib-generic-legacy/resources/images/apple-touch-icons/touch-icon-180x180.png"
+  },
+  "Saphira AI": {
+    "src": "./assets/company-logos/saphira-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/50fee2cba3e02a1824e08a39a9224adb0d2098b5.png"
+  },
+  "Sapling.ai": {
+    "src": "./assets/company-logos/sapling-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5aa6fac6d2489885ce08d4c58cabcc5b5a131c29.png"
   },
   "SAS": {
     "src": "./assets/company-logos/sas.ico",
     "source": "https://www.sas.com/favicon.ico"
   },
+  "Satsuma": {
+    "src": "./assets/company-logos/satsuma.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/534b4a727c846e2797022922053e8d79d2f196d2.png"
+  },
   "Scale AI": {
     "src": "./assets/company-logos/scale-ai.png",
     "source": "https://scale.com/static/global/favicon/v3/apple-touch-icon.png"
+  },
+  "Scope": {
+    "src": "./assets/company-logos/scope.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6d0e13bdfef2fd20cec6977b8134ca84d57ab225.png"
+  },
+  "screenpipe": {
+    "src": "./assets/company-logos/screenpipe.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/144e7207ec725036f43cc9a6b577a8320151e103.png"
   },
   "ScyllaDB": {
     "src": "./assets/company-logos/scylladb.png",
     "source": "https://www.scylladb.com/wp-content/themes/scylladb/apple-touch-icon.png"
   },
+  "Seam": {
+    "src": "./assets/company-logos/seam.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/dbd6b903d554c68c4aa51a62e4ba89b6e7fdd13c.png"
+  },
   "Securiti": {
     "src": "./assets/company-logos/securiti.png",
     "source": "https://securiti.ai/wp-content/themes/privaci/_ui/media/favicons/favicon-220x220.png"
   },
+  "Seeing Systems": {
+    "src": "./assets/company-logos/seeing-systems.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8d8e226478cb43c163b19e22186c3bab3bdb9668.png"
+  },
+  "Segments.ai": {
+    "src": "./assets/company-logos/segments-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ac88c08aefaf0753bc9d29d8d7ced656148b852c.png"
+  },
   "Select Star": {
     "src": "./assets/company-logos/select-star.svg",
     "source": "https://cdn.prod.website-files.com/61781d672fbf5e174e487703/66597a4be7a7c0b4a8b7cacb_Webclip%20for%20Webflow.svg"
+  },
+  "Semble": {
+    "src": "./assets/company-logos/semble.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3be22ea19fa3ff9792176dc916455712e0e9ecda.png"
+  },
+  "Sensei": {
+    "src": "./assets/company-logos/sensei.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0e3e1067b2d9b0492706fd6cec1ccf4d50ee5c59.png"
+  },
+  "Servo7": {
+    "src": "./assets/company-logos/servo7.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f0947dcd80dc342c9f938f52c6f4959bc0b1b157.png"
+  },
+  "Shepherd Robotics": {
+    "src": "./assets/company-logos/shepherd-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/aeedcbe594abc3d35bb21642c507ec105a0f502a.png"
+  },
+  "Shiraz AI": {
+    "src": "./assets/company-logos/shiraz-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/93d2ffb0a884b8a3781f59266189d89f4b30d975.png"
+  },
+  "Sidekick": {
+    "src": "./assets/company-logos/sidekick.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/70f52c907fab24ab4f95aa200a11907c5bc3896f.png"
+  },
+  "sieve": {
+    "src": "./assets/company-logos/sieve.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/459d63741f9af0815baebb98ab6c243158d589c2.png"
   },
   "Sifflet": {
     "src": "./assets/company-logos/sifflet.png",
@@ -563,6 +3127,26 @@
     "src": "./assets/company-logos/sigma.png",
     "source": "https://www.sigmacomputing.com/sigma-apple-touch-icon.png"
   },
+  "SigmaOS": {
+    "src": "./assets/company-logos/sigmaos.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/dd6e168433a2a413d415304357399855603959a6.png"
+  },
+  "SigNoz": {
+    "src": "./assets/company-logos/signoz.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bf9bf94469ea296eac6cbf6d10f7674c4a8a91ef.png"
+  },
+  "SigOpt": {
+    "src": "./assets/company-logos/sigopt.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8587155629554384fccbdcf060b0568e458358d4.png"
+  },
+  "Silica": {
+    "src": "./assets/company-logos/silica.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2b8e6b4aadfde14366461b6e47d3f4d14e736df5.png"
+  },
+  "Simetrik": {
+    "src": "./assets/company-logos/simetrik.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ab2e29daec9e4efba8cc8dc5764edc5ad41ae1ee.png"
+  },
   "SingleStore": {
     "src": "./assets/company-logos/singlestore.png",
     "source": "https://www.singlestore.com/icons/icon-512x512.png?v=277b9cbbe31e8bc416504cf3b902d430"
@@ -570,6 +3154,34 @@
   "Sisense": {
     "src": "./assets/company-logos/sisense.png",
     "source": "https://www.sisense.com/wp-content/themes/sisense/assets/fav/apple-icon-180x180.png"
+  },
+  "SketchDeck": {
+    "src": "./assets/company-logos/sketchdeck.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/edd480d76c88913d52db5c536fac9c346f44ad91.png"
+  },
+  "Skyhook": {
+    "src": "./assets/company-logos/skyhook.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c4df2dc3a8591521492f4797ca92971742623b68.png"
+  },
+  "Skyvern": {
+    "src": "./assets/company-logos/skyvern.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/87d977bf0d4b7032c71830901e118beb0ca9946c.png"
+  },
+  "Sleek": {
+    "src": "./assets/company-logos/sleek.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d66df5c1e4eac0579c54f345375ef14714c7b02b.png"
+  },
+  "SmartHelio": {
+    "src": "./assets/company-logos/smarthelio.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fada073ad0b6d9c3b509c6673811cf6d8acf80ed.png"
+  },
+  "smol machines": {
+    "src": "./assets/company-logos/smol-machines.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6c9db625bd34a051e8617673268bb5d9659339ed.png"
+  },
+  "SnapTrade": {
+    "src": "./assets/company-logos/snaptrade.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4b0254a9a5db6150bdd38c4f4f6c5e4e98ac8c8e.png"
   },
   "Snorkel AI": {
     "src": "./assets/company-logos/snorkel-ai.png",
@@ -587,21 +3199,85 @@
     "src": "./assets/company-logos/soda.png",
     "source": "https://framerusercontent.com/images/A3Gou0wxRrL616BBmcyBOViFy8w.png"
   },
+  "Soren": {
+    "src": "./assets/company-logos/soren.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/490097dc2bb667a63917b9fa0c6e2003442ad353.png"
+  },
+  "Spaceium Inc": {
+    "src": "./assets/company-logos/spaceium-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0afea0e3a81a3c4895401d9a1e4f5620a04a076b.png"
+  },
+  "Speechly": {
+    "src": "./assets/company-logos/speechly.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/febfa54460e405902a61eadb81f1f82d2be08da0.png"
+  },
+  "Speko": {
+    "src": "./assets/company-logos/speko.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a79212fefd832b4ac7d28da1ad3a7bc206dffaa1.png"
+  },
+  "Spellbrush": {
+    "src": "./assets/company-logos/spellbrush.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fb441dcc9519c0cc22e2464b6b1c3b1ca462403b.png"
+  },
+  "Spenmo": {
+    "src": "./assets/company-logos/spenmo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/573684f2ec0dab289ea0dd5bacd0ea7b65204a36.png"
+  },
+  "Splash Inc.": {
+    "src": "./assets/company-logos/splash-inc.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1d27e6c39170346215eab6057844b44c4a3fe089.png"
+  },
   "Splunk": {
     "src": "./assets/company-logos/splunk.png",
     "source": "https://www.splunk.com/content/dam/splunk2/images/icons/favicons/apple-touch-icon-152x152.png"
+  },
+  "Spur": {
+    "src": "./assets/company-logos/spur.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5b63801706e3874e4f1017433f3c6a3ce0dddbca.png"
+  },
+  "Stacker": {
+    "src": "./assets/company-logos/stacker.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4e37b25c0bb47800e59cbc839ab08b51d99ad699.png"
+  },
+  "stagewise": {
+    "src": "./assets/company-logos/stagewise.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f23d4a87e54104479dda1da414cfdf2d79192208.png"
   },
   "Starburst": {
     "src": "./assets/company-logos/starburst.png",
     "source": "https://www.starburst.io/favicon-l.png"
   },
+  "Starcloud": {
+    "src": "./assets/company-logos/starcloud.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e9c9b9996bb500ee171134f1e1a0a83f5d48bec3.png"
+  },
   "StarTree": {
     "src": "./assets/company-logos/startree.png",
     "source": "https://startree.ai/wp-content/uploads/2025/06/cropped-main-favicon-180x180.png"
   },
+  "Stock Unlock": {
+    "src": "./assets/company-logos/stock-unlock.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f2064f4dcf2a95d814cac2fbfbdedfcd7ef27b92.png"
+  },
+  "Stockline": {
+    "src": "./assets/company-logos/stockline.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bd3787e9958fd9e9b42a9bb7223fe8689a2863a9.png"
+  },
+  "Storylane": {
+    "src": "./assets/company-logos/storylane.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2ea7660c6ef79a3f3c31b84b9791afa7da450839.png"
+  },
+  "Strac": {
+    "src": "./assets/company-logos/strac.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5810f2cdca1ab3fedc5a811643be13d5387e300c.png"
+  },
   "Stratio": {
     "src": "./assets/company-logos/stratio.png",
     "source": "https://stratio.ai/wp-content/uploads/2026/06/cropped-favicon-1-180x180.png"
+  },
+  "Streamline Systems": {
+    "src": "./assets/company-logos/streamline-systems.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/989b85da2420d6592fdbd561cfe2e0802ebf6933.png"
   },
   "StreamNative": {
     "src": "./assets/company-logos/streamnative.svg",
@@ -611,17 +3287,93 @@
     "src": "./assets/company-logos/striim.png",
     "source": "https://media.striim.com/wp-content/uploads/2020/09/13183215/favicon-circle-157x150.png"
   },
+  "Strive School": {
+    "src": "./assets/company-logos/strive-school.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/28b22a54c96662989843912cfceff789a6bae093.png"
+  },
+  "Strong Compute": {
+    "src": "./assets/company-logos/strong-compute.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b6d861374205c6a41091e3a76655da787098154b.png"
+  },
+  "Struct": {
+    "src": "./assets/company-logos/struct.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f292fd64c9e2943d040e390cd2700e19b243bb8c.png"
+  },
+  "Submittable": {
+    "src": "./assets/company-logos/submittable.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/aab09ec98d8bdad2001ed8e71a0274b75c3da4e4.png"
+  },
+  "Suger": {
+    "src": "./assets/company-logos/suger.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/cb9d2b3f8db8157f79ade98fcbf86f4de21dd0a0.png"
+  },
+  "Sully": {
+    "src": "./assets/company-logos/sully.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9050d789232441d310c7b2bc53166a978e1f735d.png"
+  },
   "Sumo Logic": {
     "src": "./assets/company-logos/sumo-logic.png",
     "source": "https://www.sumologic.com/wp-content/uploads/2024/10/favicon-large-300x300.png"
+  },
+  "Sunlight": {
+    "src": "./assets/company-logos/sunlight.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/31758f22583088dc4bc585ae2c372fbd95e94ea0.png"
   },
   "Supabase": {
     "src": "./assets/company-logos/supabase.png",
     "source": "https://supabase.com/favicon/apple-icon-180x180.png"
   },
+  "Superb AI": {
+    "src": "./assets/company-logos/superb-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/557ab62b86d1ab472dd3665292fc28d7191fb8b9.png"
+  },
+  "Superserve": {
+    "src": "./assets/company-logos/superserve.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/30c23ee4b16858a917c5254b034633777d99a5f2.png"
+  },
+  "SuperTokens": {
+    "src": "./assets/company-logos/supertokens.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4353b29adbf3c289fd3165964d86888720519f1b.png"
+  },
+  "Superwall": {
+    "src": "./assets/company-logos/superwall.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e4505819ade5550ec16c605c15c7ccf142d096de.png"
+  },
+  "Surge": {
+    "src": "./assets/company-logos/surge.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1f4a489f75647f08676e6de181d0f4d27016b18f.png"
+  },
   "SurrealDB": {
     "src": "./assets/company-logos/surrealdb.svg",
     "source": "https://surrealdb.com/assets/static/favicon.C76EUDBN.svg"
+  },
+  "Surtr Defense Systems": {
+    "src": "./assets/company-logos/surtr-defense-systems.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ab5a7de765aab31de659bc6429451ecb734f5da7.png"
+  },
+  "Svix": {
+    "src": "./assets/company-logos/svix.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e7fe48d854a5e26f76b915462fef2c4d177bfa49.png"
+  },
+  "Swif.ai": {
+    "src": "./assets/company-logos/swif-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3f00f6931229f64701cd737b9839f92f72e20005.png"
+  },
+  "Swipe": {
+    "src": "./assets/company-logos/swipe.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/503edcb02d5cc855d205e529939710e731d771cb.png"
+  },
+  "Synapse Semiconductor": {
+    "src": "./assets/company-logos/synapse-semiconductor.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/37650fbbc73ea1ea0b895fd819e93836825d1520.png"
+  },
+  "Synnax": {
+    "src": "./assets/company-logos/synnax.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3f41b3aa61848ecb2a662ed36b6f5712b21849a8.png"
+  },
+  "Synphony": {
+    "src": "./assets/company-logos/synphony.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/53a6cd89169bae47c2b36df57db7197b466fab96.png"
   },
   "Syntasa": {
     "src": "./assets/company-logos/syntasa.svg",
@@ -631,13 +3383,97 @@
     "src": "./assets/company-logos/tableau.ico",
     "source": "https://www.tableau.com/c/public/exp/app/favicon.ico"
   },
+  "Tabula": {
+    "src": "./assets/company-logos/tabula.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/024093e1cf5ee62ecc6d67c4d8f74b230167a84b.png"
+  },
+  "Tailor": {
+    "src": "./assets/company-logos/tailor.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9a820aa4b7b154f3af51351a25732f22fdf20d89.png"
+  },
+  "Taloflow": {
+    "src": "./assets/company-logos/taloflow.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/800c3d46de6422db7c2f3bd538f4a4c7638425b3.png"
+  },
+  "Tamarind Bio": {
+    "src": "./assets/company-logos/tamarind-bio.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/201884765e11baf051338d72f6f2e7ead2bb1fa1.png"
+  },
   "Tamr": {
     "src": "./assets/company-logos/tamr.png",
     "source": "https://cdn.prod.website-files.com/64ad7364d2a1ecdf6c017b91/64fb722c5be49f18bf2c98d2_Favicon-256-light.png"
   },
+  "Tank Payments": {
+    "src": "./assets/company-logos/tank-payments.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4db7a5077a335ed33cdb02645791bdc760dba1ca.png"
+  },
+  "Taro": {
+    "src": "./assets/company-logos/taro.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d4584cf3fa0e1a05a89a63ceaa8dab2f4c2d68d0.png"
+  },
+  "Taskade": {
+    "src": "./assets/company-logos/taskade.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6b44dce0d7c87c47de6b97a5c0517675320527da.png"
+  },
+  "TaxProper": {
+    "src": "./assets/company-logos/taxproper.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/55a1b4b73d450e670e61529d531faea95e3d6712.png"
+  },
+  "Tekton Dynamics": {
+    "src": "./assets/company-logos/tekton-dynamics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c88f8c82a6ce22ef99621a0f594acb23ef6aa48f.png"
+  },
+  "Tella": {
+    "src": "./assets/company-logos/tella.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9b22307de491a8293929a87e95c1f3af5978045a.png"
+  },
   "Tellius": {
     "src": "./assets/company-logos/tellius.png",
     "source": "https://cdn.prod.website-files.com/67a0c237ecbf5f9b3f714d92/67b49f8ea0d4dc31eaa01891_256x256.png"
+  },
+  "TensorPool": {
+    "src": "./assets/company-logos/tensorpool.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/79bd0c6f85962c1282260ab60adb0462fdb87ec8.png"
+  },
+  "Tensr": {
+    "src": "./assets/company-logos/tensr.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7f3743327b1fc85ded6caddbd532e0c600eb2cb0.png"
+  },
+  "Terminal": {
+    "src": "./assets/company-logos/terminal.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/acdabd0c7f626bea58520be4df19e9d87e878e06.png"
+  },
+  "Termius": {
+    "src": "./assets/company-logos/termius.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f2ba51393107c60fc73e0c01a4165e444e0e8755.png"
+  },
+  "Text Blaze": {
+    "src": "./assets/company-logos/text-blaze.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3155ba3b687741c19a97719f6f226e3e148c98f5.png"
+  },
+  "The Hog": {
+    "src": "./assets/company-logos/the-hog.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6ba9edbf42a04ad97bf80ea5c1940458e14f3f70.png"
+  },
+  "The Subvocal Company": {
+    "src": "./assets/company-logos/the-subvocal-company.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/932b2d47f36f3bce67a23cc2ce77599b9f364edd.png"
+  },
+  "The Vibe Company": {
+    "src": "./assets/company-logos/the-vibe-company.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/48a2e57e5dd1d60b9593214bad1c5d81f0340c27.png"
+  },
+  "Theneo": {
+    "src": "./assets/company-logos/theneo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8b3eab0f3f7a93ab29c8cd0078890fd2b01b0cc9.png"
+  },
+  "Theseus": {
+    "src": "./assets/company-logos/theseus.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/05b004a38c0a5df5a4e151b258151cd9a38f08c8.png"
+  },
+  "Theseus Robotics": {
+    "src": "./assets/company-logos/theseus-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7e2fc8bde838b206a0f59886a05a00e2d3d89335.png"
   },
   "ThoughtSpot": {
     "src": "./assets/company-logos/thoughtspot.png",
@@ -647,49 +3483,405 @@
     "src": "./assets/company-logos/tibco.png",
     "source": "https://www.tibco.com/content/dam/tibco/images/apple-touch-icon.png"
   },
+  "Tienda Crypto": {
+    "src": "./assets/company-logos/tienda-crypto.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9cabae5e8d0d38bc3d9ebd9e445441f81571955a.png"
+  },
   "TigerGraph": {
     "src": "./assets/company-logos/tigergraph.png",
     "source": "https://www.tigergraph.com/wp-content/uploads/2020/05/cropped-icon-512-1-270x270-1.png"
+  },
+  "Tinfoil": {
+    "src": "./assets/company-logos/tinfoil.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1fb98a08722d6b4a90ad914611f5c3579c0f3558.png"
   },
   "Tinybird": {
     "src": "./assets/company-logos/tinybird.ico",
     "source": "https://www.tinybird.co/favicon.ico"
   },
+  "Tiptap": {
+    "src": "./assets/company-logos/tiptap.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5ea1ff4314cdf63ee3867e1d262f8d1119847e40.png"
+  },
+  "Titanio": {
+    "src": "./assets/company-logos/titanio.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5b929e31ab64052ab433ff5445d5704e41934381.png"
+  },
+  "ToDesktop": {
+    "src": "./assets/company-logos/todesktop.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f79c64748e8ca287044d5404bd732aca67d76689.png"
+  },
   "Tonic": {
     "src": "./assets/company-logos/tonic.png",
     "source": "https://cdn.prod.website-files.com/62e28cf08913e81176ba2c39/62e28cf08913e8a4baba2dff_webclip-tonic.png"
+  },
+  "Top Road": {
+    "src": "./assets/company-logos/top-road.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/50c64eee4fb328983954a1afb2acfcbb3e366dc6.png"
+  },
+  "Topline Pro": {
+    "src": "./assets/company-logos/topline-pro.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c43a0f3a8285bc157c443799365f68e59cff1e3c.png"
+  },
+  "Topological": {
+    "src": "./assets/company-logos/topological.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2b9c845239fb1f16317889a4a843409e109b24f6.png"
+  },
+  "Tornyol": {
+    "src": "./assets/company-logos/tornyol.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/32e3f0b4a6932eaa071b0b63031b269de4048c47.png"
+  },
+  "Traceforce": {
+    "src": "./assets/company-logos/traceforce.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8a31e3b43130c5974d52608c066ff45cc746112f.png"
+  },
+  "Trackingplan": {
+    "src": "./assets/company-logos/trackingplan.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/7b1ef39c22b700cf5d44570c7f6569b245f3ee28.png"
+  },
+  "Trackstar": {
+    "src": "./assets/company-logos/trackstar.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b1c2e3341674792a8d56306cb0073f98a11cd136.png"
+  },
+  "Trainy": {
+    "src": "./assets/company-logos/trainy.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/78fb6a9f034f5447cc3472b66f6c660fdf0cfa60.png"
+  },
+  "Tranch": {
+    "src": "./assets/company-logos/tranch.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d8b861c2c1bab1a070d8a629f1ffa13248ae51a6.png"
+  },
+  "Trayd": {
+    "src": "./assets/company-logos/trayd.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b0a9f2865966789c4edf9a5fb78aced71bf8c4d9.png"
+  },
+  "Treasury Prime": {
+    "src": "./assets/company-logos/treasury-prime.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fb0b666cc71eaf3fdcc64a67ec3b353f2339e37f.png"
+  },
+  "Treinta": {
+    "src": "./assets/company-logos/treinta.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/22a2db8472fb087e350b2fb2e013f633f97d013d.png"
+  },
+  "Trident": {
+    "src": "./assets/company-logos/trident.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/537de46d97dcdac9c07b330a6a1a4b2ab0583b7b.png"
+  },
+  "Trieve": {
+    "src": "./assets/company-logos/trieve.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e020de4d43f09ae8fc176bd79fd704be218893b7.png"
+  },
+  "Trigger.dev": {
+    "src": "./assets/company-logos/trigger-dev.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/737382941e8e44eb83d28fa6b26854131dcdfcf9.png"
+  },
+  "Trigo": {
+    "src": "./assets/company-logos/trigo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f4995777223c0a6941873d356643ed969835aea5.png"
+  },
+  "Triplebyte": {
+    "src": "./assets/company-logos/triplebyte.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b2db5bb9d86da1264497210fa121a02814b31acb.png"
+  },
+  "Triply": {
+    "src": "./assets/company-logos/triply.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a50be8732ac92931d91e10a75379eb7b6b844ab1.png"
+  },
+  "Trope": {
+    "src": "./assets/company-logos/trope.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/1241956aa50c817e1c2feee9934ea253b0d12c38.png"
+  },
+  "TrueVault": {
+    "src": "./assets/company-logos/truevault.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c4844003ef0e3780afce60f8b70be30813fdad5b.png"
+  },
+  "Truora": {
+    "src": "./assets/company-logos/truora.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/77b3d44d91a474eb7bbba036d2f49c592582fe31.png"
+  },
+  "Tuesday Labs": {
+    "src": "./assets/company-logos/tuesday-labs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/bb7c6f660a8e21354833989c609687d7125a07b0.png"
+  },
+  "twentyfour26": {
+    "src": "./assets/company-logos/twentyfour26.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ceb91f5325b460f109e85bc25abd1618a24863cb.png"
+  },
+  "Twolabs": {
+    "src": "./assets/company-logos/twolabs.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f6140e69d64bb482f52d28db6644ebb4a4c700ef.png"
+  },
+  "Ubicloud": {
+    "src": "./assets/company-logos/ubicloud.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/621ac44e76ec8f002f47c567b4533df1d318abcc.png"
+  },
+  "UFO.ai": {
+    "src": "./assets/company-logos/ufo-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5f7933f1917a47bf844572cf253da02eeececc9f.png"
+  },
+  "Ultra": {
+    "src": "./assets/company-logos/ultra.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/4e0a45197c7d56b15f0976e431a519c2b35929c0.png"
+  },
+  "Ultrasonium": {
+    "src": "./assets/company-logos/ultrasonium.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/734dc12d12265ba8890bf4ef5e7e564bdb629a87.png"
+  },
+  "Unisson": {
+    "src": "./assets/company-logos/unisson.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/dd03bcedbbd9356a9f36c34083e541508201f3c6.png"
+  },
+  "Unlayer": {
+    "src": "./assets/company-logos/unlayer.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fcefc5d17d05bbb0fe7c4b9b5875db24dc093a45.png"
+  },
+  "UpKeep": {
+    "src": "./assets/company-logos/upkeep.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/faa6cbcaf3126fdfe71b274528ba20ca29f30eba.png"
+  },
+  "UpLink": {
+    "src": "./assets/company-logos/uplink.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/2ea767a408cc57b55584c2042808e466cf2c64d6.png"
   },
   "Vanna": {
     "src": "./assets/company-logos/vanna.png",
     "source": "https://vanna.ai/apple-touch-icon.png"
   },
+  "VantedgeAI": {
+    "src": "./assets/company-logos/vantedgeai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/12fd444a2c7a34b121c256f9259458e601b0351a.png"
+  },
+  "Vassar Robotics": {
+    "src": "./assets/company-logos/vassar-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/298de1df0e98ea832138177668c9cea22705e3fb.png"
+  },
   "Vectara": {
     "src": "./assets/company-logos/vectara.png",
     "source": "https://www.vectara.com/favicon/favicon-512x512.png"
+  },
+  "Vectrix": {
+    "src": "./assets/company-logos/vectrix.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9315542ed06d8a722e5739c5365aceb689b1d937.png"
+  },
+  "Velontra": {
+    "src": "./assets/company-logos/velontra.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/f91f60fef77675614e979bd8ce01941da0e92c40.png"
+  },
+  "Velt": {
+    "src": "./assets/company-logos/velt.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/36bc77538c7b2b901965b5e1ff49fe05b84cc1f1.png"
+  },
+  "Vendoo": {
+    "src": "./assets/company-logos/vendoo.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/9073b75bf20958fd49689dd57877c177dbe9cdc8.png"
+  },
+  "Venue.ink": {
+    "src": "./assets/company-logos/venue-ink.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/48ed643fef7e35b17f37186448b5e1370b52b5b1.png"
+  },
+  "Verdict Machine": {
+    "src": "./assets/company-logos/verdict-machine.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/efc3c74e529cc296ebd75ff470655d005300ddf0.png"
+  },
+  "Verne Robotics": {
+    "src": "./assets/company-logos/verne-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d892cc07af7461203238df538f63d3eafe2a9635.png"
+  },
+  "Versori": {
+    "src": "./assets/company-logos/versori.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/72ebeb10f18857a66bed8b775cde8113255925d4.png"
   },
   "Vespa": {
     "src": "./assets/company-logos/vespa.png",
     "source": "https://vespa.ai/vespa-content/uploads/2024/06/cropped-favicon-180x180.png"
   },
+  "VideoGen": {
+    "src": "./assets/company-logos/videogen.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/67133b6c1025c9a5557fc657b87ed61ad2b540c5.png"
+  },
+  "Vimmerse": {
+    "src": "./assets/company-logos/vimmerse.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a1482a962d8fe4ce7caaf57c66235bd646c33977.png"
+  },
+  "Visibl Semiconductors": {
+    "src": "./assets/company-logos/visibl-semiconductors.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c9acdb09765b62086883672feeb576e191249bff.png"
+  },
+  "Visly": {
+    "src": "./assets/company-logos/visly.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/90cdd4c09c618b245c8803b65fb77f3512955922.png"
+  },
+  "Vizzly": {
+    "src": "./assets/company-logos/vizzly.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/22e8f105fb29e8957dec4db2a7b28a0c24a20539.png"
+  },
+  "Vobi": {
+    "src": "./assets/company-logos/vobi.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e8dcb7b1cc2f5fd75bfe43bb9d835205a9eca5d8.png"
+  },
+  "Volansi": {
+    "src": "./assets/company-logos/volansi.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a5fb76375a3ebb1f2f694f690e6b22ee1ce21b34.png"
+  },
+  "Voltair": {
+    "src": "./assets/company-logos/voltair.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a981c3ee0de6ecf9a915e188b211780fce335e44.png"
+  },
+  "WarpBuild": {
+    "src": "./assets/company-logos/warpbuild.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/dc34887fced4f954a1a9fd60de7afd828c9a1d74.png"
+  },
+  "Warrant": {
+    "src": "./assets/company-logos/warrant.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0463ea40224ab10e82c931c492806150172da7a0.png"
+  },
+  "Wasmer": {
+    "src": "./assets/company-logos/wasmer.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fe488b892d71890ae82f8d4a1420433b33d6b741.png"
+  },
+  "Wavedash": {
+    "src": "./assets/company-logos/wavedash.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/5bc7b2b59a7a325fcdf566d9120353bab8f1fa91.png"
+  },
+  "Waypoint": {
+    "src": "./assets/company-logos/waypoint.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6bbc4ee18717a8743a3b77c32098b2eeafb4fe72.png"
+  },
+  "Weav": {
+    "src": "./assets/company-logos/weav.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fa11c74c12536a5831e39b0ca8b8b6b6bb0696a2.png"
+  },
+  "Weave Robotics": {
+    "src": "./assets/company-logos/weave-robotics.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/656bbbf27cb99ea496ba946f90963d0806212dab.png"
+  },
   "Weaviate": {
     "src": "./assets/company-logos/weaviate.ico",
     "source": "https://weaviate.io/img/favicon.ico"
+  },
+  "Webiny": {
+    "src": "./assets/company-logos/webiny.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/adfd1c33ceed7c9e58e31857fc68ab3c74ad1ad4.png"
+  },
+  "Weel": {
+    "src": "./assets/company-logos/weel.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/22dac63897681e1a31dc26b877ee786266ae0bff.png"
+  },
+  "Weka": {
+    "src": "./assets/company-logos/weka.webp",
+    "source": "https://weka-dot-io.vercel.app/favicon-192x192.webp"
+  },
+  "Well Principled": {
+    "src": "./assets/company-logos/well-principled.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/6c59ac5aca8c4a74c69ab15c408544b91f24e98e.png"
+  },
+  "weweb.io": {
+    "src": "./assets/company-logos/weweb-io.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/c4c160ec9f8a08bcc48ff8330aa6472e443886d0.png"
+  },
+  "Whitespace": {
+    "src": "./assets/company-logos/whitespace.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d7ab9b902afa3fe0a37b3622022557a9cd82d082.png"
+  },
+  "Windmill": {
+    "src": "./assets/company-logos/windmill.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/65ba001ab4d9a51e57b2d599e1b3c910c0a39b01.png"
+  },
+  "Wingman": {
+    "src": "./assets/company-logos/wingman.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d85dfc73c9692fefd19b7eeec4502dc106fae113.png"
+  },
+  "Wonderly": {
+    "src": "./assets/company-logos/wonderly.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/952fa3d3926bb1dcb323e457833579b03581d697.png"
+  },
+  "Wordware": {
+    "src": "./assets/company-logos/wordware.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ff410def03c8c58c3adc7db9615becc8164804e3.png"
+  },
+  "WorkClout": {
+    "src": "./assets/company-logos/workclout.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/32caddc86b0c6c9727ed1bc95805ded0b3d9cfd9.png"
+  },
+  "Workpay": {
+    "src": "./assets/company-logos/workpay.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/09dcfca12373bb214263ff9365e1886ef988ba50.png"
+  },
+  "Woz": {
+    "src": "./assets/company-logos/woz.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3ec5c6a24f1037c7183c8ce6c5dc019a1f42ec3d.png"
   },
   "Xata": {
     "src": "./assets/company-logos/xata.png",
     "source": "https://xata.io/apple-icon.png?apple-icon.02u68ngkt6llv.png"
   },
+  "Xeol": {
+    "src": "./assets/company-logos/xeol.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3d8557d5066f2f1e94f1be8ddc427697b79cc8d1.png"
+  },
+  "xPay": {
+    "src": "./assets/company-logos/xpay.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/3971c15f9f5205a1db5b53fe701e75a30c87c769.png"
+  },
   "Y42": {
     "src": "./assets/company-logos/y42.ico",
     "source": "https://www.y42.com/favicon/favicon.ico"
+  },
+  "Yardbook": {
+    "src": "./assets/company-logos/yardbook.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/e0abb3ad3f79aedaf3fc3be14e0dfb8e86dd36cf.png"
   },
   "Yellowbrick": {
     "src": "./assets/company-logos/yellowbrick.png",
     "source": "https://www.yellowbrick.com/favicon.png"
   },
+  "Yondu": {
+    "src": "./assets/company-logos/yondu.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/0b7969c1cf6999d5b5333e8a0fd7ca63e13f079f.png"
+  },
   "Yugabyte": {
     "src": "./assets/company-logos/yugabyte.png",
     "source": "https://www.yugabyte.com/apple-touch-icon.png"
+  },
+  "Yummy": {
+    "src": "./assets/company-logos/yummy.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/787eb4a9de615a922a26c27f02b3f9ced148e4d4.png"
+  },
+  "Yummy Future": {
+    "src": "./assets/company-logos/yummy-future.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/b16e65239377a055987a5fda8f301c3a3cd7876f.png"
+  },
+  "Zatanna": {
+    "src": "./assets/company-logos/zatanna.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/d44e6f61cb5ed4a97d1177fa88df6f8b04c87366.png"
+  },
+  "Zeit AI": {
+    "src": "./assets/company-logos/zeit-ai.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/a8b12b6d63b7ef88542a88cfd73009aa6a48073f.png"
+  },
+  "Zeitview": {
+    "src": "./assets/company-logos/zeitview.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/06e32a7ff9f034ea9a91bf3c37be592aaf617047.png"
+  },
+  "Zenter": {
+    "src": "./assets/company-logos/zenter.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fa9c0925aff653b349d2e20c8e5b4a7277b5df84.png"
+  },
+  "Zeo Route Planner": {
+    "src": "./assets/company-logos/zeo-route-planner.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/8d526d18dca9f59c61e788cc7af7ad9c9956ac3d.png"
+  },
+  "Zeon Systems": {
+    "src": "./assets/company-logos/zeon-systems.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/95786f7359527c0b6051a250e5f3cb00d43b578b.png"
+  },
+  "zeroheight": {
+    "src": "./assets/company-logos/zeroheight.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/ed2baeb51a0f0a58c1fedf8a9565de188c435f34.png"
+  },
+  "ZeroPath": {
+    "src": "./assets/company-logos/zeropath.png",
+    "source": "https://bookface-images.s3.amazonaws.com/small_logos/fd70ee2d072b5f54e3fd3fc0e2531e49708b3fa7.png"
   },
   "Zeta Global": {
     "src": "./assets/company-logos/zeta-global.ico",

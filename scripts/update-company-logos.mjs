@@ -2,11 +2,13 @@ import { readFile, writeFile, mkdir, stat } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
-// Download official website icons, not third-party logo API results.
+// Download icons from official company websites and YC's official directory.
 // Run from any directory with Node 22+: node scripts/update-company-logos.mjs
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'assets/company-logos');
 const companies = JSON.parse(await readFile(path.join(root, 'data/companies.json'), 'utf8'));
+const directory = await readFile(path.join(root, 'data/company-provenance.json'), 'utf8')
+  .then(text => JSON.parse(text).companies || {}).catch(() => ({}));
 const maxBytes = 500_000;
 const concurrency = 10;
 const timeout = 7_000;
@@ -52,7 +54,7 @@ async function fetchLimited(url, limit) {
   if (new URL(url).protocol !== 'https:') throw new Error('HTTPS required');
   const response = await fetch(url, {
     signal: AbortSignal.timeout(timeout),
-    headers: { 'User-Agent': 'PokemonOrBigData/1.0 (official website icon collector)' },
+    headers: { 'User-Agent': 'PokemonOr/1.0 (official website icon collector)' },
   });
   if (!response.ok) throw new Error('HTTP ' + response.status);
   if (Number(response.headers.get('content-length')) > limit) throw new Error('Too large');
@@ -119,6 +121,19 @@ await Promise.all(Array.from({ length: concurrency }, async () => {
     const company = companies[index++];
     if (historical.has(company.name)) { omitted.push(company.name + ': historical/acquired brand'); continue; }
     if (manifest[company.name] && !process.argv.includes('--refresh')) continue;
+    // YC's official directory supplies company artwork even when a company site blocks requests.
+    const directoryLogo = directory[company.name]?.logoUrl;
+    if (directoryLogo) {
+      try {
+        const image = await fetchLimited(directoryLogo, maxBytes);
+        const extension = imageExtension(image.bytes, image.type);
+        const slug = company.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        const filename = slug + '.' + extension;
+        await writeFile(path.join(output, filename), image.bytes);
+        manifest[company.name] = { src: './assets/company-logos/' + filename, source: image.url };
+        continue;
+      } catch { /* Try the official company website if directory artwork is unavailable. */ }
+    }
     const homepage = overrides[company.name] || company.url;
     try {
       let page;
