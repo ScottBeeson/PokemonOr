@@ -7,21 +7,38 @@
   <meta name="description" content="A Pokémon or a tech company? Ten questions, five seconds each: a retro handheld guessing game.">
   <title>Pokémon Or — Pocket Edition</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=3.2.1">
-  <script type="module" src="./src/device.js?v=3.2.0"></script>
+  <link rel="stylesheet" href="./styles.css?v=3.3.0">
+  <script type="module" src="./src/device.js?v=3.3.0"></script>
 </head>
 <body>
   <header class="site-header"><a href="./" class="site-brand">POCKET EDITION <span>/ 01</span></a><span class="edition-badge"><i></i> TEN QUESTIONS. FIVE SECONDS EACH.</span><nav class="site-nav" aria-label="Game information"><button id="how-button" class="desk-link">How to play ↗</button><button id="about-button" class="desk-link">About</button></nav></header>
   <main class="desk">
     <div class="device-stage">
-      <section class="handheld" aria-label="Pokémon Or handheld game">
+      <section class="handheld" aria-label="Pokémon Or handheld game" data-screen="boot">
+        <button id="cartridge-slot" class="cartridge-slot" aria-label="Change cartridge. Tech inserted." title="Change cartridge" aria-haspopup="dialog" disabled>
+          <span class="cartridge-shell" aria-hidden="true"><span class="cartridge-grip"></span><span class="cartridge-label"><span class="cartridge-catalog">CATALOG <span data-cart-catalog>01</span></span><strong data-cart-label>TECH</strong><img data-cart-art src="./assets/cartridges/tech.svg" alt=""></span></span>
+          <span class="slot-lip" aria-hidden="true"></span>
+        </button>
         <div class="top-seam" aria-hidden="true"></div>
         <div class="hardware-top"><span class="power-switch" aria-hidden="true"></span><span>OFF · ON</span><span class="model-number">POT–01</span></div>
         <div class="screen-bezel">
-          <div class="bezel-title"><span></span> DOT MATRIX WITH TECH <span></span></div>
+          <div class="bezel-title"><span></span> DOT MATRIX DISPLAY <span></span></div>
           <div class="power-led" aria-hidden="true"><i></i><small>POWER</small></div>
           <div class="lcd">
             <div class="lcd-grid" aria-hidden="true"></div>
+            <section id="boot-screen" class="boot-screen" aria-label="System startup" aria-live="polite">
+              <span class="boot-wordmark">Pokémon or<span>…</span></span>
+              <span class="boot-edition">POCKET EDITION</span>
+              <p id="boot-status">READING CARTRIDGE…</p>
+            </section>
+            <section id="title-screen" class="title-screen" aria-label="Cartridge title screen" hidden>
+              <span class="title-catalog">CATALOG <span data-cart-catalog>01</span> · POCKET EDITION</span>
+              <h1 id="pack-title">Tech Pack</h1>
+              <div class="title-art"><img id="pack-art" src="./assets/cartridges/tech.svg" alt="A pixel computer with a smiling screen and circuit traces"><span class="activity-light" aria-hidden="true"></span></div>
+              <p class="pack-rules">10 QUESTIONS · 5 SECONDS</p>
+              <p id="best-label">PERSONAL BEST · 0 IN A ROW</p>
+              <span class="title-start">PRESS START <span aria-hidden="true">▸</span></span>
+            </section>
             <div class="scoreboard" aria-label="Your score">
               <div><span>SCORE</span><strong><b id="score">0</b><small>/<b id="answered">0</b></small></strong></div>
               <div><span>ACCURACY</span><strong><b id="accuracy">—</b><small id="accuracy-unit"></small></strong></div>
@@ -34,7 +51,6 @@
               <div class="reveal-visual" id="reveal-visual"><span class="mystery-mark" aria-hidden="true">?</span></div>
               <div class="question-area"><span id="question-label">ONE NAME. TWO POSSIBILITIES.</span><h1 id="name" aria-live="polite">Meet your next guess.</h1><p id="question-hint">One name. Five seconds. Go with your gut.</p></div>
               <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
-              <p id="best-label">PERSONAL BEST · 0 IN A ROW</p>
               <div class="start-prompt" aria-hidden="true">PRESS START <span>▸</span></div>
               <section id="score-screen" class="score-screen" aria-label="Final score" aria-live="polite" hidden>
                 <span class="finish-label">RUN COMPLETE</span>
@@ -52,7 +68,7 @@
         <div class="control-panel">
           <div class="control-slot"><button id="pokemon-button" class="choice pokemon" aria-label="Pokémon, left arrow or P" disabled><span aria-hidden="true">←</span></button><span class="control-label">POKÉMON</span></div>
           <div class="control-slot middle"><button id="reset-button" class="reset-button" aria-label="Reset game" title="Reset game (Backspace)" disabled><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 10a8 8 0 1 1 1.7 7M4 4v6h6"/></svg></button><div class="start-socket"><button id="next-button" class="continue-button" disabled>Loading names…</button></div><span class="control-label">CONTINUE</span></div>
-          <div class="control-slot"><button id="company-button" class="choice company" aria-label="Tech company, right arrow or T (B also works)" disabled><span aria-hidden="true">→</span></button><span class="control-label">TECH</span></div>
+          <div class="control-slot"><button id="company-button" class="choice company" aria-label="Tech company, right arrow or T (B also works)" disabled><span aria-hidden="true">→</span></button><span id="opponent-label" class="control-label">TECH</span></div>
         </div>
         <div class="device-bottom"><div class="speaker" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
       </section>
@@ -60,6 +76,12 @@
   </main>
   <footer class="site-footer"><div class="credits"><a href="https://pixelastic.github.io/pokemonorbigdata/" target="_blank" rel="noopener noreferrer" aria-label="Inspired by Pixelastic’s Pokémon or Big Data">Inspired by Pixelastic ↗</a><span>Made by Codex with guidance from a meatsack named <a href="https://scottbeeson.com" target="_blank" rel="noopener noreferrer">Scott</a></span></div><span class="footer-odds">10 QUESTIONS · 50/50 ODDS</span></footer>
   <dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-content"></div></dialog>
+  <dialog id="cartridge-dialog" class="cartridge-dialog" aria-labelledby="cartridge-heading">
+    <div class="dialog-heading"><div><span class="library-eyebrow">YOUR COLLECTION</span><h2 id="cartridge-heading">Choose a cartridge.</h2></div><button id="close-cartridges" class="dialog-close" aria-label="Close cartridge picker">×</button></div>
+    <p class="library-hint">Pick a pack. Trust your instinct.</p>
+    <div id="cartridge-list" class="cartridge-list"></div>
+    <p class="library-footer">10 QUESTIONS. TWO POSSIBILITIES.</p>
+  </dialog>
   <noscript>Please enable JavaScript to play Pokémon Or.</noscript>
 </body>
 </html>

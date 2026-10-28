@@ -14,7 +14,8 @@ function shuffle(items, random) {
  * Within each category, exhaust a shuffled bag before showing a name again.
  * Entries explicitly marked TooObvious: true are validated but never drawn.
  */
-export function createDeck(pokemon, companies, random = Math.random) {
+export function createDeck(pokemon, opponents, random = Math.random, opponentCategory = 'company') {
+  validateOpponentCategory(opponentCategory);
   if (typeof random !== 'function') throw new TypeError('random must be a function.');
   const sample = () => {
     const value = random();
@@ -58,16 +59,25 @@ export function createDeck(pokemon, companies, random = Math.random) {
     };
   };
   const nextPokemon = makeBag(pokemon, 'pokemon');
-  const nextCompany = makeBag(companies, 'company');
+  const nextOpponent = makeBag(opponents, opponentCategory);
   return {
+    opponentCategory,
     next() {
-      return sample() < 0.5 ? nextPokemon() : nextCompany();
+      return sample() < 0.5 ? nextPokemon() : nextOpponent();
     },
   };
 }
 
 /** A clock-driven state machine. The UI chooses when to begin the next round. */
-export function createGame({ deck, durationMs = 5000, totalRounds = 10, now = () => performance.now() }) {
+function validateOpponentCategory(category) {
+  if (typeof category !== 'string' || !category.trim() || category === 'pokemon') {
+    throw new TypeError('The opponent category must be a nonempty category other than pokemon.');
+  }
+}
+
+export function createGame({ deck, opponentCategory = deck?.opponentCategory ?? 'company', durationMs = 5000, totalRounds = 10, now = () => performance.now() }) {
+  validateOpponentCategory(opponentCategory);
+  const categories = ['pokemon', opponentCategory];
   if (!deck || typeof deck.next !== 'function') throw new TypeError('A deck with next() is required.');
   if (!Number.isFinite(durationMs) || durationMs <= 0) throw new RangeError('durationMs must be positive.');
   if (!Number.isSafeInteger(totalRounds) || totalRounds <= 0) throw new RangeError('totalRounds must be a positive integer.');
@@ -119,7 +129,7 @@ export function createGame({ deck, durationMs = 5000, totalRounds = 10, now = ()
         return getState();
       }
       const entry = deck.next();
-      if (!entry || !['pokemon', 'company'].includes(entry.category)) {
+      if (!entry || !categories.includes(entry.category)) {
         throw new TypeError('The deck returned an invalid category.');
       }
       state.entry = { ...entry };
@@ -132,8 +142,8 @@ export function createGame({ deck, durationMs = 5000, totalRounds = 10, now = ()
     },
     answer(categoryOrNull) {
       if (state.phase === 'complete') return getState();
-      if (categoryOrNull !== null && !['pokemon', 'company'].includes(categoryOrNull)) {
-        throw new TypeError('Answer must be pokemon, company, or null.');
+      if (categoryOrNull !== null && !categories.includes(categoryOrNull)) {
+        throw new TypeError(`Answer must be pokemon, ${opponentCategory}, or null.`);
       }
       if (state.phase !== 'playing') return getState();
       updateTime();

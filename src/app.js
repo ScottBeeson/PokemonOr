@@ -1,14 +1,23 @@
-import { createDeck, createGame } from './engine.js?v=3.2.0';
+import { createDeck, createGame } from './engine.js?v=3.3.0';
 import { createLcdArtwork } from './lcd-art.js?v=3.2.0';
-import { swipeCategory } from './gestures.js';
-import { installGameKeyboard } from './keyboard.js?v=3.2.0';
+import { swipeCategory } from './gestures.js?v=3.3.0';
+import { installGameKeyboard } from './keyboard.js?v=3.3.0';
+import { cartridges } from './cartridges.js?v=3.3.0';
+import { createCartridgeLoader } from './cartridge-loader.js?v=3.3.0';
 
 const $ = (id) => document.getElementById(id);
-const choiceButtons = { pokemon: $('pokemon-button'), company: $('company-button') };
+let cartridge = cartridges[0];
+let choiceButtons;
 const dialog = $('info-dialog');
+const cartridgeDialog = $('cartridge-dialog');
+const handheld = document.querySelector('.handheld');
+const loadCartridge = createCartridgeLoader();
+let screen = 'boot';
+let skipBoot;
+let bootId = 0;
 let pokemon = [];
-let companies = [];
-let companyLogos = {};
+let opponents = [];
+let opponentLogos = {};
 let game;
 let frame;
 let drag = null;
@@ -16,7 +25,34 @@ const card = $('game-card');
 let resultAnimations = [];
 let particleLayer = null;
 let bestStreak = 0;
-try { bestStreak = Math.max(0, Number(localStorage.getItem('pob-best-streak')) || 0); } catch { /* Storage is optional. */ }
+
+function setContinue(action, label, disabled = false) {
+  const button = $('next-button');
+  button.dataset.action = action;
+  button.textContent = label;
+  button.setAttribute('aria-label', label);
+  button.disabled = disabled;
+}
+
+function isDialogOpen() { return dialog.open || cartridgeDialog.open; }
+
+function applyCartridge() {
+  choiceButtons = { pokemon: $('pokemon-button'), [cartridge.category]: $('company-button') };
+  handheld.style.setProperty('--cart-accent', cartridge.accent);
+  document.querySelectorAll('[data-cart-label]').forEach(element => { element.textContent = cartridge.label.toUpperCase(); });
+  document.querySelectorAll('[data-cart-catalog]').forEach(element => { element.textContent = cartridge.catalog; });
+  document.querySelectorAll('[data-cart-art]').forEach(element => { element.src = cartridge.art; });
+  $('cartridge-slot').setAttribute('aria-label', `Change cartridge. ${cartridge.label} inserted.`);
+  $('pack-title').textContent = cartridge.title;
+  $('pack-art').src = cartridge.art;
+  $('pack-art').alt = cartridge.artAlt;
+  $('opponent-label').textContent = cartridge.choiceLabel.toUpperCase();
+  document.querySelector('.stamp-right').textContent = cartridge.choiceLabel.toUpperCase();
+  $('company-button').setAttribute('aria-label', `${cartridge.choiceLabel}, right arrow or ${cartridge.shortcutLabel}`);
+  bestStreak = 0;
+  try { bestStreak = Math.max(0, Number(localStorage.getItem(cartridge.bestKey)) || 0); } catch { /* Storage is optional. */ }
+  updateBest();
+}
 
 function updateBest() {
   $('best-label').textContent = `PERSONAL BEST · ${bestStreak} IN A ROW`;
@@ -36,11 +72,16 @@ function render(state) {
   const playing = state.phase === 'playing';
   const answered = state.phase === 'answered';
   const complete = state.phase === 'complete';
-  $('best-label').hidden = state.phase !== 'idle';
+  const idle = state.phase === 'idle';
+  handheld.dataset.screen = idle ? 'title' : 'game';
+  $('title-screen').hidden = !idle;
+  $('boot-screen').hidden = true;
+  $('cartridge-slot').disabled = !idle && !complete;
+  $('cartridge-slot').title = idle || complete ? 'Change cartridge' : 'Reset your run to change cartridge';
   card.classList.toggle('is-playing', playing);
   card.classList.toggle('is-answered', answered);
   card.classList.toggle('is-complete', complete);
-  card.setAttribute('aria-label', complete ? 'Final score screen' : 'Name screen. Swipe left for Pokémon or right for Tech.');
+  card.setAttribute('aria-label', complete ? 'Final score screen' : `Name screen. Swipe left for Pokémon or right for ${cartridge.choiceLabel}.`);
   $('score-screen').hidden = !complete;
   card.dataset.category = answered ? state.entry.category : '';
   card.dataset.result = answered ? (state.result.correct ? 'correct' : 'wrong') : '';
@@ -50,10 +91,10 @@ function render(state) {
   $('accuracy-unit').textContent = state.answered ? '%' : '';
   $('streak').textContent = state.streak;
   $('round-label').textContent = state.round ? `QUESTION ${String(state.round).padStart(2, '0')} / ${state.totalRounds}` : '10 QUESTIONS · 50/50 ODDS';
-  $('question-label').textContent = state.entry ? (answered ? 'THE ANSWER IS IN.' : 'POKÉMON OR TECH?') : 'ONE NAME. TWO POSSIBILITIES.';
+  $('question-label').textContent = state.entry ? (answered ? 'THE ANSWER IS IN.' : `POKÉMON OR ${cartridge.choiceLabel.toUpperCase()}?`) : 'ONE NAME. TWO POSSIBILITIES.';
   $('name').textContent = state.entry?.name ?? 'Meet your next guess.';
   $('question-hint').textContent = answered
-    ? `${state.entry.category === 'pokemon' ? 'A Pokémon.' : 'A tech company.'} ${state.result.correct ? 'Good instinct.' : 'Now you know.'}`
+    ? `${state.entry.category === 'pokemon' ? 'A Pokémon.' : cartridge.answerLabel} ${state.result.correct ? 'Good instinct.' : 'Now you know.'}`
     : playing ? 'Go with your gut.' : 'One name. Five seconds. Go with your gut.';
   renderVisual(answered ? state.entry : null);
   for (const [category, button] of Object.entries(choiceButtons)) {
@@ -62,8 +103,7 @@ function render(state) {
     button.classList.toggle('reveal-wrong', answered && !state.result.correct && state.result.choice === category);
   }
   $('next-button').hidden = playing;
-  $('next-button').disabled = false;
-  $('next-button').textContent = complete ? 'Play again' : answered ? (state.answered === state.totalRounds ? 'See score' : 'Next name →') : 'Let’s play →';
+  setContinue(complete ? 'replay' : answered ? (state.answered === state.totalRounds ? 'score' : 'next') : 'start', complete ? 'Play again' : answered ? (state.answered === state.totalRounds ? 'See score' : 'Next name') : 'Start game');
   $('reset-button').disabled = false;
   $('feedback').hidden = !answered;
   if (answered) {
@@ -77,12 +117,11 @@ function render(state) {
     link.href = state.entry.source || state.entry.url;
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
-    link.tabIndex = -1;
-    link.textContent = state.entry.category === 'pokemon' ? 'Species data ↗' : state.entry.source ? 'Company profile ↗' : 'Company website ↗';
+    link.textContent = state.entry.category === 'pokemon' ? 'Species data ↗' : `${state.entry.source ? cartridge.profileLabel : cartridge.websiteLabel} ↗`;
     feedback.replaceChildren(heading, description, link);
     if (state.bestStreak > bestStreak) {
       bestStreak = state.bestStreak;
-      try { localStorage.setItem('pob-best-streak', String(bestStreak)); } catch { /* Play without persistence. */ }
+      try { localStorage.setItem(cartridge.bestKey, String(bestStreak)); } catch { /* Play without persistence. */ }
     }
   }
   updateBest();
@@ -143,14 +182,11 @@ function playResultEffects(correct) {
 }
 
 function blurControl() {
+  if (screen !== 'game' || isDialogOpen() || !['playing', 'answered'].includes(game?.getState().phase)) return;
   const active = document.activeElement;
   if (active instanceof HTMLElement && !active.matches('input, textarea, select, [contenteditable="true"]')) active.blur();
 }
 
-function disableTabStops(root = document) {
-  root.querySelectorAll('a, button, input, textarea, select, [tabindex]').forEach(element => element.setAttribute('tabindex', '-1'));
-}
-disableTabStops();
 document.addEventListener('focusin', blurControl);
 
 function animate() {
@@ -165,7 +201,7 @@ function animate() {
 }
 
 function nextRound() {
-  if (!game || game.getState().phase === 'playing') return;
+  if (screen !== 'game' || isDialogOpen() || !game || game.getState().phase === 'playing') return;
   cancelAnimationFrame(frame);
   if (game.getState().phase === 'complete') reset();
   const state = game.startRound();
@@ -177,7 +213,7 @@ function nextRound() {
 }
 
 function answer(category) {
-  if (!game || game.getState().phase !== 'playing') return;
+  if (screen !== 'game' || isDialogOpen() || !game || game.getState().phase !== 'playing') return;
   cancelAnimationFrame(frame);
   render(game.answer(category));
   blurControl();
@@ -197,7 +233,7 @@ function renderVisual(entry) {
   const isPokemon = entry.category === 'pokemon';
   const source = isPokemon
     ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${entry.id}.png`
-    : companyLogos[entry.name]?.src;
+    : opponentLogos[entry.name]?.src;
   const fallback = document.createElement('div');
   fallback.className = 'image-fallback';
   const initials = document.createElement('span');
@@ -229,7 +265,7 @@ function clearDrag() {
 }
 
 card.addEventListener('pointerdown', (event) => {
-  if (!event.isPrimary || event.button !== 0 || drag || game?.getState().phase !== 'playing' || dialog.open) return;
+  if (!event.isPrimary || event.button !== 0 || drag || screen !== 'game' || game?.getState().phase !== 'playing' || isDialogOpen()) return;
   drag = { pointerId: event.pointerId, x: event.clientX, y: event.clientY, dx: 0, dy: 0 };
   card.setPointerCapture(event.pointerId);
 });
@@ -248,7 +284,7 @@ card.addEventListener('pointermove', (event) => {
 });
 card.addEventListener('pointerup', (event) => {
   if (!drag || event.pointerId !== drag.pointerId) return;
-  const category = swipeCategory(event.clientX - drag.x, event.clientY - drag.y, card.offsetWidth);
+  const category = swipeCategory(event.clientX - drag.x, event.clientY - drag.y, card.offsetWidth, cartridge.category);
   if (category) answer(category);
   else clearDrag();
 });
@@ -257,22 +293,28 @@ card.addEventListener('lostpointercapture', clearDrag);
 
 function reset() {
   cancelAnimationFrame(frame);
-  game = createGame({ deck: createDeck(pokemon, companies) });
+  game = createGame({ deck: createDeck(pokemon, opponents, Math.random, cartridge.category) });
   render(game.getState());
 }
 
-$('next-button').addEventListener('click', nextRound);
+$('next-button').addEventListener('click', () => {
+  if (screen === 'boot') skipBoot?.();
+  else if (screen === 'error') insertCartridge(cartridge);
+  else nextRound();
+});
 function resetGame() {
-  if (!game) return;
+  if (screen !== 'game' || isDialogOpen() || !game) return;
   reset();
   blurControl();
 }
 $('reset-button').addEventListener('click', resetGame);
-for (const [category, button] of Object.entries(choiceButtons)) button.addEventListener('click', () => answer(category));
+$('pokemon-button').addEventListener('click', () => answer('pokemon'));
+$('company-button').addEventListener('click', () => answer(cartridge.category));
 
 installGameKeyboard(document, {
-  getPhase: () => game?.getState().phase,
-  isDialogOpen: () => dialog.open,
+  getPhase: () => screen === 'game' ? game?.getState().phase : undefined,
+  getOpponent: () => cartridge,
+  isDialogOpen,
   onNext: nextRound,
   onAnswer: answer,
   onReset: resetGame,
@@ -289,40 +331,115 @@ document.addEventListener('visibilitychange', () => {
 function openDialog(title, html) {
   $('dialog-title').textContent = title;
   $('dialog-content').innerHTML = html;
-  disableTabStops(dialog);
   dialog.showModal();
 }
 $('close-dialog').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', (event) => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close(); } });
 $('how-button').addEventListener('click', () => openDialog('A name. A hunch. Five seconds.', `
-  <ol><li><strong>Start a game.</strong> You’ll get 10 names, each with an independent 50/50 chance of being a Pokémon or a company.</li><li><strong>Make your call.</strong> Swipe left for Pokémon or right for Tech before the five-second timer runs out. You can also tap a choice, press <kbd>←</kbd> / <kbd>→</kbd>, or use <kbd>P</kbd> / <kbd>T</kbd>. The original <kbd>B</kbd> shortcut still works for Tech.</li><li><strong>See the reveal.</strong> Discover the Pokémon artwork or company logo. Correct answers earn one point. Wrong answers and timeouts count toward your total and reset your streak.</li><li><strong>Finish your run.</strong> After the tenth reveal, press Space or Score to see your final result. Press Replay for a fresh game.</li></ol>
+  <ol><li><strong>Start a game.</strong> Press Start on the ${cartridge.title} screen. You’ll get 10 names, each with an independent 50/50 chance of belonging to either category.</li><li><strong>Make your call.</strong> Swipe left for Pokémon or right for ${cartridge.choiceLabel} before the five-second timer runs out. You can also tap a choice, press <kbd>←</kbd> / <kbd>→</kbd>, or use <kbd>P</kbd> / <kbd>${cartridge.keys[0].toUpperCase()}</kbd>. ${cartridge.shortcutLabel} selects ${cartridge.choiceLabel}.</li><li><strong>See the reveal.</strong> Discover the answer, its image, and a source link. Correct answers earn one point. Wrong answers and timeouts count toward your total and reset your streak.</li><li><strong>Finish your run.</strong> After the tenth reveal, press Space or Score to see your final result. Press Replay for a fresh game.</li></ol>
+  <p><strong>Change cartridge.</strong> Click the cartridge sticking out of the top of the system on the title or score screen. Choose a pack to insert it. Tab and Enter work in the picker; Escape closes it. During a run, reset first to change cartridges.</p>
   <p><strong>Reset your run.</strong> Press <kbd>Backspace</kbd> or tap the circular-arrow button above Start/Next to return to the start screen and clear the current score. Your personal best is preserved. Keyboard game shortcuts are paused while this help is open.</p>
   <p>The category is chosen with a fresh coin flip each question, regardless of collection sizes. The mix varies each game, and previous answers never change the next question’s odds. Always choosing one category averages 50% over many games. Names don’t repeat within a game. The timer continues when you switch tabs or open this help.</p><p>Your accuracy is correct answers divided by all completed questions. Your best streak is saved on this device when browser storage is available.</p>`));
 $('about-button').addEventListener('click', () => openDialog('Big names. Tiny explanation.', `
-  <p><strong>Pokémon Or</strong> is a small guessing game about the wonderfully similar names of creatures and companies.</p>
+  <p><strong>Pokémon Or</strong> is a small guessing game with interchangeable cartridges. Currently inserted: <strong>${cartridge.title}</strong>.</p>
   <p>Inspired by <a href="https://pixelastic.github.io/pokemonorbigdata/" target="_blank" rel="noopener noreferrer">Pokémon or Big Data by Pixelastic</a>. Credit to Pixelastic for the original web game.</p>
-  <p><strong>The collection:</strong> ${pokemon.length.toLocaleString()} Pokémon species, sourced from the <a href="https://github.com/PokeAPI/pokeapi" target="_blank" rel="noopener noreferrer">PokéAPI project</a>, plus ${companies.length.toLocaleString()} tech companies (${companies.filter(company => company.TooObvious !== true).length.toLocaleString()} in play) spanning software, cybersecurity, developer tools, robotics, fintech, AI, and data infrastructure. Some companies have been acquired or use historical names. We use company names, not standalone products. Names containing “Tech” or “Data” are excluded. Other names that give away the answer are kept in the collection but left out of rounds.</p>
-  <p>Every answer has a source link. The expanded company catalog is sourced from <a href="https://www.ycombinator.com/companies" target="_blank" rel="noopener noreferrer">Y Combinator’s official directory</a>, alongside the original curated collection. Company identity and tech focus are checked against directory records; individual company websites are not exhaustively audited. The datasets and sourcing notes are in the <a href="https://github.com/ScottBeeson/PokemonOr/tree/main/data" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Data is bundled with the game, so rounds don’t depend on a live API.</p>
+  <p><strong>The collection:</strong> ${pokemon.length.toLocaleString()} Pokémon species, sourced from the <a href="https://github.com/PokeAPI/pokeapi" target="_blank" rel="noopener noreferrer">PokéAPI project</a>, plus ${opponents.length.toLocaleString()} ${cartridge.collection} (${opponents.filter(entry => entry.TooObvious !== true).length.toLocaleString()} in play). ${cartridge.notes} Other names that give away the answer are kept in the collection but left out of rounds.</p>
+  <p>Every answer has a source link. This pack is sourced from <a href="${cartridge.sourceUrl}" target="_blank" rel="noopener noreferrer">${cartridge.sourceLabel}</a>, alongside the original curated collection. Directory verification establishes identity and scope; individual websites are not exhaustively audited. The datasets and sourcing notes are in the <a href="https://github.com/ScottBeeson/PokemonOr/tree/main/data" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Data is bundled with the game, so rounds don’t depend on a live API.</p>
   <p>This is an unofficial fan project. Pokémon and Pokémon character names are trademarks of Nintendo, Creatures Inc., and GAME FREAK inc. Company names belong to their respective owners. No affiliation or endorsement is implied.</p>
-  <p>Pokémon artwork comes from <a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener noreferrer">PokéAPI’s sprite collection</a> and loads only after the answer. Company brand icons come from official websites and Y Combinator’s directory and are bundled locally. Unavailable images fall back to a placeholder; historical companies may have no logo.</p>
+  <p>Pokémon artwork comes from <a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener noreferrer">PokéAPI’s sprite collection</a> and loads only after the answer. Pack icons are bundled locally with their provenance. Unavailable images fall back to a placeholder.</p>
   <p>No accounts or analytics. Only your best streak is stored locally. Fonts are requested from Google Fonts and Pokémon artwork from GitHub, with fallbacks if either is unavailable.</p>`));
 
-async function load() {
+function openCartridges() {
+  if ($('cartridge-slot').disabled) return;
+  const list = $('cartridge-list');
+  list.replaceChildren();
+  for (const pack of cartridges) {
+    const button = document.createElement('button');
+    button.className = 'cartridge-option';
+    button.style.setProperty('--cart-accent', pack.accent);
+    button.setAttribute('aria-label', `Insert ${pack.label}, Catalog ${pack.catalog}${pack.id === cartridge.id ? ', currently inserted' : ''}`);
+    const shell = $('cartridge-slot').querySelector('.cartridge-shell').cloneNode(true);
+    shell.querySelector('[data-cart-label]').textContent = pack.label.toUpperCase();
+    shell.querySelector('[data-cart-catalog]').textContent = pack.catalog;
+    shell.querySelector('[data-cart-art]').src = pack.art;
+    // These copies belong to the picker, not the inserted cartridge.
+    shell.querySelectorAll('[data-cart-label], [data-cart-catalog], [data-cart-art]').forEach(element => {
+      for (const attr of ['data-cart-label', 'data-cart-catalog', 'data-cart-art']) element.removeAttribute(attr);
+    });
+    const action = document.createElement('span');
+    action.className = 'cartridge-option-action';
+    action.textContent = 'INSERT CARTRIDGE ↗';
+    button.append(shell, action);
+    button.addEventListener('click', () => {
+      cartridgeDialog.close();
+      insertCartridge(pack);
+    });
+    list.append(button);
+  }
+  cartridgeDialog.showModal();
+  list.querySelector('button')?.focus();
+}
+$('cartridge-slot').addEventListener('click', openCartridges);
+$('close-cartridges').addEventListener('click', () => cartridgeDialog.close());
+cartridgeDialog.addEventListener('click', event => {
+  if (event.target !== cartridgeDialog) return;
+  const rect = cartridgeDialog.getBoundingClientRect();
+  if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) cartridgeDialog.close();
+});
+
+async function insertCartridge(pack) {
+  const id = ++bootId;
+  cancelAnimationFrame(frame);
+  clearDrag();
+  clearResultEffects();
+  game = null;
+  screen = 'boot';
+  cartridge = pack;
+  pokemon = [];
+  opponents = [];
+  opponentLogos = {};
+  applyCartridge();
+  handheld.dataset.screen = 'boot';
+  $('title-screen').hidden = true;
+  $('boot-screen').hidden = false;
+  $('boot-status').textContent = '';
+  $('cartridge-slot').disabled = true;
+  $('reset-button').disabled = true;
+  Object.values(choiceButtons).forEach(button => { button.disabled = true; button.classList.remove('reveal-correct', 'reveal-wrong'); });
+  $('next-button').hidden = false;
+  setContinue('skip', 'Skip startup animation');
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduceMotion) $('cartridge-slot').querySelector('.cartridge-shell').animate([
+    { transform: 'translateY(-15px)' }, { transform: 'translateY(0)' },
+  ], { duration: 240, easing: 'ease-out' });
+  let bootTimer;
+  const flourish = new Promise(resolve => {
+    skipBoot = () => { clearTimeout(bootTimer); setContinue('loading', 'Reading cartridge', true); resolve(); };
+    bootTimer = setTimeout(skipBoot, reduceMotion ? 0 : 900);
+  });
+  const loadingTimer = setTimeout(() => { if (id === bootId) $('boot-status').textContent = 'READING CARTRIDGE…'; }, 900);
   try {
-    [pokemon, companies, companyLogos] = await Promise.all([...['pokemon', 'companies'].map(async (name) => {
-      const response = await fetch(new URL(`../data/${name}.json?v=3.2.0`, import.meta.url));
-      if (!response.ok) throw new Error(`Could not load ${name}`);
-      return response.json();
-    }), fetch(new URL('../data/company-logos.json?v=3.2.0', import.meta.url)).then(response => response.ok ? response.json() : {}).catch(() => ({}))]);
+    const [data] = await Promise.all([loadCartridge(pack), flourish]);
+    if (id !== bootId) return;
+    pokemon = data.pokemon;
+    opponents = data.opponents;
+    opponentLogos = data.logos;
+    screen = 'game';
     reset();
   } catch (error) {
+    if (id !== bootId) return;
     console.error(error);
-    $('name').textContent = 'A little connection hiccup.';
-    $('question-hint').textContent = 'The name collection couldn’t load. Please try again.';
-    $('next-button').textContent = 'Try again ↻';
-    $('next-button').disabled = false;
-    $('next-button').onclick = () => { $('next-button').onclick = null; $('next-button').disabled = true; load(); };
+    screen = 'error';
+    handheld.dataset.screen = 'error';
+    $('boot-status').textContent = 'Couldn’t read cartridge. Retry or choose a pack from the slot above.';
+    setContinue('retry', 'Retry cartridge loading');
+    $('cartridge-slot').disabled = false;
+    $('cartridge-slot').title = 'Change cartridge';
+  } finally {
+    clearTimeout(bootTimer);
+    clearTimeout(loadingTimer);
+    if (id === bootId) skipBoot = null;
   }
 }
-updateBest();
-load();
+
+insertCartridge(cartridge);

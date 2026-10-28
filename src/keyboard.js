@@ -1,11 +1,14 @@
-import { keyCategory } from './gestures.js?v=3.0.0';
+import { keyCategory } from './gestures.js?v=3.3.0';
 
 /** Space belongs to the game, never to a focused button's native click behavior. */
-export function installGameKeyboard(target, { getPhase, isDialogOpen, onNext, onAnswer, onReset, onTab }) {
+export function installGameKeyboard(target, { getPhase, isDialogOpen, onNext, onAnswer, onReset, onTab, getOpponent }) {
   const isEditing = event => /^(INPUT|TEXTAREA|SELECT)$/.test(event.target?.tagName) || event.target?.isContentEditable;
   const keydown = event => {
-    if (event.key === 'Tab') { event.preventDefault(); onTab(); return; }
     if (event.ctrlKey || event.metaKey || event.altKey || isDialogOpen() || isEditing(event)) return;
+    if (event.key === 'Tab') {
+      if (['playing', 'answered'].includes(getPhase())) { event.preventDefault(); onTab(); }
+      return;
+    }
     if (event.key === 'Backspace') {
       event.preventDefault();
       if (!event.repeat && ['idle', 'playing', 'answered', 'complete'].includes(getPhase())) onReset();
@@ -18,7 +21,7 @@ export function installGameKeyboard(target, { getPhase, isDialogOpen, onNext, on
       return;
     }
     if (event.repeat) return;
-    const category = keyCategory(event.key);
+    const category = keyCategory(event.key, getOpponent?.());
     if (getPhase() === 'playing' && category) { event.preventDefault(); onAnswer(category); }
   };
   const keyup = event => {

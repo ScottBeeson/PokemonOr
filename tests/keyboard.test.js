@@ -69,13 +69,20 @@ test('Backspace respects editing, dialogs, modifier shortcuts, and initial loadi
   assert.equal(state.resets, 0);
 });
 
-test('Tab and Shift+Tab never navigate, including in dialogs and inputs', () => {
+test('Tab is scoped to active gameplay; menus, title, score, and inputs retain native focus', () => {
   const { target, state, press } = setup();
   assert.equal(press('keydown', { key: 'Tab' }), true);
   state.dialog = true;
   target.tagName = 'INPUT';
-  assert.equal(press('keydown', { key: 'Tab', shiftKey: true }), true);
-  assert.equal(state.tabs, 2);
+  assert.equal(press('keydown', { key: 'Tab', shiftKey: true }), false);
+  state.dialog = false;
+  assert.equal(press('keydown', { key: 'Tab' }), false);
+  target.tagName = 'BODY';
+  for (const phase of ['idle', 'complete', undefined]) {
+    state.phase = phase;
+    assert.equal(press('keydown', { key: 'Tab' }), false);
+  }
+  assert.equal(state.tabs, 1);
 });
 
 test('search input and dialogs do not trigger game shortcuts', () => {

@@ -8,13 +8,15 @@ Inspired by **[Pokémon or Big Data by Pixelastic](https://pixelastic.github.io/
 
 ## The game
 
+- Tech is the first cartridge (Catalog 01) and starts inserted. The “Pokémon or…” boot leads to a Tech Pack title screen with pixel computer art and subtle animation. Click the cartridge protruding from the top of the handheld to open the picker on the title or score screen; reset first during a run. Reinserting boots the cartridge; Reset and Replay skip boot. Reduced-motion preferences disable the animation. Failed data loads offer Retry, and successful reads are reused during the session.
+
 - Five seconds per name, with a countdown and shrinking timer bar.
 - Running correct/total score, accuracy percentage, current streak, and a personal best streak saved on your device.
 - 1,025 Pokémon species and 1,000 stored tech companies: 763 playable, with 237 obvious names retained but excluded from rounds.
 - Exactly ten questions per game, with an independent 50/50 category choice on every question and no repeated names. The mix varies each game: previous answers never constrain the next category. Always choosing one category averages 50% over many games, regardless of dataset sizes.
 - A classic handheld shell with a green LCD, physical-style left / continue / right buttons, and a screen you can swipe. The entire device scales to fit desktop and mobile viewports.
 - Pokémon artwork and company brand icons appear after each answer in the monochrome screen, with descriptions and source links.
-- Swipe **left** for Pokémon or **right** for Tech. You can also tap the buttons, use the **left/right arrow keys**, or use **P/T** (**B** still works for Tech). Press **Space** to continue without focusing a button. Tab navigation is disabled. Your personal best streak appears inside the LCD on the start screen.
+- Swipe **left** for Pokémon or **right** for Tech. You can also tap the buttons, use the **left/right arrow keys**, or use **P/T** (**B** still works for Tech). Press **Space** to continue without focusing a button. Tab navigation is disabled during rounds and reveals, but works on the title/score screens and in dialogs. Use Tab/Enter in the cartridge picker and Escape to close it. Your personal best streak appears inside the LCD on the start screen.
 - Press **Backspace** or tap the reset icon above Start/Next to clear the current run and return to the start screen. Your personal best is retained. Reset is available during a round; game shortcuts are paused while a dialog is open or a text field is being edited.
 - Short drags snap back; vertical gestures scroll normally. The five-second deadline still applies when you release a swipe.
 - Each question starts when you choose; wrong answers and timeouts count as incorrect. Switching tabs does not pause the clock. After the tenth reveal, choose **Score** (or press Space) to see your result, accuracy, and best streak. **Replay** starts a fresh ten-question game.
@@ -68,6 +70,9 @@ index.html                 Page structure and dialogs
 styles.css                 Handheld shell, LCD, controls, and responsive design
 src/device.js              Viewport scaling and physical button labels
 src/app.js                 Interface, keyboard controls, timer rendering
+src/cartridges.js          Cartridge labels, artwork, data paths, and score keys
+src/cartridge-loader.js    Shared Pokémon data, selected pack loading, and retry cache
+assets/cartridges/         Reusable cartridge and title-screen pixel artwork
 src/engine.js              Pure game state machine and independent fair category selection
 src/gestures.js            Keyboard mapping and intentional swipe thresholds
 assets/company-logos/      Locally bundled website and official directory icons
