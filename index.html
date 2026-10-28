@@ -1,58 +1,59 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f6f7f2">
-    <meta name="description" content="A Pokémon or a big data company? One name, two possibilities, five seconds. Test your instincts in this free guessing game.">
-    <title>Pokemon or BigData — The name game</title>
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-    <link rel="stylesheet" href="./styles.css?v=1.2.0">
-    <script type="module" src="./src/app.js?v=1.2.0"></script>
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="./" aria-label="Pokemon or BigData home"><span class="brand-mark" aria-hidden="true"><i></i></span><span>Pokemon <span class="brand-or">or</span> BigData<span class="brand-dot">.</span></span></a>
-      <button class="text-button" id="how-button">How to play <span aria-hidden="true">↗</span></button>
-    </header>
-    <main>
-      <section class="intro" aria-labelledby="page-title">
-        <div class="eyebrow"><span></span> THE NAME GAME</div>
-        <h1 id="page-title">Creature or company?</h1>
-        <p>Some evolve. Some scale. <strong>Swipe to tell them apart.</strong></p>
-      </section>
-      <section class="game-wrap" aria-label="Guessing game">
-        <div class="scoreboard" aria-label="Your score">
-          <div class="stat"><span class="stat-label">SCORE</span><div><strong id="score">0</strong><span class="stat-unit"> / <span id="answered">0</span></span></div></div>
-          <div class="stat"><span class="stat-label">ACCURACY</span><div><strong id="accuracy">—</strong><span class="stat-unit" id="accuracy-unit"></span></div></div>
-          <div class="stat"><span class="stat-label">STREAK <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M11 2c1 5-3 5-1 8 2-1 3-3 3-4 5 5 4 11-3 12C3 17 2 11 6 7c0 3 2 4 2 4-1-4 1-6 3-9Z"/></svg></span><div><strong id="streak">0</strong><span class="stat-unit"> in a row</span></div></div>
-        </div>
-        <div class="card-stack">
-        <div class="game-card" id="game-card" aria-label="Name card. Swipe left for Pokémon or right for Big Data.">
-          <span class="swipe-stamp stamp-left" aria-hidden="true">POKÉMON</span><span class="swipe-stamp stamp-right" aria-hidden="true">BIG DATA</span>
-          <div class="card-top"><span class="round-label" id="round-label">YOUR NEXT FIVE-SECOND OBSESSION</span><span class="timer" id="timer" aria-label="5 seconds remaining"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="11" r="6.5"/><path d="M10 7v4l2 1M8 1h4M10 1v3"/></svg><span id="time">5.0</span><span class="timer-unit">s</span></span></div>
-          <div class="timer-track" aria-hidden="true"><div id="timer-fill"></div></div>
-          <div class="reveal-visual" id="reveal-visual"><span class="mystery-mark" aria-hidden="true">?</span></div>
-          <div class="question-area">
-            <span class="question-label" id="question-label">ONE NAME. TWO POSSIBILITIES.</span>
-            <h2 id="name" aria-live="polite">Meet your next guess.</h2>
-            <p id="question-hint">One name. Five seconds. Go with your gut.</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#222d29">
+  <meta name="description" content="A Pokémon or a data company? Play the retro handheld guessing game: five seconds, two choices, and 1,255 names to test your instincts.">
+  <title>Pokemon or BigData — Pocket Edition</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css?v=2.0.0">
+  <script type="module" src="./src/device.js?v=2.0.0"></script>
+</head>
+<body>
+  <header class="site-header"><a href="./" class="site-brand">POCKET EDITION <span>/ 01</span></a><span class="edition-badge"><i></i> FIVE SECONDS. TRUST YOUR INSTINCT.</span><button id="how-button" class="desk-link">How to play ↗</button></header>
+  <main class="desk">
+    <div class="device-stage">
+      <section class="handheld" aria-label="Pokemon or BigData handheld game">
+        <div class="top-seam" aria-hidden="true"></div>
+        <div class="hardware-top"><span class="power-switch" aria-hidden="true"></span><span>OFF · ON</span><span class="model-number">PDB–01</span></div>
+        <div class="screen-bezel">
+          <div class="bezel-title"><span></span> DOT MATRIX WITH BIG DATA <span></span></div>
+          <div class="power-led" aria-hidden="true"><i></i><small>POWER</small></div>
+          <div class="lcd">
+            <div class="lcd-grid" aria-hidden="true"></div>
+            <div class="scoreboard" aria-label="Your score">
+              <div><span>SCORE</span><strong><b id="score">0</b><small>/<b id="answered">0</b></small></strong></div>
+              <div><span>ACCURACY</span><strong><b id="accuracy">—</b><small id="accuracy-unit"></small></strong></div>
+              <div><span>STREAK</span><strong><b id="streak">0</b><small> ✦</small></strong></div>
+            </div>
+            <div class="game-card" id="game-card" aria-label="Name screen. Swipe left for Pokémon or right for Big Data.">
+              <span class="swipe-stamp stamp-left" aria-hidden="true">POKÉMON</span><span class="swipe-stamp stamp-right" aria-hidden="true">BIG DATA</span>
+              <div class="card-top"><span id="round-label">INSERT INSTINCT</span><span id="timer" aria-label="5 seconds remaining"><span id="time">5.0</span>s</span></div>
+              <div class="timer-track" aria-hidden="true"><div id="timer-fill"></div></div>
+              <div class="reveal-visual" id="reveal-visual"><span class="mystery-mark" aria-hidden="true">?</span></div>
+              <div class="question-area"><span id="question-label">ONE NAME. TWO POSSIBILITIES.</span><h1 id="name" aria-live="polite">Meet your next guess.</h1><p id="question-hint">One name. Five seconds. Go with your gut.</p></div>
+              <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
+              <div class="start-prompt" aria-hidden="true">PRESS START <span>▸</span></div>
+            </div>
           </div>
-          <div class="feedback" id="feedback" role="status" aria-live="polite" hidden></div>
+          <div class="bezel-bottom" aria-hidden="true"><span>MONOCHROME INSTINCT ENGINE</span><span>▰ ▰ ▰</span></div>
         </div>
+        <div class="device-brand"><span>Pokemon <small>or</small> BigData</span><em>POCKET</em></div>
+        <div class="control-panel">
+          <div class="control-slot"><button id="pokemon-button" class="choice pokemon" aria-label="Pokémon, left arrow or P" disabled><span aria-hidden="true">←</span></button><span class="control-label">POKÉMON</span></div>
+          <div class="control-slot middle"><div class="start-socket"><button id="next-button" class="continue-button" disabled>Loading names…</button></div><span class="control-label">CONTINUE</span></div>
+          <div class="control-slot"><button id="company-button" class="choice company" aria-label="Big Data, right arrow or B" disabled><span aria-hidden="true">→</span></button><span class="control-label">BIG DATA</span></div>
         </div>
-          <div class="choices">
-            <button class="choice pokemon" id="pokemon-button" aria-label="Pokémon, left arrow or P" disabled><span class="choice-circle"><span class="choice-arrow" aria-hidden="true">←</span><span class="choice-icon pokeball" aria-hidden="true"></span></span><span>Pokémon</span><span class="choice-keys" aria-hidden="true"><kbd>←</kbd> / <kbd>P</kbd></span></button>
-            <button class="choice company" id="company-button" aria-label="Big Data, right arrow or B" disabled><span class="choice-circle"><svg class="choice-icon" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v7c0 4 16 4 16 0V5M4 12v7c0 4 16 4 16 0v-7"/></svg><span class="choice-arrow" aria-hidden="true">→</span></span><span>Big Data</span><span class="choice-keys" aria-hidden="true"><kbd>→</kbd> / <kbd>B</kbd></span></button>
-          </div>
-          <div class="action-area"><button class="primary-button" id="next-button" disabled>Loading names…</button><span id="action-hint">Five seconds per name. As many rounds as you like.</span></div>
-          <noscript><p class="noscript">Please enable JavaScript to play this game.</p></noscript>
-        <div class="under-card"><span class="keyboard-tip"><kbd>Space</kbd> to continue</span><button class="text-button reset-button" id="reset-button" hidden>↻ New game</button></div>
-        <div class="best" id="best-label">A little knowledge. A lot of gut feeling.</div>
+        <p id="action-hint" class="action-hint">Five seconds per name. As many rounds as you like.</p>
+        <div class="utility-controls"><button id="collection-button">NAME LIBRARY</button><span>•</span><button id="reset-button" hidden>NEW GAME</button><button id="about-button">ABOUT</button></div>
+        <div class="device-bottom"><div><span class="bottom-label">TRUST YOUR INSTINCT™</span><p id="best-label">A little knowledge. A lot of gut feeling.</p></div><div class="speaker" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
+        <span id="collection-count" hidden></span>
       </section>
-      <section class="collection-note"><span class="collection-symbol" aria-hidden="true">✳</span><p><strong id="collection-count">A whole world of wonderfully confusing names.</strong><br><span>Real Pokémon. Real data companies. Surprisingly hard to tell apart.</span></p><button class="text-button" id="collection-button">Explore the names <span aria-hidden="true">↗</span></button></section>
-    </main>
-    <footer><span>Made for curious minds & questionable guesses.</span><div><a href="https://github.com/ScottBeeson/PokemonOrBigData" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a><span class="footer-divider">/</span><button class="text-button" id="about-button">About & sources</button></div></footer>
-    <dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button class="close-button" id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-content"></div></dialog>
-  </body>
+    </div>
+  </main>
+  <footer class="site-footer"><span>1,255 NAMES. ONE LITTLE MACHINE.</span><span>SWIPE · TAP · KEYBOARD</span></footer>
+  <dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-content"></div></dialog>
+  <noscript>Please enable JavaScript to play Pokemon or BigData.</noscript>
+</body>
 </html>
